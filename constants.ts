@@ -140,6 +140,6 @@ export const SKILLS_DATA: SkillItem[] = [
   { name: "English", level: 100, category: "Language" },
   { name: "French", level: 100, category: "Language" },
   { name: "Arabic", level: 100, category: "Language" },
-  { name: "Italian", level: 60, category: "Language" },
+  { name: "Italian", level: 40, category: "Language" },
   { name: "Mandarin", level: 40, category: "Language" },
 ];
