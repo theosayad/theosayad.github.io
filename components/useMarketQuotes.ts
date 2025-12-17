@@ -8,9 +8,9 @@ export type MarketQuote = {
 };
 
 type MarketQuotesState =
-  | { status: 'idle' | 'loading'; quotes: MarketQuote[]; updatedAt?: number }
-  | { status: 'ready'; quotes: MarketQuote[]; updatedAt: number }
-  | { status: 'error'; quotes: MarketQuote[]; updatedAt?: number };
+  | { status: 'idle' | 'loading'; quotes: MarketQuote[]; updatedAt?: number; lastError?: string }
+  | { status: 'ready'; quotes: MarketQuote[]; updatedAt: number; lastError?: string }
+  | { status: 'error'; quotes: MarketQuote[]; updatedAt?: number; lastError?: string };
 
 const parseQuotesResponse = (data: unknown): MarketQuote[] => {
   if (!data || typeof data !== 'object') return [];
@@ -54,7 +54,7 @@ export const useMarketQuotes = (symbols: string[], pollMs = 30_000) => {
     const controller = new AbortController();
 
     const fetchOnce = async () => {
-      setState((prev) => ({ status: 'loading', quotes: prev.quotes, updatedAt: prev.updatedAt }));
+      setState((prev) => ({ status: 'loading', quotes: prev.quotes, updatedAt: prev.updatedAt, lastError: prev.lastError }));
       try {
         const url = new URL(endpoint, window.location.origin);
         if (!url.pathname.endsWith('/quotes')) {
@@ -67,17 +67,26 @@ export const useMarketQuotes = (symbols: string[], pollMs = 30_000) => {
           headers: { Accept: 'application/json' },
         });
 
-        if (!res.ok) throw new Error(`Quote fetch failed: ${res.status}`);
+        if (!res.ok) throw new Error(`Quote fetch failed: HTTP ${res.status}`);
         const data = await res.json();
         const quotes = parseQuotesResponse(data);
         if (!quotes.length) throw new Error('Quote fetch returned no quotes');
 
         if (!aborted) {
-          setState({ status: 'ready', quotes, updatedAt: Date.now() });
+          setState({ status: 'ready', quotes, updatedAt: Date.now(), lastError: undefined });
         }
-      } catch {
+      } catch (error) {
+        const message =
+          error instanceof Error ? error.message : typeof error === 'string' ? error : 'Quote fetch failed';
+        // Helpful debug without polluting the UI.
+        console.warn('[market-tape] quote fetch failed', { endpoint, symbols: symbolsKey, message });
         if (!aborted) {
-          setState((prev) => ({ status: 'error', quotes: prev.quotes, updatedAt: prev.updatedAt }));
+          setState((prev) => ({
+            status: 'error',
+            quotes: prev.quotes,
+            updatedAt: prev.updatedAt,
+            lastError: message,
+          }));
         }
       }
     };
