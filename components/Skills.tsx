@@ -7,6 +7,38 @@ interface SkillsProps {
   isDark: boolean;
 }
 
+const describeLevel = (level: number) => {
+  if (level >= 90) return 'Expert';
+  if (level >= 80) return 'Advanced';
+  if (level >= 65) return 'Proficient';
+  if (level >= 50) return 'Working knowledge';
+  return 'Familiar';
+};
+
+const SkillsTooltip: React.FC<{ active?: boolean; payload?: any[]; label?: string; isDark: boolean }> = ({
+  active,
+  payload,
+  isDark,
+}) => {
+  if (!active || !payload?.length) return null;
+  const item = payload[0]?.payload as { name?: string; level?: number } | undefined;
+  if (!item?.name || typeof item.level !== 'number') return null;
+
+  return (
+    <div
+      style={{
+        backgroundColor: isDark ? '#0c0a09' : '#ffffff',
+        borderColor: isDark ? '#292524' : '#e7e5e4',
+        color: isDark ? '#fafaf9' : '#1c1917',
+      }}
+      className="rounded-xl border px-3 py-2 shadow-sm"
+    >
+      <div className="text-xs font-semibold tracking-[0.18em] uppercase opacity-70">{item.name}</div>
+      <div className="mt-1 text-sm">{describeLevel(item.level)}</div>
+    </div>
+  );
+};
+
 const Skills: React.FC<SkillsProps> = ({ isDark }) => {
   // Split skills for better visualization
   const techSkills = SKILLS_DATA.filter(s => s.category === 'Tech' || s.category === 'Business');
@@ -61,15 +93,7 @@ const Skills: React.FC<SkillsProps> = ({ isDark }) => {
                             <BarChart data={techSkills} layout="vertical" margin={{ left: 40 }}>
                                 <XAxis type="number" domain={[0, 100]} hide />
                                 <YAxis dataKey="name" type="category" width={100} tick={{fill: isDark ? '#d6d3d1' : '#57534e', fontSize: 12}} />
-                                <Tooltip 
-                                    contentStyle={{ 
-                                        backgroundColor: isDark ? '#0c0a09' : '#ffffff', 
-                                        borderColor: isDark ? '#292524' : '#e7e5e4', 
-                                        color: isDark ? '#fafaf9' : '#1c1917' 
-                                    }} 
-                                    itemStyle={{ color: '#a88755' }}
-                                    cursor={{fill: 'transparent'}}
-                                />
+                                <Tooltip content={<SkillsTooltip isDark={isDark} />} cursor={{ fill: 'transparent' }} />
                                 <Bar dataKey="level" radius={[0, 4, 4, 0]}>
                                     {techSkills.map((entry, index) => (
                                         <Cell key={`cell-${index}`} fill="#a88755" fillOpacity={0.55 + (index * 0.05)} />

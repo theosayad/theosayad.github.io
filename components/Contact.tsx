@@ -15,13 +15,13 @@ const Contact: React.FC = () => {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
             <div>
               <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
-                Business Card
+                Theo Sayad — Berlin
               </div>
-              <div className="mt-2 font-display italic text-2xl md:text-3xl text-stone-900 dark:text-stone-50">
-                Theo Sayad
+              <div className="mt-2 font-display text-2xl md:text-3xl text-stone-900 dark:text-stone-50 tracking-tight">
+                Let’s talk if you’re building something thoughtful.
               </div>
-              <div className="mt-2 text-stone-600 dark:text-stone-400">
-                Founder • Operator • Strategist • Developer — Berlin
+              <div className="mt-2 text-stone-600 dark:text-stone-400 max-w-2xl">
+                I’m open to opportunities, partnerships, and founder-to-founder conversations.
               </div>
             </div>
 
@@ -41,12 +41,11 @@ const Contact: React.FC = () => {
                 <Linkedin size={16} /> LinkedIn
               </a>
               <a
-                href={SOCIAL_LINKS.instagram}
-                target="_blank"
-                rel="noreferrer"
+                href="/theo-sayad.vcf"
+                download
                 className="inline-flex items-center gap-2 rounded-full bg-white/60 dark:bg-stone-900/35 backdrop-blur-sm border border-stone-200/70 dark:border-stone-800/60 px-4 py-2 text-sm font-semibold text-stone-700 dark:text-stone-200 hover:bg-white/80 dark:hover:bg-stone-900/55 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
               >
-                <Instagram size={16} /> Instagram
+                Save Contact
               </a>
             </div>
           </div>
@@ -93,7 +92,7 @@ const Contact: React.FC = () => {
         <div className="mt-12 flex justify-center">
             <button 
                 onClick={scrollToTop}
-                className="flex items-center gap-2 text-sm text-stone-600 hover:text-brand-700 dark:text-stone-400 dark:hover:text-brand-300 transition-colors p-4 focus:outline-none"
+                className="flex items-center gap-2 text-sm text-stone-600 hover:text-brand-700 dark:text-stone-400 dark:hover:text-brand-300 transition-colors p-4 focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60 rounded-md"
             >
                 Back to Top <ArrowUp size={14} />
             </button>

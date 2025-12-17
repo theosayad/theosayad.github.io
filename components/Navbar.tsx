@@ -29,6 +29,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
   }, [isOpen]);
 
   const navLinks = [
+    { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Ventures', href: '#ventures' },
     { name: 'Experience', href: '#experience' },
@@ -59,16 +60,6 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
       <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/65 dark:bg-stone-950/45 backdrop-blur-xl border-b border-stone-200/70 dark:border-stone-800/60 shadow-sm py-2' : 'bg-transparent py-4'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-12">
-            {/* Brand */}
-            <a
-              href="#home"
-              onClick={(e) => handleNavClick(e, '#home')}
-              className="inline-flex items-center gap-2 font-display italic text-lg tracking-tight text-stone-900 dark:text-stone-50 hover:text-brand-700 dark:hover:text-brand-300 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60 rounded-md"
-              aria-label="Go to home"
-            >
-              <span className="hidden sm:inline">Theo Sayad</span>
-              <span className="sm:hidden">TS</span>
-            </a>
             
             {/* Desktop Menu */}
             <div className="hidden md:block">

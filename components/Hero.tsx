@@ -5,12 +5,25 @@ import ParticleBackground from './ParticleBackground';
 
 const ROLES = ["Founder", "Operator", "Strategist", "Developer"];
 
+const getIndefiniteArticle = (word: string) => {
+  const cleaned = word.trim().toLowerCase();
+  if (!cleaned) return 'a';
+  const first = cleaned[0];
+  return ['a', 'e', 'i', 'o', 'u'].includes(first) ? 'an' : 'a';
+};
+
 const Hero: React.FC = () => {
   const [text, setText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNum, setLoopNum] = useState(0);
 
   useEffect(() => {
+    const media = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (media.matches) {
+      setText(ROLES[0]);
+      return;
+    }
+
     const fullText = ROLES[loopNum % ROLES.length];
 
     const randomBetween = (min: number, max: number) =>
@@ -58,6 +71,9 @@ const Hero: React.FC = () => {
     }
   };
 
+  const currentRole = ROLES[loopNum % ROLES.length];
+  const article = getIndefiniteArticle(currentRole);
+
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-24 pb-12 md:py-0">
       {/* Particle Background */}
@@ -75,7 +91,9 @@ const Hero: React.FC = () => {
             Hi, I'm <span className="text-brand-700 dark:text-brand-300 italic block md:inline mt-2 md:mt-0">Theo Sayad</span>
           </h1>
           <div className="h-8 mb-6 md:mb-8 flex items-center justify-center md:justify-start">
-            <span className="text-lg md:text-2xl text-stone-600 dark:text-stone-400 mr-2">I am a</span>
+            <span className="text-lg md:text-2xl text-stone-600 dark:text-stone-400 mr-2">
+              I am {article}
+            </span>
             <span className="text-lg md:text-2xl text-brand-700 dark:text-brand-300 font-semibold font-display italic">
               {text}
               <span className="animate-blink opacity-60">|</span>

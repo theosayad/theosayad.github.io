@@ -34,6 +34,8 @@ jobs:
         run: npm install
         
       - name: Build
+        env:
+          VITE_MARKET_TAPE_URL: ${{ secrets.VITE_MARKET_TAPE_URL }}
         run: npm run build
         
       - name: Setup Pages

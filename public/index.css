@@ -45,6 +45,29 @@ html.dark body::before {
   mix-blend-mode: screen;
 }
 
+@keyframes market-tape-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.market-tape__mask {
+  -webkit-mask-image: linear-gradient(to right, transparent, black 7%, black 93%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 7%, black 93%, transparent);
+}
+
+.market-tape__track {
+  animation: market-tape-scroll 70s linear infinite;
+  will-change: transform;
+}
+
+.market-tape:hover .market-tape__track {
+  animation-play-state: paused;
+}
+
 @media (min-width: 640px) {
   /* Intentionally no page "frame" (kept minimal). */
 }
@@ -52,5 +75,16 @@ html.dark body::before {
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;
+  }
+
+  .market-tape__mask {
+    -webkit-mask-image: none;
+    mask-image: none;
+    overflow-x: auto;
+  }
+
+  .market-tape__track {
+    animation: none;
+    transform: none;
   }
 }
