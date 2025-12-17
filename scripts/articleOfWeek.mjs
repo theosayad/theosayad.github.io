@@ -87,6 +87,14 @@ const fetchJson = async (url) => {
   return res.json();
 };
 
+const scoreCandidate = ({ title, url, points, comments }) => {
+  const hostname = getHostname(url);
+  const keywordHits = keywordMatchScore(title, hostname);
+  const base = Number(points ?? 0) + 2 * Number(comments ?? 0);
+  const score = base + keywordHits * 8 + domainBoost(hostname);
+  return { hostname, keywordHits, score };
+};
+
 const readPrevious = async () => {
   try {
     const raw = await fs.readFile(OUT_FILE, 'utf8');
@@ -102,12 +110,103 @@ const writeOutput = async (payload) => {
   await fs.writeFile(OUT_FILE, json, 'utf8');
 };
 
+const findViaAlgolia = async ({ minTime }) => {
+  const keywordQueries = [
+    'markets',
+    'stock',
+    'bonds',
+    'rates',
+    'inflation',
+    'macro',
+    'banking',
+    'treasury',
+    'earnings',
+    'SEC',
+    'IPO',
+    'venture capital',
+    'private equity',
+    'currency',
+    'forex',
+    'crypto',
+  ];
+
+  const results = [];
+  const concurrency = 6;
+  for (let i = 0; i < keywordQueries.length; i += concurrency) {
+    const slice = keywordQueries.slice(i, i + concurrency);
+    const chunk = await Promise.all(
+      slice.map((q) => {
+        const url = new URL('https://hn.algolia.com/api/v1/search');
+        url.searchParams.set('tags', 'story');
+        url.searchParams.set('hitsPerPage', '50');
+        url.searchParams.set('query', q);
+        url.searchParams.set('numericFilters', `created_at_i>${minTime}`);
+        return fetchJson(url.toString()).catch(() => null);
+      })
+    );
+    for (const payload of chunk) {
+      const hits = payload?.hits;
+      if (Array.isArray(hits)) results.push(...hits);
+    }
+  }
+
+  const seen = new Set();
+  const candidates = results
+    .map((hit) => {
+      const id = Number(hit?.objectID);
+      const title = String(hit?.title ?? '').trim();
+      const url = String(hit?.url ?? '').trim();
+      const points = Number(hit?.points ?? 0);
+      const comments = Number(hit?.num_comments ?? 0);
+      const createdAt = Number(hit?.created_at_i ?? 0);
+      if (!Number.isFinite(id) || !title || !url || !Number.isFinite(createdAt)) return null;
+      if (seen.has(id)) return null;
+      seen.add(id);
+      const scored = scoreCandidate({ title, url, points, comments });
+      return {
+        id,
+        title,
+        url,
+        points,
+        comments,
+        createdAt,
+        ...scored,
+      };
+    })
+    .filter(Boolean)
+    .filter((c) => c.keywordHits > 0)
+    .sort((a, b) => b.score - a.score);
+
+  return candidates[0] ?? null;
+};
+
 const main = async () => {
   const previous = await readPrevious();
 
   try {
     const now = Math.floor(Date.now() / 1000);
     const minTime = now - ONE_WEEK_SECONDS;
+
+    const algoliaPick = await findViaAlgolia({ minTime });
+    if (algoliaPick) {
+      await writeOutput({
+        title: algoliaPick.title,
+        url: algoliaPick.url,
+        source: algoliaPick.hostname ?? 'Hacker News',
+        selectedAt: new Date().toISOString(),
+        publishedAt: new Date(algoliaPick.createdAt * 1000).toISOString(),
+        hn: {
+          id: algoliaPick.id,
+          score: algoliaPick.points,
+          comments: algoliaPick.comments,
+        },
+        rationale: `Auto-picked via HN search across finance keywords (${algoliaPick.keywordHits} keyword hit${
+          algoliaPick.keywordHits === 1 ? '' : 's'
+        }).`,
+      });
+      console.log('[article-of-week] selected (algolia):', algoliaPick.title);
+      return;
+    }
 
     const ids = await fetchJson('https://hacker-news.firebaseio.com/v0/topstories.json');
     const topIds = Array.isArray(ids) ? ids.slice(0, 200) : [];
@@ -141,6 +240,27 @@ const main = async () => {
     const best = candidates.sort((a, b) => b.score - a.score)[0];
 
     if (!best) {
+      const anyWithUrl = fetched.find(
+        (item) => item && item.type === 'story' && item.url && !item.dead && !item.deleted
+      );
+      if (anyWithUrl) {
+        const hostname = getHostname(anyWithUrl.url);
+        await writeOutput({
+          title: anyWithUrl.title,
+          url: anyWithUrl.url,
+          source: hostname ?? 'Hacker News',
+          selectedAt: new Date().toISOString(),
+          publishedAt: new Date(anyWithUrl.time * 1000).toISOString(),
+          hn: {
+            id: anyWithUrl.id,
+            score: Number(anyWithUrl.score ?? 0),
+            comments: Number(anyWithUrl.descendants ?? 0),
+          },
+          rationale: 'No finance match found this week; showing the top story with a link instead.',
+        });
+        console.log('[article-of-week] selected (fallback topstory):', anyWithUrl.title);
+        return;
+      }
       if (previous) {
         console.warn('[article-of-week] no candidates found; keeping previous selection');
         return;
@@ -175,7 +295,7 @@ const main = async () => {
       }).`,
     });
 
-    console.log('[article-of-week] selected:', best.item.title);
+    console.log('[article-of-week] selected (topstories):', best.item.title);
   } catch (error) {
     console.error('[article-of-week] update failed:', error);
     if (previous) {
@@ -194,4 +314,3 @@ const main = async () => {
 };
 
 await main();
-

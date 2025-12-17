@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { Suspense, useEffect, useMemo, useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Ventures from './components/Ventures';
 import Experience from './components/Experience';
-import Skills from './components/Skills';
 import Contact from './components/Contact';
 import { Reveal } from './components/Reveal';
 import MarketTape from './components/MarketTape';
@@ -12,6 +11,7 @@ import ArticleOfWeek from './components/ArticleOfWeek';
 
 const App: React.FC = () => {
   const [isDark, setIsDark] = useState(false);
+  const Skills = useMemo(() => React.lazy(() => import('./components/Skills')), []);
 
   useEffect(() => {
     // Sync state with DOM on mount
@@ -55,7 +55,21 @@ const App: React.FC = () => {
             <Experience />
         </Reveal>
         <Reveal>
-            <Skills isDark={isDark} />
+            <Suspense
+              fallback={
+                <section id="education" className="py-16 md:py-24 bg-transparent transition-colors duration-300">
+                  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/60 dark:bg-stone-950/15 backdrop-blur-sm p-6 md:p-8">
+                      <div className="h-6 w-40 bg-stone-200/70 dark:bg-stone-800/60 rounded-md" />
+                      <div className="mt-4 h-4 w-72 max-w-full bg-stone-200/50 dark:bg-stone-800/40 rounded-md" />
+                      <div className="mt-6 h-44 bg-stone-200/40 dark:bg-stone-800/30 rounded-xl" />
+                    </div>
+                  </div>
+                </section>
+              }
+            >
+              <Skills isDark={isDark} />
+            </Suspense>
         </Reveal>
       </main>
       <Contact />
