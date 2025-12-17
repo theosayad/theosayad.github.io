@@ -85,6 +85,14 @@ const TapeRow: React.FC<{ items: TapeItem[] }> = ({ items }) => {
 const MarketTape: React.FC = () => {
   const { status, quotes, endpoint } = useMarketQuotes([...WATCHLIST], 30_000);
 
+  const statusText = !endpoint
+    ? 'not configured'
+    : status === 'ready'
+      ? 'live'
+      : status === 'error'
+        ? 'offline'
+        : 'connecting';
+
   const items = useMemo(() => {
     if (quotes.length) return toTapeItems(quotes);
     return WATCHLIST.map((symbol) => ({ symbol, price: '—', change: '—', direction: 'flat' as const }));
@@ -96,11 +104,10 @@ const MarketTape: React.FC = () => {
       aria-hidden="true"
     >
       <div className="flex items-center gap-4">
-        <div className="hidden md:flex items-center gap-2 pl-6 pr-2 text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
-          Market Tape{' '}
-          <span className="text-stone-400/70 dark:text-stone-500/70">
-            · {endpoint && status === 'ready' ? 'live' : 'indicative'}
-          </span>
+        <div className="flex items-center gap-2 pl-4 sm:pl-6 pr-2 text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+          <span className="hidden sm:inline">Market Tape</span>
+          <span className="inline sm:hidden">Tape</span>
+          <span className="text-stone-400/70 dark:text-stone-500/70">· {statusText}</span>
         </div>
 
         <div className="market-tape__mask flex-1 overflow-hidden py-2">

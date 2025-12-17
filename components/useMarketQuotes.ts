@@ -34,7 +34,11 @@ const parseQuotesResponse = (data: unknown): MarketQuote[] => {
 };
 
 export const useMarketQuotes = (symbols: string[], pollMs = 30_000) => {
-  const endpoint = import.meta.env.VITE_MARKET_TAPE_URL as string | undefined;
+  const rawEndpoint = import.meta.env.VITE_MARKET_TAPE_URL as string | undefined;
+  const endpoint =
+    rawEndpoint && !/^https?:\/\//i.test(rawEndpoint) && !rawEndpoint.startsWith('/')
+      ? `https://${rawEndpoint}`
+      : rawEndpoint;
 
   const [state, setState] = useState<MarketQuotesState>({ status: 'idle', quotes: [] });
 
@@ -53,6 +57,9 @@ export const useMarketQuotes = (symbols: string[], pollMs = 30_000) => {
       setState((prev) => ({ status: 'loading', quotes: prev.quotes, updatedAt: prev.updatedAt }));
       try {
         const url = new URL(endpoint, window.location.origin);
+        if (!url.pathname.endsWith('/quotes')) {
+          url.pathname = `${url.pathname.replace(/\/$/, '')}/quotes`;
+        }
         url.searchParams.set('symbols', symbolsKey);
 
         const res = await fetch(url.toString(), {
