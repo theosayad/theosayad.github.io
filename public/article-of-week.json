@@ -1,8 +1,13 @@
 {
-  "title": "Top finance read of the week (auto-picked)",
-  "url": "https://news.ycombinator.com/",
-  "source": "Hacker News",
-  "selectedAt": "2025-01-01T00:00:00.000Z",
-  "rationale": "This slot updates automatically every week via a GitHub Action that filters and ranks recent Hacker News stories related to markets and finance."
+  "title": "Pro-democracy HK tycoon Jimmy Lai convicted in national security trial",
+  "url": "https://www.bbc.com/news/articles/cp844kjj37vo",
+  "source": "bbc.com",
+  "selectedAt": "2025-12-17T23:10:36.025Z",
+  "publishedAt": "2025-12-15T16:36:19.000Z",
+  "hn": {
+    "id": 46276740,
+    "score": 436,
+    "comments": 473
+  },
+  "rationale": "Auto-picked via HN search across finance keywords (1 keyword hit)."
 }
-
