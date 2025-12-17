@@ -13,31 +13,31 @@ const Skills: React.FC<SkillsProps> = ({ isDark }) => {
   const langSkills = SKILLS_DATA.filter(s => s.category === 'Language');
 
   return (
-    <section id="education" className="py-16 md:py-24 bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
+    <section id="education" className="py-16 md:py-24 bg-transparent transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16">
             {/* Education Column */}
             <div>
                 <div className="flex items-center gap-4 mb-8">
-                    <div className="p-3 bg-brand-500/10 rounded-lg">
-                        <GraduationCap className="text-brand-600 dark:text-brand-400" size={24} />
+                    <div className="p-3 bg-brand-500/10 rounded-lg border border-brand-200/60 dark:border-stone-800/60">
+                        <GraduationCap className="text-brand-700 dark:text-brand-300" size={24} />
                     </div>
-                    <h2 className="text-2xl md:text-3xl font-display font-bold text-slate-900 dark:text-white">Education</h2>
+                    <h2 className="text-2xl md:text-3xl font-display font-semibold tracking-tight text-stone-900 dark:text-stone-50">Education</h2>
                 </div>
                 
                 <div className="space-y-6 md:space-y-8">
                     {EDUCATION_DATA.map((edu, idx) => (
-                        <div key={idx} className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 rounded-xl shadow-sm dark:shadow-none">
+                        <div key={idx} className="bg-white/70 dark:bg-stone-900/40 backdrop-blur-sm border border-stone-200/70 dark:border-stone-800/60 p-6 rounded-xl shadow-sm shadow-stone-900/5 dark:shadow-none">
                             <div className="flex flex-col sm:flex-row justify-between items-start mb-2 gap-1 sm:gap-0">
-                                <h3 className="text-lg font-bold text-slate-900 dark:text-white">{edu.school}</h3>
-                                <span className="text-xs font-mono text-slate-500">{edu.period}</span>
+                                <h3 className="text-lg font-semibold text-stone-900 dark:text-stone-50">{edu.school}</h3>
+                                <span className="text-[11px] font-semibold tracking-[0.18em] uppercase text-stone-500 dark:text-stone-400">{edu.period}</span>
                             </div>
-                            <p className="text-brand-600 dark:text-brand-400 font-medium mb-1">{edu.degree}</p>
-                            <p className="text-sm text-slate-500 mb-4">{edu.location}</p>
+                            <p className="text-brand-700 dark:text-brand-300 font-medium mb-1">{edu.degree}</p>
+                            <p className="text-sm text-stone-500 dark:text-stone-400 mb-4">{edu.location}</p>
                             <ul className="space-y-1">
                                 {edu.details.map((detail, dIdx) => (
-                                    <li key={dIdx} className="text-sm text-slate-600 dark:text-slate-400">• {detail}</li>
+                                    <li key={dIdx} className="text-sm text-stone-600 dark:text-stone-400">• {detail}</li>
                                 ))}
                             </ul>
                         </div>
@@ -48,31 +48,31 @@ const Skills: React.FC<SkillsProps> = ({ isDark }) => {
             {/* Skills Column */}
             <div>
                 <div className="flex items-center gap-4 mb-8">
-                    <div className="p-3 bg-brand-500/10 rounded-lg">
-                        <Cpu className="text-brand-600 dark:text-brand-400" size={24} />
+                    <div className="p-3 bg-brand-500/10 rounded-lg border border-brand-200/60 dark:border-stone-800/60">
+                        <Cpu className="text-brand-700 dark:text-brand-300" size={24} />
                     </div>
-                    <h2 className="text-2xl md:text-3xl font-display font-bold text-slate-900 dark:text-white">Skills</h2>
+                    <h2 className="text-2xl md:text-3xl font-display font-semibold tracking-tight text-stone-900 dark:text-stone-50">Skills</h2>
                 </div>
 
-                <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 rounded-xl mb-8 shadow-sm dark:shadow-none">
-                    <h3 className="text-slate-900 dark:text-white font-bold mb-6">Technical & Commercial Proficiency</h3>
+                <div className="bg-white/70 dark:bg-stone-900/40 backdrop-blur-sm border border-stone-200/70 dark:border-stone-800/60 p-6 rounded-xl mb-8 shadow-sm shadow-stone-900/5 dark:shadow-none">
+                    <h3 className="text-stone-900 dark:text-stone-50 font-semibold mb-6">Technical & Commercial Proficiency</h3>
                     <div className="h-64 w-full">
                         <ResponsiveContainer width="100%" height="100%">
                             <BarChart data={techSkills} layout="vertical" margin={{ left: 40 }}>
                                 <XAxis type="number" domain={[0, 100]} hide />
-                                <YAxis dataKey="name" type="category" width={100} tick={{fill: isDark ? '#94a3b8' : '#475569', fontSize: 12}} />
+                                <YAxis dataKey="name" type="category" width={100} tick={{fill: isDark ? '#d6d3d1' : '#57534e', fontSize: 12}} />
                                 <Tooltip 
                                     contentStyle={{ 
-                                        backgroundColor: isDark ? '#0f172a' : '#ffffff', 
-                                        borderColor: isDark ? '#1e293b' : '#e2e8f0', 
-                                        color: isDark ? '#fff' : '#0f172a' 
+                                        backgroundColor: isDark ? '#0c0a09' : '#ffffff', 
+                                        borderColor: isDark ? '#292524' : '#e7e5e4', 
+                                        color: isDark ? '#fafaf9' : '#1c1917' 
                                     }} 
-                                    itemStyle={{ color: '#38bdf8' }}
+                                    itemStyle={{ color: '#a88755' }}
                                     cursor={{fill: 'transparent'}}
                                 />
                                 <Bar dataKey="level" radius={[0, 4, 4, 0]}>
                                     {techSkills.map((entry, index) => (
-                                        <Cell key={`cell-${index}`} fill="#0ea5e9" fillOpacity={0.6 + (index * 0.05)} />
+                                        <Cell key={`cell-${index}`} fill="#a88755" fillOpacity={0.55 + (index * 0.05)} />
                                     ))}
                                 </Bar>
                             </BarChart>
@@ -80,8 +80,8 @@ const Skills: React.FC<SkillsProps> = ({ isDark }) => {
                     </div>
                 </div>
 
-                <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 rounded-xl shadow-sm dark:shadow-none">
-                    <h3 className="text-slate-900 dark:text-white font-bold mb-4">Languages</h3>
+                <div className="bg-white/70 dark:bg-stone-900/40 backdrop-blur-sm border border-stone-200/70 dark:border-stone-800/60 p-6 rounded-xl shadow-sm shadow-stone-900/5 dark:shadow-none">
+                    <h3 className="text-stone-900 dark:text-stone-50 font-semibold mb-4">Languages</h3>
                     <div className="flex flex-wrap gap-3">
                         {langSkills.map((lang, idx) => (
                             <span 
@@ -89,7 +89,7 @@ const Skills: React.FC<SkillsProps> = ({ isDark }) => {
                                 className={`px-3 py-1 rounded-full text-sm font-medium border ${
                                     lang.level >= 90 
                                     ? 'bg-emerald-50 dark:bg-emerald-950/30 text-emerald-700 dark:text-emerald-400 border-emerald-200 dark:border-emerald-900' 
-                                    : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 border-slate-200 dark:border-slate-700'
+                                    : 'bg-stone-100/80 dark:bg-stone-800/40 text-stone-700 dark:text-stone-300 border-stone-200/70 dark:border-stone-700/50'
                                 }`}
                             >
                                 {lang.name} {lang.level >= 90 ? '(Native)' : lang.level >= 60 ? '(Fluent)' : '(Conversational)'}

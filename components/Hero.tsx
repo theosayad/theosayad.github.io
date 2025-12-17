@@ -3,37 +3,43 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
 import ParticleBackground from './ParticleBackground';
 
+const ROLES = ["Founder", "Operator", "Strategist", "Developer"];
+
 const Hero: React.FC = () => {
   const [text, setText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNum, setLoopNum] = useState(0);
-  const [typingSpeed, setTypingSpeed] = useState(150);
-
-  const roles = ["Founder", "Developer", "Strategist"];
 
   useEffect(() => {
-    const handleTyping = () => {
-      const i = loopNum % roles.length;
-      const fullText = roles[i];
+    const fullText = ROLES[loopNum % ROLES.length];
 
-      setText(isDeleting 
-        ? fullText.substring(0, text.length - 1) 
-        : fullText.substring(0, text.length + 1)
-      );
+    const randomBetween = (min: number, max: number) =>
+      Math.floor(Math.random() * (max - min + 1)) + min;
 
-      setTypingSpeed(isDeleting ? 30 : 150);
+    if (!isDeleting && text === fullText) {
+      const timer = window.setTimeout(() => setIsDeleting(true), 2200);
+      return () => window.clearTimeout(timer);
+    }
 
-      if (!isDeleting && text === fullText) {
-        setTimeout(() => setIsDeleting(true), 1500);
-      } else if (isDeleting && text === '') {
+    if (isDeleting && text === '') {
+      const timer = window.setTimeout(() => {
         setIsDeleting(false);
-        setLoopNum(loopNum + 1);
-      }
-    };
+        setLoopNum((n) => n + 1);
+      }, 550);
+      return () => window.clearTimeout(timer);
+    }
 
-    const timer = setTimeout(handleTyping, typingSpeed);
-    return () => clearTimeout(timer);
-  }, [text, isDeleting, loopNum, typingSpeed, roles]);
+    const delay = isDeleting ? randomBetween(65, 115) : randomBetween(125, 210);
+    const timer = window.setTimeout(() => {
+      setText(
+        isDeleting
+          ? fullText.substring(0, Math.max(0, text.length - 1))
+          : fullText.substring(0, Math.min(fullText.length, text.length + 1))
+      );
+    }, delay);
+
+    return () => window.clearTimeout(timer);
+  }, [text, isDeleting, loopNum]);
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
@@ -58,25 +64,25 @@ const Hero: React.FC = () => {
       <ParticleBackground />
       
       {/* Static Background decoration fallback/accent */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] md:w-[1000px] h-[300px] md:h-[500px] bg-brand-400/5 dark:bg-brand-600/10 rounded-full blur-[80px] md:blur-[120px] -z-10 animate-pulse" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] md:w-[1000px] h-[300px] md:h-[500px] bg-brand-400/10 dark:bg-brand-400/10 rounded-full blur-[90px] md:blur-[130px] -z-10" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center gap-8 md:gap-12 relative z-10">
         <div className="flex-1 text-center md:text-left">
-          <div className="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-brand-600 dark:text-brand-400 uppercase bg-brand-50 dark:bg-brand-900/30 rounded-full border border-brand-200 dark:border-brand-800 animate-fade-in-up backdrop-blur-sm">
+          <div className="inline-block px-4 py-1.5 mb-5 text-[11px] font-semibold tracking-[0.22em] text-brand-700 dark:text-brand-300 uppercase bg-white/50 dark:bg-stone-950/30 rounded-full border border-brand-200/60 dark:border-stone-800/60 animate-fade-in-up backdrop-blur-sm">
             Available for opportunities
           </div>
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-display font-bold text-slate-900 dark:text-white mb-4 md:mb-6 leading-tight">
-            Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-indigo-600 dark:from-brand-400 dark:to-indigo-500 block md:inline mt-2 md:mt-0">Theo Sayad</span>
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-display font-semibold tracking-tight text-stone-900 dark:text-stone-50 mb-4 md:mb-6 leading-[1.05]">
+            Hi, I'm <span className="text-brand-700 dark:text-brand-300 italic block md:inline mt-2 md:mt-0">Theo Sayad</span>
           </h1>
           <div className="h-8 mb-6 md:mb-8 flex items-center justify-center md:justify-start">
-            <span className="text-lg md:text-2xl text-slate-600 dark:text-slate-400 mr-2">I am a</span>
-            <span className="text-lg md:text-2xl text-brand-600 dark:text-brand-400 font-bold font-mono">
+            <span className="text-lg md:text-2xl text-stone-600 dark:text-stone-400 mr-2">I am a</span>
+            <span className="text-lg md:text-2xl text-brand-700 dark:text-brand-300 font-semibold font-display italic">
               {text}
-              <span className="animate-blink">|</span>
+              <span className="animate-blink opacity-60">|</span>
             </span>
           </div>
           
-          <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 mb-8 max-w-lg mx-auto md:mx-0 leading-relaxed px-4 md:px-0">
+          <p className="text-lg md:text-xl text-stone-600 dark:text-stone-400 mb-8 max-w-lg mx-auto md:mx-0 leading-relaxed px-4 md:px-0">
              Based in Berlin. Merging business acumen with technical expertise to build the future of tech.
           </p>
           
@@ -84,7 +90,7 @@ const Hero: React.FC = () => {
             <a 
               href="#ventures" 
               onClick={(e) => handleNavClick(e, '#ventures')}
-              className="w-full sm:w-auto justify-center px-8 py-3 bg-slate-900 dark:bg-white text-white dark:text-slate-950 font-semibold rounded-lg hover:bg-slate-800 dark:hover:bg-slate-200 transition-colors flex items-center gap-2 group cursor-pointer active:scale-95 duration-150 shadow-lg shadow-brand-500/20"
+              className="w-full sm:w-auto justify-center px-8 py-3 bg-stone-900/95 dark:bg-stone-50 text-stone-50 dark:text-stone-950 font-semibold rounded-lg hover:bg-stone-800 dark:hover:bg-stone-200 transition-colors flex items-center gap-2 group cursor-pointer active:scale-95 duration-150 shadow-lg shadow-brand-500/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
             >
               See my work
               <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
@@ -92,7 +98,7 @@ const Hero: React.FC = () => {
             <a 
               href="#contact" 
               onClick={(e) => handleNavClick(e, '#contact')}
-              className="w-full sm:w-auto justify-center px-8 py-3 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm text-slate-900 dark:text-white font-medium rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors border border-slate-300 dark:border-slate-700 cursor-pointer active:scale-95 duration-150"
+              className="w-full sm:w-auto justify-center px-8 py-3 bg-white/60 dark:bg-stone-900/35 backdrop-blur-sm text-stone-900 dark:text-stone-50 font-medium rounded-lg hover:bg-white/75 dark:hover:bg-stone-900/55 transition-colors border border-stone-300/70 dark:border-stone-800/60 cursor-pointer active:scale-95 duration-150 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
             >
               Contact Me
             </a>
@@ -101,13 +107,13 @@ const Hero: React.FC = () => {
 
         <div className="flex-1 flex justify-center md:justify-end relative">
             <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
-                <div className="absolute inset-0 border-2 border-brand-500/20 dark:border-brand-500/30 rounded-full animate-[spin_10s_linear_infinite]" />
-                <div className="absolute inset-4 border-2 border-indigo-500/20 dark:border-indigo-500/30 rounded-full animate-[spin_15s_linear_infinite_reverse]" />
-                <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-white dark:border-slate-800 shadow-2xl bg-slate-100 dark:bg-slate-800">
+                <div className="absolute -inset-10 rounded-full bg-brand-200/25 dark:bg-brand-700/10 blur-3xl -z-10" />
+                <div className="absolute -inset-2 rounded-full border border-brand-200/70 dark:border-brand-800/50" />
+                <div className="absolute inset-0 rounded-full overflow-hidden border border-stone-200/70 dark:border-stone-800/60 shadow-2xl bg-white/40 dark:bg-stone-900/30 backdrop-blur-sm">
                     <img 
                         src="theo.jpg"
                         alt="Theo Sayad" 
-                        className="w-full h-full object-cover md:hover:scale-110 transition-transform duration-700"
+                        className="w-full h-full object-cover md:hover:scale-[1.04] transition-transform duration-700"
                     />
                 </div>
             </div>

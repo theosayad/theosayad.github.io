@@ -1,4 +1,12 @@
 <svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <rect width="512" height="512" rx="128" fill="#0f172a"/>
-  <text x="256" y="350" font-family="sans-serif" font-size="220" font-weight="bold" text-anchor="middle" fill="white">TS<tspan fill="#0ea5e9">.</tspan></text>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbf8f3"/>
+      <stop offset="100%" stop-color="#f4ede1"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#paper)"/>
+  <rect x="64" y="64" width="384" height="384" rx="96" fill="none" stroke="#a88755" stroke-opacity="0.75" stroke-width="16"/>
+  <text x="256" y="328" font-family="Georgia, serif" font-size="212" font-weight="700" text-anchor="middle" fill="#1c1917">TS</text>
+  <circle cx="392" cy="360" r="14" fill="#a88755"/>
 </svg>

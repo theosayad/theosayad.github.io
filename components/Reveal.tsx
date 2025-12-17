@@ -31,13 +31,14 @@ export const Reveal: React.FC<RevealProps> = ({ children, width = '100%', delay 
   }, []);
 
   return (
-    <div ref={ref} style={{ width }} className="relative overflow-visible">
+    <div ref={ref} style={{ width }} className="relative overflow-visible h-full">
       <div
         style={{
           transform: isVisible ? 'translateY(0)' : 'translateY(75px)',
           opacity: isVisible ? 1 : 0,
           transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) ${delay}s`
         }}
+        className="h-full"
       >
         {children}
       </div>

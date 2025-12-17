@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 import { Reveal } from './components/Reveal';
 
 const App: React.FC = () => {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
     // Sync state with DOM on mount
@@ -34,7 +34,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-200 font-sans selection:bg-brand-500 selection:text-white transition-colors duration-300">
+    <div className="min-h-screen bg-transparent text-stone-900 dark:text-stone-100 font-sans selection:bg-brand-500 selection:text-white transition-colors duration-300">
       <Navbar isDark={isDark} toggleTheme={toggleTheme} />
       <main>
         <Hero />

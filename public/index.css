@@ -1,0 +1,56 @@
+html {
+  background-color: #fbf8f3;
+  color-scheme: light;
+}
+
+html.dark {
+  background-color: #0c0a09;
+  color-scheme: dark;
+}
+
+body {
+  background-image:
+    radial-gradient(1000px circle at 18% -10%, rgba(168, 135, 85, 0.22), transparent 58%),
+    radial-gradient(900px circle at 80% 18%, rgba(168, 135, 85, 0.12), transparent 55%),
+    linear-gradient(to bottom, #fbf8f3, #f4ede1);
+  background-repeat: no-repeat;
+}
+
+html.dark body {
+  background-image:
+    radial-gradient(900px circle at 18% -10%, rgba(194, 161, 119, 0.14), transparent 58%),
+    radial-gradient(800px circle at 80% 18%, rgba(194, 161, 119, 0.07), transparent 55%),
+    linear-gradient(to bottom, #0c0a09, #11100f);
+}
+
+#root {
+  position: relative;
+  isolation: isolate;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: -20%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.06;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='260' height='260' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E");
+  background-size: 240px 240px;
+}
+
+html.dark body::before {
+  opacity: 0.08;
+  mix-blend-mode: screen;
+}
+
+@media (min-width: 640px) {
+  /* Intentionally no page "frame" (kept minimal). */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+}

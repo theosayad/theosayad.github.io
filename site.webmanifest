@@ -1,0 +1,17 @@
+{
+  "name": "Theo Sayad",
+  "short_name": "Theo",
+  "description": "Founder & operator — Berlin.",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "background_color": "#fbf8f3",
+  "theme_color": "#fbf8f3",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

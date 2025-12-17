@@ -34,9 +34,9 @@ const ParticleBackground: React.FC = () => {
       constructor() {
         this.x = Math.random() * w;
         this.y = Math.random() * h;
-        this.vx = (Math.random() - 0.5) * 0.5;
-        this.vy = (Math.random() - 0.5) * 0.5;
-        this.size = Math.random() * 2 + 1;
+        this.vx = (Math.random() - 0.5) * 0.25;
+        this.vy = (Math.random() - 0.5) * 0.25;
+        this.size = Math.random() * 1.8 + 0.6;
       }
 
       update() {
@@ -52,15 +52,15 @@ const ParticleBackground: React.FC = () => {
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
         ctx.fillStyle = document.documentElement.classList.contains('dark') 
-          ? 'rgba(148, 163, 184, 0.5)' // Slate-400
-          : 'rgba(71, 85, 105, 0.5)';  // Slate-600
+          ? 'rgba(214, 211, 209, 0.16)' // Stone-300
+          : 'rgba(87, 83, 78, 0.14)';  // Stone-600
         ctx.fill();
       }
     }
 
     const init = () => {
       particles = [];
-      const particleCount = Math.min(Math.floor((w * h) / 15000), 100);
+      const particleCount = Math.min(Math.floor((w * h) / 22000), 85);
       for (let i = 0; i < particleCount; i++) {
         particles.push(new Particle());
       }
@@ -73,25 +73,6 @@ const ParticleBackground: React.FC = () => {
       particles.forEach((p, index) => {
         p.update();
         p.draw();
-        
-        // Draw connections
-        for (let j = index + 1; j < particles.length; j++) {
-          const p2 = particles[j];
-          const dx = p.x - p2.x;
-          const dy = p.y - p2.y;
-          const distance = Math.sqrt(dx * dx + dy * dy);
-
-          if (distance < 150) {
-            ctx.beginPath();
-            ctx.strokeStyle = document.documentElement.classList.contains('dark') 
-              ? `rgba(56, 189, 248, ${0.15 - distance/1000})` // Brand-400
-              : `rgba(14, 165, 233, ${0.15 - distance/1000})`; // Brand-500
-            ctx.lineWidth = 1;
-            ctx.moveTo(p.x, p.y);
-            ctx.lineTo(p2.x, p2.y);
-            ctx.stroke();
-          }
-        }
       });
 
       animationFrameId = requestAnimationFrame(animate);
@@ -109,7 +90,7 @@ const ParticleBackground: React.FC = () => {
   return (
     <canvas 
       ref={canvasRef} 
-      className="absolute inset-0 w-full h-full -z-0 opacity-60 pointer-events-none"
+      className="absolute inset-0 w-full h-full -z-0 opacity-40 dark:opacity-30 pointer-events-none"
     />
   );
 };
