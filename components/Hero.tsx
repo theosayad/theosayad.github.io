@@ -101,7 +101,28 @@ const Hero: React.FC = () => {
           </div>
           
           <p className="text-lg md:text-xl text-stone-600 dark:text-stone-400 mb-8 max-w-lg mx-auto md:mx-0 leading-relaxed px-4 md:px-0">
-             Based in Berlin. Merging business acumen with technical expertise to build the future of tech.
+             Based in Berlin. Merging business acumen with technical expertise to{' '}
+            <span
+              className="relative inline-block"
+            >
+              solve modern-day problems
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 120 8"
+                preserveAspectRatio="none"
+                className="pointer-events-none absolute left-0 top-full mt-1 h-2 w-full text-brand-700 dark:text-brand-300"
+              >
+                <path
+                  d="M0 4 Q 30 0 60 4 T 120 4"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  vectorEffect="non-scaling-stroke"
+                />
+              </svg>
+            </span>
+            .
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 w-full sm:w-auto px-8 sm:px-0">

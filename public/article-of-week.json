@@ -1,0 +1,8 @@
+{
+  "title": "Top finance read of the week (auto-picked)",
+  "url": "https://news.ycombinator.com/",
+  "source": "Hacker News",
+  "selectedAt": "2025-01-01T00:00:00.000Z",
+  "rationale": "This slot updates automatically every week via a GitHub Action that filters and ranks recent Hacker News stories related to markets and finance."
+}
+

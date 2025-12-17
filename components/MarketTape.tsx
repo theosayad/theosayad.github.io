@@ -1,5 +1,6 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import { MarketQuote, useMarketQuotes } from './useMarketQuotes';
+import { Pause, Play, Square } from 'lucide-react';
 
 type Direction = 'up' | 'down' | 'flat';
 
@@ -84,6 +85,8 @@ const TapeRow: React.FC<{ items: TapeItem[] }> = ({ items }) => {
 
 const MarketTape: React.FC = () => {
   const { status, quotes, endpoint, lastError } = useMarketQuotes([...WATCHLIST], 30_000);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [trackKey, setTrackKey] = useState(0);
 
   const statusText = !endpoint
     ? 'not configured'
@@ -100,23 +103,48 @@ const MarketTape: React.FC = () => {
 
   return (
     <div
-      className="market-tape fixed bottom-0 inset-x-0 z-30 border-t border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/35 backdrop-blur-xl"
-      aria-hidden="true"
+      className={`market-tape fixed bottom-0 inset-x-0 z-30 border-t border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/35 backdrop-blur-xl ${
+        isPlaying ? 'market-tape--playing' : ''
+      }`}
+      aria-label="Markets ticker"
     >
       <div className="flex items-center gap-4">
         <div className="flex items-center gap-2 pl-4 sm:pl-6 pr-2 text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
-          <span className="hidden sm:inline">Market Tape</span>
-          <span className="inline sm:hidden">Tape</span>
+          <span className="hidden sm:inline">Markets</span>
+          <span className="inline sm:hidden">Markets</span>
           <span
             className="text-stone-400/70 dark:text-stone-500/70"
             title={status === 'error' && lastError ? lastError : undefined}
           >
             · {statusText}
           </span>
+          <div className="ml-2 flex items-center gap-1">
+            <button
+              type="button"
+              onClick={() => setIsPlaying((v) => !v)}
+              className="inline-flex items-center justify-center rounded-md border border-stone-200/70 dark:border-stone-800/60 bg-white/60 dark:bg-stone-950/25 px-2 py-1 text-stone-600 dark:text-stone-300 hover:bg-white/80 dark:hover:bg-stone-950/35 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400/60"
+              aria-label={isPlaying ? 'Pause scrolling' : 'Play scrolling'}
+              title={isPlaying ? 'Pause' : 'Play'}
+            >
+              {isPlaying ? <Pause size={14} /> : <Play size={14} />}
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                setIsPlaying(false);
+                setTrackKey((k) => k + 1);
+              }}
+              className="inline-flex items-center justify-center rounded-md border border-stone-200/70 dark:border-stone-800/60 bg-white/60 dark:bg-stone-950/25 px-2 py-1 text-stone-600 dark:text-stone-300 hover:bg-white/80 dark:hover:bg-stone-950/35 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400/60"
+              aria-label="Stop and reset scrolling"
+              title="Stop"
+            >
+              <Square size={14} />
+            </button>
+          </div>
         </div>
 
         <div className="market-tape__mask flex-1 overflow-hidden py-2">
-          <div className="market-tape__track flex w-max items-center">
+          <div key={trackKey} className="market-tape__track flex w-max items-center">
             <TapeRow items={items} />
             <TapeRow items={items} />
           </div>

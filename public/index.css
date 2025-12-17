@@ -62,10 +62,11 @@ html.dark body::before {
 .market-tape__track {
   animation: market-tape-scroll 70s linear infinite;
   will-change: transform;
+  animation-play-state: paused;
 }
 
-.market-tape:hover .market-tape__track {
-  animation-play-state: paused;
+.market-tape.market-tape--playing .market-tape__track {
+  animation-play-state: running;
 }
 
 @media (min-width: 640px) {

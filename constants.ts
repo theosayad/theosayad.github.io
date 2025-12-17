@@ -9,11 +9,9 @@ export const SOCIAL_LINKS = {
 };
 
 export const BIO_TEXT = [
-  "I've always loved business. At only the age of 11, I found myself selling fidget spinners imported from Alibaba at school.",
-  "At 13, I founded my first venture reselling sneakers and streetwear in the UAE and Lebanon (Hypelife). Two years later, I founded a startup streetwear brand called Disrupted.",
-  "In 2021, I dived into the world of cryptocurrencies and developed 40+ crypto projects on the Binance, Ethereum, and Solana chains managing them entirely—from the contract development (using Solidity), to the community management, and marketing.",
-  "I am currently a Bachelor's Student at ESCP Business School studying in Paris, Turin and Berlin."
-];
+  "My interest in building things started early. At 12, a small experiment reselling fidget spinners turned into a deeper curiosity about how ideas grow into real ventures. That curiosity later led me to streetwear projects across the Middle East, launching my own label, and eventually managing several crypto projects end-to-end.",
+  "I’ve sought out experiences to widen my perspective. Internships at Tiffany & Co., MEVP, Marie Claire, Transmed, and others gave me a close look at luxury retail, venture capital, publishing, and FMCG operations.",
+  "I’m now finishing my final year at ESCP Business School, specialising in Finance (GPA 3.9/4.0), and have had the chance to study in France, Italy, and Germany. I speak English, French, and Arabic, and I’m conversational in Italian, Portuguese, and Spanish."];
 
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {

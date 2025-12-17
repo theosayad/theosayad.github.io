@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import { Reveal } from './components/Reveal';
 import MarketTape from './components/MarketTape';
+import ArticleOfWeek from './components/ArticleOfWeek';
 
 const App: React.FC = () => {
   const [isDark, setIsDark] = useState(false);
@@ -49,6 +50,7 @@ const App: React.FC = () => {
             <About />
         </Reveal>
         <Ventures />
+        <ArticleOfWeek />
         <Reveal>
             <Experience />
         </Reveal>
