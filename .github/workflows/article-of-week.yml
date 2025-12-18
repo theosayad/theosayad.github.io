@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: "0 9 * * MON"
   workflow_dispatch:
+    inputs:
+      force_regenerate:
+        description: "Force regeneration of this week's lab entry"
+        type: boolean
+        default: false
+      models_model:
+        description: "Override MODELS_MODEL for this run (optional)"
+        type: string
+        required: false
 
 permissions:
   contents: write
@@ -18,8 +27,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MODELS_ENDPOINT: ${{ secrets.MODELS_ENDPOINT || 'https://models.github.ai/inference' }}
-      MODELS_MODEL: ${{ secrets.MODELS_MODEL || 'openai/gpt-4o-mini' }}
+      MODELS_MODEL: ${{ github.event.inputs.models_model || secrets.MODELS_MODEL || 'openai/gpt-4o-mini' }}
       MODELS_TOKEN: ${{ secrets.MODELS_TOKEN || github.token }}
+      FORCE_LAB_WEEKLY: ${{ github.event.inputs.force_regenerate }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

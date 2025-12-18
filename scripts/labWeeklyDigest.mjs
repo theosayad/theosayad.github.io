@@ -5,7 +5,12 @@ const ROOT = process.cwd();
 const ARTICLE_FILE = path.resolve(ROOT, 'public', 'article-of-week.json');
 const OUT_DIR = path.resolve(ROOT, 'public', 'lab', 'weekly');
 const INDEX_FILE = path.resolve(OUT_DIR, 'index.json');
-const FORCE = process.env.FORCE_LAB_WEEKLY === '1' || process.env.FORCE === '1';
+const isTruthyEnv = (value) => {
+  const v = String(value ?? '').trim().toLowerCase();
+  return v === '1' || v === 'true' || v === 'yes' || v === 'y' || v === 'on';
+};
+
+const FORCE = isTruthyEnv(process.env.FORCE_LAB_WEEKLY) || isTruthyEnv(process.env.FORCE);
 
 const decodeHtmlEntities = (input) => {
   return String(input ?? '')
@@ -130,6 +135,72 @@ const buildTakeaways = (highlights) => {
   return takeaways.slice(0, 4);
 };
 
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const extractJsonObjectFromText = (input) => {
+  const raw = String(input ?? '').trim();
+  if (!raw) throw new Error('empty model response');
+
+  const unfenced = raw
+    .replace(/^```json\s*/i, '')
+    .replace(/^```\s*/i, '')
+    .replace(/```$/i, '')
+    .trim();
+
+  // Best-case: pure JSON.
+  try {
+    return JSON.parse(unfenced);
+  } catch {
+    // Continue to extraction logic.
+  }
+
+  const start = unfenced.indexOf('{');
+  if (start === -1) throw new Error('no JSON object start found in model response');
+
+  // Robustly extract the first balanced JSON object, ignoring braces inside strings.
+  let depth = 0;
+  let inString = false;
+  let escape = false;
+  for (let i = start; i < unfenced.length; i++) {
+    const ch = unfenced[i];
+
+    if (inString) {
+      if (escape) {
+        escape = false;
+        continue;
+      }
+      if (ch === '\\') {
+        escape = true;
+        continue;
+      }
+      if (ch === '"') inString = false;
+      continue;
+    }
+
+    if (ch === '"') {
+      inString = true;
+      continue;
+    }
+
+    if (ch === '{') depth += 1;
+    if (ch === '}') depth -= 1;
+
+    if (depth === 0) {
+      const candidate = unfenced.slice(start, i + 1);
+      try {
+        return JSON.parse(candidate);
+      } catch (err) {
+        const preview = candidate.slice(0, 500);
+        throw new Error(
+          `model JSON parse failed (${err instanceof Error ? err.message : String(err)}). preview: ${preview}`
+        );
+      }
+    }
+  }
+
+  throw new Error('unterminated JSON object in model response');
+};
+
 const maybeGenerateRewrite = async ({ articleTitle, articleUrl, highlights, extractedText }) => {
   const endpoint = process.env.MODELS_ENDPOINT || process.env.GITHUB_MODELS_ENDPOINT;
   const model = process.env.MODELS_MODEL || process.env.GITHUB_MODELS_MODEL;
@@ -169,8 +240,7 @@ const maybeGenerateRewrite = async ({ articleTitle, articleUrl, highlights, extr
 
   const safeModel = String(model).trim();
   const candidateModels = [safeModel];
-  const stripped = safeModel.replace(/^openai\//i, '');
-  if (stripped && stripped !== safeModel) candidateModels.push(stripped);
+  if (safeModel && !safeModel.includes('/')) candidateModels.push(`openai/${safeModel}`);
 
   const messages = [
     { role: 'system', content: 'You are a careful finance editor.' },
@@ -178,16 +248,12 @@ const maybeGenerateRewrite = async ({ articleTitle, articleUrl, highlights, extr
   ];
 
   const tryBodies = (m) => [
-    { model: m, messages, temperature: 0.35 },
-    { model: m, messages },
-    { model: m, messages, max_tokens: 900 },
+    // Keep retries intentionally low to avoid blowing through free-tier limits.
     { model: m, messages, temperature: 0.35, max_tokens: 900 },
-    { model: m, messages, max_completion_tokens: 900 },
     { model: m, messages, temperature: 0.35, max_completion_tokens: 900 },
-    { model: m, messages, response_format: { type: 'json_object' }, max_tokens: 900 },
   ];
 
-  const postOnce = async (body) => {
+  const postOnce = async (body, retryCount = 0) => {
     let url = `${endpointUrl}/chat/completions`;
     if (org) {
       try {
@@ -209,6 +275,12 @@ const maybeGenerateRewrite = async ({ articleTitle, articleUrl, highlights, extr
     });
     const text = await res.text();
     if (!res.ok) {
+      if (res.status === 429 && retryCount < 2) {
+        const retryAfter = Number(res.headers.get('retry-after') || '');
+        const waitMs = Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : (retryCount + 1) ** 2 * 2000;
+        await sleep(waitMs);
+        return postOnce(body, retryCount + 1);
+      }
       const snippet = text?.trim()?.slice(0, 1200) || '';
       throw new Error(`AI rewrite failed: HTTP ${res.status}${snippet ? ` · ${snippet}` : ''}`);
     }
@@ -235,7 +307,7 @@ const maybeGenerateRewrite = async ({ articleTitle, articleUrl, highlights, extr
   const content = data?.choices?.[0]?.message?.content;
   if (!content || typeof content !== 'string') return null;
 
-  const parsed = JSON.parse(content.trim().replace(/^```json\s*/i, '').replace(/```$/i, '').trim());
+  const parsed = extractJsonObjectFromText(content);
   return {
     summary: typeof parsed.summary === 'string' ? parsed.summary.trim() : undefined,
     keyPoints: Array.isArray(parsed.keyPoints) ? parsed.keyPoints.map((v) => String(v)) : undefined,
