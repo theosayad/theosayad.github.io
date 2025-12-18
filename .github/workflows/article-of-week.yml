@@ -1,8 +1,8 @@
-name: Update Article of the Week
+name: Update Daily Article
 
 on:
   schedule:
-    - cron: "0 9 * * MON"
+    - cron: "0 9 * * *"
   workflow_dispatch:
     inputs:
       commit_changes:
@@ -10,7 +10,7 @@ on:
         type: boolean
         default: false
       force_regenerate:
-        description: "Force regeneration of this week's lab entry"
+        description: "Force regeneration of today’s lab entry"
         type: boolean
         default: false
       models_model:
@@ -23,7 +23,7 @@ permissions:
   models: read
 
 concurrency:
-  group: "article-of-week"
+  group: "article-of-day"
   cancel-in-progress: false
 
 jobs:
@@ -33,7 +33,7 @@ jobs:
       MODELS_ENDPOINT: ${{ secrets.MODELS_ENDPOINT || 'https://models.github.ai/inference' }}
       MODELS_MODEL: ${{ github.event.inputs.models_model || secrets.MODELS_MODEL || 'openai/gpt-4o-mini' }}
       MODELS_TOKEN: ${{ secrets.MODELS_TOKEN || github.token }}
-      FORCE_LAB_WEEKLY: ${{ github.event.inputs.force_regenerate }}
+      FORCE_LAB_DAILY: ${{ github.event.inputs.force_regenerate }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -51,7 +51,7 @@ jobs:
       - name: Models config check
         run: node -e "console.log('models configured:', Boolean(process.env.MODELS_ENDPOINT && process.env.MODELS_MODEL && process.env.MODELS_TOKEN)); console.log('endpoint set:', Boolean(process.env.MODELS_ENDPOINT)); console.log('model set:', Boolean(process.env.MODELS_MODEL)); console.log('token set:', Boolean(process.env.MODELS_TOKEN));"
 
-      - name: Archive weekly lab entry
+      - name: Archive daily lab entry
         run: node scripts/labWeeklyDigest.mjs
 
       - name: Commit and push if changed
@@ -70,10 +70,10 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/article-of-week.json public/lab/weekly
+          git add public/article-of-day.json public/lab/daily
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "chore: update article of the week"
+          git commit -m "chore: update daily article"
           git push

@@ -3,13 +3,13 @@ import Navbar from './components/Navbar';
 import MarketTape from './components/MarketTape';
 import HomePage from './components/HomePage';
 import LabPage from './components/LabPage';
-import LabWeeklyEntryPage from './components/LabWeeklyEntryPage';
+import LabDailyEntryPage from './components/LabWeeklyEntryPage';
 import { navigate, useAppLocation } from './utils/navigation';
 
 type AppRoute =
   | { name: 'home' }
   | { name: 'lab' }
-  | { name: 'labWeekly'; slug: string }
+  | { name: 'labDaily'; slug: string }
   | { name: 'notFound' };
 
 const App: React.FC = () => {
@@ -43,9 +43,9 @@ const App: React.FC = () => {
     const p = pathname.replace(/\/+$/, '') || '/';
     if (p === '/') return { name: 'home' as const };
     if (p === '/lab') return { name: 'lab' as const };
-    if (p.startsWith('/lab/weekly/')) {
-      const slug = p.slice('/lab/weekly/'.length);
-      return { name: 'labWeekly' as const, slug };
+    if (p.startsWith('/lab/daily/')) {
+      const slug = p.slice('/lab/daily/'.length);
+      return { name: 'labDaily' as const, slug };
     }
     return { name: 'notFound' as const };
   }, [pathname]);
@@ -55,7 +55,7 @@ const App: React.FC = () => {
   useEffect(() => {
     const same =
       route.name === displayRoute.name &&
-      (route.name !== 'labWeekly' || (displayRoute.name === 'labWeekly' && route.slug === displayRoute.slug));
+      (route.name !== 'labDaily' || (displayRoute.name === 'labDaily' && route.slug === displayRoute.slug));
     if (same) return;
 
     setTransitionStage('exit');
@@ -83,7 +83,7 @@ const App: React.FC = () => {
         >
           {displayRoute.name === 'home' ? <HomePage isDark={isDark} /> : null}
           {displayRoute.name === 'lab' ? <LabPage /> : null}
-          {displayRoute.name === 'labWeekly' ? <LabWeeklyEntryPage slug={displayRoute.slug} /> : null}
+          {displayRoute.name === 'labDaily' ? <LabDailyEntryPage slug={displayRoute.slug} /> : null}
           {displayRoute.name === 'notFound' ? (
             <div className="pt-28 pb-16">
               <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

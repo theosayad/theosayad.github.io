@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { ArrowUpRight, Beaker, Calendar } from 'lucide-react';
 import { navigate } from '../utils/navigation';
 
-type LabWeeklyIndexItem = {
+type LabDailyIndexItem = {
   slug: string;
   title: string;
   url: string;
@@ -12,9 +12,9 @@ type LabWeeklyIndexItem = {
   hn?: { id: number; score?: number; comments?: number };
 };
 
-type LabWeeklyIndex = {
+type LabDailyIndex = {
   updatedAt?: string;
-  items: LabWeeklyIndexItem[];
+  items: LabDailyIndexItem[];
 };
 
 const formatDate = (value?: string) => {
@@ -34,16 +34,16 @@ const getHostname = (rawUrl: string) => {
 
 const LabPage: React.FC = () => {
   const [status, setStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle');
-  const [data, setData] = useState<LabWeeklyIndex | null>(null);
+  const [data, setData] = useState<LabDailyIndex | null>(null);
   const homeHref = useMemo(() => `${import.meta.env.BASE_URL}#home`, []);
 
   const load = useCallback(async () => {
     setStatus('loading');
     try {
-      const url = `${import.meta.env.BASE_URL}lab/weekly/index.json`;
+      const url = `${import.meta.env.BASE_URL}lab/daily/index.json`;
       const res = await fetch(url, { headers: { Accept: 'application/json' } });
       if (!res.ok) throw new Error(`Failed to load lab index: HTTP ${res.status}`);
-      const json = (await res.json()) as LabWeeklyIndex;
+      const json = (await res.json()) as LabDailyIndex;
       if (!json?.items || !Array.isArray(json.items)) throw new Error('Invalid lab index payload');
       setData(json);
       setStatus('ready');
@@ -84,31 +84,34 @@ const LabPage: React.FC = () => {
                     <Beaker className="text-brand-700 dark:text-brand-300" size={22} />
                   </div>
                   <div className="min-w-0">
-                    <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
-                      Experimental corner
-                    </div>
-                    <h1 className="text-3xl md:text-4xl font-display font-semibold tracking-tight text-stone-900 dark:text-stone-50">
-                      Lab
-                    </h1>
-                    <p className="mt-2 text-stone-600 dark:text-stone-400 text-sm md:text-base max-w-2xl leading-relaxed">
-                      Currently: a permanent archive of the weekly “Article of the Week”.
-                    </p>
+                  <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                    Experimental corner
                   </div>
+                  <h1 className="text-3xl md:text-4xl font-display font-semibold tracking-tight text-stone-900 dark:text-stone-50">
+                    Lab
+                  </h1>
+                  <p className="mt-2 text-stone-600 dark:text-stone-400 text-sm md:text-base max-w-2xl leading-relaxed">
+                    Currently: a permanent archive of the daily top story + AI brief.
+                  </p>
                 </div>
+              </div>
 
-                <div className="mt-4 flex flex-wrap items-center gap-2 text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
-                  <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15">
-                    Weekly archive
-                  </span>
+              <div className="mt-4 flex flex-wrap items-center gap-2 text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15">
+                  Daily archive
+                </span>
+                <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/35 dark:bg-stone-950/10">
+                  {entryCount} entr{entryCount === 1 ? 'y' : 'ies'}
+                </span>
+                {archiveUpdated ? (
                   <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/35 dark:bg-stone-950/10">
-                    {entryCount} entr{entryCount === 1 ? 'y' : 'ies'}
+                    Updated {archiveUpdated}
                   </span>
-                  {archiveUpdated ? (
-                    <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/35 dark:bg-stone-950/10">
-                      Updated {archiveUpdated}
-                    </span>
-                  ) : null}
-                </div>
+                ) : null}
+                <span className="px-3 py-1.5 rounded-full border border-purple-300/60 dark:border-purple-700/60 bg-purple-500/10 text-purple-800 dark:text-purple-200">
+                  AI-generated reports
+                </span>
+              </div>
               </div>
 
               <a
@@ -134,10 +137,10 @@ const LabPage: React.FC = () => {
                     Archive
                   </div>
                   <h2 className="mt-2 font-display text-2xl md:text-3xl text-stone-900 dark:text-stone-50 tracking-tight">
-                    Weekly picks (permanent)
+                    Daily picks (permanent)
                   </h2>
                   <p className="mt-2 text-stone-600 dark:text-stone-400 leading-relaxed max-w-2xl">
-                    Each week’s pick is saved here so the links and takeaways don’t disappear.
+                    Each day’s pick is saved here so the links and takeaways don’t disappear.
                   </p>
                 </div>
                 <button
@@ -154,7 +157,7 @@ const LabPage: React.FC = () => {
               <div className="mt-7 space-y-4">
                 {status === 'error' ? (
                   <div className="text-stone-600 dark:text-stone-400">
-                    Couldn’t load the archive yet. It will appear after the next weekly update runs.
+                    Couldn’t load the archive yet. It will appear after the next daily update runs.
                   </div>
                 ) : null}
 
@@ -169,7 +172,7 @@ const LabPage: React.FC = () => {
                 {featured ? (
                   <button
                     type="button"
-                    onClick={() => navigate(`/lab/weekly/${featured.slug}`)}
+                    onClick={() => navigate(`/lab/daily/${featured.slug}`)}
                     className="w-full text-left rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-gradient-to-br from-white/70 via-white/55 to-brand-100/40 dark:from-stone-950/25 dark:via-stone-950/15 dark:to-brand-950/20 backdrop-blur-sm p-5 md:p-6 hover:bg-white/75 dark:hover:bg-stone-950/25 transition-colors active:scale-[0.99] duration-150 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
                   >
                     <div className="flex items-start justify-between gap-4">
@@ -180,11 +183,11 @@ const LabPage: React.FC = () => {
                           </span>
                           {featured.selectedAt ? (
                             <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/35 dark:bg-stone-950/10">
-                              Week of {formatDate(featured.selectedAt)}
+                              Picked on {formatDate(featured.selectedAt)}
                             </span>
                           ) : null}
                           <span className="px-3 py-1.5 rounded-full border border-brand-200/60 dark:border-stone-800/60 bg-brand-500/10 text-brand-700 dark:text-brand-300">
-                            {getHostname(featured.url) ?? featured.source ?? 'Weekly pick'}
+                            {getHostname(featured.url) ?? featured.source ?? 'Daily pick'}
                           </span>
                           {featured.hn?.score != null ? (
                             <span className="hidden sm:inline">
@@ -196,7 +199,7 @@ const LabPage: React.FC = () => {
                           {featured.title}
                         </div>
                         <div className="mt-3 text-sm text-stone-600 dark:text-stone-400">
-                          Open this week’s archive entry.
+                          Open today’s archive entry.
                         </div>
                       </div>
                       <ArrowUpRight className="shrink-0 text-stone-400 dark:text-stone-500" size={18} />
@@ -207,7 +210,7 @@ const LabPage: React.FC = () => {
                 {rest.map((item) => {
                   const published = formatDate(item.publishedAt);
                   const picked = formatDate(item.selectedAt);
-                  const host = getHostname(item.url) ?? item.source ?? 'Weekly pick';
+                  const host = getHostname(item.url) ?? item.source ?? 'Daily pick';
                   const meta = [
                     published ? `Published ${published}` : null,
                     item.hn?.score != null ? `${item.hn.score} pts` : null,
@@ -220,13 +223,13 @@ const LabPage: React.FC = () => {
                     <button
                       key={item.slug}
                       type="button"
-                      onClick={() => navigate(`/lab/weekly/${item.slug}`)}
+                    onClick={() => navigate(`/lab/daily/${item.slug}`)}
                       className="w-full text-left rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15 backdrop-blur-sm p-4 md:p-5 hover:bg-white/75 dark:hover:bg-stone-950/25 transition-colors active:scale-[0.99] duration-150 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
                     >
                       <div className="flex items-start justify-between gap-4">
                         <div>
                           <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
-                            {picked ? `Week of ${picked} · ` : ''}
+                            {picked ? `Picked on ${picked} · ` : ''}
                             {host}
                             {meta ? <span className="ml-2 normal-case tracking-normal">· {meta}</span> : null}
                           </div>

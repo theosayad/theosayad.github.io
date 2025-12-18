@@ -2,15 +2,18 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 const ROOT = process.cwd();
-const ARTICLE_FILE = path.resolve(ROOT, 'public', 'article-of-week.json');
-const OUT_DIR = path.resolve(ROOT, 'public', 'lab', 'weekly');
+const ARTICLE_FILE = path.resolve(ROOT, 'public', 'article-of-day.json');
+const OUT_DIR = path.resolve(ROOT, 'public', 'lab', 'daily');
 const INDEX_FILE = path.resolve(OUT_DIR, 'index.json');
 const isTruthyEnv = (value) => {
   const v = String(value ?? '').trim().toLowerCase();
   return v === '1' || v === 'true' || v === 'yes' || v === 'y' || v === 'on';
 };
 
-const FORCE = isTruthyEnv(process.env.FORCE_LAB_WEEKLY) || isTruthyEnv(process.env.FORCE);
+const FORCE =
+  isTruthyEnv(process.env.FORCE_LAB_DAILY) ||
+  isTruthyEnv(process.env.FORCE_LAB_WEEKLY) ||
+  isTruthyEnv(process.env.FORCE);
 
 const decodeHtmlEntities = (input) => {
   return String(input ?? '')
@@ -321,7 +324,7 @@ const main = async () => {
   const article = await readJson(ARTICLE_FILE);
   const storyId = article?.hn?.id;
   if (!Number.isFinite(storyId)) {
-    console.warn('[lab-weekly] missing hn.id in public/article-of-week.json; skipping archive');
+    console.warn('[lab-daily] missing hn.id in public/article-of-day.json; skipping archive');
     return;
   }
 
@@ -341,7 +344,7 @@ const main = async () => {
   const missingNewFields = isSameStory && (!existing?.summary || !Array.isArray(existing?.keyPoints) || !existing?.rewrite);
 
   if (isSameStory && !FORCE && !missingNewFields) {
-    console.log('[lab-weekly] entry already exists for', slug);
+    console.log('[lab-daily] entry already exists for', slug);
     return;
   }
 
@@ -355,7 +358,7 @@ const main = async () => {
     extractedText = extractArticleText(html);
     extractMeta = { ok: Boolean(extractedText), chars: extractedText.length };
   } catch (error) {
-    console.warn('[lab-weekly] article fetch/extract failed, continuing without it', error);
+    console.warn('[lab-daily] article fetch/extract failed, continuing without it', error);
   }
 
   let rewrite = null;
@@ -369,7 +372,7 @@ const main = async () => {
     });
   } catch (error) {
     aiError = error instanceof Error ? error.message : typeof error === 'string' ? error : 'AI rewrite failed';
-    console.warn('[lab-weekly] AI rewrite failed, continuing without it', { message: aiError });
+    console.warn('[lab-daily] AI rewrite failed, continuing without it', { message: aiError });
   }
 
   const entry = {
@@ -434,7 +437,7 @@ const main = async () => {
 
   await writeJson(INDEX_FILE, { updatedAt: new Date().toISOString(), items: nextItems });
 
-  console.log('[lab-weekly] archived', slug);
+  console.log('[lab-daily] archived', slug);
 };
 
 await main();

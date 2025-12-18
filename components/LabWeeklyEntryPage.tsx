@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { ArrowLeft, ArrowUpRight, ExternalLink } from 'lucide-react';
 import { navigate } from '../utils/navigation';
 
-type LabWeeklyEntry = {
+type LabDailyEntry = {
   slug: string;
   generatedAt?: string;
   article: {
@@ -35,18 +35,18 @@ const formatDate = (value?: string) => {
   return dt.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: '2-digit' });
 };
 
-const LabWeeklyEntryPage: React.FC<{ slug: string }> = ({ slug }) => {
+const LabDailyEntryPage: React.FC<{ slug: string }> = ({ slug }) => {
   const [status, setStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle');
-  const [data, setData] = useState<LabWeeklyEntry | null>(null);
+  const [data, setData] = useState<LabDailyEntry | null>(null);
   const readingHref = useMemo(() => `${import.meta.env.BASE_URL}#reading`, []);
 
   const load = useCallback(async () => {
     setStatus('loading');
     try {
-      const url = `${import.meta.env.BASE_URL}lab/weekly/${slug}.json`;
+      const url = `${import.meta.env.BASE_URL}lab/daily/${slug}.json`;
       const res = await fetch(url, { headers: { Accept: 'application/json' } });
       if (!res.ok) throw new Error(`Failed to load entry: HTTP ${res.status}`);
-      const json = (await res.json()) as LabWeeklyEntry;
+      const json = (await res.json()) as LabDailyEntry;
       if (!json?.article?.title || !json?.article?.url) throw new Error('Invalid entry payload');
       setData(json);
       setStatus('ready');
@@ -107,7 +107,7 @@ const LabWeeklyEntryPage: React.FC<{ slug: string }> = ({ slug }) => {
               <>
                 <div className="flex flex-wrap items-center gap-2 text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
                   <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/25">
-                    {data.article.source ?? 'Weekly pick'}
+                    {data.article.source ?? 'Daily pick'}
                   </span>
                   {published ? (
                     <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/35 dark:bg-stone-950/10">
@@ -255,4 +255,4 @@ const LabWeeklyEntryPage: React.FC<{ slug: string }> = ({ slug }) => {
   );
 };
 
-export default LabWeeklyEntryPage;
+export default LabDailyEntryPage;

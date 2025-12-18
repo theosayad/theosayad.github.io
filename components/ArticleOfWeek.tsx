@@ -16,7 +16,7 @@ type ArticleOfWeekData = {
   rationale?: string;
 };
 
-type LabWeeklyEntry = {
+type LabDailyEntry = {
   slug: string;
   summary?: string;
   keyPoints?: string[];
@@ -61,13 +61,13 @@ const ArticleOfWeek: React.FC = () => {
   const [status, setStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle');
   const [data, setData] = useState<ArticleOfWeekData | null>(null);
   const [archiveStatus, setArchiveStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle');
-  const [archive, setArchive] = useState<LabWeeklyEntry | null>(null);
+  const [archive, setArchive] = useState<LabDailyEntry | null>(null);
 
   const load = useCallback(async () => {
     setStatus('loading');
     setArchiveStatus('loading');
     try {
-      const url = `${import.meta.env.BASE_URL}article-of-week.json`;
+      const url = `${import.meta.env.BASE_URL}article-of-day.json`;
       const res = await fetch(url, { headers: { Accept: 'application/json' } });
       if (!res.ok) throw new Error(`Failed to load article: HTTP ${res.status}`);
       const json = (await res.json()) as ArticleOfWeekData;
@@ -77,20 +77,20 @@ const ArticleOfWeek: React.FC = () => {
 
       try {
         const slug = toDateSlug(json.selectedAt);
-        const archiveUrl = `${import.meta.env.BASE_URL}lab/weekly/${slug}.json`;
+        const archiveUrl = `${import.meta.env.BASE_URL}lab/daily/${slug}.json`;
         const archiveRes = await fetch(archiveUrl, { headers: { Accept: 'application/json' } });
         if (!archiveRes.ok) throw new Error(`Failed to load archive: HTTP ${archiveRes.status}`);
-        const entry = (await archiveRes.json()) as LabWeeklyEntry;
+        const entry = (await archiveRes.json()) as LabDailyEntry;
         if (!entry?.slug) throw new Error('Invalid archive payload');
         setArchive(entry);
         setArchiveStatus('ready');
       } catch (error) {
-        console.warn('[article-of-week] archive load failed', error);
+        console.warn('[article-of-day] archive load failed', error);
         setArchive(null);
         setArchiveStatus('error');
       }
     } catch (error) {
-      console.warn('[article-of-week] load failed', error);
+      console.warn('[article-of-day] load failed', error);
       setData(null);
       setArchive(null);
       setStatus('error');
@@ -103,7 +103,7 @@ const ArticleOfWeek: React.FC = () => {
   }, [load]);
 
   const hostname = useMemo(() => (data?.url ? getHostname(data.url) : undefined), [data?.url]);
-  const label = data?.source ?? hostname ?? 'Weekly pick';
+  const label = data?.source ?? hostname ?? 'Daily pick';
   const publishedLabel = useMemo(() => formatDate(data?.publishedAt), [data?.publishedAt]);
   const updatedLabel = useMemo(() => formatDate(data?.selectedAt), [data?.selectedAt]);
   const meta = [
@@ -127,7 +127,7 @@ const ArticleOfWeek: React.FC = () => {
             <div>
               <h2 className="text-2xl md:text-3xl font-display font-semibold tracking-tight text-stone-900 dark:text-stone-50">
                 <span className="relative inline-block">
-                  Article of the Week
+                  Business News
                   <svg
                     aria-hidden="true"
                     viewBox="0 0 120 8"
@@ -146,7 +146,7 @@ const ArticleOfWeek: React.FC = () => {
                 </span>
               </h2>
               <p className="text-stone-500 dark:text-stone-400 mt-3 text-sm md:text-base">
-                Automatically selected every week (free)
+                Daily AI-selected business read (free)
               </p>
             </div>
           </div>
@@ -189,7 +189,7 @@ const ArticleOfWeek: React.FC = () => {
                   <div className="mt-6">
                     {status === 'error' ? (
                       <div className="text-stone-600 dark:text-stone-400">
-                        Couldn’t load this week’s article. Try refresh, or check back later.
+                        Couldn’t load today’s article. Try refresh, or check back later.
                       </div>
                     ) : null}
 
@@ -211,7 +211,7 @@ const ArticleOfWeek: React.FC = () => {
 
                         <p className="mt-4 text-stone-600 dark:text-stone-400 leading-relaxed">
                           {data?.rationale ??
-                            'A weekly, auto-picked finance read to keep the signal high and the noise low.'}
+                            'A daily, auto-picked finance read to keep the signal high and the noise low.'}
                         </p>
 
                         <div className="mt-6 rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15 backdrop-blur-sm p-4 md:p-5">
@@ -220,9 +220,6 @@ const ArticleOfWeek: React.FC = () => {
                               AI brief
                             </div>
                             <div className="flex items-center gap-2 text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
-                              <span className="px-3 py-1.5 rounded-full border border-brand-200/60 dark:border-stone-800/60 bg-brand-500/10 text-brand-700 dark:text-brand-300">
-                                Top-tier AI report
-                              </span>
                               {archive?.meta?.ai?.generated ? (
                                 <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/35 dark:bg-stone-950/10">
                                   Generated
@@ -237,22 +234,16 @@ const ArticleOfWeek: React.FC = () => {
                                 <p className="mt-3 text-stone-700 dark:text-stone-300 leading-relaxed">{archive.summary}</p>
                               ) : null}
                               {archive?.keyPoints?.length ? (
-                                <ul className="mt-4 space-y-2 text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
-                                  {archive.keyPoints.slice(0, 5).map((t, idx) => (
-                                    <li key={idx} className="flex items-start gap-3">
-                                      <span className="mt-2 h-1.5 w-1.5 rounded-full bg-brand-500/60" />
+                                <ul className="mt-3 space-y-1.5 text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
+                                  {archive.keyPoints.slice(0, 3).map((t, idx) => (
+                                    <li key={idx} className="flex items-start gap-2">
+                                      <span className="mt-2 h-1 w-1 rounded-full bg-brand-500/60" />
                                       <span>{t}</span>
                                     </li>
                                   ))}
                                 </ul>
                               ) : null}
-                              {archive?.rewrite?.disclaimer ? (
-                                <div className="mt-4 text-xs text-stone-500 dark:text-stone-500">{archive.rewrite.disclaimer}</div>
-                              ) : (
-                                <div className="mt-4 text-xs text-stone-500 dark:text-stone-500">
-                                  AI-assisted summary + rewrite generated from extracted text and discussion signals (never copied verbatim).
-                                </div>
-                              )}
+
                             </>
                           ) : archiveStatus === 'loading' ? (
                             <div className="mt-4 animate-pulse">
@@ -261,7 +252,7 @@ const ArticleOfWeek: React.FC = () => {
                             </div>
                           ) : (
                             <div className="mt-4 text-sm text-stone-600 dark:text-stone-400">
-                              AI brief isn’t available yet for this week.
+                              AI brief isn’t available yet for today.
                               {archive?.meta?.ai?.rateLimitedUntil ? (
                                 <span className="block mt-1 text-xs text-stone-500 dark:text-stone-500">
                                   Rate limited until {formatDate(archive.meta.ai.rateLimitedUntil)}.
@@ -273,10 +264,10 @@ const ArticleOfWeek: React.FC = () => {
                           {archiveSlug ? (
                             <button
                               type="button"
-                              onClick={() => navigate(`/lab/weekly/${archiveSlug}`)}
-                              className="mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-white/60 dark:bg-stone-900/30 backdrop-blur-sm border border-stone-200/70 dark:border-stone-800/60 px-4 py-2 text-sm font-semibold text-stone-700 dark:text-stone-200 hover:bg-white/80 dark:hover:bg-stone-900/45 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
+                              onClick={() => navigate(`/lab/daily/${archiveSlug}`)}
+                              className="mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-stone-900 text-stone-50 dark:bg-stone-50 dark:text-stone-950 px-4 py-2 text-sm font-semibold hover:bg-stone-800 dark:hover:bg-stone-200 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
                             >
-                              Open full archive <ArrowUpRight size={16} />
+                              Open full article <ArrowUpRight size={16} />
                             </button>
                           ) : null}
                         </div>
@@ -286,13 +277,13 @@ const ArticleOfWeek: React.FC = () => {
                             href={data?.url ?? '#'}
                             target="_blank"
                             rel="noreferrer"
-                            className="inline-flex items-center justify-center gap-2 rounded-full bg-stone-900/95 dark:bg-stone-50 px-5 py-2.5 text-sm font-semibold text-stone-50 dark:text-stone-950 hover:bg-stone-800 dark:hover:bg-stone-200 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60 disabled:opacity-60"
+                            className="inline-flex items-center justify-center gap-2 rounded-full bg-white/60 dark:bg-stone-900/30 backdrop-blur-sm border border-stone-200/70 dark:border-stone-800/60 px-5 py-2.5 text-sm font-semibold text-stone-700 dark:text-stone-200 hover:bg-white/80 dark:hover:bg-stone-900/45 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60 disabled:opacity-60"
                             aria-disabled={!data?.url}
                             onClick={(e) => {
                               if (!data?.url) e.preventDefault();
                             }}
                           >
-                            Read it <ArrowUpRight size={16} />
+                            Original article <ArrowUpRight size={16} />
                           </a>
                           {data?.hn?.id ? (
                             <a
@@ -315,17 +306,35 @@ const ArticleOfWeek: React.FC = () => {
 
           <div className="lg:col-span-2">
             <div className="h-full rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/60 dark:bg-stone-950/15 backdrop-blur-sm p-6 md:p-7 shadow-sm shadow-stone-900/5 dark:shadow-none">
-              <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
-                How it works
+              <div className="flex items-center justify-between gap-3">
+                <div>
+                  <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                    How it works
+                  </div>
+                  <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">
+                    Daily pick → scrape → summarize → AI rewrite → archive.
+                  </p>
+                </div>
+                {updatedLabel ? (
+                  <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/20 text-[11px] font-semibold text-stone-600 dark:text-stone-300">
+                    Updated {updatedLabel}
+                  </span>
+                ) : null}
               </div>
-              <ul className="mt-4 space-y-3 text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
-                <li>Each week, a GitHub Action fetches top Hacker News stories.</li>
-                <li>It filters for finance/markets keywords and recent posts.</li>
-                <li>The winner is committed as `public/article-of-week.json`.</li>
-                <li>Then it archives the week and generates an AI brief + rewrite.</li>
-              </ul>
-              <div className="mt-5 text-xs text-stone-500 dark:text-stone-500">
-                {updatedLabel ? `Last updated: ${updatedLabel}` : null}
+
+              <div className="mt-5 grid grid-cols-1 gap-3">
+                <div className="rounded-xl border border-stone-200/70 dark:border-stone-800/60 bg-white/65 dark:bg-stone-950/20 p-3 text-sm text-stone-700 dark:text-stone-300">
+                  <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-stone-500 dark:text-stone-400">1. Pick</div>
+                  <div className="mt-1">Scan top HN stories daily for market/finance signals + trusted domains.</div>
+                </div>
+                <div className="rounded-xl border border-stone-200/70 dark:border-stone-800/60 bg-white/65 dark:bg-stone-950/20 p-3 text-sm text-stone-700 dark:text-stone-300">
+                  <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-stone-500 dark:text-stone-400">2. Extract</div>
+                  <div className="mt-1">Fetch the article and pull main text with bot-friendly headers.</div>
+                </div>
+                <div className="rounded-xl border border-stone-200/70 dark:border-stone-800/60 bg-white/65 dark:bg-stone-950/20 p-3 text-sm text-stone-700 dark:text-stone-300">
+                  <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-stone-500 dark:text-stone-400">3. AI Brief</div>
+                  <div className="mt-1">Summarize + rewrite with AI, blend in discussion highlights, publish to archive.</div>
+                </div>
               </div>
             </div>
           </div>

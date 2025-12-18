@@ -1,8 +1,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-const OUT_FILE = path.resolve(process.cwd(), 'public', 'article-of-week.json');
-const ONE_WEEK_SECONDS = 7 * 24 * 60 * 60;
+const OUT_FILE = path.resolve(process.cwd(), 'public', 'article-of-day.json');
+const ONE_DAY_SECONDS = 24 * 60 * 60;
 
 const FINANCE_KEYWORDS = [
   'market',
@@ -185,7 +185,7 @@ const main = async () => {
 
   try {
     const now = Math.floor(Date.now() / 1000);
-    const minTime = now - ONE_WEEK_SECONDS;
+    const minTime = now - ONE_DAY_SECONDS;
 
     const algoliaPick = await findViaAlgolia({ minTime });
     if (algoliaPick) {
@@ -200,11 +200,9 @@ const main = async () => {
           score: algoliaPick.points,
           comments: algoliaPick.comments,
         },
-        rationale: `Auto-picked via HN search across finance keywords (${algoliaPick.keywordHits} keyword hit${
-          algoliaPick.keywordHits === 1 ? '' : 's'
-        }).`,
+      rationale: 'Auto-picked via HN search across finance keywords.',
       });
-      console.log('[article-of-week] selected (algolia):', algoliaPick.title);
+      console.log('[article-of-day] selected (algolia):', algoliaPick.title);
       return;
     }
 
@@ -256,17 +254,17 @@ const main = async () => {
             score: Number(anyWithUrl.score ?? 0),
             comments: Number(anyWithUrl.descendants ?? 0),
           },
-          rationale: 'No finance match found this week; showing the top story with a link instead.',
+          rationale: 'No finance match found today; showing the top story with a link instead.',
         });
-        console.log('[article-of-week] selected (fallback topstory):', anyWithUrl.title);
+        console.log('[article-of-day] selected (fallback topstory):', anyWithUrl.title);
         return;
       }
       if (previous) {
-        console.warn('[article-of-week] no candidates found; keeping previous selection');
+        console.warn('[article-of-day] no candidates found; keeping previous selection');
         return;
       }
       await writeOutput({
-        title: 'Top finance read of the week (auto-picked)',
+        title: 'Top finance read of the day (auto-picked)',
         url: 'https://news.ycombinator.com/',
         source: 'Hacker News',
         selectedAt: new Date().toISOString(),
@@ -290,20 +288,18 @@ const main = async () => {
         score: Number(best.item.score ?? 0),
         comments: Number(best.item.descendants ?? 0),
       },
-      rationale: `Auto-picked from top Hacker News stories this week using a finance keyword filter (${best.keywordHits} keyword hit${
-        best.keywordHits === 1 ? '' : 's'
-      }).`,
+      rationale: 'Auto-picked from top Hacker News stories today using a finance keyword filter.',
     });
 
-    console.log('[article-of-week] selected (topstories):', best.item.title);
+    console.log('[article-of-day] selected (topstories):', best.item.title);
   } catch (error) {
-    console.error('[article-of-week] update failed:', error);
+    console.error('[article-of-day] update failed:', error);
     if (previous) {
-      console.warn('[article-of-week] keeping previous selection');
+      console.warn('[article-of-day] keeping previous selection');
       return;
     }
     await writeOutput({
-      title: 'Top finance read of the week (auto-picked)',
+      title: 'Top finance read of the day (auto-picked)',
       url: 'https://news.ycombinator.com/',
       source: 'Hacker News',
       selectedAt: new Date().toISOString(),

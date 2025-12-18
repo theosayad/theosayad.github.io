@@ -12,13 +12,25 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [navHidden, setNavHidden] = useState(false);
   const { pathname } = useAppLocation();
 
   useEffect(() => {
+    let lastY = window.scrollY;
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
+      const current = window.scrollY;
+      if (current < 40) {
+        setNavHidden(false);
+      } else {
+        const delta = current - lastY;
+        if (delta > 6) setNavHidden(true);
+        if (delta < -6) setNavHidden(false);
+      }
+      lastY = current;
     };
     window.addEventListener('scroll', handleScroll);
+    handleScroll();
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -37,7 +49,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
     { name: 'Experience', href: '#experience' },
     { name: 'Education', href: '#education' },
     { name: 'Contact', href: '#contact' },
-    { name: 'Weekly', href: '#reading' },
+    { name: 'Business News', href: '#reading' },
   ];
   const labLink = { name: 'Lab', href: '/lab' };
 
@@ -46,6 +58,10 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
     if (href.startsWith('/')) {
       navigate(href);
       setIsOpen(false);
+      // Smooth scroll to top when routing to Lab.
+      window.setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, 0);
       return;
     }
 
@@ -59,14 +75,18 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
       return;
     }
 
-    // For Weekly, use a slightly smaller offset so it lands lower on the page.
+    // For Daily AI, use a slightly smaller offset so it lands lower on the page.
     scrollToIdWithOffset(targetId, targetId === 'reading' ? 20 : 80);
     setIsOpen(false);
   };
 
   return (
     <>
-      <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/65 dark:bg-stone-950/45 backdrop-blur-xl border-b border-stone-200/70 dark:border-stone-800/60 shadow-sm py-2' : 'bg-transparent py-4'}`}>
+      <nav
+        className={`fixed w-full z-50 transition-all duration-300 ${
+          navHidden && !isOpen ? '-translate-y-full' : 'translate-y-0'
+        } ${scrolled ? 'bg-white/65 dark:bg-stone-950/45 backdrop-blur-xl border-b border-stone-200/70 dark:border-stone-800/60 shadow-sm py-2' : 'bg-transparent py-4'}`}
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-12">
             
@@ -88,7 +108,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
                       <span className="inline-flex items-center gap-2">
                         <span>{link.name}</span>
                         <span className="px-2 py-0.5 rounded-full bg-brand-500/15 text-brand-800 dark:text-brand-200 text-[10px] font-semibold tracking-normal">
-                          AI
+                          AI-powered
                         </span>
                       </span>
                     ) : (
@@ -103,13 +123,13 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
               <a
                 href={labLink.href}
                 onClick={(e) => handleNavClick(e, labLink.href)}
-                className={`inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-semibold transition-colors transition-transform duration-150 active:scale-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60 ${
+                className={`inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-semibold transition-colors transition-transform duration-150 active:scale-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60 ${
                   pathname === '/lab'
-                    ? 'border-brand-300/70 dark:border-brand-800/60 bg-brand-500/10 text-brand-700 dark:text-brand-300'
-                    : 'border-stone-200/70 dark:border-stone-800/60 bg-white/50 dark:bg-stone-950/20 text-stone-700 dark:text-stone-200 hover:bg-white/75 dark:hover:bg-stone-950/30'
+                    ? 'bg-gradient-to-r from-purple-500 via-fuchsia-500 to-amber-400 text-white shadow-[0_10px_30px_-12px_rgba(147,51,234,0.6)]'
+                    : 'border border-purple-300/60 dark:border-purple-600/50 bg-purple-500/10 text-purple-800 dark:text-purple-200 hover:bg-purple-500/20'
                 }`}
               >
-                Lab
+                Lab · AI
               </a>
               <button 
                 onClick={toggleTheme}
@@ -149,7 +169,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
       </nav>
 
       {/* Full Screen Mobile Menu */}
-      <div className={`fixed inset-0 z-40 bg-white/80 dark:bg-stone-950/70 backdrop-blur-2xl transition-transform duration-300 ease-in-out md:hidden flex flex-col justify-center items-center ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+            <div className={`fixed inset-0 z-40 bg-white/80 dark:bg-stone-950/70 backdrop-blur-2xl transition-transform duration-300 ease-in-out md:hidden flex flex-col justify-center items-center ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="flex flex-col space-y-8 text-center">
           {[...navLinks, labLink].map((link) => (
             <a
@@ -159,7 +179,9 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
               className={`text-2xl font-display font-medium transition-colors ${
                 link.href === '#reading'
                   ? 'text-brand-700 dark:text-brand-300 hover:text-brand-800 dark:hover:text-brand-200'
-                  : 'text-stone-900 dark:text-stone-50 hover:text-brand-700 dark:hover:text-brand-300'
+                  : link.href === '/lab'
+                    ? 'text-purple-600 dark:text-purple-300 hover:text-purple-500 dark:hover:text-purple-200'
+                    : 'text-stone-900 dark:text-stone-50 hover:text-brand-700 dark:hover:text-brand-300'
               }`}
             >
               {link.href === '#reading' ? (
