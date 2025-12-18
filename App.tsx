@@ -6,9 +6,17 @@ import LabPage from './components/LabPage';
 import LabWeeklyEntryPage from './components/LabWeeklyEntryPage';
 import { navigate, useAppLocation } from './utils/navigation';
 
+type AppRoute =
+  | { name: 'home' }
+  | { name: 'lab' }
+  | { name: 'labWeekly'; slug: string }
+  | { name: 'notFound' };
+
 const App: React.FC = () => {
   const [isDark, setIsDark] = useState(false);
   const { pathname } = useAppLocation();
+  const [displayRoute, setDisplayRoute] = useState<AppRoute>(() => ({ name: 'home' }));
+  const [transitionStage, setTransitionStage] = useState<'enter' | 'exit'>('enter');
 
   useEffect(() => {
     // Sync state with DOM on mount
@@ -32,7 +40,7 @@ const App: React.FC = () => {
     }
   };
 
-  const route = useMemo(() => {
+  const route = useMemo<AppRoute>(() => {
     const p = pathname.replace(/\/+$/, '') || '/';
     if (p === '/') return { name: 'home' as const };
     if (p === '/lab') return { name: 'lab' as const };
@@ -42,6 +50,24 @@ const App: React.FC = () => {
     }
     return { name: 'notFound' as const };
   }, [pathname]);
+
+  useEffect(() => {
+    setDisplayRoute(route);
+  }, []);
+
+  useEffect(() => {
+    const same =
+      route.name === displayRoute.name &&
+      (route.name !== 'labWeekly' || (displayRoute.name === 'labWeekly' && route.slug === displayRoute.slug));
+    if (same) return;
+
+    setTransitionStage('exit');
+    const t = window.setTimeout(() => {
+      setDisplayRoute(route);
+      setTransitionStage('enter');
+    }, 180);
+    return () => window.clearTimeout(t);
+  }, [route, displayRoute]);
 
   return (
     <div className="min-h-screen pb-12 bg-transparent text-stone-900 dark:text-stone-100 font-sans selection:bg-brand-500 selection:text-white transition-colors duration-300">
@@ -53,33 +79,39 @@ const App: React.FC = () => {
       </a>
       <Navbar isDark={isDark} toggleTheme={toggleTheme} />
       <main id="main">
-        {route.name === 'home' ? <HomePage isDark={isDark} /> : null}
-        {route.name === 'lab' ? <LabPage /> : null}
-        {route.name === 'labWeekly' ? <LabWeeklyEntryPage slug={route.slug} /> : null}
-        {route.name === 'notFound' ? (
-          <div className="pt-28 pb-16">
-            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/60 dark:bg-stone-950/15 backdrop-blur-sm p-6 md:p-8">
-                <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
-                  Not found
+        <div
+          className={`transition-all duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+            transitionStage === 'exit' ? 'opacity-0 translate-y-2' : 'opacity-100 translate-y-0'
+          }`}
+        >
+          {displayRoute.name === 'home' ? <HomePage isDark={isDark} /> : null}
+          {displayRoute.name === 'lab' ? <LabPage /> : null}
+          {displayRoute.name === 'labWeekly' ? <LabWeeklyEntryPage slug={displayRoute.slug} /> : null}
+          {displayRoute.name === 'notFound' ? (
+            <div className="pt-28 pb-16">
+              <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/60 dark:bg-stone-950/15 backdrop-blur-sm p-6 md:p-8">
+                  <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                    Not found
+                  </div>
+                  <div className="mt-2 font-display text-2xl text-stone-900 dark:text-stone-50 tracking-tight">
+                    This page doesn’t exist.
+                  </div>
+                  <a
+                    href={`${import.meta.env.BASE_URL}#home`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      navigate('/#home');
+                    }}
+                    className="mt-5 inline-flex items-center justify-center rounded-full bg-stone-900/95 dark:bg-stone-50 px-5 py-2.5 text-sm font-semibold text-stone-50 dark:text-stone-950 hover:bg-stone-800 dark:hover:bg-stone-200 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
+                  >
+                    Go to Home
+                  </a>
                 </div>
-                <div className="mt-2 font-display text-2xl text-stone-900 dark:text-stone-50 tracking-tight">
-                  This page doesn’t exist.
-                </div>
-                <a
-                  href={`${import.meta.env.BASE_URL}#home`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    navigate('/#home');
-                  }}
-                  className="mt-5 inline-flex items-center justify-center rounded-full bg-stone-900/95 dark:bg-stone-50 px-5 py-2.5 text-sm font-semibold text-stone-50 dark:text-stone-950 hover:bg-stone-800 dark:hover:bg-stone-200 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
-                >
-                  Go to Home
-                </a>
               </div>
             </div>
-          </div>
-        ) : null}
+          ) : null}
+        </div>
       </main>
       <MarketTape />
     </div>

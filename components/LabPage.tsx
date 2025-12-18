@@ -65,7 +65,7 @@ const LabPage: React.FC = () => {
   const entryCount = data?.items?.length ?? 0;
 
   return (
-    <div className="pt-28 pb-16 md:pb-24 relative overflow-hidden animate-fade-in-up">
+    <div className="pt-28 pb-16 md:pb-24 relative overflow-hidden">
       <div className="pointer-events-none absolute inset-x-0 -top-24 h-72">
         <div className="absolute left-1/2 -translate-x-1/2 w-[720px] md:w-[1100px] h-[320px] bg-brand-400/10 dark:bg-brand-400/10 rounded-full blur-[110px] md:blur-[140px]" />
       </div>
