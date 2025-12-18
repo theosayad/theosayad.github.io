@@ -24,7 +24,7 @@ type LabWeeklyEntry = {
   highlights?: Array<{ author?: string; points?: number; text: string }>;
   meta?: {
     extract?: { ok?: boolean; chars?: number };
-    ai?: { enabled?: boolean; generated?: boolean };
+    ai?: { enabled?: boolean; generated?: boolean; error?: string };
   };
 };
 
@@ -171,6 +171,7 @@ const LabWeeklyEntryPage: React.FC<{ slug: string }> = ({ slug }) => {
                         ? `Extract: ${data.meta.extract.ok ? 'ok' : 'failed'}${typeof data.meta.extract.chars === 'number' ? ` (${data.meta.extract.chars} chars)` : ''}`
                         : null}
                       {data.meta?.ai ? `${data.meta?.extract ? ' · ' : ''}AI: ${data.meta.ai.enabled ? 'enabled' : 'disabled'}` : null}
+                      {data.meta?.ai?.error ? ` · ${data.meta.ai.error}` : null}
                     </div>
                   </div>
                 ) : null}

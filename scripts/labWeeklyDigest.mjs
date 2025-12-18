@@ -174,7 +174,7 @@ const maybeGenerateRewrite = async ({ articleTitle, articleUrl, highlights, extr
     },
     body: JSON.stringify({
       model,
-      temperature: 0.6,
+      temperature: 0.35,
       messages: [
         { role: 'system', content: 'You are a careful finance editor.' },
         { role: 'user', content: prompt },
@@ -239,6 +239,7 @@ const main = async () => {
   }
 
   let rewrite = null;
+  let aiError;
   try {
     rewrite = await maybeGenerateRewrite({
       articleTitle: String(article.title),
@@ -247,7 +248,8 @@ const main = async () => {
       extractedText,
     });
   } catch (error) {
-    console.warn('[lab-weekly] AI rewrite failed, continuing without it', error);
+    aiError = error instanceof Error ? error.message : typeof error === 'string' ? error : 'AI rewrite failed';
+    console.warn('[lab-weekly] AI rewrite failed, continuing without it', { message: aiError });
   }
 
   const entry = {
@@ -281,6 +283,7 @@ const main = async () => {
             (process.env.MODELS_TOKEN || process.env.GITHUB_MODELS_TOKEN || process.env.GITHUB_MODELS_API_KEY)
         ),
         generated: Boolean(rewrite?.body || rewrite?.summary || (Array.isArray(rewrite?.keyPoints) && rewrite.keyPoints.length)),
+        error: aiError,
       },
     },
   };

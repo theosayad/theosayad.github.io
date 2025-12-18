@@ -15,6 +15,10 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      MODELS_ENDPOINT: ${{ secrets.MODELS_ENDPOINT }}
+      MODELS_MODEL: ${{ secrets.MODELS_MODEL }}
+      MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,12 +33,11 @@ jobs:
       - name: Generate article JSON
         run: node scripts/articleOfWeek.mjs
 
+      - name: Models config check
+        run: node -e "console.log('models configured:', Boolean(process.env.MODELS_ENDPOINT && process.env.MODELS_MODEL && process.env.MODELS_TOKEN)); console.log('endpoint set:', Boolean(process.env.MODELS_ENDPOINT)); console.log('model set:', Boolean(process.env.MODELS_MODEL)); console.log('token set:', Boolean(process.env.MODELS_TOKEN));"
+
       - name: Archive weekly lab entry
         run: node scripts/labWeeklyDigest.mjs
-        env:
-          MODELS_ENDPOINT: ${{ secrets.MODELS_ENDPOINT }}
-          MODELS_MODEL: ${{ secrets.MODELS_MODEL }}
-          MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
 
       - name: Commit and push if changed
         run: |
