@@ -1,38 +1,38 @@
 {
   "slug": "2025-12-18",
-  "generatedAt": "2025-12-18T03:14:34.391Z",
+  "generatedAt": "2025-12-18T09:35:10.735Z",
   "article": {
-    "title": "US threatens EU digital services market access",
-    "url": "https://twitter.com/ustraderep/status/2000990028835508258",
-    "source": "twitter.com",
-    "selectedAt": "2025-12-18T03:14:28.206Z",
-    "publishedAt": "2025-12-17T08:04:02.000Z",
+    "title": "Here is the 15 sec coding test I used to instantly filter out most applicants",
+    "url": "https://josezarazua.com/im-a-former-cto-here-is-the-15-sec-coding-test-i-used-to-instantly-filter-out-50-of-unqualified-applicants/",
+    "source": "josezarazua.com",
+    "selectedAt": "2025-12-18T09:35:02.820Z",
+    "publishedAt": "2025-12-17T21:40:55.000Z",
     "hn": {
-      "id": 46299377,
-      "score": 110,
-      "comments": 118
+      "id": 46305898,
+      "score": 79,
+      "comments": 96
     }
   },
   "takeaways": [],
-  "summary": "The United States has issued a warning to the European Union regarding potential restrictions on American companies' access to the EU digital services market. This move reflects ongoing tensions over regulatory policies and digital trade barriers between the two economic powers. The dispute centers on differing approaches to digital regulation and market openness.",
+  "summary": "A former CTO developed a rapid 15-second coding test to efficiently filter out unqualified remote developer applicants by leveraging a deceptively simple programming question. This approach significantly reduces recruitment time by eliminating candidates who fail to mentally parse code, highlighting the importance of cognitive coding skills over reliance on external tools. While not flawless, it effectively halves the candidate pool, improving hiring efficiency.",
   "keyPoints": [
-    "US threatens to limit EU companies' access to its digital market in response to EU regulations.",
-    "The conflict highlights growing friction over digital trade and regulatory frameworks.",
-    "Privacy and data protection rules in the EU are a key point of contention.",
-    "US officials emphasize the importance of open digital markets for innovation and growth.",
-    "The dispute could impact major tech firms operating across both regions.",
-    "Ongoing dialogue is expected as both sides seek to balance regulation with market access."
+    "The test involves a simple coding question with a subtle logic trap (a hidden equal sign in a conditional).",
+    "Qualified developers can solve it mentally in seconds, while unqualified ones tend to copy-paste or use tools like ChatGPT.",
+    "Implemented during the author's 10-year tenure as CTO at MonetizeMore.",
+    "The method filters out approximately 50% of applicants instantly, doubling processing capacity.",
+    "Some candidates improved after initial failure, indicating the test can identify growth potential.",
+    "The question’s incorrect versions circulating online caused confusion, showing limitations of publicly shared test content."
   ],
   "rewrite": {
-    "title": "US Warns EU on Digital Market Access",
-    "body": "The United States has recently signaled a firm stance against certain European Union digital regulations, threatening to restrict access for EU companies to the US digital services market. This development underscores the escalating tensions between the two economic giants over how digital markets should be regulated and accessed. At the heart of the disagreement are the EU’s stringent privacy and data protection rules, which many US officials view as barriers to free trade and innovation.\n\nAmerican authorities argue that open digital markets are essential for fostering innovation and economic growth, and they see the EU’s regulatory approach as potentially harmful to these goals. The US threat to limit market access is a strategic move aimed at encouraging the EU to reconsider policies that could disadvantage American tech companies. This standoff could have significant implications for major technology firms that operate extensively across both the US and European markets.\n\nWhile the situation remains fluid, both sides appear committed to ongoing discussions to find a balance between necessary regulation and maintaining open digital trade. The outcome of these talks will likely shape the future landscape of digital services and cross-border data flows between the US and EU, with broad consequences for global digital commerce.",
-    "disclaimer": "AI-assisted rewrite based on extracted text and discussion signals."
+    "title": "15-Second Coding Test Filters Half of Applicants",
+    "body": "Hiring for remote developer roles often results in an overwhelming influx of applications, making candidate screening a major bottleneck. To address this, a former CTO at MonetizeMore devised a quick, 15-second coding challenge designed to instantly weed out unqualified candidates. The test centers on a deceptively simple snippet containing a subtle logical nuance—a hidden equal sign in a conditional statement—that requires applicants to mentally execute the code rather than rely on copy-pasting or external interpreters.\n\nThis approach capitalizes on the premise that skilled programmers can quickly interpret and solve such problems in their heads, while less experienced candidates resort to shortcuts like pasting code into tools such as ChatGPT. By implementing this filter, the CTO was able to immediately eliminate about half of the applicant pool, effectively doubling the efficiency of the recruitment process.\n\nInterestingly, some candidates who initially failed the test reapplied and succeeded, demonstrating that the challenge can also highlight candidates with growth potential. However, the method is not without flaws; incorrect versions of the question posted online led to confusion and false answers, underscoring the risks of publicly sharing test content. Despite these limitations, the test serves as a powerful initial screening tool that significantly reduces hiring time and improves candidate quality for remote developer positions.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
   },
   "highlights": [],
   "meta": {
     "extract": {
       "ok": true,
-      "chars": 170
+      "chars": 1756
     },
     "ai": {
       "enabled": true,
