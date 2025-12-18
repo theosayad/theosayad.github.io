@@ -1,11 +1,11 @@
 {
   "slug": "2025-12-18",
-  "generatedAt": "2025-12-18T01:30:43.203Z",
+  "generatedAt": "2025-12-18T01:43:55.733Z",
   "article": {
     "title": "Pro-democracy HK tycoon Jimmy Lai convicted in national security trial",
     "url": "https://www.bbc.com/news/articles/cp844kjj37vo",
     "source": "bbc.com",
-    "selectedAt": "2025-12-18T01:30:34.307Z",
+    "selectedAt": "2025-12-18T01:43:51.108Z",
     "publishedAt": "2025-12-15T16:36:19.000Z",
     "hn": {
       "id": 46276740,
@@ -14,7 +14,18 @@
     }
   },
   "takeaways": [],
-  "rewrite": null,
+  "summary": "Jimmy Lai, a prominent pro-democracy figure in Hong Kong, was convicted under the National Security Law, prompting widespread condemnation from rights groups and international observers. The verdict is seen as a significant blow to judicial independence in the region.",
+  "keyPoints": [
+    "Jimmy Lai was convicted in a national security trial.",
+    "Hong Kong's chief executive supported the verdict, citing national interests.",
+    "Rights groups labeled the trial a 'judicial farce'.",
+    "Lai's trial raises concerns over judicial independence in Hong Kong.",
+    "The UK government has called for the repeal of the National Security Law."
+  ],
+  "rewrite": {
+    "title": "Jimmy Lai Convicted: A Blow to Hong Kong Democracy",
+    "body": "In a landmark ruling, Jimmy Lai, a leading pro-democracy activist and media tycoon, was convicted under Hong Kong's controversial National Security Law (NSL). The verdict, delivered by Judge Esther Toh, was met with approval from Hong Kong's chief executive, John Lee, who claimed Lai's actions had undermined both national interests and the welfare of Hong Kong residents. Conversely, human rights organizations condemned the trial as a 'cruel judicial farce', highlighting concerns over the erosion of judicial independence in the region.\n\nLai's conviction is viewed as part of a broader crackdown on dissent since the NSL's enactment in 2020, which has led to the imprisonment of numerous activists and protesters. Critics argue that the law, introduced without legislative consultation, has effectively silenced opposition voices in Hong Kong. Despite his conviction, Lai remained composed in court, expressing his commitment to the core values of the city, including freedom of speech and the rule of law.\n\nInternationally, the UK government has reiterated calls for the repeal of the NSL and an end to the prosecution of individuals under its provisions. The case has drawn attention to the increasing influence of Beijing over Hong Kong's legal system, raising alarms about the future of civil liberties in the territory. As Lai's legal team considers their next steps, the implications of this trial will likely resonate beyond Hong Kong, impacting global perceptions of China's governance."
+  },
   "highlights": [],
   "meta": {
     "extract": {
@@ -23,8 +34,7 @@
     },
     "ai": {
       "enabled": true,
-      "generated": false,
-      "error": "Unexpected non-whitespace character after JSON at position 2355"
+      "generated": true
     }
   }
 }
