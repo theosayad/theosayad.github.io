@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { ArrowUpRight, Newspaper, RefreshCw } from 'lucide-react';
+import { navigate } from '../utils/navigation';
 
 type ArticleOfWeekData = {
   title: string;
@@ -13,6 +14,26 @@ type ArticleOfWeekData = {
     comments?: number;
   };
   rationale?: string;
+};
+
+type LabWeeklyEntry = {
+  slug: string;
+  summary?: string;
+  keyPoints?: string[];
+  rewrite?: {
+    title?: string;
+    body?: string;
+    disclaimer?: string;
+  } | null;
+  meta?: {
+    ai?: {
+      enabled?: boolean;
+      generated?: boolean;
+      error?: string;
+      attemptedAt?: string;
+      rateLimitedUntil?: string;
+    };
+  };
 };
 
 const getHostname = (rawUrl: string) => {
@@ -30,12 +51,21 @@ const formatDate = (value?: string) => {
   return dt.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: '2-digit' });
 };
 
+const toDateSlug = (iso?: string) => {
+  const dt = iso ? new Date(iso) : new Date();
+  if (Number.isNaN(dt.getTime())) return new Date().toISOString().slice(0, 10);
+  return dt.toISOString().slice(0, 10);
+};
+
 const ArticleOfWeek: React.FC = () => {
   const [status, setStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle');
   const [data, setData] = useState<ArticleOfWeekData | null>(null);
+  const [archiveStatus, setArchiveStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle');
+  const [archive, setArchive] = useState<LabWeeklyEntry | null>(null);
 
   const load = useCallback(async () => {
     setStatus('loading');
+    setArchiveStatus('loading');
     try {
       const url = `${import.meta.env.BASE_URL}article-of-week.json`;
       const res = await fetch(url, { headers: { Accept: 'application/json' } });
@@ -44,10 +74,27 @@ const ArticleOfWeek: React.FC = () => {
       if (!json?.title || !json?.url) throw new Error('Invalid article payload');
       setData(json);
       setStatus('ready');
+
+      try {
+        const slug = toDateSlug(json.selectedAt);
+        const archiveUrl = `${import.meta.env.BASE_URL}lab/weekly/${slug}.json`;
+        const archiveRes = await fetch(archiveUrl, { headers: { Accept: 'application/json' } });
+        if (!archiveRes.ok) throw new Error(`Failed to load archive: HTTP ${archiveRes.status}`);
+        const entry = (await archiveRes.json()) as LabWeeklyEntry;
+        if (!entry?.slug) throw new Error('Invalid archive payload');
+        setArchive(entry);
+        setArchiveStatus('ready');
+      } catch (error) {
+        console.warn('[article-of-week] archive load failed', error);
+        setArchive(null);
+        setArchiveStatus('error');
+      }
     } catch (error) {
       console.warn('[article-of-week] load failed', error);
       setData(null);
+      setArchive(null);
       setStatus('error');
+      setArchiveStatus('error');
     }
   }, []);
 
@@ -65,6 +112,9 @@ const ArticleOfWeek: React.FC = () => {
   ]
     .filter(Boolean)
     .join(' · ');
+
+  const archiveSlug = useMemo(() => (data?.selectedAt ? toDateSlug(data.selectedAt) : undefined), [data?.selectedAt]);
+  const aiBriefAvailable = Boolean(archive?.summary || (archive?.keyPoints && archive.keyPoints.length) || archive?.rewrite?.body);
 
   return (
     <section id="reading" className="pt-14 pb-16 md:pt-20 md:pb-24 bg-transparent transition-colors duration-300">
@@ -164,6 +214,73 @@ const ArticleOfWeek: React.FC = () => {
                             'A weekly, auto-picked finance read to keep the signal high and the noise low.'}
                         </p>
 
+                        <div className="mt-6 rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15 backdrop-blur-sm p-4 md:p-5">
+                          <div className="flex flex-wrap items-center justify-between gap-3">
+                            <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                              AI brief
+                            </div>
+                            <div className="flex items-center gap-2 text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                              <span className="px-3 py-1.5 rounded-full border border-brand-200/60 dark:border-stone-800/60 bg-brand-500/10 text-brand-700 dark:text-brand-300">
+                                Top-tier AI report
+                              </span>
+                              {archive?.meta?.ai?.generated ? (
+                                <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/35 dark:bg-stone-950/10">
+                                  Generated
+                                </span>
+                              ) : null}
+                            </div>
+                          </div>
+
+                          {aiBriefAvailable ? (
+                            <>
+                              {archive?.summary ? (
+                                <p className="mt-3 text-stone-700 dark:text-stone-300 leading-relaxed">{archive.summary}</p>
+                              ) : null}
+                              {archive?.keyPoints?.length ? (
+                                <ul className="mt-4 space-y-2 text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
+                                  {archive.keyPoints.slice(0, 5).map((t, idx) => (
+                                    <li key={idx} className="flex items-start gap-3">
+                                      <span className="mt-2 h-1.5 w-1.5 rounded-full bg-brand-500/60" />
+                                      <span>{t}</span>
+                                    </li>
+                                  ))}
+                                </ul>
+                              ) : null}
+                              {archive?.rewrite?.disclaimer ? (
+                                <div className="mt-4 text-xs text-stone-500 dark:text-stone-500">{archive.rewrite.disclaimer}</div>
+                              ) : (
+                                <div className="mt-4 text-xs text-stone-500 dark:text-stone-500">
+                                  AI-assisted summary + rewrite generated from extracted text and discussion signals (never copied verbatim).
+                                </div>
+                              )}
+                            </>
+                          ) : archiveStatus === 'loading' ? (
+                            <div className="mt-4 animate-pulse">
+                              <div className="h-4 w-4/5 rounded-md bg-stone-200/50 dark:bg-stone-800/40" />
+                              <div className="mt-2 h-4 w-3/5 rounded-md bg-stone-200/40 dark:bg-stone-800/30" />
+                            </div>
+                          ) : (
+                            <div className="mt-4 text-sm text-stone-600 dark:text-stone-400">
+                              AI brief isn’t available yet for this week.
+                              {archive?.meta?.ai?.rateLimitedUntil ? (
+                                <span className="block mt-1 text-xs text-stone-500 dark:text-stone-500">
+                                  Rate limited until {formatDate(archive.meta.ai.rateLimitedUntil)}.
+                                </span>
+                              ) : null}
+                            </div>
+                          )}
+
+                          {archiveSlug ? (
+                            <button
+                              type="button"
+                              onClick={() => navigate(`/lab/weekly/${archiveSlug}`)}
+                              className="mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-white/60 dark:bg-stone-900/30 backdrop-blur-sm border border-stone-200/70 dark:border-stone-800/60 px-4 py-2 text-sm font-semibold text-stone-700 dark:text-stone-200 hover:bg-white/80 dark:hover:bg-stone-900/45 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
+                            >
+                              Open full archive <ArrowUpRight size={16} />
+                            </button>
+                          ) : null}
+                        </div>
+
                         <div className="mt-6 flex flex-col sm:flex-row gap-3">
                           <a
                             href={data?.url ?? '#'}
@@ -205,6 +322,7 @@ const ArticleOfWeek: React.FC = () => {
                 <li>Each week, a GitHub Action fetches top Hacker News stories.</li>
                 <li>It filters for finance/markets keywords and recent posts.</li>
                 <li>The winner is committed as `public/article-of-week.json`.</li>
+                <li>Then it archives the week and generates an AI brief + rewrite.</li>
               </ul>
               <div className="mt-5 text-xs text-stone-500 dark:text-stone-500">
                 {updatedLabel ? `Last updated: ${updatedLabel}` : null}

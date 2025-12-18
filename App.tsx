@@ -15,7 +15,6 @@ type AppRoute =
 const App: React.FC = () => {
   const [isDark, setIsDark] = useState(false);
   const { pathname } = useAppLocation();
-  const [displayRoute, setDisplayRoute] = useState<AppRoute>(() => ({ name: 'home' }));
   const [transitionStage, setTransitionStage] = useState<'enter' | 'exit'>('enter');
 
   useEffect(() => {
@@ -51,9 +50,7 @@ const App: React.FC = () => {
     return { name: 'notFound' as const };
   }, [pathname]);
 
-  useEffect(() => {
-    setDisplayRoute(route);
-  }, []);
+  const [displayRoute, setDisplayRoute] = useState<AppRoute>(() => route);
 
   useEffect(() => {
     const same =

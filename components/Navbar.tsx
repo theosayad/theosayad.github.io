@@ -36,8 +36,8 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
     { name: 'Ventures', href: '#ventures' },
     { name: 'Experience', href: '#experience' },
     { name: 'Education', href: '#education' },
-    { name: 'Weekly', href: '#reading' },
     { name: 'Contact', href: '#contact' },
+    { name: 'Weekly', href: '#reading' },
   ];
   const labLink = { name: 'Lab', href: '/lab' };
 
@@ -59,7 +59,8 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
       return;
     }
 
-    scrollToIdWithOffset(targetId, 80);
+    // For Weekly, use a slightly smaller offset so it lands lower on the page.
+    scrollToIdWithOffset(targetId, targetId === 'reading' ? 20 : 80);
     setIsOpen(false);
   };
 
@@ -79,11 +80,20 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
                     onClick={(e) => handleNavClick(e, link.href)}
                     className={`px-3 py-2 rounded-md text-sm font-medium transition-colors cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60 ${
                       link.href === '#reading'
-                        ? 'text-brand-700 dark:text-brand-300 hover:text-brand-800 dark:hover:text-brand-200'
+                        ? 'font-semibold text-brand-700 dark:text-brand-300 hover:text-brand-800 dark:hover:text-brand-200 bg-brand-500/10 border border-brand-200/60 dark:border-stone-800/60 rounded-full'
                         : 'text-stone-600 dark:text-stone-300 hover:text-brand-700 dark:hover:text-brand-300'
                     }`}
                   >
-                    {link.name}
+                    {link.href === '#reading' ? (
+                      <span className="inline-flex items-center gap-2">
+                        <span>{link.name}</span>
+                        <span className="px-2 py-0.5 rounded-full bg-brand-500/15 text-brand-800 dark:text-brand-200 text-[10px] font-semibold tracking-normal">
+                          AI
+                        </span>
+                      </span>
+                    ) : (
+                      link.name
+                    )}
                   </a>
                 ))}
               </div>
@@ -152,7 +162,16 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
                   : 'text-stone-900 dark:text-stone-50 hover:text-brand-700 dark:hover:text-brand-300'
               }`}
             >
-              {link.name}
+              {link.href === '#reading' ? (
+                <span className="inline-flex items-center gap-3">
+                  <span>{link.name}</span>
+                  <span className="px-3 py-1 rounded-full bg-brand-500/15 text-brand-800 dark:text-brand-200 text-[11px] font-semibold tracking-normal">
+                    AI
+                  </span>
+                </span>
+              ) : (
+                link.name
+              )}
             </a>
           ))}
           <div className="flex justify-center gap-8 pt-8">

@@ -5,6 +5,10 @@ on:
     - cron: "0 9 * * MON"
   workflow_dispatch:
     inputs:
+      commit_changes:
+        description: "Commit & push generated files (manual runs default off)"
+        type: boolean
+        default: false
       force_regenerate:
         description: "Force regeneration of this week's lab entry"
         type: boolean
@@ -52,6 +56,18 @@ jobs:
 
       - name: Commit and push if changed
         run: |
+          SHOULD_COMMIT="false"
+          if [ "${GITHUB_EVENT_NAME}" = "schedule" ]; then
+            SHOULD_COMMIT="true"
+          fi
+          if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.commit_changes }}" = "true" ]; then
+            SHOULD_COMMIT="true"
+          fi
+          if [ "${SHOULD_COMMIT}" != "true" ]; then
+            echo "Skipping commit/push (manual run; set commit_changes=true to publish)."
+            exit 0
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/article-of-week.json public/lab/weekly
