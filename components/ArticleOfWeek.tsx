@@ -67,7 +67,7 @@ const ArticleOfWeek: React.FC = () => {
     .join(' · ');
 
   return (
-    <section id="reading" className="py-16 md:py-24 bg-transparent transition-colors duration-300">
+    <section id="reading" className="pt-14 pb-16 md:pt-20 md:pb-24 bg-transparent transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
           <div className="flex items-center gap-4">

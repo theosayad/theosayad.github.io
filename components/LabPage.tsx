@@ -62,6 +62,7 @@ const LabPage: React.FC = () => {
   const featured = items[0];
   const rest = items.slice(1);
   const archiveUpdated = useMemo(() => formatDate(data?.updatedAt), [data?.updatedAt]);
+  const entryCount = data?.items?.length ?? 0;
 
   return (
     <div className="pt-28 pb-16 md:pb-24 relative overflow-hidden animate-fade-in-up">
@@ -83,18 +84,24 @@ const LabPage: React.FC = () => {
                     <Beaker className="text-brand-700 dark:text-brand-300" size={22} />
                   </div>
                   <div className="min-w-0">
+                    <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                      Experimental corner
+                    </div>
                     <h1 className="text-3xl md:text-4xl font-display font-semibold tracking-tight text-stone-900 dark:text-stone-50">
                       Lab
                     </h1>
                     <p className="mt-2 text-stone-600 dark:text-stone-400 text-sm md:text-base max-w-2xl leading-relaxed">
-                      Small experiments and weekly reads, archived permanently.
+                      Currently: a permanent archive of the weekly “Article of the Week”.
                     </p>
                   </div>
                 </div>
 
                 <div className="mt-4 flex flex-wrap items-center gap-2 text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
                   <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15">
-                    Playground
+                    Weekly archive
+                  </span>
+                  <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/35 dark:bg-stone-950/10">
+                    {entryCount} entr{entryCount === 1 ? 'y' : 'ies'}
                   </span>
                   {archiveUpdated ? (
                     <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/35 dark:bg-stone-950/10">
@@ -124,13 +131,13 @@ const LabPage: React.FC = () => {
               <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
                 <div>
                   <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
-                    Weekly Archive
+                    Archive
                   </div>
                   <h2 className="mt-2 font-display text-2xl md:text-3xl text-stone-900 dark:text-stone-50 tracking-tight">
-                    Finance article snapshots
+                    Weekly picks (permanent)
                   </h2>
                   <p className="mt-2 text-stone-600 dark:text-stone-400 leading-relaxed max-w-2xl">
-                    Every week, the “Article of the Week” gets archived here so it stays permanent on the site.
+                    Each week’s pick is saved here so the links and takeaways don’t disappear.
                   </p>
                 </div>
                 <button
@@ -171,6 +178,11 @@ const LabPage: React.FC = () => {
                           <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15">
                             Latest
                           </span>
+                          {featured.selectedAt ? (
+                            <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/35 dark:bg-stone-950/10">
+                              Week of {formatDate(featured.selectedAt)}
+                            </span>
+                          ) : null}
                           <span className="px-3 py-1.5 rounded-full border border-brand-200/60 dark:border-stone-800/60 bg-brand-500/10 text-brand-700 dark:text-brand-300">
                             {getHostname(featured.url) ?? featured.source ?? 'Weekly pick'}
                           </span>
@@ -194,6 +206,7 @@ const LabPage: React.FC = () => {
 
                 {rest.map((item) => {
                   const published = formatDate(item.publishedAt);
+                  const picked = formatDate(item.selectedAt);
                   const host = getHostname(item.url) ?? item.source ?? 'Weekly pick';
                   const meta = [
                     published ? `Published ${published}` : null,
@@ -213,6 +226,7 @@ const LabPage: React.FC = () => {
                       <div className="flex items-start justify-between gap-4">
                         <div>
                           <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                            {picked ? `Week of ${picked} · ` : ''}
                             {host}
                             {meta ? <span className="ml-2 normal-case tracking-normal">· {meta}</span> : null}
                           </div>

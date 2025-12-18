@@ -60,8 +60,8 @@ html.dark body::before {
 }
 
 .market-tape__mask {
-  -webkit-mask-image: linear-gradient(to right, transparent, black 7%, black 93%, transparent);
-  mask-image: linear-gradient(to right, transparent, black 7%, black 93%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 
 .market-tape__track {
