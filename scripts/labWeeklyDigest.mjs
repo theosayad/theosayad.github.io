@@ -139,6 +139,9 @@ const maybeGenerateRewrite = async ({ articleTitle, articleUrl, highlights, extr
     process.env.GITHUB_MODELS_API_KEY;
   if (!endpoint || !model || !token) return null;
 
+  const endpointUrl = endpoint.endsWith('/') ? endpoint.slice(0, -1) : endpoint;
+  const org = (process.env.MODELS_ORG || '').trim();
+
   const prompt = [
     'You are rewriting a finance article for a personal site.',
     'Use the extracted article text as the primary source. Use the HN comment highlights as additional color.',
@@ -149,7 +152,7 @@ const maybeGenerateRewrite = async ({ articleTitle, articleUrl, highlights, extr
     `URL: ${articleUrl}`,
     '',
     'Extracted article text (may be partial):',
-    clampText(extractedText, 12000),
+    clampText(extractedText, 9000),
     '',
     'Context: these are top Hacker News comment highlights (may be opinionated):',
     ...highlights.slice(0, 8).map((h, idx) => `${idx + 1}) (${h.points ?? '?'} pts) ${h.author ?? 'anon'}: ${h.text}`),
@@ -164,26 +167,71 @@ const maybeGenerateRewrite = async ({ articleTitle, articleUrl, highlights, extr
     '}',
   ].join('\n');
 
-  const url = endpoint.endsWith('/') ? `${endpoint}chat/completions` : `${endpoint}/chat/completions`;
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${token}`,
-      'api-key': token,
-    },
-    body: JSON.stringify({
-      model,
-      temperature: 0.35,
-      messages: [
-        { role: 'system', content: 'You are a careful finance editor.' },
-        { role: 'user', content: prompt },
-      ],
-    }),
-  });
+  const safeModel = String(model).trim();
+  const candidateModels = [safeModel];
+  const stripped = safeModel.replace(/^openai\//i, '');
+  if (stripped && stripped !== safeModel) candidateModels.push(stripped);
 
-  if (!res.ok) throw new Error(`AI rewrite failed: HTTP ${res.status}`);
-  const data = await res.json();
+  const messages = [
+    { role: 'system', content: 'You are a careful finance editor.' },
+    { role: 'user', content: prompt },
+  ];
+
+  const tryBodies = (m) => [
+    { model: m, messages, temperature: 0.35 },
+    { model: m, messages },
+    { model: m, messages, max_tokens: 900 },
+    { model: m, messages, temperature: 0.35, max_tokens: 900 },
+    { model: m, messages, max_completion_tokens: 900 },
+    { model: m, messages, temperature: 0.35, max_completion_tokens: 900 },
+    { model: m, messages, response_format: { type: 'json_object' }, max_tokens: 900 },
+  ];
+
+  const postOnce = async (body) => {
+    let url = `${endpointUrl}/chat/completions`;
+    if (org) {
+      try {
+        const origin = new URL(endpointUrl).origin;
+        url = `${origin}/orgs/${encodeURIComponent(org)}/inference/chat/completions`;
+      } catch {
+        // keep default
+      }
+    }
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: {
+        Accept: 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28',
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify(body),
+    });
+    const text = await res.text();
+    if (!res.ok) {
+      const snippet = text?.trim()?.slice(0, 1200) || '';
+      throw new Error(`AI rewrite failed: HTTP ${res.status}${snippet ? ` · ${snippet}` : ''}`);
+    }
+    return JSON.parse(text);
+  };
+
+  let data;
+  let lastError;
+  for (const m of candidateModels) {
+    for (const body of tryBodies(m)) {
+      try {
+        data = await postOnce(body);
+        lastError = undefined;
+        break;
+      } catch (err) {
+        lastError = err instanceof Error ? err.message : String(err);
+      }
+    }
+    if (data) break;
+  }
+
+  if (!data) throw new Error(lastError || 'AI rewrite failed');
+
   const content = data?.choices?.[0]?.message?.content;
   if (!content || typeof content !== 'string') return null;
 
