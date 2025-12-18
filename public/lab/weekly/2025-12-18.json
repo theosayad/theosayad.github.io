@@ -1,11 +1,11 @@
 {
   "slug": "2025-12-18",
-  "generatedAt": "2025-12-18T00:52:48.183Z",
+  "generatedAt": "2025-12-18T01:02:13.992Z",
   "article": {
     "title": "Pro-democracy HK tycoon Jimmy Lai convicted in national security trial",
     "url": "https://www.bbc.com/news/articles/cp844kjj37vo",
     "source": "bbc.com",
-    "selectedAt": "2025-12-18T00:52:46.065Z",
+    "selectedAt": "2025-12-18T01:02:12.757Z",
     "publishedAt": "2025-12-15T16:36:19.000Z",
     "hn": {
       "id": 46276740,
@@ -23,7 +23,8 @@
     },
     "ai": {
       "enabled": true,
-      "generated": false
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 400"
     }
   }
 }
