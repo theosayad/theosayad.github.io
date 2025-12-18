@@ -217,9 +217,10 @@ const maybeGenerateRewrite = async ({ articleTitle, articleUrl, highlights, extr
   const org = (process.env.MODELS_ORG || '').trim();
 
   const prompt = [
-    'You are rewriting a finance article for a personal site.',
+    'You are rewriting a finance article.',
     'Use the extracted article text as the primary source. Use the HN comment highlights as additional color.',
     'Do NOT quote the original article verbatim; write an original rewrite.',
+    'Keep it concise but insightful: surface key drivers, figures/dates if present, and implications/second-order effects. Avoid fluff. Include key data and facts.',
     'Output valid JSON only.',
     '',
     `Title: ${articleTitle}`,
@@ -233,10 +234,10 @@ const maybeGenerateRewrite = async ({ articleTitle, articleUrl, highlights, extr
     '',
     'Return JSON with:',
     '{',
-    '  "summary": "2-3 sentence summary",',
-    '  "keyPoints": ["3-6 bullets, concise"],',
+    '  "summary": "2-3 sentences on what happened and why it matters",',
+    '  "keyPoints": ["3-6 bullets, concise, insight-driven; include numbers/dates if present"],',
     '  "rewriteTitle": "short alternate title, max 10 words",',
-    '  "rewriteBody": "2-5 paragraphs, 220-380 words total",',
+    '  "rewriteBody": "2-5 paragraphs, 230-380 words total; concrete, include salient figures and implications",',
     '  "disclaimer": "1 line: AI-assisted rewrite based on extracted text + discussion signals"',
     '}',
   ].join('\n');
