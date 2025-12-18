@@ -1,36 +1,38 @@
 {
   "slug": "2025-12-18",
-  "generatedAt": "2025-12-18T01:43:55.733Z",
+  "generatedAt": "2025-12-18T03:14:34.391Z",
   "article": {
-    "title": "Pro-democracy HK tycoon Jimmy Lai convicted in national security trial",
-    "url": "https://www.bbc.com/news/articles/cp844kjj37vo",
-    "source": "bbc.com",
-    "selectedAt": "2025-12-18T01:43:51.108Z",
-    "publishedAt": "2025-12-15T16:36:19.000Z",
+    "title": "US threatens EU digital services market access",
+    "url": "https://twitter.com/ustraderep/status/2000990028835508258",
+    "source": "twitter.com",
+    "selectedAt": "2025-12-18T03:14:28.206Z",
+    "publishedAt": "2025-12-17T08:04:02.000Z",
     "hn": {
-      "id": 46276740,
-      "score": 436,
-      "comments": 473
+      "id": 46299377,
+      "score": 110,
+      "comments": 118
     }
   },
   "takeaways": [],
-  "summary": "Jimmy Lai, a prominent pro-democracy figure in Hong Kong, was convicted under the National Security Law, prompting widespread condemnation from rights groups and international observers. The verdict is seen as a significant blow to judicial independence in the region.",
+  "summary": "The United States has issued a warning to the European Union regarding potential restrictions on American companies' access to the EU digital services market. This move reflects ongoing tensions over regulatory policies and digital trade barriers between the two economic powers. The dispute centers on differing approaches to digital regulation and market openness.",
   "keyPoints": [
-    "Jimmy Lai was convicted in a national security trial.",
-    "Hong Kong's chief executive supported the verdict, citing national interests.",
-    "Rights groups labeled the trial a 'judicial farce'.",
-    "Lai's trial raises concerns over judicial independence in Hong Kong.",
-    "The UK government has called for the repeal of the National Security Law."
+    "US threatens to limit EU companies' access to its digital market in response to EU regulations.",
+    "The conflict highlights growing friction over digital trade and regulatory frameworks.",
+    "Privacy and data protection rules in the EU are a key point of contention.",
+    "US officials emphasize the importance of open digital markets for innovation and growth.",
+    "The dispute could impact major tech firms operating across both regions.",
+    "Ongoing dialogue is expected as both sides seek to balance regulation with market access."
   ],
   "rewrite": {
-    "title": "Jimmy Lai Convicted: A Blow to Hong Kong Democracy",
-    "body": "In a landmark ruling, Jimmy Lai, a leading pro-democracy activist and media tycoon, was convicted under Hong Kong's controversial National Security Law (NSL). The verdict, delivered by Judge Esther Toh, was met with approval from Hong Kong's chief executive, John Lee, who claimed Lai's actions had undermined both national interests and the welfare of Hong Kong residents. Conversely, human rights organizations condemned the trial as a 'cruel judicial farce', highlighting concerns over the erosion of judicial independence in the region.\n\nLai's conviction is viewed as part of a broader crackdown on dissent since the NSL's enactment in 2020, which has led to the imprisonment of numerous activists and protesters. Critics argue that the law, introduced without legislative consultation, has effectively silenced opposition voices in Hong Kong. Despite his conviction, Lai remained composed in court, expressing his commitment to the core values of the city, including freedom of speech and the rule of law.\n\nInternationally, the UK government has reiterated calls for the repeal of the NSL and an end to the prosecution of individuals under its provisions. The case has drawn attention to the increasing influence of Beijing over Hong Kong's legal system, raising alarms about the future of civil liberties in the territory. As Lai's legal team considers their next steps, the implications of this trial will likely resonate beyond Hong Kong, impacting global perceptions of China's governance."
+    "title": "US Warns EU on Digital Market Access",
+    "body": "The United States has recently signaled a firm stance against certain European Union digital regulations, threatening to restrict access for EU companies to the US digital services market. This development underscores the escalating tensions between the two economic giants over how digital markets should be regulated and accessed. At the heart of the disagreement are the EU’s stringent privacy and data protection rules, which many US officials view as barriers to free trade and innovation.\n\nAmerican authorities argue that open digital markets are essential for fostering innovation and economic growth, and they see the EU’s regulatory approach as potentially harmful to these goals. The US threat to limit market access is a strategic move aimed at encouraging the EU to reconsider policies that could disadvantage American tech companies. This standoff could have significant implications for major technology firms that operate extensively across both the US and European markets.\n\nWhile the situation remains fluid, both sides appear committed to ongoing discussions to find a balance between necessary regulation and maintaining open digital trade. The outcome of these talks will likely shape the future landscape of digital services and cross-border data flows between the US and EU, with broad consequences for global digital commerce.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and discussion signals."
   },
   "highlights": [],
   "meta": {
     "extract": {
       "ok": true,
-      "chars": 4339
+      "chars": 170
     },
     "ai": {
       "enabled": true,
