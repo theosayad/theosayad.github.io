@@ -1,11 +1,11 @@
 {
   "slug": "2025-12-18",
-  "generatedAt": "2025-12-18T01:02:13.992Z",
+  "generatedAt": "2025-12-18T01:22:34.426Z",
   "article": {
     "title": "Pro-democracy HK tycoon Jimmy Lai convicted in national security trial",
     "url": "https://www.bbc.com/news/articles/cp844kjj37vo",
     "source": "bbc.com",
-    "selectedAt": "2025-12-18T01:02:12.757Z",
+    "selectedAt": "2025-12-18T01:22:30.838Z",
     "publishedAt": "2025-12-15T16:36:19.000Z",
     "hn": {
       "id": 46276740,
@@ -24,7 +24,7 @@
     "ai": {
       "enabled": true,
       "generated": false,
-      "error": "AI rewrite failed: HTTP 400"
+      "error": "AI rewrite failed: HTTP 429 · Too many requests. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)."
     }
   }
 }
