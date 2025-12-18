@@ -32,9 +32,9 @@ jobs:
       - name: Archive weekly lab entry
         run: node scripts/labWeeklyDigest.mjs
         env:
-          GITHUB_MODELS_ENDPOINT: ${{ secrets.GITHUB_MODELS_ENDPOINT }}
-          GITHUB_MODELS_MODEL: ${{ secrets.GITHUB_MODELS_MODEL }}
-          GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_MODELS_TOKEN }}
+          MODELS_ENDPOINT: ${{ secrets.MODELS_ENDPOINT }}
+          MODELS_MODEL: ${{ secrets.MODELS_MODEL }}
+          MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
 
       - name: Commit and push if changed
         run: |

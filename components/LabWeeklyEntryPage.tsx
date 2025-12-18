@@ -14,12 +14,18 @@ type LabWeeklyEntry = {
     hn?: { id: number; score?: number; comments?: number };
   };
   takeaways?: string[];
+  summary?: string;
+  keyPoints?: string[];
   rewrite?: {
     title?: string;
     body?: string;
     disclaimer?: string;
   };
   highlights?: Array<{ author?: string; points?: number; text: string }>;
+  meta?: {
+    extract?: { ok?: boolean; chars?: number };
+    ai?: { enabled?: boolean; generated?: boolean };
+  };
 };
 
 const formatDate = (value?: string) => {
@@ -140,6 +146,51 @@ const LabWeeklyEntryPage: React.FC<{ slug: string }> = ({ slug }) => {
                   ) : null}
                 </div>
 
+                {data.summary ? (
+                  <div className="mt-8 rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15 backdrop-blur-sm p-5 md:p-6">
+                    <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                      Summary
+                    </div>
+                    <div className="mt-4 text-stone-600 dark:text-stone-400 leading-relaxed whitespace-pre-wrap">
+                      {data.summary}
+                    </div>
+                  </div>
+                ) : null}
+
+                {!data.summary && !data.keyPoints?.length && !data.rewrite?.body ? (
+                  <div className="mt-8 rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15 backdrop-blur-sm p-5 md:p-6">
+                    <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                      Archive note
+                    </div>
+                    <div className="mt-4 text-stone-600 dark:text-stone-400 leading-relaxed">
+                      This entry doesn’t have a rewrite yet. That usually means the models integration isn’t configured,
+                      or the source site blocked extraction.
+                    </div>
+                    <div className="mt-4 text-xs text-stone-500 dark:text-stone-500">
+                      {data.meta?.extract
+                        ? `Extract: ${data.meta.extract.ok ? 'ok' : 'failed'}${typeof data.meta.extract.chars === 'number' ? ` (${data.meta.extract.chars} chars)` : ''}`
+                        : null}
+                      {data.meta?.ai ? `${data.meta?.extract ? ' · ' : ''}AI: ${data.meta.ai.enabled ? 'enabled' : 'disabled'}` : null}
+                    </div>
+                  </div>
+                ) : null}
+
+                {data.keyPoints?.length ? (
+                  <div className="mt-8">
+                    <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                      Key points
+                    </div>
+                    <ul className="mt-4 space-y-2 text-stone-600 dark:text-stone-400 leading-relaxed">
+                      {data.keyPoints.slice(0, 8).map((t, idx) => (
+                        <li key={idx} className="flex items-start gap-3">
+                          <span className="mt-2 h-1.5 w-1.5 rounded-full bg-brand-500/60" />
+                          <span>{t}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+
                 {data.takeaways?.length ? (
                   <div className="mt-8">
                     <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
@@ -170,6 +221,28 @@ const LabWeeklyEntryPage: React.FC<{ slug: string }> = ({ slug }) => {
                     {data.rewrite.disclaimer ? (
                       <div className="mt-4 text-xs text-stone-500 dark:text-stone-500">{data.rewrite.disclaimer}</div>
                     ) : null}
+                  </div>
+                ) : null}
+
+                {data.highlights?.length ? (
+                  <div className="mt-10">
+                    <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                      Discussion highlights
+                    </div>
+                    <div className="mt-4 space-y-3">
+                      {data.highlights.slice(0, 6).map((h, idx) => (
+                        <div
+                          key={idx}
+                          className="rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15 backdrop-blur-sm p-4 md:p-5"
+                        >
+                          <div className="text-[11px] font-semibold tracking-[0.18em] uppercase text-stone-500 dark:text-stone-400">
+                            {h.author ? h.author : 'Anonymous'}
+                            {typeof h.points === 'number' ? <span className="ml-2 normal-case tracking-normal">· {h.points} pts</span> : null}
+                          </div>
+                          <div className="mt-2 text-stone-600 dark:text-stone-400 leading-relaxed">{h.text}</div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 ) : null}
               </>

@@ -5,6 +5,7 @@ const ROOT = process.cwd();
 const ARTICLE_FILE = path.resolve(ROOT, 'public', 'article-of-week.json');
 const OUT_DIR = path.resolve(ROOT, 'public', 'lab', 'weekly');
 const INDEX_FILE = path.resolve(OUT_DIR, 'index.json');
+const FORCE = process.env.FORCE_LAB_WEEKLY === '1' || process.env.FORCE === '1';
 
 const decodeHtmlEntities = (input) => {
   return String(input ?? '')
@@ -41,6 +42,62 @@ const fetchJson = async (url) => {
   return res.json();
 };
 
+const fetchHtml = async (url) => {
+  const res = await fetch(url, {
+    headers: {
+      Accept: 'text/html,application/xhtml+xml',
+      // Some sites return bot blocks unless a UA is present.
+      'User-Agent':
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36',
+    },
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+  return res.text();
+};
+
+const extractArticleText = (html) => {
+  const cleaned = String(html ?? '')
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<!--[\s\S]*?-->/g, ' ')
+    .replace(/<noscript[\s\S]*?<\/noscript>/gi, ' ')
+    .replace(/\s+/g, ' ');
+
+  const paragraphs = [];
+  const re = /<p\b[^>]*>([\s\S]*?)<\/p>/gi;
+  let match;
+  while ((match = re.exec(cleaned))) {
+    const text = stripHtml(match[1]);
+    if (text && text.length >= 60) paragraphs.push(text);
+  }
+
+  // Fallback: some pages use <article> or generic content blocks.
+  if (!paragraphs.length) {
+    const articleMatch = /<article\b[^>]*>([\s\S]*?)<\/article>/i.exec(cleaned);
+    if (articleMatch?.[1]) {
+      const text = stripHtml(articleMatch[1]);
+      if (text) return text;
+    }
+    return stripHtml(cleaned);
+  }
+
+  // Prefer longer paragraphs, but keep ordering roughly intact.
+  const scored = paragraphs
+    .map((t, idx) => ({ idx, t, score: Math.min(600, t.length) }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 18)
+    .sort((a, b) => a.idx - b.idx)
+    .map((p) => p.t);
+
+  return scored.join('\n\n');
+};
+
+const clampText = (text, maxChars) => {
+  const t = String(text ?? '').trim();
+  if (t.length <= maxChars) return t;
+  return `${t.slice(0, maxChars - 1)}…`;
+};
+
 const getTopComments = async (storyId, limit = 12) => {
   const url = new URL('https://hn.algolia.com/api/v1/search');
   url.searchParams.set('tags', `comment,story_${storyId}`);
@@ -73,26 +130,38 @@ const buildTakeaways = (highlights) => {
   return takeaways.slice(0, 4);
 };
 
-const maybeGenerateRewrite = async ({ articleTitle, articleUrl, highlights }) => {
-  const endpoint = process.env.GITHUB_MODELS_ENDPOINT;
-  const model = process.env.GITHUB_MODELS_MODEL;
-  const token = process.env.GITHUB_MODELS_TOKEN || process.env.GITHUB_MODELS_API_KEY;
+const maybeGenerateRewrite = async ({ articleTitle, articleUrl, highlights, extractedText }) => {
+  const endpoint = process.env.MODELS_ENDPOINT || process.env.GITHUB_MODELS_ENDPOINT;
+  const model = process.env.MODELS_MODEL || process.env.GITHUB_MODELS_MODEL;
+  const token =
+    process.env.MODELS_TOKEN ||
+    process.env.GITHUB_MODELS_TOKEN ||
+    process.env.GITHUB_MODELS_API_KEY;
   if (!endpoint || !model || !token) return null;
 
   const prompt = [
-    'Rewrite the following “article of the week” in a boutique, concise, founder/operator tone.',
-    'Output plain text only (no markdown).',
+    'You are rewriting a finance article for a personal site.',
+    'Use the extracted article text as the primary source. Use the HN comment highlights as additional color.',
+    'Do NOT quote the original article verbatim; write an original rewrite.',
+    'Output valid JSON only.',
     '',
     `Title: ${articleTitle}`,
     `URL: ${articleUrl}`,
     '',
+    'Extracted article text (may be partial):',
+    clampText(extractedText, 12000),
+    '',
     'Context: these are top Hacker News comment highlights (may be opinionated):',
     ...highlights.slice(0, 8).map((h, idx) => `${idx + 1}) (${h.points ?? '?'} pts) ${h.author ?? 'anon'}: ${h.text}`),
     '',
-    'Return:',
-    '1) A short alternate title (max 10 words)',
-    '2) A 2–4 paragraph rewrite (150–260 words total)',
-    '3) A 1-line disclaimer that this is an AI-assisted rewrite based on discussion signals',
+    'Return JSON with:',
+    '{',
+    '  "summary": "2-3 sentence summary",',
+    '  "keyPoints": ["3-6 bullets, concise"],',
+    '  "rewriteTitle": "short alternate title, max 10 words",',
+    '  "rewriteBody": "2-5 paragraphs, 220-380 words total",',
+    '  "disclaimer": "1 line: AI-assisted rewrite based on extracted text + discussion signals"',
+    '}',
   ].join('\n');
 
   const url = endpoint.endsWith('/') ? `${endpoint}chat/completions` : `${endpoint}/chat/completions`;
@@ -118,13 +187,14 @@ const maybeGenerateRewrite = async ({ articleTitle, articleUrl, highlights }) =>
   const content = data?.choices?.[0]?.message?.content;
   if (!content || typeof content !== 'string') return null;
 
-  const lines = content.split('\n').map((l) => l.trimEnd());
-  const nonEmpty = lines.filter((l) => l.trim().length > 0);
-  const title = nonEmpty[0] ?? undefined;
-  const disclaimer = nonEmpty[nonEmpty.length - 1] ?? undefined;
-  const body = nonEmpty.slice(1, Math.max(1, nonEmpty.length - 1)).join('\n');
-
-  return { title, body, disclaimer };
+  const parsed = JSON.parse(content.trim().replace(/^```json\s*/i, '').replace(/```$/i, '').trim());
+  return {
+    summary: typeof parsed.summary === 'string' ? parsed.summary.trim() : undefined,
+    keyPoints: Array.isArray(parsed.keyPoints) ? parsed.keyPoints.map((v) => String(v)) : undefined,
+    title: typeof parsed.rewriteTitle === 'string' ? parsed.rewriteTitle.trim() : undefined,
+    body: typeof parsed.rewriteBody === 'string' ? parsed.rewriteBody.trim() : undefined,
+    disclaimer: typeof parsed.disclaimer === 'string' ? parsed.disclaimer.trim() : undefined,
+  };
 };
 
 const main = async () => {
@@ -140,18 +210,33 @@ const main = async () => {
 
   await fs.mkdir(OUT_DIR, { recursive: true });
 
+  let existing = null;
   try {
-    const existing = await readJson(outFile);
-    if (existing?.article?.hn?.id === storyId) {
-      console.log('[lab-weekly] entry already exists for', slug);
-      return;
-    }
+    existing = await readJson(outFile);
   } catch {
     // ignore
   }
 
+  const isSameStory = existing?.article?.hn?.id === storyId;
+  const missingNewFields = isSameStory && (!existing?.summary || !Array.isArray(existing?.keyPoints) || !existing?.rewrite);
+
+  if (isSameStory && !FORCE && !missingNewFields) {
+    console.log('[lab-weekly] entry already exists for', slug);
+    return;
+  }
+
   const highlights = await getTopComments(storyId, 12);
   const takeaways = buildTakeaways(highlights);
+
+  let extractedText = '';
+  let extractMeta = { ok: false, chars: 0 };
+  try {
+    const html = await fetchHtml(String(article.url));
+    extractedText = extractArticleText(html);
+    extractMeta = { ok: Boolean(extractedText), chars: extractedText.length };
+  } catch (error) {
+    console.warn('[lab-weekly] article fetch/extract failed, continuing without it', error);
+  }
 
   let rewrite = null;
   try {
@@ -159,6 +244,7 @@ const main = async () => {
       articleTitle: String(article.title),
       articleUrl: String(article.url),
       highlights,
+      extractedText,
     });
   } catch (error) {
     console.warn('[lab-weekly] AI rewrite failed, continuing without it', error);
@@ -176,8 +262,27 @@ const main = async () => {
       hn: article.hn,
     },
     takeaways,
-    rewrite,
+    summary: rewrite?.summary,
+    keyPoints: rewrite?.keyPoints,
+    rewrite: rewrite
+      ? {
+          title: rewrite.title,
+          body: rewrite.body,
+          disclaimer: rewrite.disclaimer,
+        }
+      : null,
     highlights,
+    meta: {
+      extract: extractMeta,
+      ai: {
+        enabled: Boolean(
+          (process.env.MODELS_ENDPOINT || process.env.GITHUB_MODELS_ENDPOINT) &&
+            (process.env.MODELS_MODEL || process.env.GITHUB_MODELS_MODEL) &&
+            (process.env.MODELS_TOKEN || process.env.GITHUB_MODELS_TOKEN || process.env.GITHUB_MODELS_API_KEY)
+        ),
+        generated: Boolean(rewrite?.body || rewrite?.summary || (Array.isArray(rewrite?.keyPoints) && rewrite.keyPoints.length)),
+      },
+    },
   };
 
   await writeJson(outFile, entry);
@@ -210,4 +315,3 @@ const main = async () => {
 };
 
 await main();
-
