@@ -1,17 +1,14 @@
-import React, { Suspense, useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Ventures from './components/Ventures';
-import Experience from './components/Experience';
-import Contact from './components/Contact';
-import { Reveal } from './components/Reveal';
 import MarketTape from './components/MarketTape';
-import ArticleOfWeek from './components/ArticleOfWeek';
+import HomePage from './components/HomePage';
+import LabPage from './components/LabPage';
+import LabWeeklyEntryPage from './components/LabWeeklyEntryPage';
+import { navigate, useAppLocation } from './utils/navigation';
 
 const App: React.FC = () => {
   const [isDark, setIsDark] = useState(false);
-  const Skills = useMemo(() => React.lazy(() => import('./components/Skills')), []);
+  const { pathname } = useAppLocation();
 
   useEffect(() => {
     // Sync state with DOM on mount
@@ -35,6 +32,17 @@ const App: React.FC = () => {
     }
   };
 
+  const route = useMemo(() => {
+    const p = pathname.replace(/\/+$/, '') || '/';
+    if (p === '/') return { name: 'home' as const };
+    if (p === '/lab') return { name: 'lab' as const };
+    if (p.startsWith('/lab/weekly/')) {
+      const slug = p.slice('/lab/weekly/'.length);
+      return { name: 'labWeekly' as const, slug };
+    }
+    return { name: 'notFound' as const };
+  }, [pathname]);
+
   return (
     <div className="min-h-screen pb-12 bg-transparent text-stone-900 dark:text-stone-100 font-sans selection:bg-brand-500 selection:text-white transition-colors duration-300">
       <a
@@ -45,34 +53,34 @@ const App: React.FC = () => {
       </a>
       <Navbar isDark={isDark} toggleTheme={toggleTheme} />
       <main id="main">
-        <Hero />
-        <Reveal>
-            <About />
-        </Reveal>
-        <Ventures />
-        <ArticleOfWeek />
-        <Reveal>
-            <Experience />
-        </Reveal>
-        <Reveal>
-            <Suspense
-              fallback={
-                <section id="education" className="py-16 md:py-24 bg-transparent transition-colors duration-300">
-                  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/60 dark:bg-stone-950/15 backdrop-blur-sm p-6 md:p-8">
-                      <div className="h-6 w-40 bg-stone-200/70 dark:bg-stone-800/60 rounded-md" />
-                      <div className="mt-4 h-4 w-72 max-w-full bg-stone-200/50 dark:bg-stone-800/40 rounded-md" />
-                      <div className="mt-6 h-44 bg-stone-200/40 dark:bg-stone-800/30 rounded-xl" />
-                    </div>
-                  </div>
-                </section>
-              }
-            >
-              <Skills isDark={isDark} />
-            </Suspense>
-        </Reveal>
+        {route.name === 'home' ? <HomePage isDark={isDark} /> : null}
+        {route.name === 'lab' ? <LabPage /> : null}
+        {route.name === 'labWeekly' ? <LabWeeklyEntryPage slug={route.slug} /> : null}
+        {route.name === 'notFound' ? (
+          <div className="pt-28 pb-16">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/60 dark:bg-stone-950/15 backdrop-blur-sm p-6 md:p-8">
+                <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                  Not found
+                </div>
+                <div className="mt-2 font-display text-2xl text-stone-900 dark:text-stone-50 tracking-tight">
+                  This page doesn’t exist.
+                </div>
+                <a
+                  href={`${import.meta.env.BASE_URL}#home`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    navigate('/#home');
+                  }}
+                  className="mt-5 inline-flex items-center justify-center rounded-full bg-stone-900/95 dark:bg-stone-50 px-5 py-2.5 text-sm font-semibold text-stone-50 dark:text-stone-950 hover:bg-stone-800 dark:hover:bg-stone-200 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
+                >
+                  Go to Home
+                </a>
+              </div>
+            </div>
+          </div>
+        ) : null}
       </main>
-      <Contact />
       <MarketTape />
     </div>
   );

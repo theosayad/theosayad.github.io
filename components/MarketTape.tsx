@@ -110,6 +110,33 @@ const MarketTape: React.FC = () => {
     >
       <div className="flex items-center gap-3 w-full">
         <div className="flex items-center gap-2 pl-4 sm:pl-6 text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400 shrink-0">
+          <div className="inline-flex items-center gap-1">
+            <button
+              type="button"
+              onClick={() => setIsPlaying((v) => !v)}
+              className={`h-7 w-7 inline-flex items-center justify-center rounded-md border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/20 backdrop-blur-sm transition-colors active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400/60 ${
+                isPlaying
+                  ? 'text-brand-700 dark:text-brand-300'
+                  : 'text-stone-600 dark:text-stone-300 hover:bg-white/80 dark:hover:bg-stone-950/30'
+              }`}
+              aria-label={isPlaying ? 'Pause scrolling' : 'Play scrolling'}
+              title={isPlaying ? 'Pause' : 'Play'}
+            >
+              {isPlaying ? <Pause size={14} /> : <Play size={14} />}
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                setIsPlaying(false);
+                setTrackKey((k) => k + 1);
+              }}
+              className="h-7 w-7 inline-flex items-center justify-center rounded-md border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/20 backdrop-blur-sm text-stone-600 dark:text-stone-300 hover:bg-white/80 dark:hover:bg-stone-950/30 transition-colors active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400/60"
+              aria-label="Stop and reset scrolling"
+              title="Stop"
+            >
+              <Square size={14} />
+            </button>
+          </div>
           <span>Markets</span>
           <span
             className="text-stone-400/70 dark:text-stone-500/70"
@@ -119,41 +146,10 @@ const MarketTape: React.FC = () => {
           </span>
         </div>
 
-        <div className="market-tape__mask flex-1 min-w-0 overflow-hidden py-2">
+        <div className="market-tape__mask flex-1 min-w-0 overflow-hidden py-2 pr-4 sm:pr-6">
           <div key={trackKey} className="market-tape__track flex w-max items-center">
             <TapeRow items={items} />
             <TapeRow items={items} />
-          </div>
-        </div>
-
-        <div className="pr-3 sm:pr-6 shrink-0">
-          <div className="inline-flex items-center rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/60 dark:bg-stone-950/20 backdrop-blur-sm shadow-sm shadow-stone-900/5 dark:shadow-none overflow-hidden">
-            <button
-              type="button"
-              onClick={() => setIsPlaying((v) => !v)}
-              className={`h-8 w-9 sm:w-10 inline-flex items-center justify-center transition-colors active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400/60 ${
-                isPlaying
-                  ? 'text-brand-700 dark:text-brand-300 bg-brand-400/10 dark:bg-brand-400/10'
-                  : 'text-stone-600 dark:text-stone-300 hover:bg-white/80 dark:hover:bg-stone-950/30'
-              }`}
-              aria-label={isPlaying ? 'Pause scrolling' : 'Play scrolling'}
-              title={isPlaying ? 'Pause' : 'Play'}
-            >
-              {isPlaying ? <Pause size={15} /> : <Play size={15} />}
-            </button>
-            <div className="h-6 w-px bg-stone-200/70 dark:bg-stone-800/60" aria-hidden="true" />
-            <button
-              type="button"
-              onClick={() => {
-                setIsPlaying(false);
-                setTrackKey((k) => k + 1);
-              }}
-              className="h-8 w-9 sm:w-10 inline-flex items-center justify-center text-stone-600 dark:text-stone-300 hover:bg-white/80 dark:hover:bg-stone-950/30 transition-colors active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-400/60"
-              aria-label="Stop and reset scrolling"
-              title="Stop"
-            >
-              <Square size={15} />
-            </button>
           </div>
         </div>
       </div>

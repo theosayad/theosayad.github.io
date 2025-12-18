@@ -29,15 +29,21 @@ jobs:
       - name: Generate article JSON
         run: node scripts/articleOfWeek.mjs
 
+      - name: Archive weekly lab entry
+        run: node scripts/labWeeklyDigest.mjs
+        env:
+          GITHUB_MODELS_ENDPOINT: ${{ secrets.GITHUB_MODELS_ENDPOINT }}
+          GITHUB_MODELS_MODEL: ${{ secrets.GITHUB_MODELS_MODEL }}
+          GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_MODELS_TOKEN }}
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/article-of-week.json
+          git add public/article-of-week.json public/lab/weekly
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
           git commit -m "chore: update article of the week"
           git push
-

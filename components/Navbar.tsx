@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Linkedin, Instagram, Sun, Moon } from 'lucide-react';
 import { SOCIAL_LINKS } from '../constants';
+import { navigate, useAppLocation } from '../utils/navigation';
+import { scrollToIdWithOffset } from '../utils/scroll';
 
 interface NavbarProps {
   isDark: boolean;
@@ -10,6 +12,7 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const { pathname } = useAppLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,30 +33,34 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
 
   const navLinks = [
     { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
     { name: 'Ventures', href: '#ventures' },
-    { name: 'Reading', href: '#reading' },
     { name: 'Experience', href: '#experience' },
     { name: 'Education', href: '#education' },
+    { name: 'Weekly', href: '#reading' },
     { name: 'Contact', href: '#contact' },
   ];
+  const labLink = { name: 'Lab', href: '/lab' };
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
-    const targetId = href.replace('#', '');
-    const element = document.getElementById(targetId);
-    
-    if (element) {
-      const headerOffset = 80;
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.scrollY - headerOffset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
+    if (href.startsWith('/')) {
+      navigate(href);
       setIsOpen(false);
+      return;
     }
+
+    if (!href.startsWith('#')) return;
+    const targetId = href.slice(1);
+    if (!targetId) return;
+
+    if (pathname !== '/') {
+      navigate(`/${href}`);
+      setIsOpen(false);
+      return;
+    }
+
+    scrollToIdWithOffset(targetId, 80);
+    setIsOpen(false);
   };
 
   return (
@@ -64,13 +71,17 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
             
             {/* Desktop Menu */}
             <div className="hidden md:block">
-              <div className="flex items-baseline space-x-8">
+              <div className="flex items-baseline space-x-6">
                 {navLinks.map((link) => (
                   <a
                     key={link.name}
                     href={link.href}
                     onClick={(e) => handleNavClick(e, link.href)}
-                    className="text-stone-600 dark:text-stone-300 hover:text-brand-700 dark:hover:text-brand-300 px-3 py-2 rounded-md text-sm font-medium transition-colors cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
+                    className={`px-3 py-2 rounded-md text-sm font-medium transition-colors cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60 ${
+                      link.href === '#reading'
+                        ? 'text-brand-700 dark:text-brand-300 hover:text-brand-800 dark:hover:text-brand-200'
+                        : 'text-stone-600 dark:text-stone-300 hover:text-brand-700 dark:hover:text-brand-300'
+                    }`}
                   >
                     {link.name}
                   </a>
@@ -79,6 +90,17 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
             </div>
 
             <div className="hidden md:flex items-center space-x-4">
+              <a
+                href={labLink.href}
+                onClick={(e) => handleNavClick(e, labLink.href)}
+                className={`inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-semibold transition-colors transition-transform duration-150 active:scale-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60 ${
+                  pathname === '/lab'
+                    ? 'border-brand-300/70 dark:border-brand-800/60 bg-brand-500/10 text-brand-700 dark:text-brand-300'
+                    : 'border-stone-200/70 dark:border-stone-800/60 bg-white/50 dark:bg-stone-950/20 text-stone-700 dark:text-stone-200 hover:bg-white/75 dark:hover:bg-stone-950/30'
+                }`}
+              >
+                Lab
+              </a>
               <button 
                 onClick={toggleTheme}
                 className="p-2 rounded-full text-stone-600 dark:text-stone-400 hover:bg-stone-100/70 dark:hover:bg-stone-800/40 transition-colors focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
@@ -119,12 +141,16 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
       {/* Full Screen Mobile Menu */}
       <div className={`fixed inset-0 z-40 bg-white/80 dark:bg-stone-950/70 backdrop-blur-2xl transition-transform duration-300 ease-in-out md:hidden flex flex-col justify-center items-center ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="flex flex-col space-y-8 text-center">
-          {navLinks.map((link) => (
+          {[...navLinks, labLink].map((link) => (
             <a
               key={link.name}
               href={link.href}
               onClick={(e) => handleNavClick(e, link.href)}
-              className="text-2xl font-display font-medium text-stone-900 dark:text-stone-50 hover:text-brand-700 dark:hover:text-brand-300 transition-colors"
+              className={`text-2xl font-display font-medium transition-colors ${
+                link.href === '#reading'
+                  ? 'text-brand-700 dark:text-brand-300 hover:text-brand-800 dark:hover:text-brand-200'
+                  : 'text-stone-900 dark:text-stone-50 hover:text-brand-700 dark:hover:text-brand-300'
+              }`}
             >
               {link.name}
             </a>

@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "article:week": "node scripts/articleOfWeek.mjs"
+    "article:week": "node scripts/articleOfWeek.mjs",
+    "lab:week": "node scripts/labWeeklyDigest.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",
