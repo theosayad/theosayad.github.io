@@ -75,8 +75,8 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
       return;
     }
 
-    // For Daily AI, use a slightly smaller offset so it lands lower on the page.
-    scrollToIdWithOffset(targetId, targetId === 'reading' ? 20 : 80);
+    // For Business News, nudge further down the page.
+    scrollToIdWithOffset(targetId, targetId === 'reading' ? -40 : 80);
     setIsOpen(false);
   };
 
