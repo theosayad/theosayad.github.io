@@ -1,0 +1,42 @@
+{
+  "slug": "2025-12-20",
+  "generatedAt": "2025-12-20T09:27:36.650Z",
+  "article": {
+    "title": "AI's Unpaid Debt: How LLM Scrapers Destroy the Social Contract of Open Source",
+    "url": "https://www.quippd.com/writing/2025/12/17/AIs-unpaid-debt-how-llm-scrapers-destroy-the-social-contract-of-open-source.html",
+    "source": "quippd.com",
+    "selectedAt": "2025-12-20T09:27:29.583Z",
+    "publishedAt": "2025-12-19T19:37:32.000Z",
+    "hn": {
+      "id": 46329940,
+      "score": 56,
+      "comments": 15
+    }
+  },
+  "takeaways": [],
+  "summary": "Major AI companies have extensively scraped open source and freely shared online content to train large language models (LLMs), undermining the foundational social contract of open source communities. This practice strips away copyright provenance, effectively pirating contributions made under copyleft licenses and threatening the sustainability of free culture ecosystems.",
+  "keyPoints": [
+    "Open source software and content rely on licenses that grant shared rights, enabling collaborative improvement and widespread adoption.",
+    "A Harvard study estimates the economic value of open source at $8.8 trillion, highlighting its critical role in global tech competition.",
+    "Copyleft licenses ensure derivative works remain open, preserving community contributions and reciprocity.",
+    "AI training datasets indiscriminately ingest copyleft and proprietary content, then output derivative works devoid of original licensing or attribution.",
+    "This process converts copyrighted contributions into effectively copyright-free outputs, breaking the open source social contract and devaluing voluntary community labor.",
+    "The erosion of provenance threatens legal frameworks like the GNU GPL and risks exploiting contributors motivated by 'vocational awe'—a belief in serving the greater good without compensation."
+  ],
+  "rewrite": {
+    "title": "AI Training Undermines Open Source Social Contract",
+    "body": "Open source software and freely shared online content have long thrived on a social contract that balances copyright ownership with communal rights, facilitated by licenses such as copyleft. These licenses ensure that improvements and derivatives remain open and attributed, fueling innovation and competition. According to a Harvard study, open source contributes an estimated $8.8 trillion in economic value, underscoring its vital role in challenging large tech incumbents and enabling ecosystems like Linux and Android.\n\nHowever, the rise of large language models (LLMs) trained by major AI companies has disrupted this balance. These models ingest vast datasets scraped from the internet, including copyleft-licensed code, creative works, and user-generated content. Instead of respecting the original licenses, LLMs strip away provenance and licensing information, effectively transforming protected works into unlicensed, copyright-free outputs. This practice amounts to large-scale piracy of the commons, undermining the reciprocal nature of open source contributions.\n\nThe consequences extend beyond legal concerns. Many contributors share their work motivated by \"vocational awe,\" a commitment to the greater good rather than financial reward. When AI models appropriate their efforts without acknowledgment or compensation, it not only devalues their labor but risks eroding the goodwill that sustains open communities. Moreover, this threatens the enforceability of copyleft licenses like the GNU GPL, which rely on preserving openness through derivative works.\n\nAs AI companies leverage the wealth and compute power derived from open source ecosystems, the failure to fairly compensate or credit original creators could stifle future collaboration and innovation. Without addressing this unpaid debt, the foundational social contract that enabled open source to flourish may be irrevocably damaged.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4719
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
