@@ -1,0 +1,42 @@
+{
+  "slug": "2025-12-21",
+  "generatedAt": "2025-12-21T09:28:18.398Z",
+  "article": {
+    "title": "School security AI flagged clarinet as a gun. Exec says it wasn't an error",
+    "url": "https://arstechnica.com/tech-policy/2025/12/florida-schools-plan-to-vastly-expand-use-of-ai-that-mistook-clarinet-for-gun/",
+    "source": "arstechnica.com",
+    "selectedAt": "2025-12-21T09:28:11.065Z",
+    "publishedAt": "2025-12-20T15:15:25.000Z",
+    "hn": {
+      "id": 46336760,
+      "score": 39,
+      "comments": 29
+    }
+  },
+  "takeaways": [],
+  "summary": "An AI security system at a Florida middle school mistakenly identified a student holding a clarinet as carrying a firearm, triggering a police response. Despite the false alarm, the AI vendor and school defended the alert as appropriate, highlighting ongoing concerns about the reliability and consequences of AI-based gun detection in schools.",
+  "keyPoints": [
+    "ZeroEyes AI flagged a clarinet held like a rifle at Lawton Chiles Middle School, prompting police to respond before confirming no threat.",
+    "The AI company insists the alert was correct under a 'better safe than sorry' policy, blaming the student’s posture rather than the system’s accuracy.",
+    "Seminole County Public Schools plans to expand ZeroEyes coverage with 850 new cameras and $500,000 funding, despite limited transparency on past detections.",
+    "ZeroEyes claims over 1,000 weapons detected in three years and a 300% revenue increase from 2023 to 2024, but critics question false positive rates and efficacy.",
+    "Experts warn false alarms risk student stress, police fatigue, and resource diversion, with some calling such AI tools 'security theater' lacking proven impact on school shootings.",
+    "Response delays remain a critical issue, as rapid police intervention is often impossible even when AI flags real threats."
+  ],
+  "rewrite": {
+    "title": "AI Mistakes Clarinet for Gun in School Security Alert",
+    "body": "At Lawton Chiles Middle School in Florida, an AI-powered security system called ZeroEyes misidentified a student holding a clarinet as carrying a rifle, triggering a rapid police response. The student, dressed for a holiday event and holding the instrument in a manner resembling a firearm, was found unharmed, but the incident underscores challenges with AI gun detection technology. Despite the false alarm, ZeroEyes and school officials defended the alert, emphasizing a cautious approach that prioritizes safety over false negatives.\n\nZeroEyes, widely adopted in 48 states, integrates AI into security cameras to detect guns with claims of identifying even small weapon parts. The company reports over 1,000 weapon detections in three years and substantial revenue growth, yet it remains opaque about false positive rates. Seminole County Public Schools, where the incident occurred, is seeking to expand its ZeroEyes deployment by adding approximately 850 cameras with a $500,000 budget, reflecting a broader trend of investing heavily in AI security despite ongoing debates about effectiveness.\n\nCritics highlight that false positives, such as confusing shadows or harmless objects for weapons, can cause undue stress for students and strain law enforcement resources. Incidents nationwide have included mistaken lockdowns and arrests based on AI alerts. Experts caution that while AI can flag potential threats quickly, police response times often lag, limiting the technology’s ability to prevent fast-moving attacks. Some school safety consultants dismiss these systems as 'security theater,' arguing funds might be better spent on proven mental health and safety programs.\n\nThe Florida case illustrates the tension between AI’s promise to enhance school security and the real-world risks of overreliance on imperfect technology. As schools continue to adopt and expand AI surveillance, transparency about system performance and careful consideration of second-order effects on students and staff remain critical.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 8628
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
