@@ -1,0 +1,42 @@
+{
+  "slug": "2025-12-22",
+  "generatedAt": "2025-12-22T09:36:58.089Z",
+  "article": {
+    "title": "Get an AI code review in 10 seconds",
+    "url": "https://oldmanrahul.com/2025/12/19/ai-code-review-trick/",
+    "source": "oldmanrahul.com",
+    "selectedAt": "2025-12-22T09:36:49.647Z",
+    "publishedAt": "2025-12-21T17:21:05.000Z",
+    "hn": {
+      "id": 46346391,
+      "score": 121,
+      "comments": 60
+    }
+  },
+  "takeaways": [],
+  "summary": "A simple method enables developers to perform rapid AI-assisted code reviews by appending '.diff' to pull request URLs and inputting the result into large language models (LLMs). This approach accelerates initial code quality checks, helping catch common mistakes and edge cases before formal peer reviews, thereby improving review efficiency and reducing iteration cycles.",
+  "keyPoints": [
+    "Appending '.diff' to any pull request URL generates a diff view suitable for LLM input.",
+    "No need for specialized tools like Copilot Enterprise or browser extensions.",
+    "AI reviews serve as a preliminary filter, not a substitute for human peer review.",
+    "This process helps identify obvious bugs and missed edge cases early.",
+    "Using AI in this way can shorten development cycle times and reduce reviewer workload.",
+    "Encourages cleaner code submissions and more productive human reviews."
+  ],
+  "rewrite": {
+    "title": "Quick AI-Assisted Code Reviews via PR Diff URLs",
+    "body": "Developers can now leverage large language models (LLMs) to perform swift, preliminary code reviews by simply appending '.diff' to the end of any pull request (PR) URL and feeding the resulting diff into an LLM. This straightforward technique requires no additional software, such as Copilot Enterprise or browser extensions, making it accessible and easy to integrate into existing workflows.\n\nWhile this AI-driven review is not intended to replace thorough peer reviews, it provides a valuable first pass that catches obvious errors and suggests overlooked edge cases. By addressing these issues early, developers can submit cleaner code, which in turn streamlines the formal review process and reduces back-and-forth iterations.\n\nThe implications are significant: teams can expect shorter cycle times and less reviewer fatigue, as the AI handles routine checks and flags potential problems upfront. This approach fosters a more efficient development pipeline, encouraging higher code quality and more focused human reviews. Ultimately, incorporating AI in this manner acts as a productivity booster and a courtesy to teammates by minimizing trivial review comments.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 508
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
