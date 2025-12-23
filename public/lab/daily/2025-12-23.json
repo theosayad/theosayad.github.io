@@ -1,0 +1,42 @@
+{
+  "slug": "2025-12-23",
+  "generatedAt": "2025-12-23T09:33:41.958Z",
+  "article": {
+    "title": "Satellites reveal heat leaking from largest US cryptocurrency mining center",
+    "url": "https://www.space.com/space-exploration/satellites/satellites-reveal-heat-leaking-from-largest-us-cryptocurrency-mining-center",
+    "source": "space.com",
+    "selectedAt": "2025-12-23T09:33:33.979Z",
+    "publishedAt": "2025-12-22T23:23:12.000Z",
+    "hn": {
+      "id": 46360465,
+      "score": 128,
+      "comments": 122
+    }
+  },
+  "takeaways": [],
+  "summary": "A heat-seeking satellite captured detailed thermal images of the largest US Bitcoin mining facility in Rockdale, Texas, revealing significant heat leakage and operational activity. This data provides new transparency into the environmental and energy impacts of cryptocurrency mining, aiding regulators and grid operators in managing its growing footprint.",
+  "keyPoints": [
+    "The Rockdale Bitcoin mine, operated by Riot Platforms, consumes about 700 megawatts, equivalent to powering 300,000 homes.",
+    "SatVu’s HotSat-1 satellite captured thermal images with 11.5-foot resolution, showing heat emissions from rooftop chillers, transformers, and electrical yards.",
+    "Thermal data offers real-time, objective insights into data center operations, surpassing traditional delayed reporting methods.",
+    "Global investment in data centers is projected to exceed $7 billion by 2030, with data centers contributing roughly 0.5% of global CO2 emissions.",
+    "Bitcoin transactions are highly carbon-intensive, with one transaction emitting as much CO2 as a 1,600-mile car drive.",
+    "SatVu plans to launch HotSat-2 and HotSat-3 satellites to continue monitoring thermal footprints of industrial sites."
+  ],
+  "rewrite": {
+    "title": "Satellite Images Expose Heat Waste at Major Crypto Mine",
+    "body": "A pioneering satellite image has unveiled the substantial heat leakage from one of the largest Bitcoin mining operations in the United States, located in Rockdale, Texas. This facility, managed by Riot Platforms, draws approximately 700 megawatts of power—comparable to the electricity consumption of 300,000 households—highlighting the immense energy demands of cryptocurrency mining. The thermal image, captured by SatVu’s HotSat-1 satellite with an unprecedented resolution of 11.5 feet, distinctly maps heat emissions from critical infrastructure such as rooftop chillers, transformers, and electrical yards, providing a real-time snapshot of the facility’s operational intensity.\n\nThis breakthrough in thermal imaging offers regulators and grid operators a powerful tool to objectively monitor the environmental footprint and energy consumption of rapidly expanding data centers. Unlike traditional reporting, which often lags behind actual operations, SatVu’s thermal data delivers immediate, evidence-based insights into how these centers impact local power grids and the environment. Given that global investments in data centers are expected to surpass $7 billion by 2030 and that data centers contribute about 0.5% of global carbon emissions, such monitoring is increasingly critical.\n\nBitcoin mining, in particular, is noted for its high carbon intensity; recent studies estimate that a single Bitcoin transaction produces carbon emissions comparable to driving a gasoline car for 1,600 miles. SatVu’s ongoing satellite program, with HotSat-2 and HotSat-3 launches planned, aims to expand this thermal surveillance, potentially transforming how industrial energy use and environmental impacts are tracked from space. This technological advancement could play a key role in balancing the growth of digital infrastructure with sustainability goals.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4014
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2025-12-22T09:36:58.090Z",
+  "updatedAt": "2025-12-23T09:33:41.960Z",
   "items": [
+    {
+      "slug": "2025-12-23",
+      "title": "Satellites reveal heat leaking from largest US cryptocurrency mining center",
+      "url": "https://www.space.com/space-exploration/satellites/satellites-reveal-heat-leaking-from-largest-us-cryptocurrency-mining-center",
+      "source": "space.com",
+      "selectedAt": "2025-12-23T09:33:33.979Z",
+      "publishedAt": "2025-12-22T23:23:12.000Z",
+      "hn": {
+        "id": 46360465,
+        "score": 128,
+        "comments": 122
+      }
+    },
     {
       "slug": "2025-12-22",
       "title": "Get an AI code review in 10 seconds",
