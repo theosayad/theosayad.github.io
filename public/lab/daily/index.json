@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2025-12-24T09:31:55.464Z",
+  "updatedAt": "2025-12-25T09:31:06.182Z",
   "items": [
+    {
+      "slug": "2025-12-25",
+      "title": "AMD entered the CPU market with reverse-engineered Intel 8080 clone 50 years ago",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-first-entered-the-cpu-market-with-reverse-engineered-intel-8080-clone-50-years-ago-the-am9080-cost-50-cents-apiece-to-make-but-sold-for-usd700",
+      "source": "tomshardware.com",
+      "selectedAt": "2025-12-25T09:30:59.198Z",
+      "publishedAt": "2025-12-24T14:28:35.000Z",
+      "hn": {
+        "id": 46375847,
+        "score": 170,
+        "comments": 88
+      }
+    },
     {
       "slug": "2025-12-24",
       "title": "Texas app store age verification law blocked by federal judge",

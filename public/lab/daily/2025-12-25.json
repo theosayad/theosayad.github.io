@@ -1,0 +1,42 @@
+{
+  "slug": "2025-12-25",
+  "generatedAt": "2025-12-25T09:31:06.181Z",
+  "article": {
+    "title": "AMD entered the CPU market with reverse-engineered Intel 8080 clone 50 years ago",
+    "url": "https://www.tomshardware.com/pc-components/cpus/amd-first-entered-the-cpu-market-with-reverse-engineered-intel-8080-clone-50-years-ago-the-am9080-cost-50-cents-apiece-to-make-but-sold-for-usd700",
+    "source": "tomshardware.com",
+    "selectedAt": "2025-12-25T09:30:59.198Z",
+    "publishedAt": "2025-12-24T14:28:35.000Z",
+    "hn": {
+      "id": 46375847,
+      "score": 170,
+      "comments": 88
+    }
+  },
+  "takeaways": [],
+  "summary": "Fifty years ago, AMD entered the CPU market by reverse-engineering Intel’s 8080 microprocessor, creating the Am9080. This move, initially controversial, led to a licensing agreement with Intel and laid the foundation for AMD’s future as a major CPU manufacturer. The Am9080’s low production cost and high selling price enabled AMD to establish a profitable foothold in the semiconductor industry.",
+  "keyPoints": [
+    "AMD reverse-engineered Intel’s 8080 in the early 1970s, producing the Am9080 by 1975.",
+    "The Am9080 cost AMD approximately $0.50 to manufacture but sold for around $700 to military clients.",
+    "Intel and AMD signed a cross-licensing deal in 1976, allowing AMD to become a licensed second source.",
+    "The agreement required AMD to pay Intel $25,000 upfront and $75,000 annually for licensing rights.",
+    "AMD’s use of a more advanced N-channel MOS process enabled smaller die sizes and higher clock speeds (up to 4 MHz) than Intel’s original 8080 (max 3.125 MHz).",
+    "This early collaboration paved the way for further licensing deals, including AMD’s production of x86 processors starting with the Am286 in 1982."
+  ],
+  "rewrite": {
+    "title": "AMD’s CPU Journey Began with Intel 8080 Clone",
+    "body": "In 1975, AMD made a significant entry into the CPU market by releasing the Am9080, a reverse-engineered clone of Intel’s 8080 microprocessor. This bold move came after AMD engineers obtained detailed images of an Intel pre-production chip in 1973, enabling them to recreate the design and adapt it to AMD’s advanced N-channel MOS process. The Am9080 was cheaper to produce—costing just 50 cents per chip—yet sold for as much as $700 to military customers, providing AMD with a lucrative revenue stream and a strong foundation in semiconductor manufacturing.\n\nDespite the initial legal ambiguity, AMD and Intel reached a cross-licensing agreement in 1976. This deal allowed AMD to become an authorized second source for the 8080, a requirement for many large contracts, especially in defense. AMD paid Intel $25,000 upfront and $75,000 annually for licensing rights, while both companies waived past infringement claims. This agreement was pivotal, setting the stage for future collaborations, including AMD’s licensed production of Intel’s x86 processors starting with the Am286 in 1982.\n\nTechnologically, AMD’s Am9080 benefited from a smaller die size and higher clock speeds—up to 4 MHz—compared to Intel’s maximum 3.125 MHz for the original 8080. AMD also produced multiple variants, including ruggedized versions compliant with military standards capable of operating in extreme temperatures from -70 to 125 degrees Celsius. These innovations underscored AMD’s early commitment to both performance and reliability, helping it evolve from a clone maker into a respected CPU manufacturer.\n\nThe Am9080’s success demonstrated how reverse engineering, combined with strategic licensing and manufacturing advances, can disrupt established markets. AMD’s early foothold in the CPU space eventually enabled it to become a major competitor to Intel, shaping the semiconductor industry for decades to come.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4347
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
