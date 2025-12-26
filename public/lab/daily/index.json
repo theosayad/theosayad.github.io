@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2025-12-25T09:31:06.182Z",
+  "updatedAt": "2025-12-26T09:30:44.077Z",
   "items": [
+    {
+      "slug": "2025-12-26",
+      "title": "I sell onions on the Internet (2019)",
+      "url": "https://www.deepsouthventures.com/i-sell-onions-on-the-internet/",
+      "source": "deepsouthventures.com",
+      "selectedAt": "2025-12-26T09:30:36.553Z",
+      "publishedAt": "2025-12-25T16:24:45.000Z",
+      "hn": {
+        "id": 46385308,
+        "score": 438,
+        "comments": 127
+      }
+    },
     {
       "slug": "2025-12-25",
       "title": "AMD entered the CPU market with reverse-engineered Intel 8080 clone 50 years ago",
