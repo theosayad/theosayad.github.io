@@ -1,0 +1,42 @@
+{
+  "slug": "2025-12-28",
+  "generatedAt": "2025-12-28T09:29:00.830Z",
+  "article": {
+    "title": "USD share as global reserve currency drops to lowest since 1994",
+    "url": "https://wolfstreet.com/2025/12/26/status-of-the-us-dollar-as-global-reserve-currency-usd-share-drops-to-lowest-since-1994/",
+    "source": "wolfstreet.com",
+    "selectedAt": "2025-12-28T09:28:50.900Z",
+    "publishedAt": "2025-12-27T17:14:06.000Z",
+    "hn": {
+      "id": 46403276,
+      "score": 214,
+      "comments": 209
+    }
+  },
+  "takeaways": [],
+  "summary": "The US dollar’s share of global reserve currencies has fallen to its lowest level since 1994, driven not by a reduction in dollar holdings but by increased diversification into other currencies by foreign central banks. This trend signals potential challenges for the US in sustaining its large trade and budget deficits, as diminished demand for dollar assets could raise borrowing costs.",
+  "keyPoints": [
+    "USD share of global reserves has declined steadily since its 1977 peak of 85.5%, now hitting a low not seen since 1994.",
+    "Foreign central banks have maintained or slightly increased USD holdings but expanded their reserves in smaller currencies, reducing the dollar’s relative share.",
+    "The dollar’s dominance has historically enabled the US to borrow cheaply to fund twin deficits; a decline threatens this advantage.",
+    "Past declines in USD reserve share coincided with periods of US economic distress, including high inflation and recessions in the 1970s-80s.",
+    "Current diversification includes increased holdings in commodity-linked currencies like the Canadian dollar, Australian dollar, and Norwegian krone.",
+    "Purchasing power of dollar reserves has eroded by approximately 37% since 2014, further weakening the dollar’s effective value."
+  ],
+  "rewrite": {
+    "title": "US Dollar Reserve Share Hits 30-Year Low",
+    "body": "The US dollar’s role as the world’s primary reserve currency has diminished to its lowest point since 1994. While foreign central banks have not significantly reduced their holdings of dollar-denominated assets such as US Treasury securities, they have increasingly diversified into a broader array of currencies, particularly smaller and commodity-linked ones. This shift has caused the dollar’s percentage share of global reserves to decline steadily over the past decade.\n\nHistorically, the dollar’s dominance allowed the US to finance its substantial trade and budget deficits at relatively low borrowing costs. However, as the dollar’s share wanes, sustaining these twin deficits may become more difficult, potentially leading to higher interest rates and increased fiscal pressure. The last time the dollar’s reserve share fell below 50% was in the early 1990s, a period marked by high inflation, elevated interest rates, and multiple recessions in the US.\n\nThe current trend reflects a more competitive global currency landscape, with central banks adding currencies like the Canadian dollar, Australian dollar, and Norwegian krone to their reserves. Additionally, the real purchasing power of dollar reserves has declined by about 37% since 2014, underscoring the dollar’s weakening position. These developments suggest a gradual erosion of US financial hegemony, with implications for global capital flows and the cost of US debt financing.\n\nWhile the US’s military and economic influence still provide some advantage in attracting capital, shifts toward self-sufficiency in economies such as Germany and evolving geopolitical dynamics may further reduce reliance on the dollar. The path forward will depend heavily on US fiscal policy, inflation control, and the Federal Reserve’s actions amid these changing global reserve currency dynamics.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 11141
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
