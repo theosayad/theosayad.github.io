@@ -1,0 +1,42 @@
+{
+  "slug": "2025-12-30",
+  "generatedAt": "2025-12-30T09:33:32.992Z",
+  "article": {
+    "title": "MongoDB Server Security Update, December 2025",
+    "url": "https://www.mongodb.com/company/blog/news/mongodb-server-security-update-december-2025",
+    "source": "mongodb.com",
+    "selectedAt": "2025-12-30T09:33:27.139Z",
+    "publishedAt": "2025-12-30T00:23:47.000Z",
+    "hn": {
+      "id": 46427920,
+      "score": 73,
+      "comments": 28
+    }
+  },
+  "takeaways": [],
+  "summary": "On December 12, 2025, MongoDB identified a critical security vulnerability dubbed 'Mongobleed' affecting its server products. Rapid patch deployment across MongoDB Atlas and other editions mitigated risks without any reported breaches, underscoring the importance of proactive security management in cloud database services.",
+  "keyPoints": [
+    "Vulnerability CVE-2025-14847 ('Mongobleed') discovered internally on December 12, 2025.",
+    "Patch development and validation completed within five days; Atlas fleet mostly patched by December 17.",
+    "Urgent patches applied even to Atlas instances with user-configured maintenance windows by December 18.",
+    "No breaches or compromises occurred in MongoDB’s systems or managed Atlas service.",
+    "Patches released simultaneously for MongoDB Enterprise Advanced and Community editions.",
+    "MongoDB emphasizes ongoing investment in security, transparency, and rapid response at scale."
+  ],
+  "rewrite": {
+    "title": "MongoDB Rapidly Patches Critical 'Mongobleed' Vulnerability",
+    "body": "On December 12, 2025, MongoDB's Security Engineering team detected a significant vulnerability in its server software, internally labeled 'Mongobleed' and officially tracked as CVE-2025-14847. This flaw affected both the Community and Enterprise editions of MongoDB Server but did not compromise MongoDB’s infrastructure or its managed cloud service, MongoDB Atlas. The discovery was part of MongoDB’s proactive security program, reflecting years of investment in continuous codebase analysis and improvement.\n\nFollowing detection, MongoDB swiftly validated and developed a fix within two days, then rigorously tested deployment strategies to ensure safe rollout at scale. By December 17, the majority of the Atlas fleet—comprising hundreds of thousands of instances serving tens of thousands of customers—was patched. Notably, MongoDB also addressed Atlas clusters with user-configured maintenance windows by applying urgent patches on December 18, demonstrating a commitment to security over convenience when necessary.\n\nParallel to Atlas remediation, MongoDB released patched versions for Enterprise Advanced and Community users, accompanied by clear communication through official channels. This coordinated approach ensured all MongoDB users had timely access to fixes, minimizing exposure. MongoDB’s transparent timeline, spanning from initial detection to public disclosure on December 19 and community updates on December 23, highlights the company’s emphasis on accountability.\n\nThis incident underscores the complexities of securing large-scale, widely deployed database software. MongoDB’s response illustrates the critical role of continuous security investment, rapid incident response, and transparent communication in maintaining customer trust. As cyber threats evolve, MongoDB commits to advancing its security posture to protect its ecosystem effectively.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4156
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

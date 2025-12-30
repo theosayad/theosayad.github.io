@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2025-12-29T09:38:44.654Z",
+  "updatedAt": "2025-12-30T09:33:32.993Z",
   "items": [
+    {
+      "slug": "2025-12-30",
+      "title": "MongoDB Server Security Update, December 2025",
+      "url": "https://www.mongodb.com/company/blog/news/mongodb-server-security-update-december-2025",
+      "source": "mongodb.com",
+      "selectedAt": "2025-12-30T09:33:27.139Z",
+      "publishedAt": "2025-12-30T00:23:47.000Z",
+      "hn": {
+        "id": 46427920,
+        "score": 73,
+        "comments": 28
+      }
+    },
     {
       "slug": "2025-12-29",
       "title": "Global Memory Shortage Crisis: Market Analysis",
