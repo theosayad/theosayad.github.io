@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2025-12-31T09:32:52.741Z",
+  "updatedAt": "2026-01-01T09:33:23.494Z",
   "items": [
+    {
+      "slug": "2026-01-01",
+      "title": "Apple cuts Vision Pro production and marketing after weak sales",
+      "url": "https://www.ft.com/content/ab817ba1-15ec-473f-b609-5b5016b3258d",
+      "source": "ft.com",
+      "selectedAt": "2026-01-01T09:33:18.348Z",
+      "publishedAt": "2026-01-01T05:50:45.000Z",
+      "hn": {
+        "id": 46451665,
+        "score": 3,
+        "comments": 1
+      }
+    },
     {
       "slug": "2025-12-31",
       "title": "Nicolas Guillou, French ICC judge sanctioned by the US and “debanked”",

@@ -1,0 +1,41 @@
+{
+  "slug": "2026-01-01",
+  "generatedAt": "2026-01-01T09:33:23.492Z",
+  "article": {
+    "title": "Apple cuts Vision Pro production and marketing after weak sales",
+    "url": "https://www.ft.com/content/ab817ba1-15ec-473f-b609-5b5016b3258d",
+    "source": "ft.com",
+    "selectedAt": "2026-01-01T09:33:18.348Z",
+    "publishedAt": "2026-01-01T05:50:45.000Z",
+    "hn": {
+      "id": 46451665,
+      "score": 3,
+      "comments": 1
+    }
+  },
+  "takeaways": [],
+  "summary": "Apple has scaled back production and marketing efforts for its Vision Pro mixed reality headset following disappointing initial sales. This move signals challenges in consumer adoption of high-priced AR devices and may impact Apple's broader ambitions in spatial computing.",
+  "keyPoints": [
+    "Apple reduced Vision Pro production shortly after its launch due to weak demand.",
+    "The Vision Pro is priced at $3,499, limiting its accessibility to mainstream consumers.",
+    "Marketing efforts have been curtailed, reflecting cautious optimism about the product’s market potential.",
+    "This development highlights the broader industry challenge of driving adoption for premium AR/VR hardware.",
+    "Apple’s strategy may shift focus towards refining the technology and lowering costs for future iterations."
+  ],
+  "rewrite": {
+    "title": "Apple Scales Back Vision Pro Amid Weak Demand",
+    "body": "Apple has responded to underwhelming sales of its Vision Pro mixed reality headset by cutting back on both production volumes and marketing initiatives. Priced at $3,499, the device targets a niche market, and early consumer uptake has not met the company’s expectations. This adjustment underscores the difficulty of penetrating the mainstream market with high-cost augmented reality hardware. \n\nThe Vision Pro represents Apple’s first major foray into spatial computing, combining advanced display and sensor technology to create immersive experiences. However, the steep price point and limited content ecosystem have constrained its appeal. By scaling back production, Apple aims to avoid inventory buildup while reassessing its go-to-market approach. \n\nMarketing pullbacks further indicate a more cautious stance as Apple gauges consumer interest and gathers feedback. The company may prioritize improving the product’s usability and exploring cost reductions in future models to broaden its reach. This development also reflects broader industry challenges where even leading tech firms face hurdles in mainstreaming AR/VR devices. \n\nUltimately, Apple’s Vision Pro slowdown could delay the widespread adoption of spatial computing but also offers an opportunity to refine the technology and strategy for long-term success in this emerging category.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 735
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
