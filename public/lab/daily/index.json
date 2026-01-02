@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-01-01T09:33:23.494Z",
+  "updatedAt": "2026-01-02T09:32:48.240Z",
   "items": [
+    {
+      "slug": "2026-01-02",
+      "title": "Build a Deep Learning Library",
+      "url": "https://zekcrates.quarto.pub/deep-learning-library/",
+      "source": "zekcrates.quarto.pub",
+      "selectedAt": "2026-01-02T09:32:42.839Z",
+      "publishedAt": "2026-01-01T14:53:50.000Z",
+      "hn": {
+        "id": 46454587,
+        "score": 116,
+        "comments": 14
+      }
+    },
     {
       "slug": "2026-01-01",
       "title": "Apple cuts Vision Pro production and marketing after weak sales",

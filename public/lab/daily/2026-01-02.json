@@ -1,0 +1,41 @@
+{
+  "slug": "2026-01-02",
+  "generatedAt": "2026-01-02T09:32:48.238Z",
+  "article": {
+    "title": "Build a Deep Learning Library",
+    "url": "https://zekcrates.quarto.pub/deep-learning-library/",
+    "source": "zekcrates.quarto.pub",
+    "selectedAt": "2026-01-02T09:32:42.839Z",
+    "publishedAt": "2026-01-01T14:53:50.000Z",
+    "hn": {
+      "id": 46454587,
+      "score": 116,
+      "comments": 14
+    }
+  },
+  "takeaways": [],
+  "summary": "A new resource guides readers through building a deep learning library from scratch using only NumPy, culminating in training models like MNIST classifiers, simple CNNs, and ResNets. This approach deepens understanding of core mechanisms such as autograd and modular layers, offering practical insights beyond typical usage of existing frameworks.",
+  "keyPoints": [
+    "The project starts with a blank file and relies solely on NumPy for implementation.",
+    "It includes developing a functional automatic differentiation (autograd) engine.",
+    "A collection of neural network layer modules is built from the ground up.",
+    "By the end, users can train models on MNIST, including simple CNN and ResNet architectures.",
+    "The entire book is freely accessible online with optional pay-what-you-want support on Gumroad."
+  ],
+  "rewrite": {
+    "title": "Building a Deep Learning Library from Scratch",
+    "body": "This resource offers a comprehensive, hands-on guide to constructing a deep learning library starting from zero, using only NumPy. Unlike conventional tutorials that focus on how to use existing frameworks, this approach demystifies the underlying components by building them from the ground up. Key milestones include creating a functional autograd engine, which automates gradient calculations essential for training neural networks, and assembling modular layer components.\n\nThe project culminates in training models on the MNIST dataset, progressing from simple classifiers to convolutional neural networks (CNNs) and even a basic ResNet architecture. This progression not only reinforces foundational concepts but also introduces more advanced architectures, providing a practical pathway to understanding modern deep learning techniques.\n\nBy making the entire book freely available online, the author lowers barriers to entry for learners seeking a deeper grasp of deep learning internals. Optional pay-what-you-want support via Gumroad allows users to contribute if they find value in the material. This initiative could influence how practitioners and students approach learning deep learning, emphasizing foundational knowledge over black-box usage of popular libraries.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and community discussion highlights."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 403
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
