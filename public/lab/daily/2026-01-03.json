@@ -1,0 +1,42 @@
+{
+  "slug": "2026-01-03",
+  "generatedAt": "2026-01-03T09:28:52.042Z",
+  "article": {
+    "title": "Tesla sales fell by 9 percent in 2025, its second yearly decline",
+    "url": "https://arstechnica.com/cars/2026/01/tesla-sales-fell-by-9-percent-in-2025-its-second-yearly-decline/",
+    "source": "arstechnica.com",
+    "selectedAt": "2026-01-03T09:28:45.888Z",
+    "publishedAt": "2026-01-02T21:48:59.000Z",
+    "hn": {
+      "id": 46469811,
+      "score": 122,
+      "comments": 177
+    }
+  },
+  "takeaways": [],
+  "summary": "Tesla's electric vehicle sales declined by 8.6% in 2025, marking the company's second consecutive year of falling deliveries amid product stagnation, safety controversies, and strategic missteps. Despite these challenges, Tesla's market valuation remains exceptionally high, raising questions about investor confidence versus operational realities.",
+  "keyPoints": [
+    "Tesla sold 1,636,129 cars in 2025, down 153,097 units (8.6%) from 2024.",
+    "Q4 2025 sales dropped nearly 16%, with 77,343 fewer vehicles sold than Q4 2024.",
+    "Model 3 and Y dominate sales but lack significant updates, lagging behind newer competitors.",
+    "Cybertruck delays and the failure of Tesla’s in-house battery cell project have hurt growth prospects.",
+    "Safety issues include at least 15 fatal fires linked to door failures post-crash, prompting NHTSA and Chinese regulatory investigations.",
+    "Tesla faced a $329 million wrongful death lawsuit settlement, further damaging its reputation."
+  ],
+  "rewrite": {
+    "title": "Tesla Sales Drop 9% Amid Product and Safety Issues",
+    "body": "Tesla experienced a notable decline in electric vehicle sales in 2025, delivering 1.64 million cars—an 8.6% decrease from the previous year and the second straight annual drop. The fourth quarter was particularly weak, with sales falling nearly 16% year-over-year. This downturn reflects a reliance on aging Model 3 and Model Y platforms, which have seen only minor cosmetic updates and now face stiff competition from newer European and Asian EVs.\n\nThe long-anticipated Cybertruck, initially slated for production in 2021 with a sub-$40,000 price target, has yet to materialize, undermining Tesla’s growth pipeline. Compounding this, Tesla’s proprietary battery cell project, tied to the Cybertruck, has been effectively scrapped due to lack of demand, evidenced by a South Korean supplier’s $2.9 billion contract write-down to under $10,000.\n\nSafety concerns have further eroded consumer confidence. At least 15 fatal Tesla fires linked to door malfunctions after crashes have drawn regulatory scrutiny from the NHTSA and Chinese authorities, with China banning Tesla’s door handle design from 2027. Additionally, Tesla was hit with a $329 million wrongful death lawsuit settlement in August, highlighting ongoing legal and reputational risks.\n\nDespite these operational and safety setbacks, Tesla’s stock price remains robust, trading above $440 per share and valuing the company at approximately $1.4 trillion. This disconnect between market valuation and sales performance underscores investor optimism or speculative factors that may not align with Tesla’s current business challenges.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3592
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
