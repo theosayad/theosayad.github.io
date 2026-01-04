@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-01-03T09:28:52.044Z",
+  "updatedAt": "2026-01-04T09:27:34.706Z",
   "items": [
+    {
+      "slug": "2026-01-04",
+      "title": "China DRAM Maker CXMT Targets $4.2B IPO as It Takes on Samsung, SK Hynix, Micron",
+      "url": "https://www.ic-pcb.com/chinas-leading-dram-maker-cxmt-targets-42-billion-ipo-as-it-takes-on-samsung-sk-hynix-and-micron.html",
+      "source": "ic-pcb.com",
+      "selectedAt": "2026-01-04T09:27:26.023Z",
+      "publishedAt": "2026-01-03T23:14:29.000Z",
+      "hn": {
+        "id": 46482777,
+        "score": 181,
+        "comments": 77
+      }
+    },
     {
       "slug": "2026-01-03",
       "title": "Tesla sales fell by 9 percent in 2025, its second yearly decline",
