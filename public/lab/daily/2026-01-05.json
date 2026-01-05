@@ -1,0 +1,42 @@
+{
+  "slug": "2026-01-05",
+  "generatedAt": "2026-01-05T09:41:33.837Z",
+  "article": {
+    "title": "Decorative Cryptography",
+    "url": "https://www.dlp.rip/decorative-cryptography",
+    "source": "dlp.rip",
+    "selectedAt": "2026-01-05T09:41:25.199Z",
+    "publishedAt": "2026-01-05T08:29:38.000Z",
+    "hn": {
+      "id": 46496494,
+      "score": 32,
+      "comments": 7
+    }
+  },
+  "takeaways": [],
+  "summary": "The Linux kernel feature TCG_TPM2_HMAC aims to protect against active and passive interposer attacks on TPM communication during boot, but its effectiveness is limited by trust assumptions and high cryptographic overhead. Without addressing key management and integrated hardware roots of trust, such cryptographic measures risk being merely decorative, potentially misleading users about their system's security.",
+  "keyPoints": [
+    "TCG_TPM2_HMAC encrypts and authenticates TPM commands using session keys derived from the Null Primary Key, a P256 ECDH key changing every boot.",
+    "The feature targets adversaries intercepting TPM traffic on the untrusted bus, including hardware hackers or compromised BMCs.",
+    "It cannot protect measurements or boot loader integrity since it operates post-firmware and boot loader stages.",
+    "Full disk encryption and remote attestation do not mitigate physical interposer risks if the adversary can access the TPM bus and keys.",
+    "High overhead from frequent asymmetric cryptography (e.g., PCR extensions) challenges performance and practicality.",
+    "True defense against active physical interposers requires integrated CPU roots of trust, such as Caliptra's TCG DICE implementation."
+  ],
+  "rewrite": {
+    "title": "Limits of TPM Bus Encryption in Boot Security",
+    "body": "The Linux kernel's TCG_TPM2_HMAC feature attempts to secure TPM communication against active and passive interposer attacks by encrypting and authenticating commands with session keys derived from a volatile Null Primary Key. This key changes on every boot and is used to protect operations like PCR extensions and randomness generation, which occur frequently. While this approach enhances detection of tampering on the TPM bus, it introduces significant cryptographic overhead, potentially impacting system performance.\n\nHowever, TCG_TPM2_HMAC's protection is constrained by its position in the boot sequence; it activates only after firmware and boot loader stages have completed, implicitly trusting their integrity. Consequently, it cannot prevent manipulation of early boot measurements or unsealed secrets if an attacker compromises these initial stages. Moreover, physical adversaries with access to the TPM bus can still perform information disclosure, undermining the security of sealed secrets despite encryption.\n\nFull disk encryption and remote attestation mechanisms fail to address these threats effectively because if the system can retrieve TPM keys, so can a nearby physical attacker. This highlights a fundamental limitation: without solving the underlying key management and trust chain, cryptographic protections on TPM communication remain largely symbolic, potentially fostering a false sense of security.\n\nThe article underscores the necessity of integrated hardware roots of trust within the CPU to counter active physical interposers. Technologies like Caliptra's TCG DICE APIs embed such trust anchors directly into the SoC, offering more robust and holistic security than discrete TPM enhancements alone. Ultimately, meaningful TPM security demands transparent threat modeling, clear trust assumptions, and engagement with critical scrutiny to identify and address system gaps.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5789
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
