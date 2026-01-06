@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-01-05T09:41:33.838Z",
+  "updatedAt": "2026-01-06T09:34:50.972Z",
   "items": [
+    {
+      "slug": "2026-01-06",
+      "title": "A prediction market user made $436k betting on Maduro's downfall",
+      "url": "https://www.bbc.com/news/articles/cx2gn93292do",
+      "source": "bbc.com",
+      "selectedAt": "2026-01-06T09:34:41.648Z",
+      "publishedAt": "2026-01-06T03:59:19.000Z",
+      "hn": {
+        "id": 46508582,
+        "score": 86,
+        "comments": 123
+      }
+    },
     {
       "slug": "2026-01-05",
       "title": "Decorative Cryptography",
