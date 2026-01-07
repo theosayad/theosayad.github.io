@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-01-06T09:34:50.972Z",
+  "updatedAt": "2026-01-07T09:36:33.558Z",
   "items": [
+    {
+      "slug": "2026-01-07",
+      "title": "Locating a Photo of a Vehicle in 30 Seconds with GeoSpy",
+      "url": "https://geospy.ai/blog/locating-a-photo-of-a-vehicle-in-30-seconds-with-geospy",
+      "source": "geospy.ai",
+      "selectedAt": "2026-01-07T09:36:26.889Z",
+      "publishedAt": "2026-01-06T18:00:27.000Z",
+      "hn": {
+        "id": 46515948,
+        "score": 120,
+        "comments": 107
+      }
+    },
     {
       "slug": "2026-01-06",
       "title": "A prediction market user made $436k betting on Maduro's downfall",
