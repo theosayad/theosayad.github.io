@@ -1,0 +1,42 @@
+{
+  "slug": "2026-01-08",
+  "generatedAt": "2026-01-08T09:36:44.805Z",
+  "article": {
+    "title": "The $14 Burrito: Why San Francisco Inflation Feels Higher Than 2.5%",
+    "url": "https://www.foglinesf.com/p/the-14-burrito-why-san-francisco-inflation-feels-higher-than-2-5",
+    "source": "foglinesf.com",
+    "selectedAt": "2026-01-08T09:36:33.410Z",
+    "publishedAt": "2026-01-07T17:12:04.000Z",
+    "hn": {
+      "id": 46529097,
+      "score": 36,
+      "comments": 97
+    }
+  },
+  "takeaways": [],
+  "summary": "Despite official data showing San Francisco's inflation at 2.5%, residents face much higher cost increases in essential services like electricity, rent, and food. This disparity highlights flaws in inflation measurement methods and signals growing affordability challenges as the city heads into 2026 amid rising housing demand and economic shifts.",
+  "keyPoints": [
+    "San Francisco's official CPI rose 2.5% year-over-year, but key expenses like PG&E electricity rates doubled over the past decade, with a 14% increase in heating costs last year alone.",
+    "Local food prices surged sharply: a breakfast sandwich doubled from $5.50 in 2015 to $11.50 in 2025, with year-over-year hikes up to 15%, driven by rising ingredient and labor costs.",
+    "Median rent hit $3,040 in August 2025, up 11.5% year-over-year, while BLS rental inflation remains near 2% due to averaging methods that mask market realities for new renters.",
+    "Public transit fares rose modestly over a decade (Muni +14%, BART +22%), but power outages and service disruptions persist despite soaring utility rates.",
+    "Healthcare inflation is understated by official stats due to hedonic adjustments, with actual premiums doubling over the decade versus roughly half that reported.",
+    "The gap between lived inflation and official measures is widening as AI-driven housing demand and expiring subsidies intensify cost pressures in 2026."
+  ],
+  "rewrite": {
+    "title": "Why SF Inflation Feels Far Worse Than Reported",
+    "body": "Official statistics report San Francisco’s inflation at a modest 2.5% year-over-year, suggesting a cooling of post-pandemic price surges. However, this figure obscures the reality faced by residents, particularly in essential expenses. For instance, electricity rates charged by PG&E have more than doubled since 2014, with the baseline rate rising from 19 cents to 45 cents per kWh by 2024, and winter Tier 2 rates hitting 53 cents. Heating costs alone jumped 14% last year. Meanwhile, everyday food items have seen dramatic price inflation: a breakfast sandwich at Devil’s Teeth Baking Company increased 110% since 2015, with a 15% hike in just the past year, reflecting soaring ingredient and labor expenses.\n\nHousing costs tell a similar story. Median rents reached $3,040 in August 2025, marking an 11.5% increase year-over-year—the highest among major U.S. cities. Yet the Bureau of Labor Statistics reports rental inflation near 2%, a discrepancy caused by averaging all tenants, including those under rent control, which masks the steep increases new renters face. This dynamic fuels bidding wars, with applicants offering thousands above asking prices. Public transit fares have risen modestly over the past decade, but service reliability has suffered, exemplified by a 72-hour blackout in December 2025 affecting one-third of the city.\n\nHealthcare inflation is also understated due to hedonic adjustments that factor in quality improvements, despite premiums doubling over the decade. The widening gap between official inflation and lived experience reflects measurement shortcomings and foreshadows growing affordability challenges. As San Francisco enters 2026 amid AI-driven housing demand, major IPOs, and expiring subsidies, these pressures are poised to intensify, disproportionately impacting residents without asset appreciation or tech-sector windfalls.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 7311
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

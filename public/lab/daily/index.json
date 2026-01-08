@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-01-07T09:36:33.558Z",
+  "updatedAt": "2026-01-08T09:36:44.806Z",
   "items": [
+    {
+      "slug": "2026-01-08",
+      "title": "The $14 Burrito: Why San Francisco Inflation Feels Higher Than 2.5%",
+      "url": "https://www.foglinesf.com/p/the-14-burrito-why-san-francisco-inflation-feels-higher-than-2-5",
+      "source": "foglinesf.com",
+      "selectedAt": "2026-01-08T09:36:33.410Z",
+      "publishedAt": "2026-01-07T17:12:04.000Z",
+      "hn": {
+        "id": 46529097,
+        "score": 36,
+        "comments": 97
+      }
+    },
     {
       "slug": "2026-01-07",
       "title": "Locating a Photo of a Vehicle in 30 Seconds with GeoSpy",
