@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-01-08T09:36:44.806Z",
+  "updatedAt": "2026-01-09T09:36:13.262Z",
   "items": [
+    {
+      "slug": "2026-01-09",
+      "title": "Trump orders his 'representatives' to buy $200B in mortgage bonds",
+      "url": "https://www.reuters.com/world/us/trump-orders-his-representatives-buy-200-billion-dollars-mortgage-bonds-2026-01-08/",
+      "source": "reuters.com",
+      "selectedAt": "2026-01-09T09:36:07.424Z",
+      "publishedAt": "2026-01-08T23:28:10.000Z",
+      "hn": {
+        "id": 46548007,
+        "score": 16,
+        "comments": 1
+      }
+    },
     {
       "slug": "2026-01-08",
       "title": "The $14 Burrito: Why San Francisco Inflation Feels Higher Than 2.5%",
