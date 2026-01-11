@@ -1,0 +1,42 @@
+{
+  "slug": "2026-01-11",
+  "generatedAt": "2026-01-11T09:29:16.566Z",
+  "article": {
+    "title": "Private equity firms acquired more than 500 autism centers in past decade: study",
+    "url": "https://www.brown.edu/news/2026-01-07/private-equity-autism-centers",
+    "source": "brown.edu",
+    "selectedAt": "2026-01-11T09:29:08.786Z",
+    "publishedAt": "2026-01-10T23:36:16.000Z",
+    "hn": {
+      "id": 46571095,
+      "score": 262,
+      "comments": 173
+    }
+  },
+  "takeaways": [],
+  "summary": "Over the past decade, private equity firms have acquired more than 500 autism therapy centers across the U.S., predominantly between 2018 and 2022. This rapid consolidation raises concerns about the impact on care quality, Medicaid budgets, and access disparities, especially given the vulnerable pediatric population served.",
+  "keyPoints": [
+    "574 autism therapy centers owned by private equity as of 2024, spanning 42 states.",
+    "Nearly 80% of acquisitions occurred from 2018 to 2022 through 142 deals.",
+    "Highest concentrations in California (97), Texas (81), Colorado (38), Illinois (36), Florida (36).",
+    "States with higher autism prevalence were 24% more likely to have private equity-owned clinics.",
+    "Most children receiving autism therapy are insured by Medicaid, raising concerns about state budget impacts.",
+    "Researchers are seeking federal funding to study effects on therapy intensity, medication use, and treatment duration."
+  ],
+  "rewrite": {
+    "title": "Private Equity's Rapid Expansion in Autism Therapy Centers",
+    "body": "A recent study by Brown University researchers reveals a significant influx of private equity investment into autism therapy centers across the United States, with over 500 centers acquired in the last decade. The bulk of these acquisitions—nearly 80%—occurred between 2018 and 2022, totaling 142 deals and resulting in 574 centers under private equity ownership by 2024, spread across 42 states. California, Texas, Colorado, Illinois, and Florida host the largest number of these centers.\n\nThis trend coincides with a sharp rise in autism diagnoses among U.S. children, which nearly tripled from 2011 to 2022. The study found that states with higher autism prevalence were 24% more likely to have private equity-owned clinics, often in states with fewer insurance coverage restrictions. Given that most children receiving autism therapy are covered by Medicaid, there are growing concerns about the financial incentives driving private equity firms potentially leading to increased care intensity and higher costs for state Medicaid programs.\n\nExperts caution that private equity ownership may prioritize profit over patient welfare, potentially resulting in excessive or inappropriate therapy services and exacerbating disparities in access. The opaque nature of private equity transactions complicates oversight, as these firms are not required to disclose acquisitions publicly. To better understand the implications, researchers are pursuing federal funding to analyze how private equity ownership affects treatment patterns, medication use, diagnosis timing, and patient outcomes.\n\nWhile private investment could theoretically expand access, the study underscores the need for greater transparency and evaluation to ensure that financial motives do not compromise care quality or equity for children with autism.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4345
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
