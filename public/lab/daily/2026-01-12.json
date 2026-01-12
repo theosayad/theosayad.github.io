@@ -1,0 +1,42 @@
+{
+  "slug": "2026-01-12",
+  "generatedAt": "2026-01-12T09:41:06.845Z",
+  "article": {
+    "title": "Apple Withdraws iOS 18 Security Updates",
+    "url": "https://www.forbes.com/sites/zakdoffman/2025/12/27/apples-iphone-upgrade-hundreds-of-millions-of-users-must-act-now/",
+    "source": "forbes.com",
+    "selectedAt": "2026-01-12T09:40:59.225Z",
+    "publishedAt": "2026-01-11T17:27:56.000Z",
+    "hn": {
+      "id": 46577635,
+      "score": 32,
+      "comments": 20
+    }
+  },
+  "takeaways": [],
+  "summary": "Apple has ceased security updates for iOS 18, impacting hundreds of millions of iPhone users who must upgrade to continue receiving critical protections. This move underscores Apple's push for users to adopt newer software versions, highlighting the risks of remaining on outdated systems amid increasing cybersecurity threats.",
+  "keyPoints": [
+    "Apple stopped issuing security patches for iOS 18 as of late 2025.",
+    "Hundreds of millions of iPhone users currently on iOS 18 are urged to upgrade immediately.",
+    "The discontinuation raises concerns over vulnerabilities in devices that remain on iOS 18.",
+    "Apple’s strategy emphasizes rapid adoption of the latest iOS versions to maintain device security.",
+    "Users delaying upgrades face increased exposure to malware and cyberattacks.",
+    "This shift may accelerate hardware obsolescence for older iPhones unable to support newer iOS versions."
+  ],
+  "rewrite": {
+    "title": "Apple Ends Security Updates for iOS 18 Users",
+    "body": "In late 2025, Apple officially halted security updates for iOS 18, leaving a significant portion of its user base vulnerable to emerging cyber threats. With hundreds of millions of iPhones still operating on iOS 18, the company is urging immediate upgrades to newer iOS versions to maintain essential security protections. This decision reflects Apple's broader approach to prioritize current software ecosystems, ensuring devices benefit from the latest defenses against increasingly sophisticated attacks.\n\nThe cessation of updates means that iPhones running iOS 18 will no longer receive patches for newly discovered vulnerabilities, exposing users to potential malware, data breaches, and other security risks. This development places pressure on users to upgrade promptly, but also highlights a growing challenge for those with older devices that may not support the latest iOS releases. Consequently, some users might face forced hardware upgrades sooner than anticipated.\n\nApple’s move signals a tightening of its security lifecycle policies, emphasizing the importance of staying current with software updates. While this enhances overall ecosystem security, it also raises questions about device longevity and user choice. For enterprises and individuals alike, the message is clear: maintaining up-to-date software is critical to safeguarding personal and sensitive information in an evolving threat landscape.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and community discussion highlights."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
