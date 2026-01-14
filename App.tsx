@@ -3,12 +3,14 @@ import Navbar from './components/Navbar';
 import MarketTape from './components/MarketTape';
 import HomePage from './components/HomePage';
 import LabPage from './components/LabPage';
+import LabArchivePage from './components/LabArchivePage';
 import LabDailyEntryPage from './components/LabWeeklyEntryPage';
 import { navigate, useAppLocation } from './utils/navigation';
 
 type AppRoute =
   | { name: 'home' }
   | { name: 'lab' }
+  | { name: 'labArchive' }
   | { name: 'labDaily'; slug: string }
   | { name: 'notFound' };
 
@@ -43,6 +45,7 @@ const App: React.FC = () => {
     const p = pathname.replace(/\/+$/, '') || '/';
     if (p === '/') return { name: 'home' as const };
     if (p === '/lab') return { name: 'lab' as const };
+    if (p === '/lab/archive') return { name: 'labArchive' as const };
     if (p.startsWith('/lab/daily/')) {
       const slug = p.slice('/lab/daily/'.length);
       return { name: 'labDaily' as const, slug };
@@ -83,6 +86,7 @@ const App: React.FC = () => {
         >
           {displayRoute.name === 'home' ? <HomePage isDark={isDark} /> : null}
           {displayRoute.name === 'lab' ? <LabPage /> : null}
+          {displayRoute.name === 'labArchive' ? <LabArchivePage /> : null}
           {displayRoute.name === 'labDaily' ? <LabDailyEntryPage slug={displayRoute.slug} /> : null}
           {displayRoute.name === 'notFound' ? (
             <div className="pt-28 pb-16">

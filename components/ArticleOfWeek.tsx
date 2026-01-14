@@ -146,7 +146,7 @@ const ArticleOfWeek: React.FC = () => {
                 </span>
               </h2>
               <p className="text-stone-500 dark:text-stone-400 mt-3 text-sm md:text-base">
-                Daily AI-selected business read (free)
+                Top market story, distilled by AI.
               </p>
             </div>
           </div>
@@ -210,8 +210,7 @@ const ArticleOfWeek: React.FC = () => {
                         </h3>
 
                         <p className="mt-4 text-stone-600 dark:text-stone-400 leading-relaxed">
-                          {data?.rationale ??
-                            'A daily, auto-picked finance read to keep the signal high and the noise low.'}
+                          {data?.rationale ?? 'Auto-picked finance read to keep the signal high.'}
                         </p>
 
                         <div className="mt-6 rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15 backdrop-blur-sm p-4 md:p-5">
@@ -252,7 +251,7 @@ const ArticleOfWeek: React.FC = () => {
                             </div>
                           ) : (
                             <div className="mt-4 text-sm text-stone-600 dark:text-stone-400">
-                              AI brief isn’t available yet for today.
+                              AI brief pending.
                               {archive?.meta?.ai?.rateLimitedUntil ? (
                                 <span className="block mt-1 text-xs text-stone-500 dark:text-stone-500">
                                   Rate limited until {formatDate(archive.meta.ai.rateLimitedUntil)}.
@@ -267,7 +266,7 @@ const ArticleOfWeek: React.FC = () => {
                               onClick={() => navigate(`/lab/daily/${archiveSlug}`)}
                               className="mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-stone-900 text-stone-50 dark:bg-stone-50 dark:text-stone-950 px-4 py-2 text-sm font-semibold hover:bg-stone-800 dark:hover:bg-stone-200 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
                             >
-                              Open full article <ArrowUpRight size={16} />
+                              Open custom brief <ArrowUpRight size={16} />
                             </button>
                           ) : null}
                         </div>
@@ -292,7 +291,7 @@ const ArticleOfWeek: React.FC = () => {
                               rel="noreferrer"
                               className="inline-flex items-center justify-center gap-2 rounded-full bg-white/60 dark:bg-stone-900/30 backdrop-blur-sm border border-stone-200/70 dark:border-stone-800/60 px-5 py-2.5 text-sm font-semibold text-stone-700 dark:text-stone-200 hover:bg-white/80 dark:hover:bg-stone-900/45 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
                             >
-                              Discussion
+                              HN discussion
                             </a>
                           ) : null}
                         </div>
@@ -311,9 +310,7 @@ const ArticleOfWeek: React.FC = () => {
                   <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
                     How it works
                   </div>
-                  <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">
-                    Daily pick → scrape → summarize → AI rewrite → archive.
-                  </p>
+                  <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">Pick → summarize → archive.</p>
                 </div>
                 {updatedLabel ? (
                   <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/20 text-[11px] font-semibold text-stone-600 dark:text-stone-300">

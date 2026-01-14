@@ -76,7 +76,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
     }
 
     // For Business News, nudge further down the page.
-    scrollToIdWithOffset(targetId, targetId === 'reading' ? -40 : 80);
+    scrollToIdWithOffset(targetId, targetId === 'reading' ? -140 : 80);
     setIsOpen(false);
   };
 

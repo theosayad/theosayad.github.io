@@ -18,7 +18,7 @@ const HomePage: React.FC<{ isDark: boolean }> = ({ isDark }) => {
     const id = hash.replace('#', '');
     if (!id) return;
     // Defer to allow layout to paint before measuring.
-    const t = window.setTimeout(() => scrollToIdWithOffset(id, id === 'reading' ? -40 : 80), 0);
+    const t = window.setTimeout(() => scrollToIdWithOffset(id, id === 'reading' ? -140 : 80), 0);
     return () => window.clearTimeout(t);
   }, [hash]);
 
