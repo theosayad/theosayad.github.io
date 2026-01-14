@@ -315,6 +315,135 @@ const LabPage: React.FC = () => {
           </div>
         </section>
 
+        <section className="mt-12" aria-labelledby="mass-atlas-title">
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+            <div className="max-w-3xl">
+              <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-emerald-700 dark:text-emerald-400">
+                Website in progress
+              </div>
+              <h2
+                id="mass-atlas-title"
+                className="mt-2 font-display text-2xl md:text-3xl font-semibold text-stone-900 dark:text-stone-50 tracking-tight"
+              >
+                Mass Atlas — Lebanon
+              </h2>
+              <p className="mt-2 text-sm text-stone-500 dark:text-stone-400 italic">
+                A calm index of mass timings by rite and parish.
+              </p>
+              <p className="mt-3 text-stone-600 dark:text-stone-400 leading-relaxed">
+                Building a living index across Lebanon — Maronite, Melkite, Orthodox, Latin, and beyond — so schedules
+                are easy to find and share.
+              </p>
+            </div>
+            <a
+              href="https://theosayad.com/mass/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex shrink-0 items-center justify-center gap-2 rounded-full bg-white/60 dark:bg-stone-900/30 backdrop-blur-sm border border-stone-200/70 dark:border-stone-800/60 px-4 py-2 text-sm font-semibold text-stone-700 dark:text-stone-200 hover:bg-white/80 dark:hover:bg-stone-900/45 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-400/60"
+            >
+              View experiment <ArrowUpRight size={16} />
+            </a>
+          </div>
+
+          <div className="mt-7 grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-6 items-stretch">
+            <div className="rounded-3xl p-px bg-gradient-to-br from-emerald-400/25 via-white/30 to-transparent dark:from-emerald-700/15 dark:via-stone-950/30">
+              <div className="relative overflow-hidden h-full rounded-3xl border border-emerald-200/50 dark:border-emerald-800/50 bg-white/70 dark:bg-stone-950/20 backdrop-blur-sm p-6 md:p-8 shadow-sm shadow-stone-900/5 dark:shadow-none">
+                <div className="pointer-events-none absolute -inset-px">
+                  <div className="absolute -top-20 -right-24 h-64 w-64 rounded-full bg-emerald-500/10 blur-2xl" />
+                  <div className="absolute -bottom-28 -left-16 h-72 w-72 rounded-full bg-brand-500/10 blur-3xl" />
+                </div>
+
+                <div className="relative">
+                  <div className="flex flex-wrap items-center gap-2 text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                    <span className="px-3 py-1.5 rounded-full border border-emerald-200/50 dark:border-emerald-800/50 bg-emerald-500/10 text-emerald-800 dark:text-emerald-200">
+                      Early access
+                    </span>
+                    <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/35 dark:bg-stone-950/10">
+                      Community index
+                    </span>
+                    <span className="px-3 py-1.5 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/35 dark:bg-stone-950/10">
+                      Multi-rite
+                    </span>
+                  </div>
+
+                  <div className="mt-5 grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-stone-600 dark:text-stone-400">
+                    <div className="rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15 p-4">
+                      <div className="text-xs font-semibold uppercase tracking-[0.22em] text-stone-500 dark:text-stone-400">
+                        Goal
+                      </div>
+                      <p className="mt-2 leading-relaxed">
+                        A searchable atlas of mass timings by city, church, and rite.
+                      </p>
+                    </div>
+                    <div className="rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15 p-4">
+                      <div className="text-xs font-semibold uppercase tracking-[0.22em] text-stone-500 dark:text-stone-400">
+                        In progress
+                      </div>
+                      <p className="mt-2 leading-relaxed">
+                        Collecting schedules and normalizing formats.
+                      </p>
+                    </div>
+                    <div className="rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15 p-4">
+                      <div className="text-xs font-semibold uppercase tracking-[0.22em] text-stone-500 dark:text-stone-400">
+                        Coverage
+                      </div>
+                      <p className="mt-2 leading-relaxed">
+                        Maronite, Melkite, Orthodox, Latin, and more.
+                      </p>
+                    </div>
+                    <div className="rounded-2xl border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15 p-4">
+                      <div className="text-xs font-semibold uppercase tracking-[0.22em] text-stone-500 dark:text-stone-400">
+                        Intent
+                      </div>
+                      <p className="mt-2 leading-relaxed">
+                        Local-first and easy to share.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="rounded-3xl p-px bg-gradient-to-br from-brand-400/25 via-emerald-200/20 to-transparent dark:from-brand-700/20 dark:via-stone-950/30">
+              <div className="relative overflow-hidden h-full rounded-3xl border border-stone-200/70 dark:border-stone-800/60 bg-white/70 dark:bg-stone-950/20 backdrop-blur-sm p-6 md:p-8 shadow-sm shadow-stone-900/5 dark:shadow-none">
+                <div className="pointer-events-none absolute -inset-px">
+                  <div className="absolute -top-20 -left-24 h-64 w-64 rounded-full bg-brand-500/10 blur-2xl" />
+                  <div className="absolute -bottom-24 -right-16 h-72 w-72 rounded-full bg-emerald-500/10 blur-3xl" />
+                </div>
+
+                <div className="relative">
+                  <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                    Focus areas
+                  </div>
+                  <h3 className="mt-3 font-display text-xl md:text-2xl text-stone-900 dark:text-stone-50 tracking-tight">
+                    Signal over noise
+                  </h3>
+                  <p className="mt-3 text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
+                    The prototype keeps only what matters: when, where, which rite.
+                  </p>
+                  <ul className="mt-5 space-y-3 text-sm text-stone-600 dark:text-stone-400">
+                    <li className="flex items-start gap-3">
+                      <span className="mt-1 h-2 w-2 rounded-full bg-emerald-400/80" />
+                      <span>Location-first listings with clear parish names.</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="mt-1 h-2 w-2 rounded-full bg-emerald-400/80" />
+                      <span>Rite filters that respect each community.</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="mt-1 h-2 w-2 rounded-full bg-emerald-400/80" />
+                      <span>Shareable summaries for families and groups.</span>
+                    </li>
+                  </ul>
+                  <div className="mt-6 rounded-2xl border border-emerald-200/40 dark:border-emerald-800/40 bg-emerald-500/10 p-4 text-sm text-emerald-800 dark:text-emerald-200">
+                    Collecting schedules now. If you run a parish page, send the timetable.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <div className="mt-10 grid grid-cols-1 gap-6 items-stretch">
           <div className="rounded-3xl p-px bg-gradient-to-br from-brand-400/35 via-white/30 to-transparent dark:from-brand-700/20 dark:via-stone-950/30">
             <div className="h-full rounded-3xl border border-stone-200/70 dark:border-stone-800/60 bg-white/70 dark:bg-stone-950/20 backdrop-blur-sm p-6 md:p-8 shadow-sm shadow-stone-900/5 dark:shadow-none">

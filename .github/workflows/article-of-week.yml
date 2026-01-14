@@ -54,6 +54,14 @@ jobs:
       - name: Archive daily lab entry
         run: node scripts/labWeeklyDigest.mjs
 
+      - name: Sync public data into dist (if present)
+        run: |
+          if [ -d dist ]; then
+            mkdir -p dist/lab/daily
+            cp public/article-of-day.json dist/article-of-day.json
+            cp -R public/lab/daily/. dist/lab/daily/
+          fi
+
       - name: Commit and push if changed
         run: |
           SHOULD_COMMIT="false"
@@ -70,7 +78,7 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/article-of-day.json public/lab/daily
+          git add public/article-of-day.json public/lab/daily dist/article-of-day.json dist/lab/daily
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
