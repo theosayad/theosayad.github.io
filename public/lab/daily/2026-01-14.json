@@ -1,0 +1,42 @@
+{
+  "slug": "2026-01-14",
+  "generatedAt": "2026-01-14T09:37:15.644Z",
+  "article": {
+    "title": "90M people. 118 hours of silence. One nation erased from the internet",
+    "url": "https://state-of-iranblackout.whisper.security/",
+    "source": "state-of-iranblackout.whisper.security",
+    "selectedAt": "2026-01-14T09:37:05.376Z",
+    "publishedAt": "2026-01-13T17:05:43.000Z",
+    "hn": {
+      "id": 46603910,
+      "score": 265,
+      "comments": 336
+    }
+  },
+  "takeaways": [],
+  "summary": "In December 2025, Iran experienced a coordinated nationwide internet blackout amid soaring inflation and widespread protests, effectively erasing digital connectivity for 90 million people. The shutdown employed a sophisticated, protocol-specific strategy that severed IPv6 entirely while drastically reducing IPv4 access, crippling both domestic and international communications and facilitating violent government crackdowns.",
+  "keyPoints": [
+    "Iran's Rial collapsed in December 2025, inflation surged to 42%, sparking protests across 31 provinces.",
+    "Within hours, BGP routing updates surged from 1.2 million to 5.6 million, triggering simultaneous failures across all 10 major Iranian networks.",
+    "IPv6 traffic was completely cut off after January 9th, with zero IPv6 prefixes visible globally, while IPv4 visibility dropped by 82%.",
+    "Afranet, hosting critical domestic services, saw a 341% spike in activity before being shut down, indicating a targeted dismantling of Iran’s National Information Network.",
+    "SpaceX provided free Starlink access to Iranians, but Russian-supplied military GPS jammers blocked 80% of satellite signals during the 134+ hour blackout.",
+    "The blackout coincided with documented violent crackdowns causing over 40 deaths, including children; all disruptions are cryptographically recorded for future accountability."
+  ],
+  "rewrite": {
+    "title": "Iran’s 118-Hour Internet Blackout Silences 90M",
+    "body": "In late 2025, Iran faced a severe economic crisis as the Rial collapsed and inflation soared to 42%, igniting protests that spread to 31 provinces. Despite initial internet resilience, the national backbone saw a sudden surge in BGP routing updates from 1.2 million to 5.6 million within hours, signaling a coordinated attack rather than technical failure. All ten major Iranian networks—including mobile carriers and hosting providers—simultaneously destabilized within a three-hour window, revealing a deliberate, state-orchestrated shutdown.\n\nA key tactic was the complete severing of IPv6 connectivity after January 9th, with global visibility of IPv6 prefixes dropping to zero. IPv4 routes also plummeted by 82%, but were partially maintained to avoid cutting off regime communications. This protocol-aware shutdown dismantled Iran’s National Information Network, as evidenced by Afranet’s 341% traffic spike before its collapse, highlighting the regime’s intent to isolate both external and internal digital infrastructure.\n\nEfforts to circumvent the blackout included smuggled satellite dishes and SpaceX’s emergency response, which provided free Starlink internet access. However, Russian-supplied military GPS jammers achieved 80% effectiveness in blocking these signals, severely limiting alternative connectivity options during the 134-plus hour blackout.\n\nThis digital blackout coincided with brutal government crackdowns, resulting in over 40 deaths, including children, and widespread arrests. The comprehensive documentation of network disruptions, preserved with cryptographic timestamps, aims to support future accountability for these actions. Iran’s blackout underscores the growing use of sophisticated internet control tactics in authoritarian regimes to suppress dissent and control information flow.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 2785
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
