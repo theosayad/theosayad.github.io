@@ -72,7 +72,7 @@ export const VENTURES_DATA: VentureItem[] = [
     period: "2025 - Present",
     description: [
       "Built a fully automated booking and logistics system to manage a boutique Airbnb, achieving Superhost status via superior UX.",
-      "Developed the website from scratch."
+      "Designed and built the website from scratch to streamline bookings and guest communication."
     ],
     link: "https://sowk.org"
   },
@@ -103,7 +103,7 @@ export const VENTURES_DATA: VentureItem[] = [
     role: "Founder",
     period: "2016 - 2022",
     description: [
-      "Built a sneaker resale business bridging US suppliers with UAE demand.",
+      "Built a sneaker and streetwear resale business bridging US suppliers with UAE and Lebanon demand.",
       "Executed 200+ transactions and managed end-to-end logistics and customs clearance."
     ],
     link: "https://www.instagram.com/hypelifedxb/"
