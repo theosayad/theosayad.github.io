@@ -54,13 +54,11 @@ jobs:
       - name: Archive daily lab entry
         run: node scripts/labWeeklyDigest.mjs
 
-      - name: Sync public data into dist (if present)
+      - name: Sync public data into dist (ensure dist exists)
         run: |
-          if [ -d dist ]; then
-            mkdir -p dist/lab/daily
-            cp public/article-of-day.json dist/article-of-day.json
-            cp -R public/lab/daily/. dist/lab/daily/
-          fi
+          mkdir -p dist/lab/daily
+          cp public/article-of-day.json dist/article-of-day.json
+          cp -R public/lab/daily/. dist/lab/daily/
 
       - name: Commit and push if changed
         run: |
