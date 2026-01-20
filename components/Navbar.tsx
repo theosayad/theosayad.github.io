@@ -49,7 +49,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
     { name: 'Experience', href: '#experience' },
     { name: 'Education', href: '#education' },
     { name: 'Contact', href: '#contact' },
-    { name: 'Business News', href: '#reading' },
+    { name: "Today’s Business Brief", href: '#reading' },
   ];
   const labLink = { name: 'Lab', href: '/lab' };
 
