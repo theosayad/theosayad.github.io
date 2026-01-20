@@ -92,7 +92,8 @@ export const VENTURES_DATA: VentureItem[] = [
     role: "Founder",
     period: "2019 - 2023",
     description: [
-      "Founded a niche streetwear brand at 14; managed design-to-distribution pipeline and built loyal customer base."
+      "Founded a niche streetwear brand at 14; managed design-to-distribution pipeline and built loyal customer base.",
+      "Drove organic growth through PR and influencer outreach, including securing a Karen Wazen feature without paid sponsorship."
     ],
     link: "https://www.instagram.com/disruptedww/"
   },
