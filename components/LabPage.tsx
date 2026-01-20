@@ -120,16 +120,28 @@ const LabPage: React.FC = () => {
               </div>
             </div>
 
-            <a
-              href={homeHref}
-              onClick={(e) => {
-                e.preventDefault();
-                navigate('/#home');
-              }}
-              className="inline-flex w-fit items-center justify-center gap-2 rounded-full bg-white/60 dark:bg-stone-900/30 backdrop-blur-sm border border-stone-200/70 dark:border-stone-800/60 px-4 py-2 text-sm font-semibold text-stone-700 dark:text-stone-200 hover:bg-white/80 dark:hover:bg-stone-900/45 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
-            >
-              Back home <ArrowUpRight size={16} />
-            </a>
+            <div className="flex flex-wrap items-center gap-3">
+              <a
+                href="/lab/daily"
+                onClick={(e) => {
+                  e.preventDefault();
+                  navigate('/lab/daily');
+                }}
+                className="inline-flex w-fit items-center justify-center gap-2 rounded-full border border-brand-200/70 dark:border-stone-800/60 bg-white/60 dark:bg-stone-900/30 px-4 py-2 text-sm font-semibold text-brand-800 dark:text-brand-200 hover:bg-white/80 dark:hover:bg-stone-900/45 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
+              >
+                Daily Brief
+              </a>
+              <a
+                href={homeHref}
+                onClick={(e) => {
+                  e.preventDefault();
+                  navigate('/#home');
+                }}
+                className="inline-flex w-fit items-center justify-center gap-2 rounded-full bg-white/60 dark:bg-stone-900/30 backdrop-blur-sm border border-stone-200/70 dark:border-stone-800/60 px-4 py-2 text-sm font-semibold text-stone-700 dark:text-stone-200 hover:bg-white/80 dark:hover:bg-stone-900/45 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
+              >
+                Back home <ArrowUpRight size={16} />
+              </a>
+            </div>
           </div>
 
           <div className="mt-6 flex flex-wrap items-center gap-2 text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">

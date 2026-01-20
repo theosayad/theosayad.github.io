@@ -1,5 +1,5 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import { ArrowUpRight, Calendar } from 'lucide-react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { ArrowUpRight, Calendar, Search } from 'lucide-react';
 import { navigate } from '../utils/navigation';
 
 type LabDailyIndexItem = {
@@ -15,6 +15,13 @@ type LabDailyIndexItem = {
 type LabDailyIndex = {
   updatedAt?: string;
   items: LabDailyIndexItem[];
+};
+
+type LabDailyEntrySearchPayload = {
+  slug: string;
+  summary?: string;
+  keyPoints?: string[];
+  rewrite?: { body?: string } | null;
 };
 
 const formatDate = (value?: string) => {
@@ -42,6 +49,11 @@ const LabArchivePage: React.FC = () => {
   const [status, setStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle');
   const [data, setData] = useState<LabDailyIndex | null>(null);
   const [dateQuery, setDateQuery] = useState('');
+  const [topicQuery, setTopicQuery] = useState('');
+  const [searchInBriefs, setSearchInBriefs] = useState(false);
+  const [topicSearchStatus, setTopicSearchStatus] = useState<'idle' | 'loading' | 'ready'>('idle');
+  const dateInputRef = useRef<HTMLInputElement | null>(null);
+  const contentIndexRef = useRef<Map<string, string>>(new Map());
   const labHref = useMemo(() => `${import.meta.env.BASE_URL}lab`, []);
 
   const load = useCallback(async () => {
@@ -67,16 +79,82 @@ const LabArchivePage: React.FC = () => {
 
   const items = useMemo(() => data?.items ?? [], [data]);
   const filteredItems = useMemo(() => {
-    if (!dateQuery) return items;
+    const normalizedTopic = topicQuery.trim().toLowerCase();
     return items.filter((item) => {
-      const slug = item.slug ?? toDateSlug(item.selectedAt);
-      return slug === dateQuery;
+      if (dateQuery) {
+        const slug = item.slug ?? toDateSlug(item.selectedAt);
+        if (slug !== dateQuery) return false;
+      }
+      if (normalizedTopic) {
+        const host = getHostname(item.url) ?? item.source ?? '';
+        const baseHaystack = `${item.title ?? ''} ${host}`.toLowerCase();
+        if (baseHaystack.includes(normalizedTopic)) return true;
+        if (!searchInBriefs) return false;
+        const contentHaystack = contentIndexRef.current.get(item.slug) ?? '';
+        if (!contentHaystack.includes(normalizedTopic)) return false;
+      }
+      return true;
     });
-  }, [items, dateQuery]);
+  }, [items, dateQuery, topicQuery, searchInBriefs]);
   const featured = filteredItems[0];
   const rest = filteredItems.slice(1);
   const archiveUpdated = useMemo(() => formatDate(data?.updatedAt), [data?.updatedAt]);
   const entryCount = data?.items?.length ?? 0;
+
+  const openDatePicker = useCallback(() => {
+    const el = dateInputRef.current;
+    if (!el) return;
+    // Chrome supports showPicker(); Safari/iOS typically opens on focus automatically.
+    // @ts-expect-error - showPicker is not yet in TS lib.dom for all versions.
+    if (typeof el.showPicker === 'function') el.showPicker();
+  }, []);
+
+  useEffect(() => {
+    const query = topicQuery.trim().toLowerCase();
+    if (!searchInBriefs) {
+      setTopicSearchStatus('idle');
+      return;
+    }
+    if (!query || !items.length) {
+      setTopicSearchStatus('idle');
+      return;
+    }
+
+    let cancelled = false;
+    const controller = new AbortController();
+
+    const run = async () => {
+      setTopicSearchStatus('loading');
+      try {
+        const candidates = items.slice(0, 60);
+        const toFetch = candidates.filter((item) => !contentIndexRef.current.has(item.slug)).slice(0, 20);
+        await Promise.all(
+          toFetch.map(async (item) => {
+            const url = `${import.meta.env.BASE_URL}lab/daily/${item.slug}.json`;
+            const res = await fetch(url, { headers: { Accept: 'application/json' }, signal: controller.signal });
+            if (!res.ok) return;
+            const json = (await res.json()) as LabDailyEntrySearchPayload;
+            const parts = [
+              json.summary ?? '',
+              Array.isArray(json.keyPoints) ? json.keyPoints.join(' ') : '',
+              json.rewrite?.body ?? '',
+            ];
+            contentIndexRef.current.set(item.slug, parts.join(' ').toLowerCase());
+          }),
+        );
+      } catch {
+        // ignore (network abort or fetch errors)
+      } finally {
+        if (!cancelled) setTopicSearchStatus('ready');
+      }
+    };
+
+    void run();
+    return () => {
+      cancelled = true;
+      controller.abort();
+    };
+  }, [items, topicQuery, searchInBriefs]);
 
   return (
     <div className="pt-28 pb-16 md:pb-24 relative overflow-hidden">
@@ -138,7 +216,7 @@ const LabArchivePage: React.FC = () => {
                     Archive
                   </div>
                   <h2 className="mt-2 font-display text-2xl md:text-3xl text-stone-900 dark:text-stone-50 tracking-tight">
-                    Full archive
+                    News archive
                   </h2>
                   <p className="mt-2 text-stone-600 dark:text-stone-400 leading-relaxed max-w-2xl">
                     Tap any entry to read the AI brief and link out.
@@ -157,24 +235,73 @@ const LabArchivePage: React.FC = () => {
 
               <div className="mt-6 flex flex-col sm:flex-row sm:items-center gap-3">
                 <label className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
-                  Search by date
+                  Filters
                 </label>
                 <div className="flex flex-wrap items-center gap-3">
-                  <input
-                    type="date"
-                    value={dateQuery}
-                    onChange={(event) => setDateQuery(event.target.value)}
-                    className="rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/70 dark:bg-stone-950/20 px-4 py-2 text-sm text-stone-700 dark:text-stone-200 shadow-sm shadow-stone-900/5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
-                  />
-                  {dateQuery ? (
-                    <button
-                      type="button"
-                      onClick={() => setDateQuery('')}
-                      className="inline-flex items-center justify-center gap-2 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15 px-4 py-2 text-sm font-semibold text-stone-700 dark:text-stone-200 hover:bg-white/75 dark:hover:bg-stone-950/25 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
-                    >
-                      Clear
-                    </button>
-                  ) : null}
+                  <div className="inline-flex items-center gap-2 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/70 dark:bg-stone-950/20 px-4 py-2 text-sm text-stone-700 dark:text-stone-200 shadow-sm shadow-stone-900/5">
+                    <Calendar size={16} className="text-stone-400" />
+                    <input
+                      ref={dateInputRef}
+                      type="date"
+                      value={dateQuery}
+                      onChange={(event) => setDateQuery(event.target.value)}
+                      onClick={openDatePicker}
+                      onFocus={openDatePicker}
+                      className="bg-transparent outline-none"
+                      aria-label="Filter by date"
+                    />
+                  </div>
+
+	                  <div className="inline-flex items-center gap-2 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/70 dark:bg-stone-950/20 px-4 py-2 text-sm text-stone-700 dark:text-stone-200 shadow-sm shadow-stone-900/5">
+	                    <Search size={16} className="text-stone-400" />
+	                    <input
+	                      type="search"
+	                      inputMode="search"
+	                      value={topicQuery}
+	                      onChange={(event) => setTopicQuery(event.target.value)}
+	                      placeholder="Search topics…"
+	                      className="bg-transparent outline-none placeholder:text-stone-400/80 w-44 sm:w-56"
+	                      aria-label="Search by topic"
+	                    />
+	                  </div>
+
+	                  <button
+	                    type="button"
+	                    onClick={() => {
+	                      setSearchInBriefs((v) => !v);
+	                      setTopicSearchStatus('idle');
+	                      contentIndexRef.current = new Map();
+	                    }}
+	                    className={`inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-semibold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60 ${
+	                      searchInBriefs
+	                        ? 'border-brand-200/70 dark:border-stone-800/60 bg-brand-500/10 text-brand-800 dark:text-brand-200 hover:bg-brand-500/15'
+	                        : 'border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15 text-stone-700 dark:text-stone-200 hover:bg-white/75 dark:hover:bg-stone-950/25'
+	                    }`}
+	                    aria-pressed={searchInBriefs}
+	                  >
+	                    Search inside AI briefs
+	                  </button>
+
+	                  {dateQuery || topicQuery.trim() ? (
+	                    <button
+	                      type="button"
+	                      onClick={() => {
+	                        setDateQuery('');
+	                        setTopicQuery('');
+	                        setTopicSearchStatus('idle');
+	                        contentIndexRef.current = new Map();
+	                      }}
+	                      className="inline-flex items-center justify-center gap-2 rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15 px-4 py-2 text-sm font-semibold text-stone-700 dark:text-stone-200 hover:bg-white/75 dark:hover:bg-stone-950/25 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60"
+	                    >
+	                      Clear
+	                    </button>
+	                  ) : null}
+
+	                  {topicQuery.trim() && searchInBriefs ? (
+	                    <span className="hidden sm:inline-flex items-center rounded-full border border-stone-200/70 dark:border-stone-800/60 bg-white/55 dark:bg-stone-950/15 px-3 py-2 text-[11px] font-semibold tracking-[0.18em] uppercase text-stone-500 dark:text-stone-400">
+	                      {topicSearchStatus === 'loading' ? 'Searching…' : 'Searching content'}
+	                    </span>
+	                  ) : null}
                 </div>
               </div>
 
@@ -269,7 +396,7 @@ const LabArchivePage: React.FC = () => {
 
                 {status === 'ready' && !filteredItems.length ? (
                   <div className="text-stone-600 dark:text-stone-400">
-                    No entries for that date yet. Try another day.
+                    No entries match your filters. Try a different date or topic.
                   </div>
                 ) : null}
               </div>

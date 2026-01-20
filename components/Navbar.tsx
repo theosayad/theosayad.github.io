@@ -49,7 +49,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
     { name: 'Experience', href: '#experience' },
     { name: 'Education', href: '#education' },
     { name: 'Contact', href: '#contact' },
-    { name: "Today’s Business Brief", href: '#reading' },
+    { name: 'Daily Business Brief', href: '/lab/daily' },
   ];
   const labLink = { name: 'Lab', href: '/lab' };
 
@@ -75,8 +75,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
       return;
     }
 
-    // For Business News, nudge further down the page.
-    scrollToIdWithOffset(targetId, targetId === 'reading' ? -140 : 80);
+    scrollToIdWithOffset(targetId, 80);
     setIsOpen(false);
   };
 
@@ -99,12 +98,12 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
                     href={link.href}
                     onClick={(e) => handleNavClick(e, link.href)}
                     className={`px-3 py-2 rounded-md text-sm font-medium transition-colors cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60 ${
-                      link.href === '#reading'
+                      link.href === '/lab/daily'
                         ? 'font-semibold text-brand-700 dark:text-brand-300 hover:text-brand-800 dark:hover:text-brand-200 bg-brand-500/10 border border-brand-200/60 dark:border-stone-800/60 rounded-full'
                         : 'text-stone-600 dark:text-stone-300 hover:text-brand-700 dark:hover:text-brand-300'
                     }`}
                   >
-                    {link.href === '#reading' ? (
+                    {link.href === '/lab/daily' ? (
                       <span className="inline-flex items-center gap-2">
                         <span>{link.name}</span>
                         <span className="px-2 py-0.5 rounded-full bg-brand-500/15 text-brand-800 dark:text-brand-200 text-[10px] font-semibold tracking-normal">
@@ -177,14 +176,14 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
               href={link.href}
               onClick={(e) => handleNavClick(e, link.href)}
               className={`text-2xl font-display font-medium transition-colors ${
-                link.href === '#reading'
+                link.href === '/lab/daily'
                   ? 'text-brand-700 dark:text-brand-300 hover:text-brand-800 dark:hover:text-brand-200'
                   : link.href === '/lab'
                     ? 'text-purple-600 dark:text-purple-300 hover:text-purple-500 dark:hover:text-purple-200'
                     : 'text-stone-900 dark:text-stone-50 hover:text-brand-700 dark:hover:text-brand-300'
               }`}
             >
-              {link.href === '#reading' ? (
+              {link.href === '/lab/daily' ? (
                 <span className="inline-flex items-center gap-3">
                   <span>{link.name}</span>
                   <span className="px-3 py-1 rounded-full bg-brand-500/15 text-brand-800 dark:text-brand-200 text-[11px] font-semibold tracking-normal">
