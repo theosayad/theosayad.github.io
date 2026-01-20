@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
 
   return (
     <footer id="contact" className="bg-white/25 dark:bg-stone-950/30 border-t border-stone-200/70 dark:border-stone-900/60 py-12 md:py-16 transition-colors duration-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
                 <h2 className="text-2xl md:text-3xl font-display font-semibold tracking-tight text-stone-900 dark:text-stone-50 mb-6">Let's Connect</h2>

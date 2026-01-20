@@ -86,7 +86,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
           navHidden && !isOpen ? '-translate-y-full' : 'translate-y-0'
         } ${scrolled ? 'bg-white/65 dark:bg-stone-950/45 backdrop-blur-xl border-b border-stone-200/70 dark:border-stone-800/60 shadow-sm py-2' : 'bg-transparent py-4'}`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-12">
             
             {/* Desktop Menu */}

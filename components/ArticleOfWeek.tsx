@@ -106,19 +106,13 @@ const ArticleOfWeek: React.FC = () => {
   const label = data?.source ?? hostname ?? 'Daily pick';
   const publishedLabel = useMemo(() => formatDate(data?.publishedAt), [data?.publishedAt]);
   const updatedLabel = useMemo(() => formatDate(data?.selectedAt), [data?.selectedAt]);
-  const meta = [
-    data?.hn?.score != null ? `${data.hn.score} points` : null,
-    data?.hn?.comments != null ? `${data.hn.comments} comments` : null,
-  ]
-    .filter(Boolean)
-    .join(' · ');
 
   const archiveSlug = useMemo(() => (data?.selectedAt ? toDateSlug(data.selectedAt) : undefined), [data?.selectedAt]);
   const aiBriefAvailable = Boolean(archive?.summary || (archive?.keyPoints && archive.keyPoints.length) || archive?.rewrite?.body);
 
   return (
     <section id="reading" className="pt-14 pb-16 md:pt-20 md:pb-24 bg-transparent transition-colors duration-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
           <div className="flex items-center gap-4">
             <div className="p-3 bg-brand-500/10 rounded-lg border border-brand-200/60 dark:border-stone-800/60">
@@ -183,7 +177,6 @@ const ArticleOfWeek: React.FC = () => {
                         Published {publishedLabel}
                       </span>
                     ) : null}
-                    {meta ? <span className="sm:ml-1">{meta}</span> : null}
                   </div>
 
                   <div className="mt-6">
@@ -229,18 +222,34 @@ const ArticleOfWeek: React.FC = () => {
 
                           {aiBriefAvailable ? (
                             <>
-                              {archive?.summary ? (
-                                <p className="mt-3 text-stone-700 dark:text-stone-300 leading-relaxed">{archive.summary}</p>
-                              ) : null}
                               {archive?.keyPoints?.length ? (
-                                <ul className="mt-3 space-y-1.5 text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
-                                  {archive.keyPoints.slice(0, 3).map((t, idx) => (
-                                    <li key={idx} className="flex items-start gap-2">
-                                      <span className="mt-2 h-1 w-1 rounded-full bg-brand-500/60" />
-                                      <span>{t}</span>
-                                    </li>
-                                  ))}
-                                </ul>
+                                <div className="mt-4">
+                                  <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                                    Key points
+                                  </div>
+                                  <ul className="mt-2 space-y-1.5 text-sm text-stone-700 dark:text-stone-300 leading-relaxed">
+                                    {archive.keyPoints.slice(0, 3).map((t, idx) => (
+                                      <li key={idx} className="flex items-start gap-2">
+                                        <span className="mt-2 h-1 w-1 rounded-full bg-brand-500/60" />
+                                        <span>{t}</span>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              ) : null}
+                              {archive?.summary ? (
+                                <div
+                                  className={
+                                    archive?.keyPoints?.length
+                                      ? 'mt-4 pt-4 border-t border-stone-200/70 dark:border-stone-800/60'
+                                      : 'mt-4'
+                                  }
+                                >
+                                  <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-stone-500 dark:text-stone-400">
+                                    Summary
+                                  </div>
+                                  <p className="mt-2 text-stone-700 dark:text-stone-300 leading-relaxed">{archive.summary}</p>
+                                </div>
                               ) : null}
 
                             </>

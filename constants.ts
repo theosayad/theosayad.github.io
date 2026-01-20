@@ -18,6 +18,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     id: "mevp",
     role: "VC Intern",
     company: "Middle East Venture Partners",
+    companyUrl: "https://www.mevp.com/",
     location: "Beirut, Lebanon",
     period: "Aug. 2025 - Sep. 2025",
     description: [
@@ -29,6 +30,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     id: "transmed",
     role: "Operations Intern",
     company: "Transmed",
+    companyUrl: "https://transmed.com/",
     location: "Dubai, UAE",
     period: "Jun. 2025 - Jul. 2025",
     description: [
@@ -40,6 +42,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     id: "wakilni",
     role: "Commercial Operations Assistant",
     company: "Wakilni",
+    companyUrl: "https://wakilni.com/",
     location: "Beirut, Lebanon",
     period: "Jul. 2024 - Oct. 2024",
     description: [
@@ -51,6 +54,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     id: "seez",
     role: "Marketing Intern",
     company: "Seez",
+    companyUrl: "https://seez.co/en/",
     location: "Dubai, UAE",
     period: "May 2024 - Jul. 2024",
     description: [

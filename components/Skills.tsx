@@ -46,7 +46,7 @@ const Skills: React.FC<SkillsProps> = ({ isDark }) => {
 
   return (
     <section id="education" className="py-16 md:py-24 bg-transparent transition-colors duration-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16">
             {/* Education Column */}

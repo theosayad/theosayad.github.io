@@ -82,7 +82,7 @@ const Hero: React.FC = () => {
       {/* Static Background decoration fallback/accent */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] md:w-[1000px] h-[300px] md:h-[500px] bg-brand-400/10 dark:bg-brand-400/10 rounded-full blur-[90px] md:blur-[130px] -z-10" />
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center gap-8 md:gap-12 relative z-10">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center gap-8 md:gap-12 relative z-10">
         <div className="flex-1 text-center md:text-left">
           <div className="inline-block px-4 py-1.5 mb-5 text-[11px] font-semibold tracking-[0.22em] text-brand-700 dark:text-brand-300 uppercase bg-white/50 dark:bg-stone-950/30 rounded-full border border-brand-200/60 dark:border-stone-800/60 animate-fade-in-up backdrop-blur-sm">
             Available for opportunities

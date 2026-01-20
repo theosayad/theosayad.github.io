@@ -99,7 +99,7 @@ const LabPage: React.FC = () => {
         <div className="absolute right-10 top-12 h-40 w-40 rounded-full bg-amber-400/10 blur-3xl" />
         <div className="absolute left-16 top-20 h-28 w-28 rounded-full bg-emerald-400/10 blur-3xl" />
       </div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <header className="relative">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
             <div className="flex items-start gap-4 min-w-0">

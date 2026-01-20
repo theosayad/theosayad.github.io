@@ -161,7 +161,7 @@ const LabArchivePage: React.FC = () => {
       <div className="pointer-events-none absolute inset-x-0 -top-24 h-72">
         <div className="absolute left-1/2 -translate-x-1/2 w-[720px] md:w-[1100px] h-[320px] bg-brand-400/10 dark:bg-brand-400/10 rounded-full blur-[110px] md:blur-[140px]" />
       </div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <header className="relative">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
             <div className="flex items-start gap-4 min-w-0">
