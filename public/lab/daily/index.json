@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-01-20T11:41:01.920Z",
+  "updatedAt": "2026-01-21T09:41:13.397Z",
   "items": [
+    {
+      "slug": "2026-01-21",
+      "title": "Nvidia Stock Crash Prediction",
+      "url": "https://entropicthoughts.com/nvidia-stock-crash-prediction",
+      "source": "entropicthoughts.com",
+      "selectedAt": "2026-01-21T09:41:03.767Z",
+      "publishedAt": "2026-01-20T15:56:07.000Z",
+      "hn": {
+        "id": 46693205,
+        "score": 405,
+        "comments": 336
+      }
+    },
     {
       "slug": "2026-01-20",
       "title": "American importers and consumers bear the cost of 2025 tariffs: analysis",
