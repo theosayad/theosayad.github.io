@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-01-21T09:41:13.397Z",
+  "updatedAt": "2026-01-22T09:41:02.588Z",
   "items": [
+    {
+      "slug": "2026-01-22",
+      "title": "Swedish Alecta has sold off an estimated $8B of US Treasury Bonds",
+      "url": "https://www.di.se/nyheter/di-avslojar-alecta-har-dumpat-amerikanska-statspapper/",
+      "source": "di.se",
+      "selectedAt": "2026-01-22T09:40:47.101Z",
+      "publishedAt": "2026-01-21T13:13:06.000Z",
+      "hn": {
+        "id": 46705256,
+        "score": 197,
+        "comments": 162
+      }
+    },
     {
       "slug": "2026-01-21",
       "title": "Nvidia Stock Crash Prediction",
