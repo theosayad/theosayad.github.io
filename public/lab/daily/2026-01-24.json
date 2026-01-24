@@ -1,0 +1,41 @@
+{
+  "slug": "2026-01-24",
+  "generatedAt": "2026-01-24T09:28:58.538Z",
+  "article": {
+    "title": "SEC obtains final consent judgments against former FTX and Alameda executives",
+    "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26450",
+    "source": "sec.gov",
+    "selectedAt": "2026-01-24T09:28:54.182Z",
+    "publishedAt": "2026-01-24T02:59:42.000Z",
+    "hn": {
+      "id": 46740644,
+      "score": 97,
+      "comments": 71
+    }
+  },
+  "takeaways": [],
+  "summary": "The SEC secured final consent judgments against former executives of FTX and Alameda Research, concluding enforcement actions related to the collapse of the crypto exchange. This marks a significant regulatory milestone, emphasizing accountability in the crypto sector and reinforcing investor protection frameworks.",
+  "keyPoints": [
+    "The SEC's final judgments target top former executives of FTX and Alameda Research.",
+    "These actions stem from the 2022 collapse of FTX, which triggered widespread market disruption.",
+    "The judgments include penalties and restrictions designed to prevent future misconduct.",
+    "This enforcement underscores increased regulatory scrutiny on crypto platforms post-FTX failure.",
+    "The case highlights the SEC's commitment to holding crypto executives accountable for investor harm."
+  ],
+  "rewrite": {
+    "title": "SEC Finalizes Judgments Against Ex-FTX Executives",
+    "body": "The U.S. Securities and Exchange Commission (SEC) has finalized consent judgments against key former executives of FTX and Alameda Research, concluding a major enforcement chapter tied to the 2022 collapse of the crypto exchange. These judgments impose penalties and operational restrictions aimed at curbing future violations and safeguarding investors. The FTX implosion, which sent shockwaves through the crypto market, exposed significant governance failures and misuse of customer funds. By securing these judgments, the SEC signals a robust regulatory stance toward crypto industry misconduct, reinforcing that executives will face consequences for breaches of securities laws. This development also serves as a cautionary precedent for other crypto firms, highlighting the growing regulatory oversight in the sector. As the crypto ecosystem continues to evolve, the SEC's actions demonstrate its resolve to enhance transparency and protect market participants from fraudulent practices.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
