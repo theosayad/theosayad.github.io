@@ -1,0 +1,42 @@
+{
+  "slug": "2026-01-25",
+  "generatedAt": "2026-01-25T09:30:16.354Z",
+  "article": {
+    "title": "I added a Bluesky comment section to my blog",
+    "url": "https://micahcantor.com/blog/bluesky-comment-section.html",
+    "source": "micahcantor.com",
+    "selectedAt": "2026-01-25T09:30:09.476Z",
+    "publishedAt": "2026-01-24T20:33:40.000Z",
+    "hn": {
+      "id": 46747366,
+      "score": 261,
+      "comments": 91
+    }
+  },
+  "takeaways": [],
+  "summary": "A developer integrated a Bluesky-powered comment section into his statically generated blog to overcome challenges of hosting dynamic comments. Leveraging Bluesky's open platform and API, he created a lightweight, read-only comment display that simplifies moderation and hosting while preserving conversation threading and mobile usability.",
+  "keyPoints": [
+    "Bluesky comments embedded directly on a static blog via public API, avoiding costly dynamic hosting.",
+    "Implementation uses ~200 lines of TypeScript/React code, integrating with Bluesky's getPostThread API endpoint.",
+    "OAuth posting flow was prototyped but abandoned due to complexity and limited UX gains.",
+    "React-query manages API calls and error/loading states, simplifying data fetching.",
+    "UI design prioritizes simplicity: text-only replies, indented threaded display, mobile-friendly layout.",
+    "Bluesky chosen over Twitter, Disqus, or GitHub Discussions for its open protocol (AT Proto) and decentralized governance."
+  ],
+  "rewrite": {
+    "title": "Embedding Bluesky Comments on a Static Blog",
+    "body": "Maintaining a dynamic comment section on a statically generated blog often requires costly infrastructure and ongoing DevOps effort. To circumvent this, a developer integrated a read-only Bluesky comment section directly into his site by leveraging Bluesky's open social media platform and public API. This approach outsources user verification, hosting, spam control, and moderation to Bluesky, significantly reducing maintenance overhead.\n\nThe implementation, totaling roughly 200 lines of TypeScript and React code, fetches replies to a specified Bluesky post via the getPostThread API endpoint. The developer initially explored enabling direct posting through an OAuth flow but found building a user-friendly interface for posting and replying too complex and ultimately unnecessary, as users can interact directly on Bluesky.\n\nTo handle asynchronous data fetching and error states, the project uses the Tanstack react-query library, streamlining API integration. The UI focuses on simplicity, extracting only textual content from replies and presenting them in an indented, threaded format with visual cues for readability, especially on mobile devices. A link to the original Bluesky post encourages users to join the conversation on the native platform.\n\nChoosing Bluesky over alternatives like Twitter, Disqus, or GitHub Discussions reflects its foundation on the open AT Proto protocol and its resistance to centralized control, aligning with values of decentralization and open governance. This integration demonstrates a practical model for embedding social conversations into static sites without incurring the costs and complexities of hosting dynamic comment systems.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5695
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

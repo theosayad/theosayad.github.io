@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-01-24T09:28:58.539Z",
+  "updatedAt": "2026-01-25T09:30:16.356Z",
   "items": [
+    {
+      "slug": "2026-01-25",
+      "title": "I added a Bluesky comment section to my blog",
+      "url": "https://micahcantor.com/blog/bluesky-comment-section.html",
+      "source": "micahcantor.com",
+      "selectedAt": "2026-01-25T09:30:09.476Z",
+      "publishedAt": "2026-01-24T20:33:40.000Z",
+      "hn": {
+        "id": 46747366,
+        "score": 261,
+        "comments": 91
+      }
+    },
     {
       "slug": "2026-01-24",
       "title": "SEC obtains final consent judgments against former FTX and Alameda executives",
