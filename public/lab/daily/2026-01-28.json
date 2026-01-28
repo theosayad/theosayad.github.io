@@ -1,0 +1,42 @@
+{
+  "slug": "2026-01-28",
+  "generatedAt": "2026-01-28T09:42:18.665Z",
+  "article": {
+    "title": "Thief of $90M in seized U.S.-controlled crypto is gov't contractor's son",
+    "url": "https://www.web3isgoinggreat.com/single/lick-theft",
+    "source": "web3isgoinggreat.com",
+    "selectedAt": "2026-01-28T09:42:07.568Z",
+    "publishedAt": "2026-01-27T21:54:29.000Z",
+    "hn": {
+      "id": 46787521,
+      "score": 324,
+      "comments": 64
+    }
+  },
+  "takeaways": [],
+  "summary": "John Daghita, son of a government contractor managing seized crypto assets, is implicated in the theft of $90 million in U.S.-controlled cryptocurrency. The contractor’s firm, CMDSS, which holds an active contract with the U.S. Marshals Service since October 2024, has since attempted to erase its digital footprint following the allegations. This incident raises serious concerns about oversight and security in government-managed crypto asset custody.",
+  "keyPoints": [
+    "John Daghita is identified as 'Lick,' the alleged thief of $90 million in seized cryptocurrency.",
+    "His father, Dean Daghita, owns CMDSS, contracted by the U.S. Marshals Service since October 2024 to manage seized crypto assets.",
+    "Following public exposure, both 'Lick' and CMDSS scrubbed their online presence, indicating attempts to conceal involvement.",
+    "CMDSS markets itself as a provider of critical services to the Department of Defense and Department of Justice.",
+    "The thief partially returned 0.6767 ETH (approximately $1,900) to the security researcher who uncovered the identity.",
+    "This case highlights vulnerabilities in government contracts handling digital assets and potential conflicts of interest."
+  ],
+  "rewrite": {
+    "title": "Son of US Crypto Custodian Accused of $90M Theft",
+    "body": "In a significant breach of trust, John Daghita, linked to the online alias 'Lick,' has been accused of stealing $90 million in cryptocurrency assets seized and controlled by the U.S. government. The stolen funds were under the custody of Command Services & Support (CMDSS), a private contractor owned by his father, Dean Daghita. CMDSS secured a contract in October 2024 with the U.S. Marshals Service to oversee seized crypto assets, a role that demands stringent security and transparency.\n\nAfter the connection between John Daghita and CMDSS was publicly revealed by security researcher zachxbt, both the individual and the company took steps to erase their online footprints. The thief also engaged in trolling behavior and returned a small fraction of the stolen amount—0.6767 ETH, roughly $1,900—to zachxbt, possibly as a taunt or proof of identity. CMDSS, which promotes itself as a trusted provider to the Department of Defense and Department of Justice, now faces scrutiny over the integrity of its operations and the oversight mechanisms in place.\n\nThis incident exposes critical weaknesses in the management of government-held digital assets, especially when private contractors with potential conflicts of interest are involved. It raises urgent questions about how seized cryptocurrency is secured and monitored, and whether current contracting practices sufficiently mitigate insider risks. The fallout could prompt tighter regulations and enhanced auditing protocols for entities entrusted with government crypto custody.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 1123
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
