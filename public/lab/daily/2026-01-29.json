@@ -1,0 +1,42 @@
+{
+  "slug": "2026-01-29",
+  "generatedAt": "2026-01-29T09:54:07.546Z",
+  "article": {
+    "title": "He Leaked the Secrets of an Asian Scam Compound. Then He Had to Get Out Alive",
+    "url": "https://www.wired.com/story/he-leaked-the-secrets-southeast-asian-scam-compound-then-had-to-get-out-alive/",
+    "source": "wired.com",
+    "selectedAt": "2026-01-29T09:53:58.440Z",
+    "publishedAt": "2026-01-28T11:17:07.000Z",
+    "hn": {
+      "id": 46793889,
+      "score": 53,
+      "comments": 4
+    }
+  },
+  "takeaways": [],
+  "summary": "A young man trapped in a Chinese-run scam compound in Laos leaked detailed evidence exposing the mechanics of a sophisticated romance and investment fraud operation targeting Indian Americans. His revelations highlight the exploitative labor conditions and the challenges of dismantling such transnational criminal enterprises in geopolitically sensitive regions.",
+  "keyPoints": [
+    "The compound operates in the Golden Triangle SEZ, controlled largely by Chinese interests, targeting victims primarily of Indian descent.",
+    "Workers, including 'Red Bull,' are lured by fake job offers, have passports confiscated, and endure 15-hour night shifts with minimal pay (~$500/month) mostly lost to fines.",
+    "Scams involve fake social media profiles, AI deepfakes, and fake trading platforms, with team quotas around $1 million monthly and celebrations for $100,000+ wins.",
+    "Communication logs reveal callous office culture, with victims’ emotional distress mocked and workers coerced into daily performance reporting under threat of fines and punishment.",
+    "Efforts to involve law enforcement face skepticism due to jurisdictional limits; FBI/Interpol unlikely to intervene directly in Laos.",
+    "Escape attempts are perilous; Red Bull’s exfiltration involved bribes and crossing the Mekong River at the tri-border area, underscoring the compound’s control and risks for insiders."
+  ],
+  "rewrite": {
+    "title": "Inside a Chinese-Run Scam Compound in Laos",
+    "body": "A young computer engineer, known as Red Bull, exposed the inner workings of a sprawling scam operation in northern Laos’s Golden Triangle special economic zone, a region dominated by Chinese business interests. The compound specialized in romance and investment fraud targeting Indian Americans, using fake social media profiles, AI deepfakes, and fabricated trading platforms to dupe victims out of millions. Workers were trapped under deceptive job offers, had their passports confiscated, and endured grueling 15-hour night shifts aligned with victims’ time zones. Despite a base salary of roughly $500 per month, fines for missing quotas left them effectively unpaid, living on chemically tainted cafeteria food.\n\nThe scam operation functioned like a perverse sales floor, with teams required to meet monthly quotas around $1 million. Successes were celebrated with ceremonial drums and office parties, while failures led to fines, berating, and forced seven-day workweeks. Chat logs reveal a callous culture where victims’ suffering was mocked, exposing the human cost behind the scheme. Attempts to gather further intelligence included proposals for hidden cameras and spyware, highlighting the risks insiders faced.\n\nRed Bull’s escape was fraught with danger, involving bribing an immigration official and crossing the Mekong River at the tri-border nexus of Thailand, Laos, and Myanmar. Law enforcement intervention appears unlikely due to jurisdictional and geopolitical constraints, with experts doubting that agencies like the FBI or Interpol could dismantle such operations. This case underscores the complex intersection of transnational crime, labor exploitation, and the limits of legal recourse in remote, semi-autonomous zones.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 12773
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
