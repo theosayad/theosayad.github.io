@@ -1,0 +1,42 @@
+{
+  "slug": "2026-01-30",
+  "generatedAt": "2026-01-30T09:50:12.105Z",
+  "article": {
+    "title": "County pays $600k to pentesters it arrested for assessing courthouse security",
+    "url": "https://arstechnica.com/security/2026/01/county-pays-600000-to-pentesters-it-arrested-for-assessing-courthouse-security/",
+    "source": "arstechnica.com",
+    "selectedAt": "2026-01-30T09:50:02.714Z",
+    "publishedAt": "2026-01-29T18:48:09.000Z",
+    "hn": {
+      "id": 46814614,
+      "score": 392,
+      "comments": 179
+    }
+  },
+  "takeaways": [],
+  "summary": "In 2019, two authorized penetration testers were arrested while assessing security at an Iowa courthouse despite having official permission. After a protracted legal battle, Dallas County agreed to a $600,000 settlement, underscoring the risks security professionals face when their work is misunderstood by law enforcement.",
+  "keyPoints": [
+    "Gary DeMercurio and Justin Wynn, pentesters from Coalfire Labs, were arrested on felony burglary charges in September 2019 during a sanctioned red-team exercise at the Dallas County Courthouse.",
+    "Their authorization explicitly permitted physical security testing, including lockpicking, without causing significant damage.",
+    "They spent 20 hours in jail on $100,000 bail before charges were downgraded to misdemeanor trespassing and eventually dismissed.",
+    "Sheriff Chad Leonard publicly disputed their authorization, leading to defamation and reputational harm.",
+    "The lawsuit alleging false arrest, defamation, and malicious prosecution was settled in January 2026 for $600,000, five days before trial.",
+    "The case highlights the chilling effect wrongful arrests can have on cybersecurity professionals and the broader implications for public safety."
+  ],
+  "rewrite": {
+    "title": "County Settles $600K Over Pentesters’ Wrongful Arrest",
+    "body": "In September 2019, two penetration testers, Gary DeMercurio and Justin Wynn, were arrested while conducting an authorized security assessment of the Dallas County Courthouse in Iowa. Employed by Coalfire Labs, they had explicit written permission from the Iowa Judicial Branch to perform red-team exercises, including physical intrusion tactics like lockpicking, aimed at identifying vulnerabilities. Despite presenting their authorization to responding deputies, the arrival of Sheriff Chad Leonard led to their arrest on felony burglary charges. \n\nThe testers spent nearly a day in jail on $100,000 bail before charges were reduced to misdemeanors and ultimately dismissed. Throughout the ordeal, Sheriff Leonard publicly challenged their legitimacy, damaging their professional reputations. This incident sent a stark warning to the cybersecurity community about the risks of conducting government-authorized security work.\n\nAfter more than six years of legal proceedings, Dallas County agreed to a $600,000 settlement just days before the case was set to go to trial in January 2026. DeMercurio and Wynn’s lawsuit cited false arrest, defamation, and malicious prosecution, emphasizing the severe personal and professional toll such incidents impose. The settlement reaffirms the importance of clear communication and respect for security professionals’ roles in safeguarding public infrastructure.\n\nThis case serves as a cautionary tale about the potential consequences when law enforcement misinterprets or disregards authorized cybersecurity efforts. It underscores the need for better protocols to protect those who expose vulnerabilities in critical systems, ensuring public safety is enhanced rather than undermined by legal misunderstandings.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4985
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
