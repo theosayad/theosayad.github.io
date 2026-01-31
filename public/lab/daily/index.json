@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-01-30T09:50:12.107Z",
+  "updatedAt": "2026-01-31T09:36:36.344Z",
   "items": [
+    {
+      "slug": "2026-01-31",
+      "title": "Wisconsin communities signed secrecy deals for billion-dollar data centers",
+      "url": "https://www.wpr.org/news/4-wisconsin-communities-signed-secrecy-deals-billion-dollar-data-centers",
+      "source": "wpr.org",
+      "selectedAt": "2026-01-31T09:36:27.127Z",
+      "publishedAt": "2026-01-30T13:23:53.000Z",
+      "hn": {
+        "id": 46824098,
+        "score": 326,
+        "comments": 346
+      }
+    },
     {
       "slug": "2026-01-30",
       "title": "County pays $600k to pentesters it arrested for assessing courthouse security",

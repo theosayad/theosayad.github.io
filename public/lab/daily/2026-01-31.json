@@ -1,0 +1,42 @@
+{
+  "slug": "2026-01-31",
+  "generatedAt": "2026-01-31T09:36:36.343Z",
+  "article": {
+    "title": "Wisconsin communities signed secrecy deals for billion-dollar data centers",
+    "url": "https://www.wpr.org/news/4-wisconsin-communities-signed-secrecy-deals-billion-dollar-data-centers",
+    "source": "wpr.org",
+    "selectedAt": "2026-01-31T09:36:27.127Z",
+    "publishedAt": "2026-01-30T13:23:53.000Z",
+    "hn": {
+      "id": 46824098,
+      "score": 326,
+      "comments": 346
+    }
+  },
+  "takeaways": [],
+  "summary": "Several Wisconsin communities have entered into secrecy agreements with data center developers, delaying public disclosure of massive projects that will impact local economies, land use, and utilities. This lack of transparency raises concerns about public oversight and the long-term sustainability of infrastructure investments amid growing data center demand.",
+  "keyPoints": [
+    "Four Wisconsin communities—Beaver Dam, Mount Pleasant, Port Washington, and DeForest—are involved in billion-dollar data center projects, with seven large centers either proposed or under construction.",
+    "Beaver Dam's development corporation signed a non-disclosure agreement (NDA) in December 2023 with a shell company, Balloonist LLC, delaying public announcement until February 2025.",
+    "Port Washington faces public backlash and political unrest over a $15 billion data center project involving OpenAI, Oracle, and Vantage Data Centers, with calls to recall the mayor for secrecy.",
+    "The Wisconsin Department of Administration rejected DeForest’s annexation proposal due to concerns over water and sewer service provision.",
+    "Experts and advocacy groups warn that secrecy hinders public scrutiny of data centers’ significant water and electricity demands, risking stranded energy assets similar to nearly $1 billion in coal plant shutdown costs.",
+    "Several states, including Florida, Michigan, and New Jersey, are considering legislation to limit or prohibit NDAs for data center projects to enhance transparency."
+  ],
+  "rewrite": {
+    "title": "Wisconsin Data Centers Spark Secrecy and Public Concern",
+    "body": "In Wisconsin, multiple communities have signed confidentiality agreements with data center developers, postponing public knowledge of projects valued in the billions. These deals, common in early development stages, have raised alarms about the adequacy of public engagement on initiatives that profoundly affect local economies, land use, and utility infrastructure. For example, Beaver Dam’s economic development arm entered an NDA in December 2023 with an obscure entity, Balloonist LLC, keeping the project under wraps until February 2025—over a year later.\n\nPort Washington’s $15 billion data center, backed by tech giants OpenAI, Oracle, and Vantage Data Centers, has ignited community protests and political turmoil, including efforts to recall the mayor over perceived secrecy. Meanwhile, DeForest’s annexation plan tied to a data center was deemed not in the public interest by state officials due to unresolved water and sewer service issues.\n\nThe rapid expansion of large data centers in Wisconsin—seven major projects are either underway or proposed—poses challenges beyond transparency. Utility experts warn that the surge in energy and water demand risks creating stranded assets, echoing the nearly $1 billion in costs from retiring coal plants. University researchers highlight that limited disclosure obstructs public assessment of whether hosting such facilities aligns with community interests.\n\nThis pattern of secrecy is not unique to Wisconsin. Other states have seen similar NDA practices, prompting legislative efforts in Florida, Michigan, New Jersey, and Georgia to restrict confidentiality agreements and improve public oversight. Advocates argue that notifying communities once proposals are viable for official approval strikes a balance between protecting competitive business interests and ensuring democratic transparency.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5261
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
