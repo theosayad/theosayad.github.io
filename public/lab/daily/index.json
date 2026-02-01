@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-01-31T09:36:36.344Z",
+  "updatedAt": "2026-02-01T09:39:37.292Z",
   "items": [
+    {
+      "slug": "2026-02-01",
+      "title": "Apple Platform Security (Jan 2026) [pdf]",
+      "url": "https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf",
+      "source": "help.apple.com",
+      "selectedAt": "2026-02-01T09:39:31.391Z",
+      "publishedAt": "2026-01-31T16:04:03.000Z",
+      "hn": {
+        "id": 46837814,
+        "score": 167,
+        "comments": 122
+      }
+    },
     {
       "slug": "2026-01-31",
       "title": "Wisconsin communities signed secrecy deals for billion-dollar data centers",

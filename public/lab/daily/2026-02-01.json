@@ -1,0 +1,42 @@
+{
+  "slug": "2026-02-01",
+  "generatedAt": "2026-02-01T09:39:37.290Z",
+  "article": {
+    "title": "Apple Platform Security (Jan 2026) [pdf]",
+    "url": "https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf",
+    "source": "help.apple.com",
+    "selectedAt": "2026-02-01T09:39:31.391Z",
+    "publishedAt": "2026-01-31T16:04:03.000Z",
+    "hn": {
+      "id": 46837814,
+      "score": 167,
+      "comments": 122
+    }
+  },
+  "takeaways": [],
+  "summary": "Apple released its updated Platform Security Guide in January 2026, detailing enhancements in device and data protection across its ecosystem. The document underscores Apple's ongoing commitment to hardware-based security, privacy preservation, and secure software development, critical for maintaining user trust amid rising cybersecurity threats.",
+  "keyPoints": [
+    "The guide emphasizes hardware-rooted security features, including the Secure Enclave and system integrity protections.",
+    "Apple's continuous integration of cryptographic protections safeguards user data both at rest and in transit.",
+    "Security updates and system software are cryptographically signed to prevent unauthorized modifications.",
+    "The document highlights Apple's approach to privacy, limiting data collection and enhancing transparency.",
+    "Apple's security architecture supports secure boot chains and runtime protections to mitigate malware risks.",
+    "Released January 2026, this guide reflects Apple's latest security posture to address evolving threat landscapes."
+  ],
+  "rewrite": {
+    "title": "Apple Platform Security Update January 2026",
+    "body": "In January 2026, Apple published its latest Platform Security Guide, reinforcing its leadership in device and data security. Central to the update is the continued reliance on hardware-based security elements such as the Secure Enclave, which isolates sensitive operations and cryptographic keys from the main processor. This hardware foundation enables robust protections against physical and software attacks.\n\nThe guide details Apple's layered security model, incorporating cryptographic safeguards that protect data both when stored on devices and during transmission. System software and security updates are cryptographically signed, ensuring that only trusted code runs on Apple devices, thereby reducing the risk of malware and unauthorized modifications.\n\nPrivacy remains a core pillar, with Apple limiting data collection and enhancing user transparency regarding data usage. The security architecture supports secure boot processes and runtime defenses, which collectively mitigate vulnerabilities and help maintain system integrity. These measures are critical as cyber threats become increasingly sophisticated.\n\nBy releasing this comprehensive guide, Apple signals its proactive stance in adapting to the evolving cybersecurity landscape. The document serves not only as a technical reference for developers and security professionals but also as a reassurance to users about the safety and privacy of their digital interactions within the Apple ecosystem.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 1430204
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
