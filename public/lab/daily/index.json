@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-01T09:39:37.292Z",
+  "updatedAt": "2026-02-02T10:00:48.080Z",
   "items": [
+    {
+      "slug": "2026-02-02",
+      "title": "Treasures found on HS2 route stored in secret warehouse",
+      "url": "https://www.bbc.com/news/articles/c93v21q5xdvo",
+      "source": "bbc.com",
+      "selectedAt": "2026-02-02T10:00:39.922Z",
+      "publishedAt": "2026-02-01T22:14:39.000Z",
+      "hn": {
+        "id": 46849926,
+        "score": 61,
+        "comments": 32
+      }
+    },
     {
       "slug": "2026-02-01",
       "title": "Apple Platform Security (Jan 2026) [pdf]",

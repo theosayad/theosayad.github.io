@@ -1,0 +1,42 @@
+{
+  "slug": "2026-02-02",
+  "generatedAt": "2026-02-02T10:00:48.078Z",
+  "article": {
+    "title": "Treasures found on HS2 route stored in secret warehouse",
+    "url": "https://www.bbc.com/news/articles/c93v21q5xdvo",
+    "source": "bbc.com",
+    "selectedAt": "2026-02-02T10:00:39.922Z",
+    "publishedAt": "2026-02-01T22:14:39.000Z",
+    "hn": {
+      "id": 46849926,
+      "score": 61,
+      "comments": 32
+    }
+  },
+  "takeaways": [],
+  "summary": "Over 450,000 archaeological artifacts uncovered along the HS2 railway route are stored in a secret Yorkshire warehouse, offering significant insights into Britain's history from the Stone Age to the 19th century. Despite controversy over HS2's costs and environmental impact, the extensive archaeological findings highlight the project's unique contribution to historical research and heritage preservation.",
+  "keyPoints": [
+    "Approximately 450,000 objects are stored in a secure warehouse in Yorkshire, spanning from a possible Roman gladiator's tag to 40,000-year-old hand axes and 19th-century gold dentures.",
+    "The collection includes 7,300 boxes of artifacts, many never displayed publicly, with ongoing plans to exhibit items such as those from the Wendover Saxon cemetery.",
+    "Critics emphasize HS2's escalating costs, delays, and environmental damage, while supporters argue the archaeological work adds invaluable cultural value.",
+    "Notable finds include an inscribed Roman bone tag potentially linked to gladiators, an Anglo-Saxon spindle whorl with Iron Age motifs, and personal items that humanize past inhabitants.",
+    "HS2 leadership acknowledges past delivery failures but commits to controlling costs and timelines going forward.",
+    "Under English law, artifacts found during construction belong to the government or landowners, ensuring their preservation and study."
+  ],
+  "rewrite": {
+    "title": "HS2 Unearths 450,000 Historic Artifacts in Secret Storage",
+    "body": "The HS2 high-speed rail project has uncovered an extraordinary trove of approximately 450,000 archaeological objects, now securely stored in a secret warehouse located in Yorkshire. These artifacts range from a possible Roman gladiator’s inscribed bone tag and a hand axe dating back over 40,000 years to 19th-century gold dentures, reflecting a vast timeline of human activity along the route. The collection, housed in about 7,300 boxes, offers unprecedented opportunities for historical research and public exhibitions, with plans underway to showcase items such as those from the Wendover Saxon cemetery.\n\nWhile HS2 faces criticism for soaring costs, project delays, and environmental concerns, the archaeological discoveries underscore the project's unique contribution to preserving Britain's heritage. Experts emphasize that without the railway construction, many of these artifacts might have remained undiscovered, highlighting the complex balance between infrastructure development and cultural preservation. Noteworthy finds include a Roman bone tag bearing an inscription that may connect it to gladiators, and an Anglo-Saxon spindle whorl featuring Iron Age design elements, both providing tangible links to past communities.\n\nHS2’s leadership has publicly acknowledged previous shortcomings in managing budgets and schedules and is committed to improving project delivery. Meanwhile, English property law ensures that artifacts uncovered during construction remain protected under government or landowner ownership, facilitating ongoing research and conservation. This extensive archaeological archive not only enriches understanding of the regions traversed by HS2 but also illustrates the broader societal value embedded within major infrastructure projects.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3731
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
