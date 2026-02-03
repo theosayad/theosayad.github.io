@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-02T10:00:48.080Z",
+  "updatedAt": "2026-02-03T09:54:35.522Z",
   "items": [
+    {
+      "slug": "2026-02-03",
+      "title": "The Wild Markets Behind Polymarket's 'Truth Machine'",
+      "url": "https://www.wsj.com/finance/regulation/polymarket-prediction-markets-kalshi-dd4702d6",
+      "source": "wsj.com",
+      "selectedAt": "2026-02-03T09:54:27.540Z",
+      "publishedAt": "2026-02-02T16:14:31.000Z",
+      "hn": {
+        "id": 46857706,
+        "score": 4,
+        "comments": 1
+      }
+    },
     {
       "slug": "2026-02-02",
       "title": "Treasures found on HS2 route stored in secret warehouse",

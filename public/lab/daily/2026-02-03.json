@@ -1,0 +1,42 @@
+{
+  "slug": "2026-02-03",
+  "generatedAt": "2026-02-03T09:54:35.521Z",
+  "article": {
+    "title": "The Wild Markets Behind Polymarket's 'Truth Machine'",
+    "url": "https://www.wsj.com/finance/regulation/polymarket-prediction-markets-kalshi-dd4702d6",
+    "source": "wsj.com",
+    "selectedAt": "2026-02-03T09:54:27.540Z",
+    "publishedAt": "2026-02-02T16:14:31.000Z",
+    "hn": {
+      "id": 46857706,
+      "score": 4,
+      "comments": 1
+    }
+  },
+  "takeaways": [],
+  "summary": "Polymarket, a decentralized prediction market platform, has gained attention for enabling real-time betting on political and economic events using cryptocurrency. Its rise highlights regulatory challenges and market volatility inherent in decentralized finance, raising questions about the future of prediction markets and their role in information aggregation.",
+  "keyPoints": [
+    "Polymarket operates on blockchain technology, allowing users to trade event outcomes with USDC, a stablecoin.",
+    "The platform saw rapid growth during the 2020 U.S. elections, with trading volumes reaching millions of dollars daily.",
+    "Regulators, including the CFTC, have scrutinized Polymarket for operating without formal approval, citing concerns over gambling laws and market manipulation.",
+    "Decentralized prediction markets like Polymarket challenge traditional financial regulation due to their borderless and permissionless nature.",
+    "The volatility and liquidity of these markets reflect both high user engagement and risks of misinformation influencing market prices.",
+    "Polymarket’s model illustrates potential for decentralized platforms to aggregate collective intelligence but also underscores regulatory and ethical dilemmas."
+  ],
+  "rewrite": {
+    "title": "Polymarket’s Decentralized Prediction Market Challenges Regulation",
+    "body": "Polymarket has emerged as a notable player in the decentralized prediction market space by leveraging blockchain technology to facilitate real-time trading on political and economic events. Users trade outcome shares using USDC, a stablecoin, enabling a seamless and borderless betting experience. The platform experienced a surge in activity during the 2020 U.S. elections, with daily trading volumes reaching into the millions, underscoring strong market interest.\n\nHowever, Polymarket’s growth has attracted regulatory scrutiny, particularly from the Commodity Futures Trading Commission (CFTC), which has raised concerns about the platform operating without formal approval and the potential for these markets to resemble illegal gambling. This regulatory attention highlights the broader challenge decentralized finance platforms pose to traditional oversight frameworks, as their permissionless and global nature complicates enforcement.\n\nThe volatility observed in Polymarket’s markets reflects both active user participation and the risks associated with misinformation or manipulation impacting price discovery. While these decentralized prediction markets showcase the potential to harness collective intelligence for forecasting, they also bring to light significant ethical and regulatory questions. The ongoing tension between innovation and compliance will likely shape the future trajectory of platforms like Polymarket and the broader decentralized finance ecosystem.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
