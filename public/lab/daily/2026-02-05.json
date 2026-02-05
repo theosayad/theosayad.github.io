@@ -1,0 +1,42 @@
+{
+  "slug": "2026-02-05",
+  "generatedAt": "2026-02-05T09:56:03.112Z",
+  "article": {
+    "title": "Why This Computer Scientist Says All Cryptocurrency Should \"Die in a Fire\" (2022)",
+    "url": "https://www.currentaffairs.org/news/2022/05/why-this-computer-scientist-says-all-cryptocurrency-should-die-in-a-fire",
+    "source": "currentaffairs.org",
+    "selectedAt": "2026-02-05T09:55:53.978Z",
+    "publishedAt": "2026-02-04T16:59:29.000Z",
+    "hn": {
+      "id": 46888301,
+      "score": 71,
+      "comments": 38
+    }
+  },
+  "takeaways": [],
+  "summary": "Cryptocurrency, once heavily promoted, is facing a severe crisis marked by rapid collapses of major tokens and systemic failures in practical use cases. Expert Nicholas Weaver highlights fundamental flaws in crypto’s design, its incompatibility with modern finance, and the recurring emergence of Ponzi schemes, underscoring why the technology remains both useless and destructive.",
+  "keyPoints": [
+    "Cryptocurrency is fundamentally incompatible with modern payment systems, making real Bitcoin payments rare and expensive.",
+    "The Terra/Luna collapse in 2022 saw Terra’s stablecoin drop from $1 to 10 cents and Luna lose 99.99% of its value within days.",
+    "Major stablecoins like Tether refuse full audits, raising concerns about transparency and stability.",
+    "El Salvador’s Bitcoin legal tender experiment failed to create actual Bitcoin usage, relying instead on a centralized app with limited adoption.",
+    "Ponzi schemes have plagued crypto since early on, with 10% of Bitcoin in 2012-2013 invested in a major scam.",
+    "Smart contracts, touted as ‘code is law,’ have repeatedly failed due to bugs, causing catastrophic financial losses."
+  ],
+  "rewrite": {
+    "title": "Why Cryptocurrency Faces Inevitable Collapse",
+    "body": "Despite massive hype and expensive advertising campaigns, cryptocurrency is undergoing a dramatic reckoning. Nicholas Weaver, a computer science researcher at UC Berkeley, argues that cryptocurrencies are inherently flawed and incompatible with real-world financial systems. Attempts to use Bitcoin for payments are largely deceptive, relying on dollar pricing and conversion services rather than true Bitcoin transactions, which are costly and inefficient.\n\nThe 2022 collapse of Terra and Luna starkly illustrates crypto’s fragility: Terra’s stablecoin plummeted from its $1 peg to just 10 cents, while Luna lost nearly all its value in a matter of days. This rapid failure exemplifies the catastrophic risks posed by unregulated digital currencies. Compounding these issues, major stablecoins like Tether continue to avoid comprehensive audits, undermining trust and stability in the ecosystem.\n\nReal-world experiments with crypto payments, such as El Salvador’s Bitcoin legal tender law, have largely failed. The country’s Chivo wallet operates on a centralized database rather than true blockchain transfers, and adoption has dwindled after initial government incentives. This highlights the impracticality of cryptocurrencies as everyday payment methods, especially given their volatile prices.\n\nCryptocurrency’s history is riddled with Ponzi schemes, with early scams absorbing as much as 10% of all Bitcoin in circulation around 2012-2013. Additionally, the concept of smart contracts—self-executing code governing transactions—has repeatedly failed due to programming bugs, leading to massive financial losses. Weaver’s critique underscores that crypto is not just a technological failure but a replay of centuries-old financial disasters accelerated by the absence of regulation and oversight.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 13810
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

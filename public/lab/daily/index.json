@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-04T09:56:15.421Z",
+  "updatedAt": "2026-02-05T09:56:03.114Z",
   "items": [
+    {
+      "slug": "2026-02-05",
+      "title": "Why This Computer Scientist Says All Cryptocurrency Should \"Die in a Fire\" (2022)",
+      "url": "https://www.currentaffairs.org/news/2022/05/why-this-computer-scientist-says-all-cryptocurrency-should-die-in-a-fire",
+      "source": "currentaffairs.org",
+      "selectedAt": "2026-02-05T09:55:53.978Z",
+      "publishedAt": "2026-02-04T16:59:29.000Z",
+      "hn": {
+        "id": 46888301,
+        "score": 71,
+        "comments": 38
+      }
+    },
     {
       "slug": "2026-02-04",
       "title": "Anthropic AI tool sparks selloff from software to broader market",
