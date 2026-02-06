@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-05T09:56:03.114Z",
+  "updatedAt": "2026-02-06T09:54:37.491Z",
   "items": [
+    {
+      "slug": "2026-02-06",
+      "title": "Bitcoin gets a zero price target in wake of Burry warning",
+      "url": "https://seekingalpha.com/news/4547997-bitcoin-s-price-target-at-zero",
+      "source": "seekingalpha.com",
+      "selectedAt": "2026-02-06T09:54:28.915Z",
+      "publishedAt": "2026-02-06T01:19:31.000Z",
+      "hn": {
+        "id": 46907794,
+        "score": 48,
+        "comments": 50
+      }
+    },
     {
       "slug": "2026-02-05",
       "title": "Why This Computer Scientist Says All Cryptocurrency Should \"Die in a Fire\" (2022)",
