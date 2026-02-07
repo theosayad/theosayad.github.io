@@ -1,13 +1,13 @@
 {
-  "title": "Bitcoin gets a zero price target in wake of Burry warning",
-  "url": "https://seekingalpha.com/news/4547997-bitcoin-s-price-target-at-zero",
-  "source": "seekingalpha.com",
-  "selectedAt": "2026-02-06T09:54:28.915Z",
-  "publishedAt": "2026-02-06T01:19:31.000Z",
+  "title": "Microsoft open-sources LiteBox, a security-focused library OS",
+  "url": "https://github.com/microsoft/litebox",
+  "source": "github.com",
+  "selectedAt": "2026-02-07T09:39:25.038Z",
+  "publishedAt": "2026-02-06T15:13:04.000Z",
   "hn": {
-    "id": 46907794,
-    "score": 48,
-    "comments": 50
+    "id": 46913793,
+    "score": 353,
+    "comments": 178
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }
