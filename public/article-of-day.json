@@ -1,13 +1,13 @@
 {
-  "title": "Microsoft open-sources LiteBox, a security-focused library OS",
-  "url": "https://github.com/microsoft/litebox",
-  "source": "github.com",
-  "selectedAt": "2026-02-07T09:39:25.038Z",
-  "publishedAt": "2026-02-06T15:13:04.000Z",
+  "title": "SectorC: A C Compiler in 512 bytes (2023)",
+  "url": "https://xorvoid.com/sectorc.html",
+  "source": "xorvoid.com",
+  "selectedAt": "2026-02-08T09:39:15.226Z",
+  "publishedAt": "2026-02-07T17:39:53.000Z",
   "hn": {
-    "id": 46913793,
-    "score": 353,
-    "comments": 178
+    "id": 46925741,
+    "score": 296,
+    "comments": 57
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }

@@ -1,0 +1,42 @@
+{
+  "slug": "2026-02-08",
+  "generatedAt": "2026-02-08T09:39:22.280Z",
+  "article": {
+    "title": "SectorC: A C Compiler in 512 bytes (2023)",
+    "url": "https://xorvoid.com/sectorc.html",
+    "source": "xorvoid.com",
+    "selectedAt": "2026-02-08T09:39:15.226Z",
+    "publishedAt": "2026-02-07T17:39:53.000Z",
+    "hn": {
+      "id": 46925741,
+      "score": 296,
+      "comments": 57
+    }
+  },
+  "takeaways": [],
+  "summary": "SectorC is an x86-16 assembly C compiler that fits entirely within a 512-byte boot sector, likely the smallest C compiler ever created. By rethinking tokenization and leveraging hashing for symbol management, it supports a practical subset of C, enabling real programs in an ultra-constrained environment. This project challenges traditional compiler design and highlights extreme minimalism in system software.",
+  "keyPoints": [
+    "SectorC fits a C compiler, lexer, parser, and code generator in just 512 bytes.",
+    "It supports global variables, functions, control flow, pointers, inline asm, and comments.",
+    "Key innovation: replacing traditional tokenization with space-delimited tokens and using atoi() as a hash function for symbol addressing.",
+    "Initial prototype was 468 bytes; aggressive optimization reduced it to 303 bytes, freeing 207 bytes for new features.",
+    "Binary operators are implemented via a compact 4-byte per operator table, enabling 14 operators in 56 bytes.",
+    "Inline asm allows direct x86-16 machine code embedding, essential for I/O and low-level operations."
+  ],
+  "rewrite": {
+    "title": "SectorC: A 512-Byte C Compiler in Assembly",
+    "body": "SectorC is a remarkable feat of minimalist compiler engineering, fitting a functional C compiler into the 512-byte boot sector of an x86 machine. Written entirely in x86-16 assembly, it supports a surprisingly rich subset of C, including global variables, functions, control structures like if and while, pointer dereferencing, and inline assembly. This makes it capable of compiling real, meaningful programs despite its extreme size constraints.\n\nThe primary challenge was tokenization, which in conventional C compilers requires complex lexers far exceeding 512 bytes. The breakthrough came by adopting a Forth-inspired approach: tokens are simply space-delimited words, eliminating the need for a traditional lexer. To manage symbols and variables without a symbol table, SectorC uses the atoi() function as a crude hash function, mapping tokens to 16-bit integers that serve as memory offsets. This clever trade-off sidesteps complex parsing and symbol management at the cost of potential hash collisions.\n\nStarting from a 468-byte prototype, aggressive optimization reduced the compiler to 303 bytes, freeing 207 bytes to add features such as a binary operator table. This table encodes 14 operators in just 56 bytes by pairing 16-bit token values with corresponding machine code, enabling rich expression support within tight space limits. Since C lacks built-in I/O, inline assembly extensions allow embedding raw x86-16 instructions, providing essential access to hardware and system calls.\n\nSectorC exemplifies how reimagining compiler design and embracing minimalism can push the boundaries of what is possible in constrained environments. While it sacrifices error checking and traditional conveniences, it demonstrates that a practical, Turing-complete C compiler can fit into a single boot sector, opening intriguing possibilities for ultra-small embedded systems and educational tools.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5014
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

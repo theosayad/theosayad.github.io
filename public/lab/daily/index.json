@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-07T09:39:31.832Z",
+  "updatedAt": "2026-02-08T09:39:22.283Z",
   "items": [
+    {
+      "slug": "2026-02-08",
+      "title": "SectorC: A C Compiler in 512 bytes (2023)",
+      "url": "https://xorvoid.com/sectorc.html",
+      "source": "xorvoid.com",
+      "selectedAt": "2026-02-08T09:39:15.226Z",
+      "publishedAt": "2026-02-07T17:39:53.000Z",
+      "hn": {
+        "id": 46925741,
+        "score": 296,
+        "comments": 57
+      }
+    },
     {
       "slug": "2026-02-07",
       "title": "Microsoft open-sources LiteBox, a security-focused library OS",
