@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-08T09:39:22.283Z",
+  "updatedAt": "2026-02-09T10:10:23.576Z",
   "items": [
+    {
+      "slug": "2026-02-09",
+      "title": "Exploiting signed bootloaders to circumvent UEFI Secure Boot (2019)",
+      "url": "https://habr.com/en/articles/446238/",
+      "source": "habr.com",
+      "selectedAt": "2026-02-09T10:10:14.366Z",
+      "publishedAt": "2026-02-08T14:40:52.000Z",
+      "hn": {
+        "id": 46934579,
+        "score": 124,
+        "comments": 69
+      }
+    },
     {
       "slug": "2026-02-08",
       "title": "SectorC: A C Compiler in 512 bytes (2023)",

@@ -1,0 +1,42 @@
+{
+  "slug": "2026-02-09",
+  "generatedAt": "2026-02-09T10:10:23.575Z",
+  "article": {
+    "title": "Exploiting signed bootloaders to circumvent UEFI Secure Boot (2019)",
+    "url": "https://habr.com/en/articles/446238/",
+    "source": "habr.com",
+    "selectedAt": "2026-02-09T10:10:14.366Z",
+    "publishedAt": "2026-02-08T14:40:52.000Z",
+    "hn": {
+      "id": 46934579,
+      "score": 124,
+      "comments": 69
+    }
+  },
+  "takeaways": [],
+  "summary": "In 2019, ValdikSS demonstrated how certain signed bootloaders, notably from Kaspersky Rescue Disk 18, can be exploited to bypass UEFI Secure Boot protections, enabling execution of untrusted code without disabling Secure Boot. This exposes a critical vulnerability in the Secure Boot ecosystem, which relies heavily on Microsoft’s signing authority, with implications for both legitimate recovery tools and potential malware bootkits.",
+  "keyPoints": [
+    "UEFI Secure Boot, introduced in 2013, restricts booting to signed and trusted EFI binaries to prevent bootkits.",
+    "Most motherboards trust only Microsoft’s keys, forcing vendors to submit bootloaders for Microsoft signature.",
+    "Linux distributions use shim and PreLoader bootloaders to enable Secure Boot compatibility despite GPLv3 licensing restrictions.",
+    "ValdikSS created modified bootable USB images (Super and Silent UEFIinSecureBoot Disks) that disable signature verification while maintaining Secure Boot enabled.",
+    "Kaspersky Rescue Disk 18’s signed bootloader allows loading arbitrary unsigned EFI modules, bypassing Secure Boot restrictions silently.",
+    "The vulnerability could be abused for unauthorized bootkit installation; signature revocation via Windows Update is anticipated to mitigate this risk."
+  ],
+  "rewrite": {
+    "title": "Bypassing UEFI Secure Boot via Signed Bootloaders",
+    "body": "Since 2013, UEFI Secure Boot has served as a frontline defense against bootkits by permitting only signed EFI binaries to execute during system startup. This security model depends on a trust chain anchored in Microsoft’s signing keys, which most motherboard firmware accept by default. Vendors must submit their bootloaders to Microsoft for signature to ensure compatibility, complicating open-source projects like Linux distributions due to licensing conflicts. To address this, tools like shim and PreLoader were developed to facilitate Secure Boot without compromising open-source licensing, by validating internal hashes or certificates.\n\nIn 2019, security researcher ValdikSS revealed a critical weakness: certain signed bootloaders, such as those included in Kaspersky Rescue Disk 18, can be manipulated to bypass Secure Boot’s signature verification entirely. By modifying the chainloader module in GRUB2 and leveraging a custom pre-loader, ValdikSS created bootable USB images that load any unsigned EFI executable while Secure Boot remains active. This approach allows running recovery tools or live environments without disabling Secure Boot, which is particularly useful for locked or corporate systems.\n\nHowever, this exploit also poses significant security risks. Malicious actors could use similarly signed bootloaders to stealthily install bootkits or other persistent malware, circumventing Secure Boot protections without user consent. Recognizing this threat, it is expected that Microsoft and OEMs will revoke the compromised Kaspersky signing certificates through Windows Update, effectively blocking these bootloaders and mitigating the vulnerability. This case underscores the challenges in balancing secure firmware validation with flexible bootloader functionality in modern computing environments.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 10386
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

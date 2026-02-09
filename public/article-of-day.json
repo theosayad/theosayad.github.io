@@ -1,13 +1,13 @@
 {
-  "title": "SectorC: A C Compiler in 512 bytes (2023)",
-  "url": "https://xorvoid.com/sectorc.html",
-  "source": "xorvoid.com",
-  "selectedAt": "2026-02-08T09:39:15.226Z",
-  "publishedAt": "2026-02-07T17:39:53.000Z",
+  "title": "Exploiting signed bootloaders to circumvent UEFI Secure Boot (2019)",
+  "url": "https://habr.com/en/articles/446238/",
+  "source": "habr.com",
+  "selectedAt": "2026-02-09T10:10:14.366Z",
+  "publishedAt": "2026-02-08T14:40:52.000Z",
   "hn": {
-    "id": 46925741,
-    "score": 296,
-    "comments": 57
+    "id": 46934579,
+    "score": 124,
+    "comments": 69
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }
