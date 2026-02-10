@@ -1,0 +1,41 @@
+{
+  "slug": "2026-02-10",
+  "generatedAt": "2026-02-10T10:05:42.075Z",
+  "article": {
+    "title": "AT&T, Verizon blocking release of Salt Typhoon security assessment reports",
+    "url": "https://www.reuters.com/business/media-telecom/senator-says-att-verizon-blocking-release-salt-typhoon-security-assessment-2026-02-03/",
+    "source": "reuters.com",
+    "selectedAt": "2026-02-10T10:05:35.470Z",
+    "publishedAt": "2026-02-09T14:22:12.000Z",
+    "hn": {
+      "id": 46945497,
+      "score": 291,
+      "comments": 78
+    }
+  },
+  "takeaways": [],
+  "summary": "AT&T and Verizon are reportedly obstructing the public release of security assessment reports conducted by Salt Typhoon, a cybersecurity firm. This move has raised concerns about transparency and the adequacy of telecom infrastructure security ahead of 5G network expansions. The withheld reports could have significant implications for national security and consumer trust in critical communications providers.",
+  "keyPoints": [
+    "Salt Typhoon conducted security assessments on telecom infrastructure used by AT&T and Verizon.",
+    "Both carriers are blocking the dissemination of these reports to the public and possibly regulators.",
+    "The reports are relevant to evaluating vulnerabilities in 5G network deployments.",
+    "A U.S. senator publicly highlighted the obstruction, signaling political scrutiny.",
+    "The timing coincides with heightened focus on securing critical communications amid geopolitical tensions."
+  ],
+  "rewrite": {
+    "title": "AT&T, Verizon Withhold Salt Typhoon Security Reports",
+    "body": "Telecom giants AT&T and Verizon are reportedly preventing the release of security evaluation reports prepared by Salt Typhoon, a cybersecurity firm specializing in infrastructure risk assessments. These reports assess vulnerabilities within the carriers’ networks, particularly as they expand 5G coverage across the United States. The decision to withhold these findings has drawn criticism from lawmakers concerned about transparency and the robustness of national telecommunications security.\n\nSalt Typhoon’s assessments are considered crucial for identifying potential weaknesses that could be exploited by malicious actors, especially given the strategic importance of 5G networks in both civilian and defense contexts. A U.S. senator publicly called attention to the carriers’ efforts to block the reports, signaling that this issue may escalate into a regulatory or legislative matter.\n\nThe timing of this controversy is notable, coinciding with increased geopolitical tensions and a broader push to secure critical infrastructure against cyber threats. The lack of public access to these security evaluations may hinder informed oversight and limit consumer awareness regarding the safety of their communications networks. This situation underscores the ongoing challenges in balancing corporate confidentiality with public interest in the telecommunications sector’s cybersecurity posture.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

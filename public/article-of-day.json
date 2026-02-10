@@ -1,13 +1,13 @@
 {
-  "title": "Exploiting signed bootloaders to circumvent UEFI Secure Boot (2019)",
-  "url": "https://habr.com/en/articles/446238/",
-  "source": "habr.com",
-  "selectedAt": "2026-02-09T10:10:14.366Z",
-  "publishedAt": "2026-02-08T14:40:52.000Z",
+  "title": "AT&T, Verizon blocking release of Salt Typhoon security assessment reports",
+  "url": "https://www.reuters.com/business/media-telecom/senator-says-att-verizon-blocking-release-salt-typhoon-security-assessment-2026-02-03/",
+  "source": "reuters.com",
+  "selectedAt": "2026-02-10T10:05:35.470Z",
+  "publishedAt": "2026-02-09T14:22:12.000Z",
   "hn": {
-    "id": 46934579,
-    "score": 124,
-    "comments": 69
+    "id": 46945497,
+    "score": 291,
+    "comments": 78
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }
