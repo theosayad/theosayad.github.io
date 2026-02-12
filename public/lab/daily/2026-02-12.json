@@ -1,0 +1,42 @@
+{
+  "slug": "2026-02-12",
+  "generatedAt": "2026-02-12T09:58:57.537Z",
+  "article": {
+    "title": "Microwave Oven Failure: Spontaneously turned on by its LED display (2024)",
+    "url": "https://blog.stuffedcow.net/2024/06/microwave-failure-spontaneously-turns-on/",
+    "source": "blog.stuffedcow.net",
+    "selectedAt": "2026-02-12T09:58:46.615Z",
+    "publishedAt": "2026-02-11T19:50:43.000Z",
+    "hn": {
+      "id": 46979936,
+      "score": 97,
+      "comments": 30
+    }
+  },
+  "takeaways": [],
+  "summary": "A microwave oven malfunctioned by spontaneously turning on due to a design flaw where the microcontroller’s input pin was shared with the LED display segment, causing false door-open detection. This highlights risks in cost-cutting hardware designs that share I/O pins, leading to unintended interactions and safety concerns.",
+  "keyPoints": [
+    "The microcontroller pin Port H.0 is multiplexed to drive LED segment A and sense the door switch, causing interference via LED reverse leakage current.",
+    "When the door is closed, leakage raises the input pin voltage to 2.2V instead of the expected 0.6V, falsely signaling an open door.",
+    "Repair involved adding a Schottky diode in series with the LED segment A to block leakage, restoring correct door sensing voltage (~1V).",
+    "The microwave’s safety relies on multiple door switches and transistor-controlled relays to prevent magnetron activation if the door is open.",
+    "Design trade-offs include shared pins to reduce cost but increased vulnerability to cross-function interference; alternative wiring could improve robustness.",
+    "The microcontroller uses an internal oscillator with up to 50% frequency error, relying on AC line frequency for timing instead of a crystal oscillator."
+  ],
+  "rewrite": {
+    "title": "Microwave Turns On Due to LED Display Pin Sharing",
+    "body": "A microwave oven’s unexpected activation was traced to a hardware design flaw involving shared microcontroller pins. The same microcontroller input pin (Port H.0) is used both to drive an LED segment on the display and to sense the door switch status. This multiplexing, intended to reduce component costs, allows reverse leakage current from the LED segment to falsely raise the door switch input voltage to 2.2V when the door is closed—well above the expected 0.6V—causing the microcontroller to incorrectly detect the door as open.\n\nThis false detection disables the door safety mechanism, enabling the microwave to turn on unexpectedly. The repair involved adding a Schottky diode in series with the LED segment to block reverse leakage current, which restored the input voltage to a safe logic low (~1V) when the door is closed. The fix also included redesigning the display module with discrete seven-segment LEDs and protective diodes to prevent similar issues.\n\nThe microwave’s safety system incorporates multiple door switches and transistor-controlled relays to ensure the magnetron only powers when all door switches confirm closure. The design uses transistor logic to prevent the microwave from getting stuck on if the microcontroller fails. However, the cost-saving choice to share I/O pins between LED driving and door sensing introduced a critical vulnerability.\n\nAdditionally, the microcontroller relies on an internal oscillator with significant frequency error and uses AC line frequency for timing, rather than a more accurate crystal oscillator. This design choice may affect clock accuracy and reliability, especially in regions with different mains frequencies. Overall, this case underscores the risks of multiplexing critical safety inputs with other functions without adequate isolation, emphasizing the need for more robust hardware design in consumer appliances.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 11700
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

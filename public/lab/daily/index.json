@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-11T10:00:35.287Z",
+  "updatedAt": "2026-02-12T09:58:57.539Z",
   "items": [
+    {
+      "slug": "2026-02-12",
+      "title": "Microwave Oven Failure: Spontaneously turned on by its LED display (2024)",
+      "url": "https://blog.stuffedcow.net/2024/06/microwave-failure-spontaneously-turns-on/",
+      "source": "blog.stuffedcow.net",
+      "selectedAt": "2026-02-12T09:58:46.615Z",
+      "publishedAt": "2026-02-11T19:50:43.000Z",
+      "hn": {
+        "id": 46979936,
+        "score": 97,
+        "comments": 30
+      }
+    },
     {
       "slug": "2026-02-11",
       "title": "Competition is not market validation",
