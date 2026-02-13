@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-12T09:58:57.539Z",
+  "updatedAt": "2026-02-13T09:56:24.586Z",
   "items": [
+    {
+      "slug": "2026-02-13",
+      "title": "Healthcare Jobs Have Become the Engine of America's Labor Market",
+      "url": "https://www.wsj.com/economy/jobs/healthcare-jobs-have-become-the-engine-of-americas-labor-market-114ffd34",
+      "source": "wsj.com",
+      "selectedAt": "2026-02-13T09:56:17.942Z",
+      "publishedAt": "2026-02-12T15:55:28.000Z",
+      "hn": {
+        "id": 46990359,
+        "score": 30,
+        "comments": 6
+      }
+    },
     {
       "slug": "2026-02-12",
       "title": "Microwave Oven Failure: Spontaneously turned on by its LED display (2024)",
@@ -662,19 +675,6 @@
         "id": 46311355,
         "score": 408,
         "comments": 261
-      }
-    },
-    {
-      "slug": "2025-12-18",
-      "title": "Here is the 15 sec coding test I used to instantly filter out most applicants",
-      "url": "https://josezarazua.com/im-a-former-cto-here-is-the-15-sec-coding-test-i-used-to-instantly-filter-out-50-of-unqualified-applicants/",
-      "source": "josezarazua.com",
-      "selectedAt": "2025-12-18T09:35:02.820Z",
-      "publishedAt": "2025-12-17T21:40:55.000Z",
-      "hn": {
-        "id": 46305898,
-        "score": 79,
-        "comments": 96
       }
     }
   ]
