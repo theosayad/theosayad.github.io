@@ -1,0 +1,41 @@
+{
+  "slug": "2026-02-14",
+  "generatedAt": "2026-02-14T09:39:59.750Z",
+  "article": {
+    "title": "Homeland Security Wants Social Media Sites to Expose Anti-ICE Accounts",
+    "url": "https://www.nytimes.com/2026/02/13/technology/dhs-anti-ice-social-media.html",
+    "source": "nytimes.com",
+    "selectedAt": "2026-02-14T09:39:54.913Z",
+    "publishedAt": "2026-02-14T00:00:58.000Z",
+    "hn": {
+      "id": 47009582,
+      "score": 233,
+      "comments": 156
+    }
+  },
+  "takeaways": [],
+  "summary": "The Department of Homeland Security (DHS) has requested social media platforms to identify and disclose accounts that actively promote anti-ICE (Immigration and Customs Enforcement) content. This move reflects DHS's efforts to monitor and counteract online activism perceived as a threat to its operations, raising concerns about privacy and free speech implications.",
+  "keyPoints": [
+    "DHS seeks cooperation from major social media companies to flag accounts critical of ICE.",
+    "The initiative targets accounts spreading anti-ICE messages, which DHS views as potentially undermining law enforcement.",
+    "No specific numbers or deadlines have been publicly disclosed regarding the scope or timeline of the request.",
+    "The request has sparked debate over government surveillance and the balance between security and civil liberties.",
+    "Social media platforms face pressure to comply while navigating user privacy and freedom of expression."
+  ],
+  "rewrite": {
+    "title": "DHS Pushes Social Media to Identify Anti-ICE Accounts",
+    "body": "In early 2026, the Department of Homeland Security intensified efforts to monitor online dissent by urging social media companies to expose accounts that disseminate anti-ICE content. This initiative aims to identify users who openly criticize or oppose Immigration and Customs Enforcement, which DHS considers a potential risk to its operational integrity. While the department has not released detailed figures or a timeline, the request signals a broader strategy to leverage digital platforms for law enforcement intelligence.\n\nThis development underscores the growing intersection between government agencies and social media firms in managing politically sensitive content. By seeking direct cooperation, DHS is positioning itself to better track activism that challenges immigration enforcement policies. However, this approach has ignited concerns among privacy advocates and free speech proponents, who warn that such surveillance could chill legitimate political expression and erode trust in digital communication channels.\n\nSocial media companies now face a complex dilemma: balancing compliance with government requests against protecting user rights. The outcome of this dynamic will likely influence future policies on content moderation and government transparency. Ultimately, DHS’s push highlights the evolving landscape of digital oversight amid heightened scrutiny of immigration enforcement and civil liberties.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-13T09:56:24.586Z",
+  "updatedAt": "2026-02-14T09:39:59.752Z",
   "items": [
+    {
+      "slug": "2026-02-14",
+      "title": "Homeland Security Wants Social Media Sites to Expose Anti-ICE Accounts",
+      "url": "https://www.nytimes.com/2026/02/13/technology/dhs-anti-ice-social-media.html",
+      "source": "nytimes.com",
+      "selectedAt": "2026-02-14T09:39:54.913Z",
+      "publishedAt": "2026-02-14T00:00:58.000Z",
+      "hn": {
+        "id": 47009582,
+        "score": 233,
+        "comments": 156
+      }
+    },
     {
       "slug": "2026-02-13",
       "title": "Healthcare Jobs Have Become the Engine of America's Labor Market",
@@ -662,19 +675,6 @@
         "id": 46329940,
         "score": 56,
         "comments": 15
-      }
-    },
-    {
-      "slug": "2025-12-19",
-      "title": "Independent review of UK national security law warns of overreach",
-      "url": "https://www.techradar.com/vpn/vpn-privacy-security/creating-apps-like-signal-or-whatsapp-could-be-hostile-activity-claims-uk-watchdog",
-      "source": "techradar.com",
-      "selectedAt": "2025-12-19T09:32:14.149Z",
-      "publishedAt": "2025-12-18T11:21:15.000Z",
-      "hn": {
-        "id": 46311355,
-        "score": 408,
-        "comments": 261
       }
     }
   ]
