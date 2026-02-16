@@ -1,0 +1,42 @@
+{
+  "slug": "2026-02-16",
+  "generatedAt": "2026-02-16T10:02:56.999Z",
+  "article": {
+    "title": "Under the current DTC model, investors do not directly own their securities",
+    "url": "https://www.foxnews.com/opinion/wall-street-could-seize-your-retirement-savings-next-financial-crash-its-perfectly-legal",
+    "source": "foxnews.com",
+    "selectedAt": "2026-02-16T10:02:48.398Z",
+    "publishedAt": "2026-02-15T16:03:54.000Z",
+    "hn": {
+      "id": 47024773,
+      "score": 18,
+      "comments": 27
+    }
+  },
+  "takeaways": [],
+  "summary": "Since the 1970s, legal changes have shifted securities ownership away from individual investors to centralized institutions like the Depository Trust Company (DTC), exposing retirement and investment accounts to heightened risks during financial crises. This structure, while improving transaction efficiency, allows major banks and creditors to seize customer assets under certain conditions, potentially jeopardizing savings in future market crashes.",
+  "keyPoints": [
+    "DTC holds custody for over 1.44 million securities from 170+ countries, valued at $100 trillion as of 2025.",
+    "Legal reforms in the 1970s replaced direct securities ownership with 'security entitlements,' contractual rights without registered title.",
+    "Centralized ownership enabled Wall Street to expand risky practices like stock lending and derivatives trading.",
+    "Article 8 of the Uniform Commercial Code allows secured creditors to claim customer securities pledged as collateral if broker-dealers fail.",
+    "Emergency powers and potential new laws could further weaken investor protections during crises.",
+    "State legislatures have authority to reform these laws, but significant public pressure is needed for change."
+  ],
+  "rewrite": {
+    "title": "How Current Securities Laws Risk Your Retirement Savings",
+    "body": "In the early 1970s, major Wall Street firms and banks influenced state lawmakers to amend the Uniform Commercial Code, fundamentally altering how securities ownership is recorded in the U.S. This led to the creation of the Depository Trust Company (DTC), which today holds custody of over 1.44 million securities from more than 170 countries, valued at over $100 trillion as of 2025—far exceeding the entire federal budget. While DTC’s centralized system dramatically improved transaction speed and reduced paperwork, it replaced traditional direct ownership with a contractual concept known as “security entitlements.”\n\nUnder this model, investors do not hold registered title to their stocks or bonds; instead, they possess rights tied to those securities. This shift has enabled Wall Street to expand high-risk activities such as stock lending and derivatives trading, which were less feasible under the previous ownership framework. More concerningly, Article 8 of the Uniform Commercial Code permits secured creditors, including banks, to seize customer securities pledged as collateral if a brokerage firm collapses, even if those assets were improperly used.\n\nDuring financial crises, emergency powers could be invoked to suspend or alter investor protections, potentially allowing large institutions to prioritize their interests over those of individual investors. Although state legislatures retain the power to restore stronger investor safeguards, meaningful reform requires sustained public awareness and pressure. Without changes, millions of Americans risk losing access to their retirement and investment savings in the next major market downturn, highlighting a critical vulnerability embedded within the current legal structure governing securities ownership.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5889
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-15T09:40:46.669Z",
+  "updatedAt": "2026-02-16T10:02:57.000Z",
   "items": [
+    {
+      "slug": "2026-02-16",
+      "title": "Under the current DTC model, investors do not directly own their securities",
+      "url": "https://www.foxnews.com/opinion/wall-street-could-seize-your-retirement-savings-next-financial-crash-its-perfectly-legal",
+      "source": "foxnews.com",
+      "selectedAt": "2026-02-16T10:02:48.398Z",
+      "publishedAt": "2026-02-15T16:03:54.000Z",
+      "hn": {
+        "id": 47024773,
+        "score": 18,
+        "comments": 27
+      }
+    },
     {
       "slug": "2026-02-15",
       "title": "Canada Has a Secessionist Movement on Its Hands. Its Supporters Thank Trump",
@@ -662,19 +675,6 @@
         "id": 46346391,
         "score": 121,
         "comments": 60
-      }
-    },
-    {
-      "slug": "2025-12-21",
-      "title": "School security AI flagged clarinet as a gun. Exec says it wasn't an error",
-      "url": "https://arstechnica.com/tech-policy/2025/12/florida-schools-plan-to-vastly-expand-use-of-ai-that-mistook-clarinet-for-gun/",
-      "source": "arstechnica.com",
-      "selectedAt": "2025-12-21T09:28:11.065Z",
-      "publishedAt": "2025-12-20T15:15:25.000Z",
-      "hn": {
-        "id": 46336760,
-        "score": 39,
-        "comments": 29
       }
     }
   ]
