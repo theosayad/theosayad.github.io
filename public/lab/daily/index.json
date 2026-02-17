@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-16T10:02:57.000Z",
+  "updatedAt": "2026-02-17T09:57:57.324Z",
   "items": [
+    {
+      "slug": "2026-02-17",
+      "title": "Long-term unemployment is becoming 'a status quo' in today's job market",
+      "url": "https://www.cnbc.com/2026/02/16/long-term-unemployment-becoming-a-status-quo-in-todays-job-market.html",
+      "source": "cnbc.com",
+      "selectedAt": "2026-02-17T09:57:50.672Z",
+      "publishedAt": "2026-02-17T04:36:58.000Z",
+      "hn": {
+        "id": 47043751,
+        "score": 65,
+        "comments": 59
+      }
+    },
     {
       "slug": "2026-02-16",
       "title": "Under the current DTC model, investors do not directly own their securities",
@@ -662,19 +675,6 @@
         "id": 46360465,
         "score": 128,
         "comments": 122
-      }
-    },
-    {
-      "slug": "2025-12-22",
-      "title": "Get an AI code review in 10 seconds",
-      "url": "https://oldmanrahul.com/2025/12/19/ai-code-review-trick/",
-      "source": "oldmanrahul.com",
-      "selectedAt": "2025-12-22T09:36:49.647Z",
-      "publishedAt": "2025-12-21T17:21:05.000Z",
-      "hn": {
-        "id": 46346391,
-        "score": 121,
-        "comments": 60
       }
     }
   ]

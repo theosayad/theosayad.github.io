@@ -1,0 +1,42 @@
+{
+  "slug": "2026-02-17",
+  "generatedAt": "2026-02-17T09:57:57.323Z",
+  "article": {
+    "title": "Long-term unemployment is becoming 'a status quo' in today's job market",
+    "url": "https://www.cnbc.com/2026/02/16/long-term-unemployment-becoming-a-status-quo-in-todays-job-market.html",
+    "source": "cnbc.com",
+    "selectedAt": "2026-02-17T09:57:50.672Z",
+    "publishedAt": "2026-02-17T04:36:58.000Z",
+    "hn": {
+      "id": 47043751,
+      "score": 65,
+      "comments": 59
+    }
+  },
+  "takeaways": [],
+  "summary": "Long-term unemployment in the U.S. is rising, with one in four unemployed individuals jobless for over six months—a trend persisting despite economic recovery. This stagnation reflects broader labor market challenges including fewer job openings, increased competition, and employers’ cautious hiring amid economic and geopolitical uncertainties.",
+  "keyPoints": [
+    "As of early 2026, 1.8 million Americans have been unemployed for six months or longer, representing 25% of all unemployed.",
+    "Long-term unemployment has increased steadily over the past three years, diverging from past post-recession recoveries.",
+    "Average unemployment benefits replace less than 40% of prior income and often expire before long-term unemployed find work.",
+    "Job seekers face intense competition; average job openings received 242 applications in mid-2025, triple the 2017 average.",
+    "Many workers are accepting lateral moves or pay cuts; the share of new hires landing 'dream jobs' has declined.",
+    "Economic factors like high interest rates, inflation, tariffs, and AI investments have led businesses to scale back hiring."
+  ],
+  "rewrite": {
+    "title": "Long-Term Unemployment Solidifies in U.S. Job Market",
+    "body": "Long-term unemployment is becoming entrenched in the U.S. labor market, with 1.8 million Americans—one in four unemployed—searching for work for six months or more as of early 2026. This marks a sustained rise over three years, contrasting with previous recoveries after recessions like the 2008 financial crisis or the pandemic, when long-term unemployment typically declined. Many of these workers have exhausted unemployment benefits, which on average replace less than 40% of prior earnings, intensifying financial strain.\n\nJob seekers face fierce competition; data from mid-2025 shows that each job opening attracted an average of 242 applicants, triple the volume seen in 2017. This surge in applications, combined with cautious employer hiring due to economic headwinds—such as persistent inflation, high interest rates, new tariff policies, and shifting priorities toward AI investments—has led to stagnation. Workers are less likely to switch jobs voluntarily, and many are accepting lateral moves or pay cuts, with fewer landing positions they consider their 'dream jobs.'\n\nThe prolonged unemployment period also carries long-term consequences beyond finances, including declines in mental and physical health and reduced future earnings, often 5% to 15% lower than peers who remained employed. Job seekers report frustration with opaque hiring processes and frequent lack of feedback, further complicating their efforts. This environment underscores the need for both policy and employer responses to address the persistent challenges facing long-term unemployed Americans.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5406
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
