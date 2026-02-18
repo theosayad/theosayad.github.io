@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-17T09:57:57.324Z",
+  "updatedAt": "2026-02-18T09:58:30.594Z",
   "items": [
+    {
+      "slug": "2026-02-18",
+      "title": "The OpenClaw bot that defamed an OSS maintainer is a human crypto bro [video]",
+      "url": "https://www.youtube.com/watch?v=xYFvi4hK7wI",
+      "source": "youtube.com",
+      "selectedAt": "2026-02-18T09:58:24.472Z",
+      "publishedAt": "2026-02-17T19:25:27.000Z",
+      "hn": {
+        "id": 47051866,
+        "score": 28,
+        "comments": 20
+      }
+    },
     {
       "slug": "2026-02-17",
       "title": "Long-term unemployment is becoming 'a status quo' in today's job market",
@@ -662,19 +675,6 @@
         "id": 46370012,
         "score": 224,
         "comments": 124
-      }
-    },
-    {
-      "slug": "2025-12-23",
-      "title": "Satellites reveal heat leaking from largest US cryptocurrency mining center",
-      "url": "https://www.space.com/space-exploration/satellites/satellites-reveal-heat-leaking-from-largest-us-cryptocurrency-mining-center",
-      "source": "space.com",
-      "selectedAt": "2025-12-23T09:33:33.979Z",
-      "publishedAt": "2025-12-22T23:23:12.000Z",
-      "hn": {
-        "id": 46360465,
-        "score": 128,
-        "comments": 122
       }
     }
   ]

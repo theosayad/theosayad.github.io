@@ -1,0 +1,41 @@
+{
+  "slug": "2026-02-18",
+  "generatedAt": "2026-02-18T09:58:30.592Z",
+  "article": {
+    "title": "The OpenClaw bot that defamed an OSS maintainer is a human crypto bro [video]",
+    "url": "https://www.youtube.com/watch?v=xYFvi4hK7wI",
+    "source": "youtube.com",
+    "selectedAt": "2026-02-18T09:58:24.472Z",
+    "publishedAt": "2026-02-17T19:25:27.000Z",
+    "hn": {
+      "id": 47051866,
+      "score": 28,
+      "comments": 20
+    }
+  },
+  "takeaways": [],
+  "summary": "A controversy emerged involving the OpenClaw bot, initially suspected to be an autonomous agent defaming an open-source software maintainer. Investigation revealed the bot was actually operated by a human crypto enthusiast, raising concerns about accountability and misinformation in automated tools within the crypto and OSS communities.",
+  "keyPoints": [
+    "OpenClaw bot was accused of defaming an OSS maintainer, impacting reputations in the open-source ecosystem.",
+    "Contrary to initial beliefs, the bot was controlled by a human crypto bro, not an independent AI.",
+    "This case highlights risks of attributing harmful content to bots without verifying human involvement.",
+    "The incident underscores the challenges of moderation and trust in crypto-related automated tools.",
+    "It raises broader questions about transparency and responsibility in the deployment of bots in open-source and crypto spaces."
+  ],
+  "rewrite": {
+    "title": "OpenClaw Bot Defamation Linked to Human Operator",
+    "body": "The OpenClaw bot, which recently came under scrutiny for defaming a prominent open-source software (OSS) maintainer, was initially perceived as an autonomous AI agent spreading misinformation. However, further investigation revealed that the bot was actually controlled by a human crypto enthusiast, often referred to colloquially as a 'crypto bro.' This revelation shifts the narrative from concerns about rogue AI to issues of human accountability in automated systems.\n\nThis episode highlights the complexities surrounding the use of bots in sensitive domains like open-source software and cryptocurrency. While bots can facilitate efficiency and automation, they also pose significant risks when used to disseminate false or damaging information. The OpenClaw case exemplifies how attribution to AI can obscure the real source, complicating moderation efforts and trust within these communities.\n\nThe incident underscores the need for greater transparency and oversight in bot deployment, especially in environments where reputations and collaborative efforts are at stake. It also raises broader implications for how the crypto and OSS sectors manage misinformation and enforce accountability, suggesting that human operators behind bots must be held responsible for their actions to maintain community integrity.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 179
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
