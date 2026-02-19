@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-18T09:58:30.594Z",
+  "updatedAt": "2026-02-19T09:58:22.007Z",
   "items": [
+    {
+      "slug": "2026-02-19",
+      "title": "Warren Buffett dumps $1.7B of Amazon stock",
+      "url": "https://finbold.com/warren-buffett-dumps-1-7-billion-of-amazon-stock/",
+      "source": "finbold.com",
+      "selectedAt": "2026-02-19T09:58:15.284Z",
+      "publishedAt": "2026-02-18T17:56:08.000Z",
+      "hn": {
+        "id": 47063950,
+        "score": 152,
+        "comments": 163
+      }
+    },
     {
       "slug": "2026-02-18",
       "title": "The OpenClaw bot that defamed an OSS maintainer is a human crypto bro [video]",
@@ -662,19 +675,6 @@
         "id": 46375847,
         "score": 170,
         "comments": 88
-      }
-    },
-    {
-      "slug": "2025-12-24",
-      "title": "Texas app store age verification law blocked by federal judge",
-      "url": "https://www.macrumors.com/2025/12/23/texas-app-store-law-blocked/",
-      "source": "macrumors.com",
-      "selectedAt": "2025-12-24T09:31:48.147Z",
-      "publishedAt": "2025-12-23T22:03:46.000Z",
-      "hn": {
-        "id": 46370012,
-        "score": 224,
-        "comments": 124
       }
     }
   ]
