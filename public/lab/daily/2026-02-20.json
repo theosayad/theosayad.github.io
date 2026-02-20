@@ -1,0 +1,41 @@
+{
+  "slug": "2026-02-20",
+  "generatedAt": "2026-02-20T09:52:37.954Z",
+  "article": {
+    "title": "The #1 most downloaded skill on OpenClaw marketplace was malware",
+    "url": "https://twitter.com/chiefofautism/status/2024483631067021348",
+    "source": "twitter.com",
+    "selectedAt": "2026-02-20T09:52:32.470Z",
+    "publishedAt": "2026-02-19T22:47:21.000Z",
+    "hn": {
+      "id": 47080785,
+      "score": 51,
+      "comments": 5
+    }
+  },
+  "takeaways": [],
+  "summary": "The most downloaded skill on the OpenClaw marketplace was identified as malware, highlighting significant security vulnerabilities within the platform. This incident underscores the risks of unvetted third-party code in decentralized marketplaces and the potential for widespread exploitation.",
+  "keyPoints": [
+    "OpenClaw marketplace's top downloaded skill was malicious software.",
+    "The incident reveals gaps in content moderation and security controls.",
+    "Malware distribution through popular marketplace items can lead to large-scale compromise.",
+    "Raises concerns about trust and safety in emerging decentralized app ecosystems.",
+    "Calls for stronger vetting processes and user awareness to mitigate risks."
+  ],
+  "rewrite": {
+    "title": "Malware Tops Downloads on OpenClaw Marketplace",
+    "body": "The OpenClaw marketplace recently faced a critical security issue when its most downloaded skill was found to be malware. This alarming discovery points to serious vulnerabilities in the platform's content vetting and security protocols. As decentralized marketplaces grow, the risk of malicious actors exploiting popular tools or extensions increases, potentially impacting thousands of users.\n\nMalware embedded in widely used skills can propagate rapidly, leading to data breaches, unauthorized access, and broader network compromises. The OpenClaw case serves as a cautionary tale about the dangers of insufficient oversight in third-party code distribution channels. It also highlights the urgent need for marketplaces to implement rigorous security checks and for users to exercise caution when downloading and installing new skills.\n\nThis incident may prompt other decentralized platforms to reevaluate their security frameworks and adopt stricter validation processes. Ultimately, maintaining user trust and safeguarding digital ecosystems depend on proactive measures to detect and prevent the spread of malicious software within these emerging marketplaces.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 170
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
