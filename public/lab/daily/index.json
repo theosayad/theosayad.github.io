@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-21T09:38:49.247Z",
+  "updatedAt": "2026-02-22T09:40:01.575Z",
   "items": [
+    {
+      "slug": "2026-02-22",
+      "title": "What not to write on your security clearance form (1988)",
+      "url": "https://milk.com/wall-o-shame/security_clearance.html",
+      "source": "milk.com",
+      "selectedAt": "2026-02-22T09:39:55.450Z",
+      "publishedAt": "2026-02-21T17:08:12.000Z",
+      "hn": {
+        "id": 47102576,
+        "score": 445,
+        "comments": 196
+      }
+    },
     {
       "slug": "2026-02-21",
       "title": "The path to ubiquitous AI (17k tokens/sec)",
@@ -662,19 +675,6 @@
         "id": 46403276,
         "score": 214,
         "comments": 209
-      }
-    },
-    {
-      "slug": "2025-12-27",
-      "title": "Eastern Market Detroit",
-      "url": "https://easternmarket.org/",
-      "source": "easternmarket.org",
-      "selectedAt": "2025-12-27T09:28:40.442Z",
-      "publishedAt": "2025-12-26T21:07:18.000Z",
-      "hn": {
-        "id": 46396272,
-        "score": 4,
-        "comments": 1
       }
     }
   ]

@@ -1,0 +1,41 @@
+{
+  "slug": "2026-02-22",
+  "generatedAt": "2026-02-22T09:40:01.573Z",
+  "article": {
+    "title": "What not to write on your security clearance form (1988)",
+    "url": "https://milk.com/wall-o-shame/security_clearance.html",
+    "source": "milk.com",
+    "selectedAt": "2026-02-22T09:39:55.450Z",
+    "publishedAt": "2026-02-21T17:08:12.000Z",
+    "hn": {
+      "id": 47102576,
+      "score": 445,
+      "comments": 196
+    }
+  },
+  "takeaways": [],
+  "summary": "In 1943, a 12-year-old boy’s homemade cipher key was mistaken for espionage evidence by the FBI, leading to an investigation during WWII. Decades later, when applying for a security clearance, disclosing this incident jeopardized his chances, highlighting the complexities and risks of honesty in clearance forms.",
+  "keyPoints": [
+    "At age 12 in 1943, Les Earnest and a friend created a cipher key inspired by a 1942 cryptography book.",
+    "The key was lost on a streetcar and found by someone who reported it to the FBI, triggering a six-week investigation.",
+    "The FBI traced the glasses case to Les via optometrist records, suspecting him of being a Japanese spy during wartime paranoia.",
+    "Years later, when applying for a Naval Electronics Lab security clearance, Les disclosed the FBI investigation but was pressured to omit it to obtain clearance.",
+    "The incident underscores how revealing certain past events on clearance forms can hinder or help the process, depending on context and presentation."
+  ],
+  "rewrite": {
+    "title": "Childhood Spy Suspicion Jeopardizes Security Clearance",
+    "body": "In 1943, during heightened wartime suspicion, a 12-year-old boy named Les Earnest inadvertently became the subject of an FBI investigation after losing a homemade cipher key. Inspired by a 1942 book on cryptography, Les and a friend devised a secret code to communicate, carrying the key hidden in a glasses case. When the case was lost on a streetcar and found by a concerned citizen, it was reported to the FBI, who spent six weeks tracing the key back to Les by examining optometrist records.\n\nThe FBI’s suspicion was fueled by the wartime context, including widespread fear of Japanese espionage following the internment of Japanese Americans. Despite Les’s youth and innocence, the investigation was treated as a serious matter. Years later, when Les applied for a security clearance for a summer job at the Naval Electronics Lab, he honestly disclosed the FBI inquiry. However, the security officer demanded he omit the incident, threatening to deny clearance otherwise. Les complied and was subsequently granted clearance.\n\nThis episode illustrates the delicate balance applicants face when completing security clearance forms. Full transparency about past investigations or incidents can sometimes hinder clearance prospects, especially if misunderstood or viewed through a lens of suspicion. Conversely, selective disclosure or framing of information can expedite the process. Les’s experience reveals how childhood events, even innocent ones, can have long-lasting implications for security vetting and highlights the nuanced challenges in navigating clearance protocols.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 6430
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
