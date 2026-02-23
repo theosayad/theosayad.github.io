@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-22T09:40:01.575Z",
+  "updatedAt": "2026-02-23T10:03:25.560Z",
   "items": [
+    {
+      "slug": "2026-02-23",
+      "title": "Costco Joins Companies Suing Trump Administration over Tariffs",
+      "url": "https://www.wsj.com/politics/policy/costco-joins-companies-suing-trump-administration-over-tariffs-ab1bb066",
+      "source": "wsj.com",
+      "selectedAt": "2026-02-23T10:03:19.189Z",
+      "publishedAt": "2026-02-22T10:23:09.000Z",
+      "hn": {
+        "id": 47109880,
+        "score": 5,
+        "comments": 0
+      }
+    },
     {
       "slug": "2026-02-22",
       "title": "What not to write on your security clearance form (1988)",
@@ -662,19 +675,6 @@
         "id": 46411902,
         "score": 87,
         "comments": 96
-      }
-    },
-    {
-      "slug": "2025-12-28",
-      "title": "USD share as global reserve currency drops to lowest since 1994",
-      "url": "https://wolfstreet.com/2025/12/26/status-of-the-us-dollar-as-global-reserve-currency-usd-share-drops-to-lowest-since-1994/",
-      "source": "wolfstreet.com",
-      "selectedAt": "2025-12-28T09:28:50.900Z",
-      "publishedAt": "2025-12-27T17:14:06.000Z",
-      "hn": {
-        "id": 46403276,
-        "score": 214,
-        "comments": 209
       }
     }
   ]
