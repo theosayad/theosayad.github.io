@@ -1,0 +1,42 @@
+{
+  "slug": "2026-02-25",
+  "generatedAt": "2026-02-25T10:02:08.080Z",
+  "article": {
+    "title": "Tesla registrations crash 17% in Europe as BEV market surges 14%",
+    "url": "https://electrek.co/2026/02/24/tesla-eu-registrations-crash-january-2026-bev-growth/",
+    "source": "electrek.co",
+    "selectedAt": "2026-02-25T10:01:58.328Z",
+    "publishedAt": "2026-02-24T18:46:25.000Z",
+    "hn": {
+      "id": 47140932,
+      "score": 221,
+      "comments": 256
+    }
+  },
+  "takeaways": [],
+  "summary": "Tesla's electric vehicle registrations in Europe dropped 17% in January 2026 despite a booming BEV market that grew nearly 14%. This decline, occurring a year after the Model Y refresh, signals deeper challenges for Tesla amid intensifying competition and shifting market dynamics.",
+  "keyPoints": [
+    "Tesla registered 8,075 vehicles across EU, EFTA, and UK in Jan 2026, down 17% year-over-year.",
+    "Overall battery-electric vehicle (BEV) registrations grew 13.9% to 189,062 units, with BEV market share rising to 19.3%.",
+    "BYD more than doubled Tesla’s volume with 18,242 registrations, capturing 1.9% market share versus Tesla’s 0.8%.",
+    "Tesla’s decline is concentrated in EFTA markets, especially Norway, where new car registrations plunged 76.3% following subsidy cuts.",
+    "Traditional fuel vehicle registrations fell sharply: petrol down 28.2% and diesel down 22.3%, accelerating electrification.",
+    "Other manufacturers like Stellantis grew 6.7%, while Volkswagen Group remains dominant despite a 3.8% decline."
+  ],
+  "rewrite": {
+    "title": "Tesla EV Registrations Plunge Amid Europe’s BEV Surge",
+    "body": "In January 2026, Tesla’s electric vehicle registrations across Europe, including the EU, EFTA, and UK, fell 17% to 8,075 units compared to the previous year. This decline is particularly notable because it comes a full year after the refreshed Model Y was introduced, undermining earlier explanations that production transitions were to blame. Meanwhile, the broader battery-electric vehicle (BEV) market surged nearly 14%, with 189,062 new registrations and BEV market share climbing to 19.3% from 14.9% a year earlier.\n\nTesla’s losses are most pronounced in the EFTA region, especially Norway, where a 76.3% drop in new car registrations followed the removal of tax incentives. This shift has hit Tesla disproportionately, given its historical dominance in Norway’s EV market. In contrast, Chinese automaker BYD registered 18,242 vehicles in January, a 165% increase year-over-year, more than doubling Tesla’s volume and capturing 1.9% market share compared to Tesla’s 0.8%.\n\nThe decline of Tesla coincides with a rapid transformation of the European car market. Petrol and diesel vehicle registrations plummeted 28.2% and 22.3%, respectively, accelerating the shift toward electrification. Plug-in hybrids also saw strong growth, up 32.2%, led by Italy and Spain. Established European manufacturers show mixed results: Stellantis grew 6.7%, Volkswagen Group’s sales dipped 3.8% but it maintained a 26.7% market share, while BMW and Mercedes-Benz experienced modest declines and gains.\n\nTesla’s continuing struggles in Europe suggest that the company risks losing relevance in one of the world's largest EV markets. With competitors like BYD expanding rapidly and local manufacturers adapting to the accelerating electrification trend, Tesla must address its market challenges or face further erosion of its European foothold.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4536
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

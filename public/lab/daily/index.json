@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-24T09:59:55.416Z",
+  "updatedAt": "2026-02-25T10:02:08.082Z",
   "items": [
+    {
+      "slug": "2026-02-25",
+      "title": "Tesla registrations crash 17% in Europe as BEV market surges 14%",
+      "url": "https://electrek.co/2026/02/24/tesla-eu-registrations-crash-january-2026-bev-growth/",
+      "source": "electrek.co",
+      "selectedAt": "2026-02-25T10:01:58.328Z",
+      "publishedAt": "2026-02-24T18:46:25.000Z",
+      "hn": {
+        "id": 47140932,
+        "score": 221,
+        "comments": 256
+      }
+    },
     {
       "slug": "2026-02-24",
       "title": "Binance fired employees who found $1.7B in crypto was sent to Iran",
@@ -662,19 +675,6 @@
         "id": 46432057,
         "score": 390,
         "comments": 397
-      }
-    },
-    {
-      "slug": "2025-12-30",
-      "title": "MongoDB Server Security Update, December 2025",
-      "url": "https://www.mongodb.com/company/blog/news/mongodb-server-security-update-december-2025",
-      "source": "mongodb.com",
-      "selectedAt": "2025-12-30T09:33:27.139Z",
-      "publishedAt": "2025-12-30T00:23:47.000Z",
-      "hn": {
-        "id": 46427920,
-        "score": 73,
-        "comments": 28
       }
     }
   ]
