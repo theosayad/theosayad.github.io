@@ -1,0 +1,42 @@
+{
+  "slug": "2026-02-26",
+  "generatedAt": "2026-02-26T09:58:46.193Z",
+  "article": {
+    "title": "Google API keys weren't secrets, but then Gemini changed the rules",
+    "url": "https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules",
+    "source": "trufflesecurity.com",
+    "selectedAt": "2026-02-26T09:58:37.204Z",
+    "publishedAt": "2026-02-25T19:54:14.000Z",
+    "hn": {
+      "id": 47156925,
+      "score": 631,
+      "comments": 127
+    }
+  },
+  "takeaways": [],
+  "summary": "Google’s longstanding practice of treating API keys as non-sensitive has been upended by the introduction of the Gemini API, which grants these keys access to private data and billing capabilities without user notification. A scan of public websites uncovered nearly 3,000 exposed keys vulnerable to unauthorized access, including keys from major organizations and Google itself, highlighting a significant security risk and the need for urgent remediation.",
+  "keyPoints": [
+    "Google API keys, once considered safe to share publicly, now grant access to sensitive Gemini API endpoints.",
+    "Enabling Gemini API on a Google Cloud project silently expands privileges of existing keys without alerts.",
+    "A November 2025 Common Crawl dataset scan found 2,863 live Google API keys exposed on public websites.",
+    "Exposed keys can be exploited to access private files, cached data, and incur AI usage charges.",
+    "Google’s own public-facing keys, active since at least February 2023, were found vulnerable.",
+    "The issue stems from legacy key management architecture not designed for Gemini’s security model."
+  ],
+  "rewrite": {
+    "title": "Gemini API Turns Public Google Keys Into Security Risks",
+    "body": "For over a decade, Google advised developers that API keys—used for services like Maps and Firebase—were not secrets and could be safely embedded in public-facing code. However, the launch of the Gemini Generative Language API has fundamentally changed this assumption. When Gemini is enabled on a Google Cloud project, existing API keys automatically gain access to sensitive endpoints without any notification or consent. This retroactive privilege expansion means keys originally intended for low-risk public use can now expose private data and allow attackers to rack up AI usage charges.\n\nA comprehensive analysis of the November 2025 Common Crawl dataset, which archives approximately 700 TiB of publicly available web content, revealed 2,863 live Google API keys vulnerable to this escalation. These keys were found on websites belonging to major financial institutions, security firms, global recruiters, and even Google itself. Notably, some keys embedded in Google’s own public product pages since at least February 2023—well before Gemini existed—were confirmed to grant full access to Gemini APIs, demonstrating the scale and severity of the risk.\n\nThis vulnerability arises because Gemini’s authentication relies on a legacy key management system designed before such sensitive AI services existed. As a result, enabling Gemini silently broadens the scope of existing keys without any warnings, emails, or confirmation dialogs. The implications are serious: exposed keys in client-side JavaScript or public repositories can lead to unauthorized data access and unexpected billing.\n\nGoogle has acknowledged the issue and taken steps to address it, but it remains unclear if customers will be proactively informed or if Gemini will adopt a more secure authentication model. Organizations should urgently audit their oldest API keys—especially those publicly accessible—to mitigate potential breaches and financial exposure stemming from this retroactive privilege escalation.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 7314
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

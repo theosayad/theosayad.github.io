@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-25T10:02:08.082Z",
+  "updatedAt": "2026-02-26T09:58:46.194Z",
   "items": [
+    {
+      "slug": "2026-02-26",
+      "title": "Google API keys weren't secrets, but then Gemini changed the rules",
+      "url": "https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules",
+      "source": "trufflesecurity.com",
+      "selectedAt": "2026-02-26T09:58:37.204Z",
+      "publishedAt": "2026-02-25T19:54:14.000Z",
+      "hn": {
+        "id": 47156925,
+        "score": 631,
+        "comments": 127
+      }
+    },
     {
       "slug": "2026-02-25",
       "title": "Tesla registrations crash 17% in Europe as BEV market surges 14%",
@@ -662,19 +675,6 @@
         "id": 46451665,
         "score": 3,
         "comments": 1
-      }
-    },
-    {
-      "slug": "2025-12-31",
-      "title": "Nicolas Guillou, French ICC judge sanctioned by the US and “debanked”",
-      "url": "https://www.lemonde.fr/en/international/article/2025/11/19/nicolas-guillou-french-icc-judge-sanctioned-by-the-us-you-are-effectively-blacklisted-by-much-of-the-world-s-banking-system_6747628_4.html",
-      "source": "lemonde.fr",
-      "selectedAt": "2025-12-31T09:32:47.056Z",
-      "publishedAt": "2025-12-30T11:13:30.000Z",
-      "hn": {
-        "id": 46432057,
-        "score": 390,
-        "comments": 397
       }
     }
   ]
