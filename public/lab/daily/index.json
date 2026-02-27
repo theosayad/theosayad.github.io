@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-26T09:58:46.194Z",
+  "updatedAt": "2026-02-27T09:54:04.734Z",
   "items": [
+    {
+      "slug": "2026-02-27",
+      "title": "Smartphone market forecast to decline this year due to memory shortage",
+      "url": "https://www.idc.com/resource-center/press-releases/wwsmartphoneforecast4q25/",
+      "source": "idc.com",
+      "selectedAt": "2026-02-27T09:53:55.206Z",
+      "publishedAt": "2026-02-26T22:09:45.000Z",
+      "hn": {
+        "id": 47172664,
+        "score": 238,
+        "comments": 253
+      }
+    },
     {
       "slug": "2026-02-26",
       "title": "Google API keys weren't secrets, but then Gemini changed the rules",
@@ -662,19 +675,6 @@
         "id": 46454587,
         "score": 116,
         "comments": 14
-      }
-    },
-    {
-      "slug": "2026-01-01",
-      "title": "Apple cuts Vision Pro production and marketing after weak sales",
-      "url": "https://www.ft.com/content/ab817ba1-15ec-473f-b609-5b5016b3258d",
-      "source": "ft.com",
-      "selectedAt": "2026-01-01T09:33:18.348Z",
-      "publishedAt": "2026-01-01T05:50:45.000Z",
-      "hn": {
-        "id": 46451665,
-        "score": 3,
-        "comments": 1
       }
     }
   ]
