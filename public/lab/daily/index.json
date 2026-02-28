@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-27T09:54:04.734Z",
+  "updatedAt": "2026-02-28T09:34:21.723Z",
   "items": [
+    {
+      "slug": "2026-02-28",
+      "title": "Statement on the comments from Secretary of War Pete Hegseth",
+      "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
+      "source": "anthropic.com",
+      "selectedAt": "2026-02-28T09:34:12.921Z",
+      "publishedAt": "2026-02-28T01:20:10.000Z",
+      "hn": {
+        "id": 47188697,
+        "score": 914,
+        "comments": 303
+      }
+    },
     {
       "slug": "2026-02-27",
       "title": "Smartphone market forecast to decline this year due to memory shortage",
@@ -662,19 +675,6 @@
         "id": 46469811,
         "score": 122,
         "comments": 177
-      }
-    },
-    {
-      "slug": "2026-01-02",
-      "title": "Build a Deep Learning Library",
-      "url": "https://zekcrates.quarto.pub/deep-learning-library/",
-      "source": "zekcrates.quarto.pub",
-      "selectedAt": "2026-01-02T09:32:42.839Z",
-      "publishedAt": "2026-01-01T14:53:50.000Z",
-      "hn": {
-        "id": 46454587,
-        "score": 116,
-        "comments": 14
       }
     }
   ]

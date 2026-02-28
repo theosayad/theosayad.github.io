@@ -1,0 +1,42 @@
+{
+  "slug": "2026-02-28",
+  "generatedAt": "2026-02-28T09:34:21.722Z",
+  "article": {
+    "title": "Statement on the comments from Secretary of War Pete Hegseth",
+    "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
+    "source": "anthropic.com",
+    "selectedAt": "2026-02-28T09:34:12.921Z",
+    "publishedAt": "2026-02-28T01:20:10.000Z",
+    "hn": {
+      "id": 47188697,
+      "score": 914,
+      "comments": 303
+    }
+  },
+  "takeaways": [],
+  "summary": "Secretary of War Pete Hegseth has labeled Anthropic a supply chain risk following stalled negotiations over the use of its AI model Claude in mass domestic surveillance and fully autonomous weapons. This unprecedented designation targets an American AI company and raises significant legal and operational concerns for military AI deployment and contractor relations.",
+  "keyPoints": [
+    "Anthropic requested two exceptions for Claude’s use: no mass domestic surveillance and no fully autonomous weapons.",
+    "Negotiations with the Department of War reached an impasse; no direct communication from the Department or White House since.",
+    "The supply chain risk designation under 10 USC 3252 is historically reserved for adversaries and has never been publicly applied to a US company before.",
+    "Anthropic has deployed Claude in US classified military networks since June 2024, supporting American warfighters.",
+    "Secretary Hegseth’s claim that the designation restricts all military contractors from working with Anthropic lacks statutory authority.",
+    "Anthropic plans to legally challenge the designation and emphasizes its commitment to lawful AI use and protecting customer operations."
+  ],
+  "rewrite": {
+    "title": "Anthropic Declared Supply Chain Risk Over AI Use Dispute",
+    "body": "Secretary of War Pete Hegseth announced that Anthropic has been designated a supply chain risk, a move stemming from failed negotiations over the use of Anthropic’s AI model Claude. The dispute centers on Anthropic’s insistence that Claude not be used for mass domestic surveillance or fully autonomous weapons, citing reliability and ethical concerns. These exceptions have not yet impacted any government missions.\n\nThis designation is unprecedented, as supply chain risk labels have historically targeted foreign adversaries, not American companies. Anthropic has been actively supporting US military operations since June 2024 by deploying Claude within classified networks. The company argues that the designation is legally questionable and could set a dangerous precedent for US AI firms engaging with the government.\n\nSecretary Hegseth suggested the designation might bar military contractors from collaborating with Anthropic, but legally, such a restriction only applies to Department of War contracts involving Claude, not to other commercial uses. Anthropic has expressed its intent to challenge the designation in court and remains committed to cooperating with the Department of War to minimize disruption for military users.\n\nThe situation highlights growing tensions between AI developers and government agencies over ethical boundaries and national security. It also underscores the complex balance between innovation, legal frameworks, and civil liberties as AI becomes increasingly integrated into defense applications.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 2881
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
