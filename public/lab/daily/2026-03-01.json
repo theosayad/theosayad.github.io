@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-01",
+  "generatedAt": "2026-03-01T09:38:22.069Z",
+  "article": {
+    "title": "OpenAI fires an employee for prediction market insider trading",
+    "url": "https://www.wired.com/story/openai-fires-employee-insider-trading-polymarket-kalshi/",
+    "source": "wired.com",
+    "selectedAt": "2026-03-01T09:38:15.242Z",
+    "publishedAt": "2026-02-28T13:46:20.000Z",
+    "hn": {
+      "id": 47195317,
+      "score": 277,
+      "comments": 143
+    }
+  },
+  "takeaways": [],
+  "summary": "OpenAI terminated an employee for using confidential company information to trade on prediction markets, highlighting growing concerns about insider trading in these platforms. This case exposes vulnerabilities in the rapidly expanding prediction market ecosystem, where tech insiders may exploit nonpublic knowledge for financial gain.",
+  "keyPoints": [
+    "OpenAI fired an employee earlier in 2024 for insider trading on platforms like Polymarket using confidential company data.",
+    "Unusual Whales identified 77 suspicious trades across 60 wallets linked to OpenAI events since March 2023, including bets on GPT-5 and CEO Sam Altman’s employment.",
+    "A notable trade occurred shortly after Altman’s November 2023 ouster, with a new wallet profiting over $16,000 by betting on his return.",
+    "Prediction markets have surged in popularity but face increasing scrutiny for insider trading risks, as fresh wallets cluster around key event outcomes.",
+    "Kalshi recently reported insider trading cases to the CFTC, suspending and fining users, while Polymarket has remained silent on enforcement.",
+    "This incident is the first public firing by a major tech firm over prediction market trades but likely signals broader, ongoing insider trading in the sector."
+  ],
+  "rewrite": {
+    "title": "OpenAI Fires Employee for Insider Trading on Prediction Markets",
+    "body": "OpenAI has taken decisive action by terminating an employee found to have traded on prediction markets using confidential company information. The employee’s activity, disclosed internally by CEO Fidji Simo, involved platforms such as Polymarket, which operates on the Polygon blockchain, allowing trade histories to be traced despite pseudonymity. Analysis by financial data firm Unusual Whales uncovered 77 suspicious positions across 60 wallets linked to OpenAI-related events since March 2023, including bets on product launches like GPT-5 and the ChatGPT Browser, as well as CEO Sam Altman’s employment status.\n\nOne particularly telling incident occurred in November 2023, two days after Altman’s abrupt departure, when a newly created wallet placed a large bet on his return, netting over $16,000 before ceasing further trades. Such clustering of new accounts making identical bets shortly before major announcements strongly suggests insider information leakage. Unusual Whales CEO Matt Saincome notes this pattern as a hallmark of insider trading, raising concerns about the integrity of prediction markets.\n\nPrediction markets have grown rapidly, offering contracts on outcomes ranging from tech product releases to political events. However, their rise has been accompanied by increasing worries about illicit trading based on nonpublic information. Kalshi, a leading platform, has recently reported multiple insider trading cases to the Commodity Futures Trading Commission (CFTC), suspending and fining offenders, including an employee linked to YouTuber Mr. Beast and a political candidate trading on their own campaign. Meanwhile, Polymarket has not publicly addressed these concerns.\n\nThis case marks the first confirmed instance of a major technology company firing an employee over prediction market insider trading but likely represents a broader, systemic issue. As these markets expand, tech firms face mounting pressure to monitor and prevent misuse of confidential information, underscoring the need for clearer policies and regulatory oversight in this emerging domain.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5340
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

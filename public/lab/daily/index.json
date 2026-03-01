@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-02-28T09:34:21.723Z",
+  "updatedAt": "2026-03-01T09:38:22.070Z",
   "items": [
+    {
+      "slug": "2026-03-01",
+      "title": "OpenAI fires an employee for prediction market insider trading",
+      "url": "https://www.wired.com/story/openai-fires-employee-insider-trading-polymarket-kalshi/",
+      "source": "wired.com",
+      "selectedAt": "2026-03-01T09:38:15.242Z",
+      "publishedAt": "2026-02-28T13:46:20.000Z",
+      "hn": {
+        "id": 47195317,
+        "score": 277,
+        "comments": 143
+      }
+    },
     {
       "slug": "2026-02-28",
       "title": "Statement on the comments from Secretary of War Pete Hegseth",
@@ -662,19 +675,6 @@
         "id": 46482777,
         "score": 181,
         "comments": 77
-      }
-    },
-    {
-      "slug": "2026-01-03",
-      "title": "Tesla sales fell by 9 percent in 2025, its second yearly decline",
-      "url": "https://arstechnica.com/cars/2026/01/tesla-sales-fell-by-9-percent-in-2025-its-second-yearly-decline/",
-      "source": "arstechnica.com",
-      "selectedAt": "2026-01-03T09:28:45.888Z",
-      "publishedAt": "2026-01-02T21:48:59.000Z",
-      "hn": {
-        "id": 46469811,
-        "score": 122,
-        "comments": 177
       }
     }
   ]
