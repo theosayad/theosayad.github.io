@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-02",
+  "generatedAt": "2026-03-02T09:59:53.436Z",
+  "article": {
+    "title": "Allegations of insider trading over prediction-market bets tied to Iran conflict",
+    "url": "https://www.morningstar.com/news/marketwatch/20260301140/allegations-of-insider-trading-over-prediction-market-bets-tied-to-iran-conflict",
+    "source": "morningstar.com",
+    "selectedAt": "2026-03-02T09:59:43.190Z",
+    "publishedAt": "2026-03-01T22:39:27.000Z",
+    "hn": {
+      "id": 47211476,
+      "score": 88,
+      "comments": 47
+    }
+  },
+  "takeaways": [],
+  "summary": "Prediction markets like Polymarket and Kalshi saw surging activity amid escalating U.S. and Israeli strikes on Iran, sparking allegations of insider trading. High-profile political figures condemned the practice of profiting from conflict-related events, prompting calls for regulatory scrutiny. The controversy highlights ethical and legal challenges in betting markets tied to geopolitical crises.",
+  "keyPoints": [
+    "Traders heavily bet on Iran conflict outcomes, including the fate of Ayatollah Khamenei, during U.S. and Israeli strikes starting late February 2024.",
+    "A Polymarket account reportedly earned $515,000 in one day betting on U.S. strikes against Iran.",
+    "U.S. Senators Chris Murphy and Ruben Gallego publicly condemned insider trading on these markets, calling for legislation to ban such practices.",
+    "Kalshi faced backlash for hosting a market on Khamenei’s status despite CFTC regulations against betting on wars or assassinations; CEO announced refunds and cashouts following Khamenei’s confirmed death.",
+    "Israel arrested army reservists earlier in 2024 for using classified information to bet on Iran strikes, indicating growing legal enforcement against insider betting on conflicts.",
+    "Since the strikes began, three U.S. service members have died and five were seriously wounded, intensifying moral objections to profiting from war."
+  ],
+  "rewrite": {
+    "title": "Insider Trading Claims Rock Iran Conflict Prediction Markets",
+    "body": "Prediction markets such as Polymarket and Kalshi experienced a surge in activity amid the U.S. and Israeli military strikes on Iran in late February 2024. Traders placed significant bets on outcomes ranging from the likelihood of further conflict to the fate of Iran’s Supreme Leader, Ayatollah Ali Khamenei, who was confirmed killed during the strikes. One Polymarket user reportedly netted $515,000 in a single day wagering on the U.S. military action, fueling allegations of insider trading.\n\nThese developments drew sharp criticism from U.S. lawmakers. Senator Chris Murphy and Representative Mike Levin publicly condemned the exploitation of sensitive geopolitical events for profit, with Murphy pledging to introduce legislation to ban such practices. Senator Ruben Gallego described the activity as “disgusting and immoral,” especially given the human cost—three U.S. service members killed and five seriously wounded since the strikes began.\n\nKalshi, regulated by the Commodity Futures Trading Commission, faced controversy for promoting a market on whether Khamenei would be “out,” which many saw as a proxy for assassination betting. Following Khamenei’s death confirmation, Kalshi’s CEO announced refunds and cashouts for affected users, though some participants expressed dissatisfaction with the handling.\n\nThe issue extends beyond the U.S., as Israel recently arrested army reservists for using classified information to place bets on Iran strikes, signaling a tightening legal stance on insider trading in conflict-related prediction markets. The episode underscores the ethical and regulatory challenges posed by decentralized and crypto-based platforms enabling real-time speculation on sensitive international events, raising questions about market integrity and the morality of profiting from war.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5654
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
