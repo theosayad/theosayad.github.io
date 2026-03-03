@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-03",
+  "generatedAt": "2026-03-03T09:54:47.753Z",
+  "article": {
+    "title": "The 185-Microsecond Type Hint",
+    "url": "https://blog.sturdystatistics.com/posts/type_hint/",
+    "source": "blog.sturdystatistics.com",
+    "selectedAt": "2026-03-03T09:54:37.103Z",
+    "publishedAt": "2026-03-02T22:04:56.000Z",
+    "hn": {
+      "id": 47224832,
+      "score": 68,
+      "comments": 9
+    }
+  },
+  "takeaways": [],
+  "summary": "A Clojure implementation of the Roughtime protocol revealed that a trivial line of code—measuring byte array lengths—was responsible for nearly 90% of runtime overhead due to dynamic dispatch and reflection. Adding a type hint reduced encoding time from 31µs to 4µs, resulting in an overall server response speedup from 200µs to approximately 15µs, highlighting the critical impact of low-level optimizations in high-level languages.",
+  "keyPoints": [
+    "Roughtime protocol implementation supports 16 versions, causing complex conditional logic.",
+    "Batch processing involves CPU-intensive Merkle tree hashing (SHA-512) and expensive Ed25519 signatures.",
+    "Initial server response averaged 200 microseconds, dominated by a simple byte array length call.",
+    "Adding a type hint cut encoding time from 31µs to 4µs, improving isolated call performance by ~8×.",
+    "End-to-end benchmarks showed a ~13× speedup, likely due to reduced JVM reflection overhead and better JIT inlining.",
+    "Reveals that trivial code sections can bottleneck performance more than complex cryptographic operations."
+  ],
+  "rewrite": {
+    "title": "Trivial Type Hint Cuts Roughtime Server Latency 13×",
+    "body": "The recently released open-source Clojure implementation of the Roughtime protocol, which ensures secure time synchronization with cryptographic proofs, uncovered a surprising performance bottleneck. Despite the complexity of cryptographic operations like Ed25519 signatures and Merkle tree hashing with SHA-512, the majority of the server’s 200-microsecond response time was consumed by a simple operation: determining the length of byte arrays. This mundane line, executed repeatedly in a tight loop, incurred heavy overhead due to dynamic dispatch and reflection in the JVM.\n\nBy introducing a type hint that provided the compiler with static type information, the encoding time for this operation dropped dramatically from 31 microseconds to just 4 microseconds. While isolated tests showed an 8-fold improvement, full end-to-end benchmarks revealed an even greater 13-fold speedup. This unexpected amplification is attributed to reduced contention and improved just-in-time (JIT) compilation when the JVM could inline the primitive bytecode instruction instead of relying on slower reflective calls.\n\nThe implementation supports all 16 protocol versions from Google’s original Roughtime specification through the IETF drafts, resulting in complex conditional logic. Yet, it was not the intricate cryptographic or protocol handling code that limited performance but rather this trivial line. This case underscores the importance of low-level optimizations and compiler hints in high-level dynamic languages like Clojure, especially when processing workloads are CPU-bound and highly parallelized.\n\nUltimately, this insight suggests that developers should scrutinize even the simplest code paths for hidden inefficiencies, as they can disproportionately impact system throughput and latency in cryptographic and security-critical applications.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3614
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

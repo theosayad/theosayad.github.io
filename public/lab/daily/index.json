@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-02T09:59:53.437Z",
+  "updatedAt": "2026-03-03T09:54:47.755Z",
   "items": [
+    {
+      "slug": "2026-03-03",
+      "title": "The 185-Microsecond Type Hint",
+      "url": "https://blog.sturdystatistics.com/posts/type_hint/",
+      "source": "blog.sturdystatistics.com",
+      "selectedAt": "2026-03-03T09:54:37.103Z",
+      "publishedAt": "2026-03-02T22:04:56.000Z",
+      "hn": {
+        "id": 47224832,
+        "score": 68,
+        "comments": 9
+      }
+    },
     {
       "slug": "2026-03-02",
       "title": "Allegations of insider trading over prediction-market bets tied to Iran conflict",
@@ -662,19 +675,6 @@
         "id": 46508582,
         "score": 86,
         "comments": 123
-      }
-    },
-    {
-      "slug": "2026-01-05",
-      "title": "Decorative Cryptography",
-      "url": "https://www.dlp.rip/decorative-cryptography",
-      "source": "dlp.rip",
-      "selectedAt": "2026-01-05T09:41:25.199Z",
-      "publishedAt": "2026-01-05T08:29:38.000Z",
-      "hn": {
-        "id": 46496494,
-        "score": 32,
-        "comments": 7
       }
     }
   ]
