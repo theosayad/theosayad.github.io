@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-04",
+  "generatedAt": "2026-03-04T09:52:49.609Z",
+  "article": {
+    "title": "Pass-Through of Tariffs: Evidence from European Wine Imports",
+    "url": "https://www.nber.org/202603/digest/pass-through-tariffs-evidence-european-wine-imports",
+    "source": "nber.org",
+    "selectedAt": "2026-03-04T09:52:36.550Z",
+    "publishedAt": "2026-03-03T16:47:15.000Z",
+    "hn": {
+      "id": 47235117,
+      "score": 72,
+      "comments": 81
+    }
+  },
+  "takeaways": [],
+  "summary": "A study of US tariffs on European wines from 2019 to 2021 reveals that producers absorbed about 20% of the 25% tariff, while the majority of costs were passed along the supply chain, ultimately raising retail prices by nearly 7%. The findings highlight gradual price adjustments, persistent effects after tariff removal, and strategic product reformulations to avoid tariffs, offering nuanced insights into tariff incidence and market responses.",
+  "keyPoints": [
+    "US imposed 25% tariffs in October 2019 on still European wines ≤14% ABV from France, Germany, Spain, UK; tariffs lasted until March 2021.",
+    "Foreign producers cut pre-tariff prices by 5.2%, absorbing roughly 20% of the tariff burden.",
+    "Importers passed on 80% of the tariff costs but saw a $0.44 per bottle margin decline due to price increases less than tariff amount.",
+    "Distributors and retailers applied markups of ~75% and 50%, respectively, leading to a 6.9% retail price increase (~$1.59 on $23 bottle).",
+    "Price changes at import level occurred within 3 months; retail prices took about 12 months to fully reflect tariffs and remained elevated nearly a year post-tariff.",
+    "Producers and exporters shifted product offerings toward wines >14% ABV to evade tariffs, causing compositional shifts that bias aggregate pass-through estimates."
+  ],
+  "rewrite": {
+    "title": "Tariff Pass-Through in US Wine Imports from Europe",
+    "body": "The US imposed a 25% tariff in October 2019 on still wines from key European producers with alcohol content at or below 14%, as part of the Airbus-Boeing trade dispute. This tariff remained until March 2021 and targeted wines from France, Germany, Spain, and the UK. Using detailed transaction-level data from a major US importer and supplementary retail price information, researchers traced how these tariffs affected prices along the supply chain from producers to consumers.\n\nProducers responded by lowering their pre-tariff prices by about 5.2%, absorbing roughly one-fifth of the tariff cost. The remaining 80% was passed forward, but importers experienced a margin squeeze, with their per-bottle profits declining by $0.44 despite raising prices to distributors by 5.4%. Distributors and retailers then applied substantial markups—approximately 75% and 50% respectively—resulting in an overall retail price increase of 6.9%, or $1.59 on a $23 bottle.\n\nPrice adjustments unfolded gradually: import prices shifted within three months, but retail prices took up to a year to fully reflect the tariff impact. Notably, retail prices stayed elevated for nearly a year after the tariffs were lifted, indicating lasting effects on consumer prices. The study also uncovered strategic behavior to avoid tariffs, including reformulating wines to exceed the 14% ABV threshold and shifting new product offerings accordingly. This compositional change complicates aggregate pass-through estimates, suggesting that simple trade data may underestimate the true incidence of tariffs at the product level.\n\nOverall, the research provides detailed empirical evidence on how tariffs propagate through complex supply chains, revealing incomplete pass-through at early stages and amplified effects at retail. It underscores the importance of considering product adjustments and market structure when assessing the real economic impact of trade policies.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4922
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
