@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-04T09:52:49.611Z",
+  "updatedAt": "2026-03-05T09:55:25.936Z",
   "items": [
+    {
+      "slug": "2026-03-05",
+      "title": "Snow Investors Have Opportunity to Lead Snowflake Inc. Securities Fraud Lawsuit",
+      "url": "https://markets.ft.com/data/announce/detail",
+      "source": "markets.ft.com",
+      "selectedAt": "2026-03-05T09:55:18.530Z",
+      "publishedAt": "2026-03-04T15:05:10.000Z",
+      "hn": {
+        "id": 47248553,
+        "score": 4,
+        "comments": 0
+      }
+    },
     {
       "slug": "2026-03-04",
       "title": "Pass-Through of Tariffs: Evidence from European Wine Imports",
@@ -662,19 +675,6 @@
         "id": 46529097,
         "score": 36,
         "comments": 97
-      }
-    },
-    {
-      "slug": "2026-01-07",
-      "title": "Locating a Photo of a Vehicle in 30 Seconds with GeoSpy",
-      "url": "https://geospy.ai/blog/locating-a-photo-of-a-vehicle-in-30-seconds-with-geospy",
-      "source": "geospy.ai",
-      "selectedAt": "2026-01-07T09:36:26.889Z",
-      "publishedAt": "2026-01-06T18:00:27.000Z",
-      "hn": {
-        "id": 46515948,
-        "score": 120,
-        "comments": 107
       }
     }
   ]
