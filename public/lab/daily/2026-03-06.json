@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-06",
+  "generatedAt": "2026-03-06T09:51:24.327Z",
+  "article": {
+    "title": "Labor market impacts of AI: A new measure and early evidence",
+    "url": "https://www.anthropic.com/research/labor-market-impacts",
+    "source": "anthropic.com",
+    "selectedAt": "2026-03-06T09:51:13.145Z",
+    "publishedAt": "2026-03-05T22:55:01.000Z",
+    "hn": {
+      "id": 47268391,
+      "score": 194,
+      "comments": 279
+    }
+  },
+  "takeaways": [],
+  "summary": "A new framework assessing AI's impact on the US labor market finds limited evidence of increased unemployment among highly AI-exposed occupations since ChatGPT's release. However, early signs indicate a modest decline in hiring rates for young workers entering these roles, suggesting potential emerging labor market shifts.",
+  "keyPoints": [
+    "Approximately 25% of US jobs were previously identified as offshorable, yet most saw employment growth, highlighting challenges in predicting labor market disruptions.",
+    "The study introduces a novel measure of AI exposure based on task feasibility with large language models (LLMs) and observed usage, finding Computer & Math and Office & Admin occupations have 90%+ task exposure potential.",
+    "Workers in the top quartile of AI exposure earn 47% more on average, are more likely female and Asian, and have higher education levels compared to unexposed workers.",
+    "Since August–October 2022 (pre-ChatGPT), unemployment trends between highly exposed and unexposed groups have been similar, with no statistically significant increase in unemployment attributable to AI.",
+    "Hiring rates for workers aged 22–25 into high-exposure occupations have declined by about 14% post-ChatGPT, a tentative but notable early indicator of labor market adjustment.",
+    "The analysis focuses on unemployment as a key metric of economic harm, emphasizing that AI-driven job displacement would likely manifest first as increased unemployment before other labor market changes."
+  ],
+  "rewrite": {
+    "title": "Early Evidence on AI's Labor Market Effects",
+    "body": "Recent research introduces a new methodology to quantify AI's impact on US employment by measuring task-level exposure to large language models (LLMs) and actual AI usage. While prior attempts to predict labor market disruptions, such as job offshorability, have often overestimated impacts, this framework aims to provide a more reliable baseline before AI effects become widespread. The study finds that occupations in Computer & Math and Office & Admin categories have the highest theoretical AI task exposure, exceeding 90%, with workers in these roles generally earning significantly more and possessing higher education levels.\n\nAnalyzing data from the Current Population Survey spanning 2016 to early 2024, the researchers observe no meaningful increase in unemployment rates among workers in the top quartile of AI exposure since the launch of ChatGPT in late 2022. This contrasts with the larger unemployment spikes experienced by less AI-exposed, often in-person roles during the COVID-19 pandemic. However, a subtle but statistically borderline decline in hiring rates for young workers (ages 22–25) entering highly exposed occupations has emerged in 2024, with a roughly 14% drop compared to pre-ChatGPT levels. This suggests early labor market adjustments that could precede broader employment effects.\n\nThe study underscores the importance of focusing on unemployment as a direct indicator of economic harm from AI-driven displacement, rather than relying solely on job postings or employment counts, which may mask shifts within or between occupations. While the current findings show limited disruption, the authors emphasize the need for ongoing monitoring as AI capabilities and adoption evolve. Future updates incorporating expanded usage data will refine understanding of how AI reshapes job tasks and labor demand across sectors.\n\nOverall, the evidence to date suggests that AI's labor market impact remains modest but may be beginning to influence hiring dynamics among younger workers in highly exposed roles. Policymakers and researchers should remain vigilant for emerging trends that could signal more significant workforce restructuring ahead.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and discussion signals."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 11361
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

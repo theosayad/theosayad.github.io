@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-05T09:55:25.936Z",
+  "updatedAt": "2026-03-06T09:51:24.328Z",
   "items": [
+    {
+      "slug": "2026-03-06",
+      "title": "Labor market impacts of AI: A new measure and early evidence",
+      "url": "https://www.anthropic.com/research/labor-market-impacts",
+      "source": "anthropic.com",
+      "selectedAt": "2026-03-06T09:51:13.145Z",
+      "publishedAt": "2026-03-05T22:55:01.000Z",
+      "hn": {
+        "id": 47268391,
+        "score": 194,
+        "comments": 279
+      }
+    },
     {
       "slug": "2026-03-05",
       "title": "Snow Investors Have Opportunity to Lead Snowflake Inc. Securities Fraud Lawsuit",
@@ -662,19 +675,6 @@
         "id": 46548007,
         "score": 16,
         "comments": 1
-      }
-    },
-    {
-      "slug": "2026-01-08",
-      "title": "The $14 Burrito: Why San Francisco Inflation Feels Higher Than 2.5%",
-      "url": "https://www.foglinesf.com/p/the-14-burrito-why-san-francisco-inflation-feels-higher-than-2-5",
-      "source": "foglinesf.com",
-      "selectedAt": "2026-01-08T09:36:33.410Z",
-      "publishedAt": "2026-01-07T17:12:04.000Z",
-      "hn": {
-        "id": 46529097,
-        "score": 36,
-        "comments": 97
       }
     }
   ]
