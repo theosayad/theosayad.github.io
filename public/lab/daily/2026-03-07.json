@@ -1,0 +1,41 @@
+{
+  "slug": "2026-03-07",
+  "generatedAt": "2026-03-07T09:37:24.914Z",
+  "article": {
+    "title": "Codex Security: now in research preview",
+    "url": "https://openai.com/index/codex-security-now-in-research-preview/",
+    "source": "openai.com",
+    "selectedAt": "2026-03-07T09:37:19.143Z",
+    "publishedAt": "2026-03-06T18:18:48.000Z",
+    "hn": {
+      "id": 47278862,
+      "score": 33,
+      "comments": 2
+    }
+  },
+  "takeaways": [],
+  "summary": "OpenAI has launched Codex Security in research preview, aiming to enhance the safety and reliability of AI-generated code. This initiative addresses growing concerns about vulnerabilities and malicious code produced by AI coding assistants, marking a critical step toward secure AI integration in software development.",
+  "keyPoints": [
+    "Codex Security is introduced as a research preview to evaluate AI code safety.",
+    "Focus is on detecting and mitigating security risks in AI-generated code.",
+    "Responds to increasing scrutiny over AI tools potentially introducing vulnerabilities.",
+    "Early-stage release invites community feedback to refine security measures.",
+    "Highlights the importance of proactive security in AI-assisted programming workflows."
+  ],
+  "rewrite": {
+    "title": "OpenAI Launches Codex Security Preview",
+    "body": "OpenAI has unveiled Codex Security in a research preview phase, targeting the enhancement of safety protocols around AI-generated code. As AI coding assistants become more prevalent, concerns about the inadvertent creation of insecure or malicious code have intensified. Codex Security aims to identify and mitigate these risks early, ensuring that AI tools contribute positively to software development without compromising security.\n\nThis initiative reflects a broader industry push to embed security considerations directly into AI workflows. By releasing Codex Security as a research preview, OpenAI is actively seeking input from developers and security experts to improve detection capabilities and response strategies. This collaborative approach is crucial given the evolving nature of both AI technologies and cybersecurity threats.\n\nThe move underscores the necessity of balancing innovation with responsibility. As AI-generated code becomes more integrated into production environments, tools like Codex Security will play a pivotal role in safeguarding applications against vulnerabilities that could have far-reaching consequences. OpenAI’s proactive stance sets a precedent for other AI developers to prioritize security in their offerings.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

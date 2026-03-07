@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-06T09:51:24.328Z",
+  "updatedAt": "2026-03-07T09:37:24.915Z",
   "items": [
+    {
+      "slug": "2026-03-07",
+      "title": "Codex Security: now in research preview",
+      "url": "https://openai.com/index/codex-security-now-in-research-preview/",
+      "source": "openai.com",
+      "selectedAt": "2026-03-07T09:37:19.143Z",
+      "publishedAt": "2026-03-06T18:18:48.000Z",
+      "hn": {
+        "id": 47278862,
+        "score": 33,
+        "comments": 2
+      }
+    },
     {
       "slug": "2026-03-06",
       "title": "Labor market impacts of AI: A new measure and early evidence",
@@ -662,19 +675,6 @@
         "id": 46555963,
         "score": 482,
         "comments": 564
-      }
-    },
-    {
-      "slug": "2026-01-09",
-      "title": "Trump orders his 'representatives' to buy $200B in mortgage bonds",
-      "url": "https://www.reuters.com/world/us/trump-orders-his-representatives-buy-200-billion-dollars-mortgage-bonds-2026-01-08/",
-      "source": "reuters.com",
-      "selectedAt": "2026-01-09T09:36:07.424Z",
-      "publishedAt": "2026-01-08T23:28:10.000Z",
-      "hn": {
-        "id": 46548007,
-        "score": 16,
-        "comments": 1
       }
     }
   ]
