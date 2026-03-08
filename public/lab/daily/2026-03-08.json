@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-08",
+  "generatedAt": "2026-03-08T09:38:05.253Z",
+  "article": {
+    "title": "Effort to prevent government officials from engaging in prediction markets",
+    "url": "https://www.merkley.senate.gov/merkley-klobuchar-launch-new-effort-to-ban-federal-elected-officials-profiting-from-prediction-markets/",
+    "source": "merkley.senate.gov",
+    "selectedAt": "2026-03-08T09:37:59.191Z",
+    "publishedAt": "2026-03-07T20:55:48.000Z",
+    "hn": {
+      "id": 47291406,
+      "score": 310,
+      "comments": 114
+    }
+  },
+  "takeaways": [],
+  "summary": "Senators Merkley and Klobuchar introduced the End Prediction Market Corruption Act to prohibit top federal officials from trading in prediction markets, aiming to prevent insider trading and restore public trust. This legislative move responds to reports of suspiciously timed large payouts linked to sensitive geopolitical events, highlighting growing concerns over ethical risks posed by prediction markets.",
+  "keyPoints": [
+    "The bill bans the President, Vice President, Congress members, and other federal officials from trading event contracts in prediction markets.",
+    "It enhances the Commodity Futures Trading Commission’s authority to investigate and penalize misuse of nonpublic government information.",
+    "The legislation is co-sponsored by Senators Van Hollen, Schiff, and Gillibrand, and supported by watchdog groups including POGO, CREW, and Public Citizen.",
+    "Recent reports revealed suspiciously large payouts on prediction markets ahead of events like Iran strikes and Venezuelan military actions, raising insider trading alarms.",
+    "Senator Merkley has a history of anti-corruption initiatives, including efforts against election gambling, stock trading by lawmakers, and cryptocurrency-related abuses.",
+    "The bill aims to uphold ethical standards and prevent erosion of public confidence in government integrity."
+  ],
+  "rewrite": {
+    "title": "Bill Targets Insider Trading in Prediction Markets by Officials",
+    "body": "In response to alarming reports of government officials potentially exploiting insider knowledge for financial gain, Senators Jeff Merkley (D-OR) and Amy Klobuchar (D-MN) have introduced the End Prediction Market Corruption Act. This legislation seeks to bar the highest-ranking federal officials—including the President, Vice President, and members of Congress—from participating in prediction markets that trade on event outcomes. The move comes amid revelations of unusually large, well-timed payouts tied to sensitive geopolitical events such as strikes on Iran and military actions in Venezuela, raising concerns about corruption and insider trading.\n\nThe bill not only prohibits these officials from trading event contracts but also strengthens the Commodity Futures Trading Commission’s capacity to investigate and sanction misuse of confidential government information. Co-sponsored by Senators Chris Van Hollen, Adam Schiff, and Kirsten Gillibrand, the legislation has garnered support from prominent ethics watchdog organizations like the Project On Government Oversight (POGO), Citizens for Responsibility and Ethics in Washington (CREW), and Public Citizen. These groups emphasize the importance of maintaining public trust by preventing officials from profiting off privileged information.\n\nSenator Merkley, known for his longstanding commitment to combating public corruption, has previously championed measures against election gambling, stock trading by lawmakers, and cryptocurrency-related misconduct. This new bill represents a critical step in addressing the ethical challenges posed by the rapid growth of retail prediction markets, ensuring that government officials cannot leverage their access to nonpublic policy information for personal financial advantage. Ultimately, the legislation aims to safeguard democratic integrity and reinforce the principle that public service should not be a pathway to private profit.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4158
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

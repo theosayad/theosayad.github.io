@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-07T09:37:24.915Z",
+  "updatedAt": "2026-03-08T09:38:05.254Z",
   "items": [
+    {
+      "slug": "2026-03-08",
+      "title": "Effort to prevent government officials from engaging in prediction markets",
+      "url": "https://www.merkley.senate.gov/merkley-klobuchar-launch-new-effort-to-ban-federal-elected-officials-profiting-from-prediction-markets/",
+      "source": "merkley.senate.gov",
+      "selectedAt": "2026-03-08T09:37:59.191Z",
+      "publishedAt": "2026-03-07T20:55:48.000Z",
+      "hn": {
+        "id": 47291406,
+        "score": 310,
+        "comments": 114
+      }
+    },
     {
       "slug": "2026-03-07",
       "title": "Codex Security: now in research preview",
@@ -662,19 +675,6 @@
         "id": 46571095,
         "score": 262,
         "comments": 173
-      }
-    },
-    {
-      "slug": "2026-01-10",
-      "title": "The Vietnam government has banned rooted phones from using any banking app",
-      "url": "https://xdaforums.com/t/discussion-the-root-and-mod-hiding-fingerprint-spoofing-keybox-stealing-cat-and-mouse-game.4425939/page-118",
-      "source": "xdaforums.com",
-      "selectedAt": "2026-01-10T09:28:30.253Z",
-      "publishedAt": "2026-01-09T17:00:11.000Z",
-      "hn": {
-        "id": 46555963,
-        "score": 482,
-        "comments": 564
       }
     }
   ]
