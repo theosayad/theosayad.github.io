@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-08T09:38:05.254Z",
+  "updatedAt": "2026-03-09T10:01:42.314Z",
   "items": [
+    {
+      "slug": "2026-03-09",
+      "title": "Most of the US economy is in a recession",
+      "url": "https://www.businessinsider.com/recession-economy-us-tech-wall-street-strategist-investing-stocks-market-2026-3",
+      "source": "businessinsider.com",
+      "selectedAt": "2026-03-09T10:01:33.556Z",
+      "publishedAt": "2026-03-08T22:01:32.000Z",
+      "hn": {
+        "id": 47302022,
+        "score": 207,
+        "comments": 212
+      }
+    },
     {
       "slug": "2026-03-08",
       "title": "Effort to prevent government officials from engaging in prediction markets",
@@ -662,19 +675,6 @@
         "id": 46577635,
         "score": 32,
         "comments": 20
-      }
-    },
-    {
-      "slug": "2026-01-11",
-      "title": "Private equity firms acquired more than 500 autism centers in past decade: study",
-      "url": "https://www.brown.edu/news/2026-01-07/private-equity-autism-centers",
-      "source": "brown.edu",
-      "selectedAt": "2026-01-11T09:29:08.786Z",
-      "publishedAt": "2026-01-10T23:36:16.000Z",
-      "hn": {
-        "id": 46571095,
-        "score": 262,
-        "comments": 173
       }
     }
   ]

@@ -1,0 +1,41 @@
+{
+  "slug": "2026-03-09",
+  "generatedAt": "2026-03-09T10:01:42.313Z",
+  "article": {
+    "title": "Most of the US economy is in a recession",
+    "url": "https://www.businessinsider.com/recession-economy-us-tech-wall-street-strategist-investing-stocks-market-2026-3",
+    "source": "businessinsider.com",
+    "selectedAt": "2026-03-09T10:01:33.556Z",
+    "publishedAt": "2026-03-08T22:01:32.000Z",
+    "hn": {
+      "id": 47302022,
+      "score": 207,
+      "comments": 212
+    }
+  },
+  "takeaways": [],
+  "summary": "Despite headline GDP growth, most of the US economy is effectively in recession, with robust tech sector investment masking weakness elsewhere. This divergence highlights a growing split between the 'new era' tech-driven economy and the traditional sectors, raising concerns about broad-based economic health and labor market strength.",
+  "keyPoints": [
+    "Real private GDP grew 2.3% in 2025, driven predominantly by tech-related 'new era' investments.",
+    "89% of the private economy, excluding tech-focused spending, expanded only 1% with no job creation, signaling recession conditions.",
+    "'New era' spending, including information processing equipment and intellectual property, grew 14% in 2025, outpacing traditional sectors by 2.5 times.",
+    "The tech sector’s outsized influence parallels the stock market’s Magnificent Seven vs. other S&P 500 stocks dynamic.",
+    "This economic bifurcation explains mixed economic sentiment and public pessimism despite positive headline GDP figures."
+  ],
+  "rewrite": {
+    "title": "Most of US Economy Faces Recession Despite Tech Growth",
+    "body": "The US economy’s headline growth figures mask a stark divide between booming technology investments and widespread weakness in traditional sectors. In 2025, real private GDP rose by 2.3%, but nearly all of this growth stemmed from what strategist Jim Paulsen terms the 'new era' economy—primarily tech-driven spending on information processing equipment and intellectual property. This segment expanded 14% last year, growing 2.5 times faster than the rest of the private economy.\n\nExcluding this tech-centric subset, the remaining 89% of private sector spending barely grew, increasing just 1% without generating new jobs. This suggests that most of the economy is effectively in recession, with stagnant demand and labor market slack outside the technology sphere. Paulsen likens this split to the stock market’s concentration of gains in the 'Magnificent Seven' tech giants versus the broader S&P 500.\n\nThe growing gap between new era and old economy sectors complicates economic analysis and public perception. While official GDP numbers appear healthy, they obscure underlying weakness that fuels negative consumer sentiment and cautious economic forecasts. This bifurcation also challenges policymakers who must balance inflation concerns with uneven growth.\n\nUltimately, the US economy’s resilience owes heavily to tech investment, but without broader recovery across traditional industries, the overall economic outlook remains fragile and uneven.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3146
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
