@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-11",
+  "generatedAt": "2026-03-11T09:54:11.307Z",
+  "article": {
+    "title": "America's never had such high national debt heading into an economic shock",
+    "url": "https://fortune.com/2026/03/10/national-debt-100-percent-of-gdp-crisis-break-glass-plan-crfb-report/",
+    "source": "fortune.com",
+    "selectedAt": "2026-03-11T09:54:00.314Z",
+    "publishedAt": "2026-03-10T21:52:54.000Z",
+    "hn": {
+      "id": 47329238,
+      "score": 40,
+      "comments": 36
+    }
+  },
+  "takeaways": [],
+  "summary": "The U.S. national debt has reached 100% of GDP, a level unseen since World War II, severely limiting fiscal flexibility ahead of a potential economic downturn. The Committee for a Responsible Federal Budget warns that this elevated debt, combined with inflation and market volatility, could exacerbate the next crisis and hamper effective policy responses.",
+  "keyPoints": [
+    "U.S. national debt equals 100% of GDP, up from 34% during the early 2000s recession and 79% at the start of the COVID-19 pandemic.",
+    "Annual deficits hover near 6% of GDP; interest payments consume nearly 20% of federal revenue, double the share during prior crises.",
+    "By 2036, debt is projected to reach 120% of GDP, with interest payments absorbing 26 cents of every federal dollar.",
+    "CRFB highlights risks from asset bubbles, geopolitical tensions (e.g., Iran conflict), and policy missteps, including stagflation.",
+    "Recommended solutions include targeted stimulus, bipartisan deficit reduction measures, automatic fiscal guardrails, and a fiscal commission to reform entitlements and tax policy.",
+    "Without reform, structural deficits will persist, limiting government’s ability to respond to future shocks and increasing the risk of inflation or Treasury market instability."
+  ],
+  "rewrite": {
+    "title": "U.S. Faces Record Debt Amid Looming Economic Risks",
+    "body": "The United States is entering a potential economic crisis with its highest-ever national debt relative to GDP, now at 100%, a level last seen during World War II. This unprecedented debt burden severely restricts the government’s ability to respond to downturns, as annual deficits remain near 6% of GDP and interest payments consume nearly one-fifth of federal revenue—double the proportion during previous recessions. The Committee for a Responsible Federal Budget (CRFB) warns that this fiscal vulnerability coincides with persistent inflation and volatile Treasury markets, complicating any future economic intervention.\n\nHistorical context underscores the challenge: debt was 34% of GDP during the early 2000s recession and 79% at the onset of COVID-19. The CRFB projects debt will climb to 120% of GDP by 2036, with interest payments taking up 26 cents of every federal dollar. This trajectory raises the stakes for managing risks such as asset bubbles, geopolitical conflicts like the recent Iran-related oil price shocks, and potential policy errors that could trigger stagflation.\n\nTo mitigate these risks, the CRFB advocates for a multi-pronged approach. This includes implementing targeted, efficient stimulus tailored to specific shocks, adopting bipartisan deficit reduction strategies (e.g., Medicare payment reforms and closing tax loopholes), and establishing automatic fiscal guardrails to rein in spending growth post-crisis. Additionally, a bipartisan fiscal commission is proposed to craft nuanced reforms to entitlement programs and tax policy, aiming to restore long-term solvency and reduce fraud.\n\nAbsent decisive action, the U.S. risks perpetuating structural deficits that limit fiscal flexibility and may exacerbate inflation or undermine confidence in Treasury markets. With recessions historically occurring roughly every seven years and the last ending in 2020, the nation’s constrained fiscal position heightens the urgency for preemptive reforms to safeguard economic stability.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 6826
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

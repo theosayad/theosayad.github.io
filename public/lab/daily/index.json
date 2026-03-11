@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-10T09:55:39.233Z",
+  "updatedAt": "2026-03-11T09:54:11.309Z",
   "items": [
+    {
+      "slug": "2026-03-11",
+      "title": "America's never had such high national debt heading into an economic shock",
+      "url": "https://fortune.com/2026/03/10/national-debt-100-percent-of-gdp-crisis-break-glass-plan-crfb-report/",
+      "source": "fortune.com",
+      "selectedAt": "2026-03-11T09:54:00.314Z",
+      "publishedAt": "2026-03-10T21:52:54.000Z",
+      "hn": {
+        "id": 47329238,
+        "score": 40,
+        "comments": 36
+      }
+    },
     {
       "slug": "2026-03-10",
       "title": "New farm bill would condemn pigs to a lifetime in gestation crates",
@@ -662,19 +675,6 @@
         "id": 46603910,
         "score": 265,
         "comments": 336
-      }
-    },
-    {
-      "slug": "2026-01-13",
-      "title": "Former Fed chairs and Treasury secretaries: Statement on the Federal Reserve",
-      "url": "https://jointstatement.substack.com/p/statement-on-the-federal-reserve",
-      "source": "jointstatement.substack.com",
-      "selectedAt": "2026-01-13T09:36:16.710Z",
-      "publishedAt": "2026-01-12T18:10:50.000Z",
-      "hn": {
-        "id": 46592060,
-        "score": 30,
-        "comments": 11
       }
     }
   ]
