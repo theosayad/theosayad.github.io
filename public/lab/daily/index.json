@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-11T09:54:11.309Z",
+  "updatedAt": "2026-03-12T09:55:57.362Z",
   "items": [
+    {
+      "slug": "2026-03-12",
+      "title": "Whistleblower claims ex-DOGE member says he took Social Security data to new job",
+      "url": "https://www.washingtonpost.com/politics/2026/03/10/social-security-data-breach-doge-2/",
+      "source": "washingtonpost.com",
+      "selectedAt": "2026-03-12T09:54:38.177Z",
+      "publishedAt": "2026-03-11T13:52:01.000Z",
+      "hn": {
+        "id": 47335572,
+        "score": 596,
+        "comments": 259
+      }
+    },
     {
       "slug": "2026-03-11",
       "title": "America's never had such high national debt heading into an economic shock",
@@ -662,19 +675,6 @@
         "id": 46680212,
         "score": 724,
         "comments": 729
-      }
-    },
-    {
-      "slug": "2026-01-14",
-      "title": "90M people. 118 hours of silence. One nation erased from the internet",
-      "url": "https://state-of-iranblackout.whisper.security/",
-      "source": "state-of-iranblackout.whisper.security",
-      "selectedAt": "2026-01-14T09:37:05.376Z",
-      "publishedAt": "2026-01-13T17:05:43.000Z",
-      "hn": {
-        "id": 46603910,
-        "score": 265,
-        "comments": 336
       }
     }
   ]

@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-12",
+  "generatedAt": "2026-03-12T09:55:57.360Z",
+  "article": {
+    "title": "Whistleblower claims ex-DOGE member says he took Social Security data to new job",
+    "url": "https://www.washingtonpost.com/politics/2026/03/10/social-security-data-breach-doge-2/",
+    "source": "washingtonpost.com",
+    "selectedAt": "2026-03-12T09:54:38.177Z",
+    "publishedAt": "2026-03-11T13:52:01.000Z",
+    "hn": {
+      "id": 47335572,
+      "score": 596,
+      "comments": 259
+    }
+  },
+  "takeaways": [],
+  "summary": "A whistleblower alleges that a former employee of the Department of Governmental Enterprises (DOGE) improperly transferred sensitive Social Security data to a new employer, raising concerns about data security and potential misuse. This incident highlights ongoing vulnerabilities in government data handling and the risks posed by insider threats.",
+  "keyPoints": [
+    "The whistleblower claims the ex-DOGE staffer took Social Security data upon leaving the agency.",
+    "The breach involves personally identifiable information critical to identity verification.",
+    "No exact date of the data transfer was disclosed, but the report surfaced in March 2026.",
+    "Potential misuse of the data could increase risks of identity theft and fraud.",
+    "This case underscores persistent challenges in securing government-held personal data.",
+    "Calls for stricter data access controls and employee monitoring are intensifying."
+  ],
+  "rewrite": {
+    "title": "Ex-DOGE Employee Allegedly Took Social Security Data",
+    "body": "In March 2026, a whistleblower revealed that a former employee of the Department of Governmental Enterprises (DOGE) allegedly transferred sensitive Social Security data to a new employer. This data includes personally identifiable information vital for identity verification, raising serious concerns about the security protocols governing government-held information. Although the exact timing of the data transfer remains unclear, the incident spotlights the risks posed by insider threats within federal agencies.\n\nThe potential misuse of this Social Security information could lead to increased identity theft and fraud, affecting millions of individuals. This breach underscores the ongoing challenges faced by government entities in protecting sensitive data against unauthorized access and exfiltration. The case has intensified calls for enhanced data access controls, more rigorous employee monitoring, and comprehensive audits to prevent similar incidents in the future.\n\nAs government agencies continue to digitize and centralize personal data, this event serves as a cautionary tale about the importance of safeguarding such information. It also highlights the need for swift investigative and remedial actions to mitigate potential damage and restore public trust in data security frameworks.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
