@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-13",
+  "generatedAt": "2026-03-13T09:51:35.894Z",
+  "article": {
+    "title": "ATMs didn’t kill bank teller jobs, but the iPhone did",
+    "url": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller",
+    "source": "davidoks.blog",
+    "selectedAt": "2026-03-13T09:51:26.795Z",
+    "publishedAt": "2026-03-12T14:48:57.000Z",
+    "hn": {
+      "id": 47351371,
+      "score": 420,
+      "comments": 441
+    }
+  },
+  "takeaways": [],
+  "summary": "Contrary to early fears, ATMs did not reduce overall bank teller employment; instead, they transformed the role by enabling banks to expand branches and shift tellers toward relationship-focused tasks. The real labor disruption came later with smartphones, which created entirely new paradigms rather than merely substituting tasks. This case highlights how technology’s impact depends on whether it introduces new business models or simply automates existing workflows.",
+  "keyPoints": [
+    "ATMs emerged in the late 1960s and were widely adopted after Citibank’s $50 million rollout in 1977.",
+    "ATM transactions cost banks 27 cents each versus $1.07 for human tellers, offering clear efficiency gains.",
+    "Despite fewer tellers per branch (from 21 to 13), total bank teller employment grew from 1970 to 2010 due to branch expansion and new teller roles.",
+    "The rise of relationship banking shifted teller roles from cash handling to customer engagement and sales of financial products.",
+    "This dynamic exemplifies the Jevons effect: efficiency gains increased demand for financial services and thus labor input.",
+    "The iPhone and smartphones later disrupted banking more profoundly by creating new paradigms, not just substituting tasks."
+  ],
+  "rewrite": {
+    "title": "Why ATMs Didn’t Kill Bank Teller Jobs",
+    "body": "The introduction of automated teller machines (ATMs) in the late 1960s, culminating in a major deployment by Citibank in 1977, was initially expected to drastically reduce bank teller jobs. ATMs offered clear cost advantages, with transaction costs around 27 cents compared to $1.07 for human tellers, and the convenience of 24/7 access. However, rather than eliminating teller jobs, the technology reshaped them. Although the number of tellers per branch declined from 21 to about 13, total teller employment increased between 1970 and 2010, driven by a 40% rise in urban bank branches and a shift toward relationship banking roles that leveraged information technology to deepen customer engagement and cross-sell financial products.\n\nThis phenomenon illustrates the Jevons effect: improved efficiency in delivering financial services increased overall demand, which in turn sustained or grew labor input. ATMs automated routine cash-handling tasks but also revealed new value in human-centered roles that machines could not replicate. The story contrasts sharply with the later impact of smartphones, particularly the iPhone, which did not merely substitute tasks but enabled entirely new paradigms of interaction and service delivery, fundamentally altering labor dynamics.\n\nThe bank teller case serves as a cautionary tale against simplistic predictions of technological unemployment. It underscores that the transformative power of technology lies not just in automation but in its ability to create new business models and workflows. As AI and digital tools evolve, understanding these nuances will be critical to anticipating their real economic and labor market effects.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and discussion signals."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 13449
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
