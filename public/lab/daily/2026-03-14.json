@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-14",
+  "generatedAt": "2026-03-14T09:42:10.893Z",
+  "article": {
+    "title": "Google Fiber will be sold to private equity firm and merge with cable company",
+    "url": "https://arstechnica.com/tech-policy/2026/03/google-fiber-will-be-sold-to-private-equity-firm-and-merge-with-cable-company/",
+    "source": "arstechnica.com",
+    "selectedAt": "2026-03-14T09:42:01.852Z",
+    "publishedAt": "2026-03-13T22:28:34.000Z",
+    "hn": {
+      "id": 47370829,
+      "score": 100,
+      "comments": 20
+    }
+  },
+  "takeaways": [],
+  "summary": "Alphabet is selling a majority stake in Google Fiber (now GFiber) to private equity firm Stonepeak, merging it with Astound Broadband to form a larger independent fiber provider. This strategic move aims to accelerate GFiber's growth and expand its national footprint amid a competitive broadband market.",
+  "keyPoints": [
+    "Alphabet retains a minority stake in GFiber after selling majority ownership to Stonepeak.",
+    "The merger combines GFiber's 2.8 million locations across 15 states with Astound's 4.45 million locations in 12 states plus DC, totaling about 7.1 million locations in 26 states.",
+    "Astound's network is primarily cable broadband but includes nearly 900,000 fiber locations; the combined entity will have a balanced cable and fiber presence.",
+    "The deal is expected to close in Q4 2026, pending regulatory approval; the sale price was not disclosed.",
+    "The combined company will be led by GFiber's executive team, leveraging their fiber expertise alongside Astound’s established infrastructure.",
+    "Major competitors in the combined footprint include AT&T, Comcast, Charter, Verizon, and Lumen, indicating a highly competitive broadband landscape."
+  ],
+  "rewrite": {
+    "title": "Google Fiber Sold to Stonepeak, Merges with Astound",
+    "body": "Alphabet is divesting majority ownership of Google Fiber, now rebranded as GFiber, to private equity firm Stonepeak. The transaction includes merging GFiber with Astound Broadband, a cable and fiber operator also owned by Stonepeak, creating a significant independent fiber provider in the U.S. Alphabet will maintain a minority stake, signaling continued confidence in GFiber’s growth potential. The deal, expected to close in Q4 2026 after regulatory review, aims to provide GFiber with the capital and strategic focus needed to accelerate expansion.\n\nGFiber currently serves approximately 2.8 million locations across 15 states, while Astound covers about 4.45 million locations in 12 states plus the District of Columbia. Combined, the new entity will reach around 7.1 million locations in 26 states, with minimal geographic overlap. Astound’s network is predominantly cable broadband but includes nearly 900,000 fiber locations, balancing the combined company’s infrastructure between cable and fiber technologies.\n\nThe merged company will be led by GFiber’s existing executive team, leveraging their expertise in fiber innovation alongside Astound’s established operations. This union positions the company to compete more effectively against major incumbents like AT&T, Comcast, Charter, Verizon, and Lumen, all of which have significant presence in the same markets. Key states for GFiber include Texas, North Carolina, Missouri, Utah, and Kansas, while Astound’s largest footprints are in Illinois, Texas, New York, California, and Washington.\n\nWhile the merger promises operational synergies and a broader footprint, questions remain about future expansion strategies, particularly whether the combined firm will invest in upgrading cable infrastructure to fiber and how aggressively it will enter markets dominated by other providers. Overall, this consolidation reflects ongoing shifts in the broadband industry as companies seek scale and capital to meet growing demand for high-speed internet.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4387
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

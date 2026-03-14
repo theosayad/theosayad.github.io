@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-13T09:51:35.896Z",
+  "updatedAt": "2026-03-14T09:42:10.895Z",
   "items": [
+    {
+      "slug": "2026-03-14",
+      "title": "Google Fiber will be sold to private equity firm and merge with cable company",
+      "url": "https://arstechnica.com/tech-policy/2026/03/google-fiber-will-be-sold-to-private-equity-firm-and-merge-with-cable-company/",
+      "source": "arstechnica.com",
+      "selectedAt": "2026-03-14T09:42:01.852Z",
+      "publishedAt": "2026-03-13T22:28:34.000Z",
+      "hn": {
+        "id": 47370829,
+        "score": 100,
+        "comments": 20
+      }
+    },
     {
       "slug": "2026-03-13",
       "title": "ATMs didn’t kill bank teller jobs, but the iPhone did",
@@ -662,19 +675,6 @@
         "id": 46705256,
         "score": 197,
         "comments": 162
-      }
-    },
-    {
-      "slug": "2026-01-21",
-      "title": "Nvidia Stock Crash Prediction",
-      "url": "https://entropicthoughts.com/nvidia-stock-crash-prediction",
-      "source": "entropicthoughts.com",
-      "selectedAt": "2026-01-21T09:41:03.767Z",
-      "publishedAt": "2026-01-20T15:56:07.000Z",
-      "hn": {
-        "id": 46693205,
-        "score": 405,
-        "comments": 336
       }
     }
   ]
