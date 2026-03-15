@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-14T09:42:10.895Z",
+  "updatedAt": "2026-03-15T09:43:48.507Z",
   "items": [
+    {
+      "slug": "2026-03-15",
+      "title": "Marketing for Founders",
+      "url": "https://github.com/EdoStra/Marketing-for-Founders",
+      "source": "github.com",
+      "selectedAt": "2026-03-15T09:43:41.398Z",
+      "publishedAt": "2026-03-14T19:35:40.000Z",
+      "hn": {
+        "id": 47380295,
+        "score": 171,
+        "comments": 74
+      }
+    },
     {
       "slug": "2026-03-14",
       "title": "Google Fiber will be sold to private equity firm and merge with cable company",
@@ -662,19 +675,6 @@
         "id": 46722594,
         "score": 176,
         "comments": 198
-      }
-    },
-    {
-      "slug": "2026-01-22",
-      "title": "Swedish Alecta has sold off an estimated $8B of US Treasury Bonds",
-      "url": "https://www.di.se/nyheter/di-avslojar-alecta-har-dumpat-amerikanska-statspapper/",
-      "source": "di.se",
-      "selectedAt": "2026-01-22T09:40:47.101Z",
-      "publishedAt": "2026-01-21T13:13:06.000Z",
-      "hn": {
-        "id": 46705256,
-        "score": 197,
-        "comments": 162
       }
     }
   ]
