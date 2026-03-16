@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-16",
+  "generatedAt": "2026-03-16T10:11:03.764Z",
+  "article": {
+    "title": "Federal Right to Privacy Act – Draft legislation",
+    "url": "https://righttoprivacyact.github.io",
+    "source": "righttoprivacyact.github.io",
+    "selectedAt": "2026-03-16T10:10:56.138Z",
+    "publishedAt": "2026-03-16T01:58:56.000Z",
+    "hn": {
+      "id": 47394264,
+      "score": 80,
+      "comments": 44
+    }
+  },
+  "takeaways": [],
+  "summary": "A proposed Federal Right to Privacy Act aims to curb pervasive data collection and surveillance by corporations and governments, restoring fundamental privacy protections. The draft legislation addresses the unchecked aggregation and exploitation of personal data, emphasizing the need for enforceable limits on data brokers and surveillance technologies. Its passage faces significant political hurdles, but public engagement could improve its chances.",
+  "keyPoints": [
+    "Personal data collection now includes detailed tracking of movements, habits, and social connections, far beyond basic identifiers.",
+    "Surveillance tools like license plate readers and facial recognition have transformed public spaces into searchable data sources.",
+    "Governments can currently acquire personal data from brokers without warrants, bypassing legal safeguards.",
+    "The bill seeks to limit hidden data collection, coercive consent practices, and unauthorized government access.",
+    "Draft legislation is open for public review and testing using AI to ensure practical enforceability.",
+    "AI analysis predicts a near-zero chance of congressional passage without active public involvement."
+  ],
+  "rewrite": {
+    "title": "Draft Federal Privacy Bill Targets Data Surveillance",
+    "body": "Modern life is increasingly monitored through extensive data collection that tracks individuals’ locations, behaviors, and social networks. This data, gathered by companies and governments alike, creates detailed profiles that extend far beyond traditional identifiers like names and cities. Technologies such as license plate readers and facial recognition systems have turned everyday public movement into searchable histories, while private actors compile data from sources as varied as school records and neighborhood signs. Alarmingly, government agencies can purchase this information from brokers without judicial oversight, undermining constitutional privacy protections.\n\nThe Federal Right to Privacy Act proposes strict limitations on these practices, aiming to restore Americans’ right to privacy by regulating covert surveillance, prohibiting exploitative consent mechanisms, and restricting unauthorized data trafficking. It emphasizes the importance of transparent, rule-based protections that courts can enforce, reflecting foundational American values of freedom and personal dignity.\n\nCurrently a work in progress, the bill’s draft is publicly accessible for review and refinement, including AI-driven testing to simulate real-world application. Despite its ambitious scope, experts and AI models suggest the legislation faces significant political resistance, with minimal chances of reaching a congressional vote unless bolstered by active public advocacy. Engaging with the draft and contributing feedback could be critical to advancing this privacy initiative in a landscape increasingly dominated by data exploitation.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 2545
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
