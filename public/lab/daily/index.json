@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-16T10:11:03.765Z",
+  "updatedAt": "2026-03-17T10:00:58.066Z",
   "items": [
+    {
+      "slug": "2026-03-17",
+      "title": "US SEC preparing to scrap quarterly reporting requirement",
+      "url": "https://www.reuters.com/business/finance/us-sec-preparing-eliminate-quarterly-reporting-requirement-wsj-says-2026-03-16/",
+      "source": "reuters.com",
+      "selectedAt": "2026-03-17T10:00:48.597Z",
+      "publishedAt": "2026-03-17T00:02:35.000Z",
+      "hn": {
+        "id": 47406779,
+        "score": 579,
+        "comments": 313
+      }
+    },
     {
       "slug": "2026-03-16",
       "title": "Federal Right to Privacy Act – Draft legislation",
@@ -662,19 +675,6 @@
         "id": 46747366,
         "score": 261,
         "comments": 91
-      }
-    },
-    {
-      "slug": "2026-01-24",
-      "title": "SEC obtains final consent judgments against former FTX and Alameda executives",
-      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26450",
-      "source": "sec.gov",
-      "selectedAt": "2026-01-24T09:28:54.182Z",
-      "publishedAt": "2026-01-24T02:59:42.000Z",
-      "hn": {
-        "id": 46740644,
-        "score": 97,
-        "comments": 71
       }
     }
   ]

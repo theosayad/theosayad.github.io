@@ -1,0 +1,41 @@
+{
+  "slug": "2026-03-17",
+  "generatedAt": "2026-03-17T10:00:58.065Z",
+  "article": {
+    "title": "US SEC preparing to scrap quarterly reporting requirement",
+    "url": "https://www.reuters.com/business/finance/us-sec-preparing-eliminate-quarterly-reporting-requirement-wsj-says-2026-03-16/",
+    "source": "reuters.com",
+    "selectedAt": "2026-03-17T10:00:48.597Z",
+    "publishedAt": "2026-03-17T00:02:35.000Z",
+    "hn": {
+      "id": 47406779,
+      "score": 579,
+      "comments": 313
+    }
+  },
+  "takeaways": [],
+  "summary": "The US Securities and Exchange Commission (SEC) is considering eliminating the longstanding requirement for public companies to file quarterly financial reports, aiming to reduce regulatory burdens and shift focus toward more meaningful disclosures. This potential change, expected to be implemented by 2026, could significantly alter corporate reporting practices and investor information flow.",
+  "keyPoints": [
+    "SEC plans to scrap quarterly reporting requirements, possibly by 2026.",
+    "Move intended to ease compliance costs and reduce short-term market pressures.",
+    "Companies would likely shift toward enhanced annual reporting and other disclosures.",
+    "Potential impact on market transparency and investor decision-making remains debated.",
+    "Change reflects broader regulatory trend to modernize financial reporting frameworks."
+  ],
+  "rewrite": {
+    "title": "SEC Eyes Ending Quarterly Financial Reports by 2026",
+    "body": "The US Securities and Exchange Commission is preparing to eliminate the mandatory quarterly financial reporting for publicly traded companies, a requirement that has been in place for decades. This initiative, targeted for implementation around 2026, aims to alleviate the regulatory burden on companies and reduce the emphasis on short-term earnings performance that quarterly disclosures often promote. By removing the quarterly filings, the SEC hopes to encourage firms to focus on more comprehensive and meaningful annual reports, potentially improving the quality of information provided to investors.\n\nThis shift could lead to significant changes in how investors receive and analyze corporate financial data. While annual reports would become more detailed, the absence of quarterly updates might reduce the frequency of market-moving information, affecting stock price volatility and investor reaction times. Some market participants express concern that less frequent reporting could diminish transparency and hinder timely decision-making.\n\nThe SEC's move aligns with a broader regulatory trend aimed at modernizing financial reporting frameworks to better suit today's market environment. By reducing compliance costs and administrative workload, companies may redirect resources toward long-term strategic initiatives rather than short-term reporting demands. However, the balance between easing burdens and maintaining investor protections will be critical as this policy evolves.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
