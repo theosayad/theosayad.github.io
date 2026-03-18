@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-17T10:00:58.066Z",
+  "updatedAt": "2026-03-18T10:03:06.909Z",
   "items": [
+    {
+      "slug": "2026-03-18",
+      "title": "'The Secret Agent': Exploring a Vibrant, yet Violent Brazil (2025)",
+      "url": "https://theasc.com/articles/the-secret-agent-cinematography",
+      "source": "theasc.com",
+      "selectedAt": "2026-03-18T10:02:54.670Z",
+      "publishedAt": "2026-03-17T15:56:09.000Z",
+      "hn": {
+        "id": 47414440,
+        "score": 144,
+        "comments": 68
+      }
+    },
     {
       "slug": "2026-03-17",
       "title": "US SEC preparing to scrap quarterly reporting requirement",
@@ -662,19 +675,6 @@
         "id": 46761388,
         "score": 4,
         "comments": 1
-      }
-    },
-    {
-      "slug": "2026-01-25",
-      "title": "I added a Bluesky comment section to my blog",
-      "url": "https://micahcantor.com/blog/bluesky-comment-section.html",
-      "source": "micahcantor.com",
-      "selectedAt": "2026-01-25T09:30:09.476Z",
-      "publishedAt": "2026-01-24T20:33:40.000Z",
-      "hn": {
-        "id": 46747366,
-        "score": 261,
-        "comments": 91
       }
     }
   ]
