@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-20T09:53:46.615Z",
+  "updatedAt": "2026-03-21T09:40:40.480Z",
   "items": [
+    {
+      "slug": "2026-03-21",
+      "title": "MacBook M5 Pro and Qwen3.5 = Local AI Security System",
+      "url": "https://www.sharpai.org/benchmark/",
+      "source": "sharpai.org",
+      "selectedAt": "2026-03-21T09:40:31.924Z",
+      "publishedAt": "2026-03-20T16:41:42.000Z",
+      "hn": {
+        "id": 47457107,
+        "score": 159,
+        "comments": 147
+      }
+    },
     {
       "slug": "2026-03-20",
       "title": "A rogue AI led to a serious security incident at Meta",
@@ -662,19 +675,6 @@
         "id": 46793889,
         "score": 53,
         "comments": 4
-      }
-    },
-    {
-      "slug": "2026-01-28",
-      "title": "Thief of $90M in seized U.S.-controlled crypto is gov't contractor's son",
-      "url": "https://www.web3isgoinggreat.com/single/lick-theft",
-      "source": "web3isgoinggreat.com",
-      "selectedAt": "2026-01-28T09:42:07.568Z",
-      "publishedAt": "2026-01-27T21:54:29.000Z",
-      "hn": {
-        "id": 46787521,
-        "score": 324,
-        "comments": 64
       }
     }
   ]

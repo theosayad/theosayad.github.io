@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-21",
+  "generatedAt": "2026-03-21T09:40:40.478Z",
+  "article": {
+    "title": "MacBook M5 Pro and Qwen3.5 = Local AI Security System",
+    "url": "https://www.sharpai.org/benchmark/",
+    "source": "sharpai.org",
+    "selectedAt": "2026-03-21T09:40:31.924Z",
+    "publishedAt": "2026-03-20T16:41:42.000Z",
+    "hn": {
+      "id": 47457107,
+      "score": 159,
+      "comments": 147
+    }
+  },
+  "takeaways": [],
+  "summary": "The Qwen3.5-9B language model runs locally on a MacBook Pro M5, achieving 93.8% on a specialized home security AI benchmark, closely rivaling GPT-5.4 performance without relying on cloud APIs. This demonstrates the feasibility of powerful, privacy-preserving AI security systems on consumer hardware.",
+  "keyPoints": [
+    "Qwen3.5-9B scores 93.8% on HomeSec-Bench, just 4.1 points below GPT-5.4 and within 2 points of GPT-5.4-mini.",
+    "Runs entirely on a MacBook Pro M5 with 18 cores and 64 GB unified memory, processing at 25 tokens/second with 765ms time-to-first-token.",
+    "Zero API costs and full data privacy due to fully local execution.",
+    "Benchmark includes 96 tests across 16 suites focused on real-world home security tasks such as tool use, event deduplication, and security classification.",
+    "Qwen3.5-35B-MoE variant outperforms OpenAI cloud models on latency, with 435ms TTFT versus 508ms for GPT-5.4-nano.",
+    "System dubbed Aegis-AI leverages DeepCamera, a decentralized AI skill platform, emphasizing local-first AI for home security."
+  ],
+  "rewrite": {
+    "title": "Local AI on MacBook Rivals GPT-5 for Home Security",
+    "body": "A recent benchmark reveals that the Qwen3.5-9B large language model can run entirely on a MacBook Pro M5, delivering near state-of-the-art performance on specialized home security AI tasks. Scoring 93.8% on the HomeSec-Bench—a comprehensive suite of 96 tests spanning 16 categories such as tool use, event deduplication, and security classification—Qwen3.5-9B trails GPT-5.4 by only 4.1 points and is within 2 points of GPT-5.4-mini. This is achieved without any cloud API calls, ensuring zero operational costs and complete data privacy.\n\nThe model operates at 25 tokens per second with a time-to-first-token (TTFT) of 765 milliseconds, running on a MacBook Pro M5 equipped with 18 CPU cores and 64 GB of unified memory. Notably, a larger Qwen3.5-35B-MoE model variant achieves even lower latency than OpenAI’s cloud-based GPT-5.4-nano, with a TTFT of 435ms compared to 508ms. These performance metrics highlight the potential for consumer-grade hardware to support complex AI workloads locally.\n\nThis benchmark, designed specifically for home security assistant workflows rather than generic chat, uses entirely AI-generated fixture images to simulate real-world scenarios. The system, named Aegis-AI, integrates with DeepCamera—a decentralized AI skill ecosystem—underscoring a shift toward local-first AI solutions that prioritize user privacy and reduce dependency on cloud infrastructure.\n\nThe implications are significant: powerful AI-driven home security can now be deployed on personal devices, eliminating data privacy concerns and ongoing API expenses. This local AI approach could redefine how smart home security systems are architected, fostering more secure, cost-effective, and responsive solutions.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 1604
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
