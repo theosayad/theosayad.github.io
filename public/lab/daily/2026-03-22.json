@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-22",
+  "generatedAt": "2026-03-22T09:41:19.688Z",
+  "article": {
+    "title": "Attempts to post the latest Trivy security incident have been marked [dead]",
+    "url": "https://news.ycombinator.com/from?site=github.com%2Faquasecurity",
+    "source": "news.ycombinator.com",
+    "selectedAt": "2026-03-22T09:41:13.182Z",
+    "publishedAt": "2026-03-21T21:49:56.000Z",
+    "hn": {
+      "id": 47471805,
+      "score": 82,
+      "comments": 21
+    }
+  },
+  "takeaways": [],
+  "summary": "On March 19, 2026, the Trivy ecosystem, a widely used container security scanner by Aqua Security, experienced a brief supply chain compromise. This incident highlights the ongoing risks in software supply chains and the critical need for robust security measures in container and infrastructure scanning tools.",
+  "keyPoints": [
+    "Incident date: March 19, 2026, involving the Trivy ecosystem supply chain.",
+    "Trivy is a prominent open-source scanner for container vulnerabilities, file systems, and Git repositories.",
+    "The compromise was short-lived but underscores supply chain vulnerabilities in widely adopted security tools.",
+    "Aqua Security, the maintainer, is a key player in cloud-native security with multiple projects like Trivy, Tfsec, and Kube-hunter.",
+    "The incident triggered significant discussion on Hacker News, with 69 points and 23 comments reflecting community concern.",
+    "Supply chain attacks on security tools can have broad implications, potentially undermining trust in container security practices."
+  ],
+  "rewrite": {
+    "title": "Trivy Supply Chain Breach Exposes Container Security Risks",
+    "body": "On March 19, 2026, the Trivy ecosystem, maintained by Aqua Security, suffered a brief but impactful supply chain compromise. Trivy is a critical tool in the cloud-native security landscape, widely used to scan container images, file systems, and Git repositories for vulnerabilities. The incident underscores the persistent threat of supply chain attacks, even targeting security software designed to protect infrastructure.\n\nAqua Security’s suite of open-source projects, including Trivy, Tfsec, and Kube-hunter, plays a vital role in securing Kubernetes clusters and infrastructure-as-code environments. The compromise raised alarms within the security community, as evidenced by active discussions on Hacker News, where the incident garnered 69 points and 23 comments. Such breaches can erode trust in essential security tooling and highlight the need for enhanced verification and integrity checks within software supply chains.\n\nThis event serves as a cautionary tale for organizations relying on open-source security scanners. It illustrates that attackers are increasingly targeting the development and distribution pipelines of security tools themselves, aiming to introduce vulnerabilities at the source. The broader implication is a call to action for both maintainers and users to adopt stricter security practices, including supply chain auditing, multi-factor authentication, and cryptographic signing of releases.\n\nIn an era where containerization and cloud-native deployments dominate, ensuring the integrity of security tools like Trivy is paramount. The incident not only affects Aqua Security’s reputation but also serves as a reminder that supply chain security remains a critical and evolving challenge for the industry.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 1568
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

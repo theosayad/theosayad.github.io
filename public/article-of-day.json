@@ -1,13 +1,13 @@
 {
-  "title": "MacBook M5 Pro and Qwen3.5 = Local AI Security System",
-  "url": "https://www.sharpai.org/benchmark/",
-  "source": "sharpai.org",
-  "selectedAt": "2026-03-21T09:40:31.924Z",
-  "publishedAt": "2026-03-20T16:41:42.000Z",
+  "title": "Attempts to post the latest Trivy security incident have been marked [dead]",
+  "url": "https://news.ycombinator.com/from?site=github.com%2Faquasecurity",
+  "source": "news.ycombinator.com",
+  "selectedAt": "2026-03-22T09:41:13.182Z",
+  "publishedAt": "2026-03-21T21:49:56.000Z",
   "hn": {
-    "id": 47457107,
-    "score": 159,
-    "comments": 147
+    "id": 47471805,
+    "score": 82,
+    "comments": 21
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }
