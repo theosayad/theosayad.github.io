@@ -150,7 +150,7 @@ const Hero: React.FC = () => {
                 <div className="absolute -inset-2 rounded-full border border-brand-200/70 dark:border-brand-800/50" />
                 <div className="absolute inset-0 rounded-full overflow-hidden border border-stone-200/70 dark:border-stone-800/60 shadow-2xl bg-white/40 dark:bg-stone-900/30 backdrop-blur-sm">
                     <img 
-                        src="theo.jpg"
+                        src="theo-2026.jpg"
                         alt="Theo Sayad" 
                         className="w-full h-full object-cover md:hover:scale-[1.04] transition-transform duration-700"
                     />
