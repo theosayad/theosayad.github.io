@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-23",
+  "generatedAt": "2026-03-23T10:09:57.933Z",
+  "article": {
+    "title": "OpenClaw is a security nightmare dressed up as a daydream",
+    "url": "https://composio.dev/content/openclaw-security-and-vulnerabilities",
+    "source": "composio.dev",
+    "selectedAt": "2026-03-23T10:09:45.191Z",
+    "publishedAt": "2026-03-22T17:35:28.000Z",
+    "hn": {
+      "id": 47479962,
+      "score": 342,
+      "comments": 230
+    }
+  },
+  "takeaways": [],
+  "summary": "OpenClaw, an advanced AI-powered personal assistant leveraging Anthropic’s Claude Opus 4.5, offers unprecedented automation by integrating deeply with local systems and cloud services. However, its convenience comes with significant security vulnerabilities, including exposure to prompt injection attacks, weak authentication, and potential token theft, posing serious risks for users.",
+  "keyPoints": [
+    "OpenClaw enables autonomous control over email, calendars, messaging apps, home automation, and more, powered by Claude Opus 4.5 and running on local hardware like M4 Mac minis.",
+    "Users have burned through over 180 million tokens on the Anthropic API, indicating heavy usage and reliance on the assistant.",
+    "The system’s architecture allows workflows to be stored as editable Markdown files, which attackers could manipulate silently to exfiltrate data or escalate control.",
+    "Default configurations auto-approve localhost connections, creating vulnerabilities when deployed behind reverse proxies, effectively exposing the system to remote exploitation.",
+    "Malicious third-party ‘skills’ have been demonstrated to execute arbitrary commands on user machines, highlighting the risk of supply-chain attacks in the OpenClaw ecosystem.",
+    "Experts recommend isolating OpenClaw with dedicated accounts and credentials, and using secure integration tools like Composio to mitigate risks."
+  ],
+  "rewrite": {
+    "title": "OpenClaw: Powerful AI Assistant with Critical Security Flaws",
+    "body": "OpenClaw represents a leap in AI-driven personal automation, leveraging Anthropic’s Claude Opus 4.5 model to interact seamlessly with local files, terminals, cloud services like Gmail and Slack, and smart home devices. Running on user-owned hardware such as M4 Mac minis, it can manage complex workflows, schedule meetings, and even respond via audio messages, reflecting a matured ecosystem compared to earlier AI agents like AutoGPT in 2023. Heavy users have consumed upwards of 180 million tokens, underscoring its growing adoption.\n\nDespite its capabilities, OpenClaw exposes users to substantial security risks. The assistant’s memory and workflows are stored as Markdown files that can be silently altered if compromised, enabling attackers to exfiltrate sensitive data or hijack operations without detection. A critical vulnerability arises from the default auto-approval of localhost connections, which, when combined with common reverse proxy setups, can allow unauthorized remote access. Additionally, the ecosystem’s openness has led to malicious ‘skills’ that execute arbitrary code on users’ machines, demonstrating a dangerous supply-chain attack vector.\n\nThese vulnerabilities are compounded by inherent issues in large language model systems, such as prompt injection attacks and hallucinations, which can be weaponized against users. Unlike more sandboxed environments like iOS apps, OpenClaw operates with elevated privileges that bypass typical OS and browser security boundaries, amplifying potential damage. Experts advise isolating OpenClaw with separate accounts for Gmail, Calendar, and credentials, and employing tools like Composio to enforce safer app integrations.\n\nIn sum, while OpenClaw delivers a futuristic vision of AI personal assistants, its current security posture demands caution. Users must weigh the convenience of deep automation against the risks of exposure, especially as the technology and its ecosystem continue to evolve rapidly.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 9528
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

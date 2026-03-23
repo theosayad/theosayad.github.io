@@ -1,13 +1,13 @@
 {
-  "title": "Attempts to post the latest Trivy security incident have been marked [dead]",
-  "url": "https://news.ycombinator.com/from?site=github.com%2Faquasecurity",
-  "source": "news.ycombinator.com",
-  "selectedAt": "2026-03-22T09:41:13.182Z",
-  "publishedAt": "2026-03-21T21:49:56.000Z",
+  "title": "OpenClaw is a security nightmare dressed up as a daydream",
+  "url": "https://composio.dev/content/openclaw-security-and-vulnerabilities",
+  "source": "composio.dev",
+  "selectedAt": "2026-03-23T10:09:45.191Z",
+  "publishedAt": "2026-03-22T17:35:28.000Z",
   "hn": {
-    "id": 47471805,
-    "score": 82,
-    "comments": 21
+    "id": 47479962,
+    "score": 342,
+    "comments": 230
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }
