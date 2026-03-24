@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-23T10:09:57.935Z",
+  "updatedAt": "2026-03-24T10:01:56.112Z",
   "items": [
+    {
+      "slug": "2026-03-24",
+      "title": "Box of Secrets: Discreetly modding an apartment intercom to work with Apple Home",
+      "url": "https://www.jackhogan.me/blog/box-of-secrets/",
+      "source": "jackhogan.me",
+      "selectedAt": "2026-03-24T10:01:42.872Z",
+      "publishedAt": "2026-03-23T12:42:00.000Z",
+      "hn": {
+        "id": 47488686,
+        "score": 133,
+        "comments": 39
+      }
+    },
     {
       "slug": "2026-03-23",
       "title": "OpenClaw is a security nightmare dressed up as a daydream",
@@ -662,19 +675,6 @@
         "id": 46837814,
         "score": 167,
         "comments": 122
-      }
-    },
-    {
-      "slug": "2026-01-31",
-      "title": "Wisconsin communities signed secrecy deals for billion-dollar data centers",
-      "url": "https://www.wpr.org/news/4-wisconsin-communities-signed-secrecy-deals-billion-dollar-data-centers",
-      "source": "wpr.org",
-      "selectedAt": "2026-01-31T09:36:27.127Z",
-      "publishedAt": "2026-01-30T13:23:53.000Z",
-      "hn": {
-        "id": 46824098,
-        "score": 326,
-        "comments": 346
       }
     }
   ]

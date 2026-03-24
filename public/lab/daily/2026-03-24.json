@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-24",
+  "generatedAt": "2026-03-24T10:01:56.111Z",
+  "article": {
+    "title": "Box of Secrets: Discreetly modding an apartment intercom to work with Apple Home",
+    "url": "https://www.jackhogan.me/blog/box-of-secrets/",
+    "source": "jackhogan.me",
+    "selectedAt": "2026-03-24T10:01:42.872Z",
+    "publishedAt": "2026-03-23T12:42:00.000Z",
+    "hn": {
+      "id": 47488686,
+      "score": 133,
+      "comments": 39
+    }
+  },
+  "takeaways": [],
+  "summary": "A resident’s apartment intercom system lost cellular functionality after management failed to renew service, prompting a DIY retrofit to integrate gate control with Apple Home. By reverse-engineering the wiring and leveraging a microcontroller, the project restored remote gate access with enhanced security and stealth, demonstrating practical home automation hacking.",
+  "keyPoints": [
+    "Original intercom relied on DTMF calls to unlock gates, disabled after cellular service expired.",
+    "Default router credentials allowed admin access but limited control; SSH and config exploits were explored but impractical.",
+    "Discovery of direct solenoid control wiring enabled bypassing complex protocols by powering the lock mechanism directly.",
+    "An ESP32 microcontroller running a Rust-based Matter library was used to interface with Apple Home for secure, timed gate unlocking.",
+    "Challenges included ESP32 memory constraints requiring selective Wi-Fi/Bluetooth activation and power supply issues resolved by adding a rectifying regulator.",
+    "Final device discreetly installed inside a junction box, maintaining building system integrity and minimizing detection risk."
+  ],
+  "rewrite": {
+    "title": "DIY Apple Home Integration for Apartment Intercom",
+    "body": "When the cellular service for Frank’s apartment intercom expired due to management’s neglect, the system lost its ability to make calls and unlock the gate remotely. After gaining admin access to the router but facing locked-down controls, the team shifted focus from software hacking to hardware-level intervention. They uncovered a solenoid control wire in the junction box that directly powered the gate lock, bypassing the need to decode proprietary protocols.\n\nLeveraging this discovery, they installed an ESP32 microcontroller powered by the intercom’s auxiliary lines to control the solenoid. Using a Rust-based Matter library tailored for the ESP32, the device connected seamlessly with Apple Home, enabling secure, user-configurable timed unlocking of the gate. The software design ensured the gate could never remain unlocked indefinitely, preserving security.\n\nDevelopment hurdles included the ESP32’s limited RAM, which necessitated disabling Bluetooth after provisioning to prevent crashes, and unexpected power supply issues since the auxiliary port was an input, not output. These were overcome by using a cordless drill battery for initial testing and later integrating a rectifying regulator to convert 18V AC to 12V DC.\n\nThe final installation was discreet, housed within a screw-secured junction box, preserving the building’s original system and reducing the chance of detection. This project highlights how combining hardware insight with open standards can revive and modernize legacy access systems, offering a blueprint for similar home automation upgrades.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 7711
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
