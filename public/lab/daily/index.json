@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-24T10:01:56.112Z",
+  "updatedAt": "2026-03-25T10:01:22.155Z",
   "items": [
+    {
+      "slug": "2026-03-25",
+      "title": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
+      "url": "https://github.com/ssrajadh/sentrysearch",
+      "source": "github.com",
+      "selectedAt": "2026-03-25T10:01:07.323Z",
+      "publishedAt": "2026-03-24T14:58:27.000Z",
+      "hn": {
+        "id": 47503617,
+        "score": 328,
+        "comments": 91
+      }
+    },
     {
       "slug": "2026-03-24",
       "title": "Box of Secrets: Discreetly modding an apartment intercom to work with Apple Home",
@@ -662,19 +675,6 @@
         "id": 46849926,
         "score": 61,
         "comments": 32
-      }
-    },
-    {
-      "slug": "2026-02-01",
-      "title": "Apple Platform Security (Jan 2026) [pdf]",
-      "url": "https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf",
-      "source": "help.apple.com",
-      "selectedAt": "2026-02-01T09:39:31.391Z",
-      "publishedAt": "2026-01-31T16:04:03.000Z",
-      "hn": {
-        "id": 46837814,
-        "score": 167,
-        "comments": 122
       }
     }
   ]

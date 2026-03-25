@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-25",
+  "generatedAt": "2026-03-25T10:01:22.154Z",
+  "article": {
+    "title": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
+    "url": "https://github.com/ssrajadh/sentrysearch",
+    "source": "github.com",
+    "selectedAt": "2026-03-25T10:01:07.323Z",
+    "publishedAt": "2026-03-24T14:58:27.000Z",
+    "hn": {
+      "id": 47503617,
+      "score": 328,
+      "comments": 91
+    }
+  },
+  "takeaways": [],
+  "summary": "SentrySearch leverages Google's Gemini Embedding 2 to enable rapid semantic search within dashcam videos by embedding video chunks directly into a shared vector space with text queries. This approach eliminates the need for transcription or frame captioning, allowing sub-second retrieval of relevant clips from hours of footage, with indexing costs around $2.84 per hour of video.",
+  "keyPoints": [
+    "SentrySearch uses Gemini Embedding 2 to embed raw video pixels into a 768-dimensional vector space shared with text queries.",
+    "Video is chunked into overlapping 30-second segments with 5-second overlaps, trimmed automatically upon search.",
+    "Indexing 1 hour of footage costs approximately $2.84, based on $0.00079 per processed frame at 1 frame per second.",
+    "The system supports any .mp4 footage, not limited to Tesla Sentry Mode, and scans directories recursively.",
+    "Local preprocessing downsamples video to 480p at 5fps to optimize bandwidth without affecting API frame processing.",
+    "Users must provide a Gemini API key; ffmpeg is required for chunking and trimming, with bundled fallback available."
+  ],
+  "rewrite": {
+    "title": "Sub-Second Semantic Search for Dashcam Videos",
+    "body": "SentrySearch introduces a novel semantic search tool for dashcam footage by harnessing Google's Gemini Embedding 2, which uniquely embeds raw video pixels directly into the same vector space as text queries. This architecture bypasses traditional transcription or captioning steps, enabling users to input natural language queries like \"red truck at a stop sign\" and receive precisely trimmed video clips in under a second. The system processes video by segmenting it into overlapping 30-second chunks, embedding each using Gemini's API, and storing the vectors locally in a ChromaDB database.\n\nThe indexing cost is approximately $2.84 per hour of footage, calculated from processing one frame per second at a rate of $0.00079 per frame. To optimize performance and reduce bandwidth, videos are downscaled to 480p at 5fps locally before uploading, although the API still processes exactly one frame per second. This approach supports any .mp4 video files, scanning directories recursively, making it broadly applicable beyond Tesla's Sentry Mode videos.\n\nUsers must supply a Gemini API key, which the tool validates and stores securely. Video chunking and trimming rely on ffmpeg, with an automatic fallback to a bundled version if not installed system-wide. Additional command-line options allow customization of result counts, output directories, and trimming behavior, with verbose logging available for debugging.\n\nBy embedding video and text in a unified vector space, SentrySearch exemplifies a significant advancement in video retrieval technology, enabling efficient, cost-effective, and precise search through extensive dashcam footage. This capability has potential applications in security, insurance, and personal video management where rapid access to specific events is critical.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and community discussion highlights."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 2439
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
