@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-27",
+  "generatedAt": "2026-03-27T10:00:21.825Z",
+  "article": {
+    "title": "We haven't seen the worst of what gambling and prediction markets will do",
+    "url": "https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what",
+    "source": "derekthompson.org",
+    "selectedAt": "2026-03-27T10:00:09.131Z",
+    "publishedAt": "2026-03-26T19:48:05.000Z",
+    "hn": {
+      "id": 47534848,
+      "score": 728,
+      "comments": 505
+    }
+  },
+  "takeaways": [],
+  "summary": "In 2025, a scandal involving Cleveland Guardians pitchers rigging pitches for betting gains exposed vulnerabilities in sports gambling integrity, highlighting broader risks as prediction markets expand into politics and global events. The rapid growth of legalized sports betting and prediction markets raises concerns about addiction, institutional trust, and the potential for manipulation beyond sports.",
+  "keyPoints": [
+    "In November 2025, pitchers Emmanuel Clase and Luis Ortiz were federally indicted for conspiring to rig pitches, resulting in $450,000 in illicit gambling profits.",
+    "Sports betting in the U.S. surged from under $5 billion in 2014 to over $160 billion in 2023, rivaling major industries like domestic air travel.",
+    "Prediction markets like Polymarket and Kalshi generated approximately $50 billion in revenue in 2025, extending gambling culture to political and humanitarian events.",
+    "Gambling legalization correlates with increased problem gambling and a 10% rise in bankruptcies in affected states between 2018 and 2023.",
+    "Public trust in sports integrity is eroding, with two-thirds of Americans suspecting athletes manipulate outcomes to influence bets; FBI arrests in 2025 included 30 NBA-related gambling cases.",
+    "The expansion of gambling into politics risks enabling insider trading, misinformation, and corruption, threatening democratic institutions."
+  ],
+  "rewrite": {
+    "title": "The Growing Threat of Gambling Beyond Sports",
+    "body": "In late 2025, two Cleveland Guardians pitchers were charged with rigging pitches to benefit corrupt bettors, who exploited the subtlety of influencing individual pitches to secure $450,000 in illegal gains. This case underscores how the massive scale of sports betting—now exceeding $160 billion annually in the U.S.—creates fertile ground for fraud that often goes unnoticed by fans and officials alike.\n\nThe legalization and normalization of sports gambling have paved the way for prediction markets like Polymarket and Kalshi, which amassed around $50 billion in revenue in 2025. These platforms allow betting on a wide array of events, from geopolitical conflicts to humanitarian crises, raising profound ethical questions about profiting from human suffering. While proponents argue that increased betting volume enhances informational efficiency, critics warn this commodification risks moral degradation and societal cynicism.\n\nBeyond ethical concerns, the gambling boom has tangible social costs. Studies link the rise of online sports betting since 2018 to a tripling in calls to gambling helplines and a 10% increase in bankruptcies in states that legalized it. Athletes face harassment from bettors, and the integrity of sports is increasingly questioned, with FBI investigations in 2025 leading to multiple arrests related to gambling schemes. Public confidence is eroding as two-thirds of Americans suspect athletes manipulate performances for betting outcomes.\n\nLooking ahead, the infiltration of gambling culture into politics and media threatens to exacerbate corruption and misinformation. The possibility of officials leveraging insider knowledge to profit from prediction markets could undermine democratic processes. Without regulatory guardrails, the unchecked expansion of gambling risks fostering distrust, addiction, and institutional decay across society.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 12154
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

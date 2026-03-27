@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-26T10:07:09.194Z",
+  "updatedAt": "2026-03-27T10:00:21.826Z",
   "items": [
+    {
+      "slug": "2026-03-27",
+      "title": "We haven't seen the worst of what gambling and prediction markets will do",
+      "url": "https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what",
+      "source": "derekthompson.org",
+      "selectedAt": "2026-03-27T10:00:09.131Z",
+      "publishedAt": "2026-03-26T19:48:05.000Z",
+      "hn": {
+        "id": 47534848,
+        "score": 728,
+        "comments": 505
+      }
+    },
     {
       "slug": "2026-03-26",
       "title": "Ubuntu wants to strip some of GRUB features in 26.10 for security purposes",
@@ -662,19 +675,6 @@
         "id": 46876720,
         "score": 76,
         "comments": 59
-      }
-    },
-    {
-      "slug": "2026-02-03",
-      "title": "The Wild Markets Behind Polymarket's 'Truth Machine'",
-      "url": "https://www.wsj.com/finance/regulation/polymarket-prediction-markets-kalshi-dd4702d6",
-      "source": "wsj.com",
-      "selectedAt": "2026-02-03T09:54:27.540Z",
-      "publishedAt": "2026-02-02T16:14:31.000Z",
-      "hn": {
-        "id": 46857706,
-        "score": 4,
-        "comments": 1
       }
     }
   ]
