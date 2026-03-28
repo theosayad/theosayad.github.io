@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-28",
+  "generatedAt": "2026-03-28T09:48:27.071Z",
+  "article": {
+    "title": "Hong Kong police can now demand phone passwords under new security rules",
+    "url": "https://www.gadgetreview.com/hong-kong-police-can-now-demand-phone-passwords-under-new-security-rules",
+    "source": "gadgetreview.com",
+    "selectedAt": "2026-03-28T09:48:18.879Z",
+    "publishedAt": "2026-03-27T13:57:36.000Z",
+    "hn": {
+      "id": 47542722,
+      "score": 134,
+      "comments": 155
+    }
+  },
+  "takeaways": [],
+  "summary": "Hong Kong has amended its National Security Law to empower police to demand passwords or decryption methods for electronic devices without a warrant, effective March 23, 2026. Refusal or providing false credentials can lead to severe penalties, significantly undermining digital privacy and raising concerns over authoritarian overreach.",
+  "keyPoints": [
+    "New rules allow Hong Kong police to compel device access without judicial oversight starting March 23, 2026.",
+    "Refusal to unlock devices results in up to one year imprisonment and a HK$100,000 fine (~$12,700 USD); providing false passwords carries a three-year sentence.",
+    "Obligations extend beyond owners to anyone with access credentials, including spouses and IT administrators.",
+    "Authorities can seize 'seditious' materials and freeze assets, broadening enforcement scope under vague national security definitions.",
+    "Since the 2020 National Security Law enactment, 386 arrests and 176 convictions have set a precedent for expansive threat interpretations.",
+    "Critics highlight the lack of judicial authorization and disproportionate privacy infringements, especially for travelers and journalists using encryption or VPNs."
+  ],
+  "rewrite": {
+    "title": "Hong Kong Police Can Force Device Unlocks Without Warrants",
+    "body": "Hong Kong's government has introduced sweeping amendments to its National Security Law, granting police the authority to demand passwords or decryption methods for any electronic device without needing a warrant. These changes, effective March 23, 2026, criminalize refusal to comply with penalties of up to one year in jail and a HK$100,000 fine (approximately $12,700 USD). Providing false credentials can result in a three-year prison sentence. The law extends beyond device owners to anyone with access knowledge, including spouses, business partners, or IT staff, effectively eroding digital privacy protections.\n\nThe amendments also empower customs officials to seize materials deemed \"seditious\" and freeze assets, broadening the scope of enforcement under the broadly defined national security umbrella. This vagueness poses significant risks for users of encrypted messaging apps, VPNs, and AI tools, especially travelers, journalists, and business professionals passing through Hong Kong. Since the National Security Law's 2020 implementation, authorities have arrested 386 individuals and secured 176 convictions, illustrating a pattern of expansive interpretation of security threats.\n\nCritics, including legal experts, have condemned the measures as grossly disproportionate and lacking judicial oversight, undermining privacy rights and fair trial standards. By transforming biometric locks and multi-factor authentication into legal obligations rather than protections, Hong Kong signals a troubling precedent for authoritarian control over digital security. The implications extend beyond its borders, highlighting how governments can weaponize everyday technology to suppress dissent and monitor citizens under the guise of national security.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and discussion signals."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4060
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
