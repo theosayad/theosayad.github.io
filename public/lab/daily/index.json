@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-28T09:48:27.073Z",
+  "updatedAt": "2026-03-29T09:48:29.612Z",
   "items": [
+    {
+      "slug": "2026-03-29",
+      "title": "Private equity turned vulnerable elderly people into human ATMs",
+      "url": "https://www.theguardian.com/society/2026/mar/28/the-great-care-home-cash-grab-how-private-equity-turned-vulnerable-elderly-people-into-human-atms",
+      "source": "theguardian.com",
+      "selectedAt": "2026-03-29T09:48:23.434Z",
+      "publishedAt": "2026-03-28T21:43:00.000Z",
+      "hn": {
+        "id": 47558372,
+        "score": 151,
+        "comments": 96
+      }
+    },
     {
       "slug": "2026-03-28",
       "title": "Hong Kong police can now demand phone passwords under new security rules",
@@ -662,19 +675,6 @@
         "id": 46907794,
         "score": 48,
         "comments": 50
-      }
-    },
-    {
-      "slug": "2026-02-05",
-      "title": "Why This Computer Scientist Says All Cryptocurrency Should \"Die in a Fire\" (2022)",
-      "url": "https://www.currentaffairs.org/news/2022/05/why-this-computer-scientist-says-all-cryptocurrency-should-die-in-a-fire",
-      "source": "currentaffairs.org",
-      "selectedAt": "2026-02-05T09:55:53.978Z",
-      "publishedAt": "2026-02-04T16:59:29.000Z",
-      "hn": {
-        "id": 46888301,
-        "score": 71,
-        "comments": 38
       }
     }
   ]
