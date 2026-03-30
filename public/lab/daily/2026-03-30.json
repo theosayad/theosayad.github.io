@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-30",
+  "generatedAt": "2026-03-30T10:24:29.643Z",
+  "article": {
+    "title": "Sky Wins Irish Court Order to Unmask 300 Pirate IPTV Users via Revolut Bank",
+    "url": "https://torrentfreak.com/sky-wins-irish-court-order-to-unmask-300-pirate-iptv-users-via-revolut-bank/",
+    "source": "torrentfreak.com",
+    "selectedAt": "2026-03-30T10:24:19.755Z",
+    "publishedAt": "2026-03-29T20:04:50.000Z",
+    "hn": {
+      "id": 47566702,
+      "score": 84,
+      "comments": 45
+    }
+  },
+  "takeaways": [],
+  "summary": "Sky has secured a landmark Irish High Court order compelling Revolut Bank to disclose personal details of 304 IPTV subscribers and 10 resellers linked to the defunct 'IPTV is Easy' service. This legal move marks the first time Irish IPTV users face potential lawsuits, signaling a shift towards targeting end users alongside resellers to curb widespread piracy.",
+  "keyPoints": [
+    "Ireland's High Court granted the Norwich Pharmacal order on Wednesday, covering 304 subscribers and 10 resellers.",
+    "The case stems from the exposure of David Dunbar’s IPTV operation, which generated over €190,000 in payments over 3.5 years.",
+    "Sky is supported by Premier Sports, GAA+, LOITV, and Clubber TV, indicating piracy affects multiple broadcasters.",
+    "Legal action against subscribers is unprecedented in Ireland, where copyright law allows fines up to €127,000 and imprisonment up to five years, but no prior subscriber cases exist.",
+    "Sky aims to deter Ireland’s estimated 400,000 pirate IPTV users by pursuing select legal actions, especially against active resellers.",
+    "This follows a broader European trend, with France and Italy recently penalizing IPTV subscribers after reseller network busts."
+  ],
+  "rewrite": {
+    "title": "Sky Forces Revolut to Reveal 300 Irish IPTV Pirates",
+    "body": "In a first for Ireland, Sky has obtained a High Court order compelling Revolut Bank to disclose the identities of 304 IPTV subscribers and 10 resellers linked to the now-defunct 'IPTV is Easy' piracy service. The Norwich Pharmacal order, granted on Wednesday, enables Sky to pursue legal action not only against resellers but also some end users, marking a significant escalation in anti-piracy enforcement within the country.\n\nThe case originates from the exposure of David Dunbar’s illegal IPTV operation, which amassed over €118,000 from resellers and more than €80,000 from subscribers between 2018 and 2022. Despite evidence destruction and contempt of court penalties, financial records from Dunbar’s Revolut account provided critical leads. The involvement of broadcasters beyond Sky, including Premier Sports and GAA+, highlights the broad impact of IPTV piracy.\n\nWhile Ireland’s Copyright and Related Rights Act 2000 permits fines up to €127,000 and imprisonment up to five years for illegal streaming, no precedent exists for prosecuting subscribers. Sky’s strategy to selectively target users aims to create a deterrent effect across Ireland’s estimated 400,000 pirate IPTV users. The company is particularly focused on at least five resellers still actively distributing services.\n\nThis legal development aligns with a growing European crackdown on IPTV piracy. Recent actions in France and Italy have seen subscribers fined and civil damages pursued following reseller network dismantling. Sky’s court order restricts the use of subscriber data strictly to initiating legal proceedings, ensuring judicial oversight. With major sports seasons underway, Sky is moving decisively to protect premium content and signal that piracy carries substantial legal risks in Ireland.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4261
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
