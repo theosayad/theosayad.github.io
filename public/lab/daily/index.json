@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-30T10:24:29.645Z",
+  "updatedAt": "2026-03-31T10:10:59.223Z",
   "items": [
+    {
+      "slug": "2026-03-31",
+      "title": "Axios compromised on NPM – Malicious versions drop remote access trojan",
+      "url": "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan",
+      "source": "stepsecurity.io",
+      "selectedAt": "2026-03-31T10:10:47.764Z",
+      "publishedAt": "2026-03-31T02:54:17.000Z",
+      "hn": {
+        "id": 47582220,
+        "score": 808,
+        "comments": 288
+      }
+    },
     {
       "slug": "2026-03-30",
       "title": "Sky Wins Irish Court Order to Unmask 300 Pirate IPTV Users via Revolut Bank",
@@ -662,19 +675,6 @@
         "id": 46925741,
         "score": 296,
         "comments": 57
-      }
-    },
-    {
-      "slug": "2026-02-07",
-      "title": "Microsoft open-sources LiteBox, a security-focused library OS",
-      "url": "https://github.com/microsoft/litebox",
-      "source": "github.com",
-      "selectedAt": "2026-02-07T09:39:25.038Z",
-      "publishedAt": "2026-02-06T15:13:04.000Z",
-      "hn": {
-        "id": 46913793,
-        "score": 353,
-        "comments": 178
       }
     }
   ]

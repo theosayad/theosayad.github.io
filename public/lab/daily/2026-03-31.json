@@ -1,0 +1,42 @@
+{
+  "slug": "2026-03-31",
+  "generatedAt": "2026-03-31T10:10:59.222Z",
+  "article": {
+    "title": "Axios compromised on NPM – Malicious versions drop remote access trojan",
+    "url": "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan",
+    "source": "stepsecurity.io",
+    "selectedAt": "2026-03-31T10:10:47.764Z",
+    "publishedAt": "2026-03-31T02:54:17.000Z",
+    "hn": {
+      "id": 47582220,
+      "score": 808,
+      "comments": 288
+    }
+  },
+  "takeaways": [],
+  "summary": "On March 30, 2026, attackers compromised the npm credentials of a lead maintainer of axios, the top JavaScript HTTP client with over 100 million weekly downloads, to publish malicious versions that deploy a stealthy remote access trojan (RAT). This sophisticated supply chain attack bypassed normal CI/CD controls, injected a fake dependency executing a cross-platform RAT, and erased forensic traces, posing a critical risk to developers and downstream projects.",
+  "keyPoints": [
+    "Malicious axios versions 1.14.1 and 0.30.4 published manually via stolen npm credentials on March 30, 2026.",
+    "Injected dependency plain-crypto-js@4.2.1 runs a postinstall script dropping a RAT targeting macOS, Windows, and Linux.",
+    "Malware contacts a single C2 server, delivering platform-specific payloads, then self-deletes and cleans package metadata.",
+    "Attack staged with precision: dependency published 18 hours prior; both axios branches poisoned within 39 minutes.",
+    "StepSecurity Harden-Runner detected anomalous C2 callbacks during CI runs in multiple projects, including Backstage.",
+    "Malware evades detection by detaching from process trees and mimicking legitimate system files in rarely inspected directories."
+  ],
+  "rewrite": {
+    "title": "Axios npm Package Compromised with Stealthy RAT",
+    "body": "Axios, the most widely used JavaScript HTTP client with over 100 million weekly downloads, was compromised on March 30, 2026, when attackers gained access to a lead maintainer's npm credentials. They manually published two malicious versions—axios@1.14.1 and axios@0.30.4—bypassing the standard GitHub Actions CI/CD pipeline and replacing the maintainer's email with an anonymous ProtonMail address. The attack introduced a fake dependency, plain-crypto-js@4.2.1, which was never imported by axios but executed a postinstall script that deployed a cross-platform remote access trojan (RAT) targeting macOS, Windows, and Linux systems.\n\nThis RAT contacted a centralized command-and-control (C2) server to receive platform-specific payloads, then self-deleted and replaced its package.json with a clean version to evade detection. The attack was meticulously planned: the malicious dependency was staged 18 hours before the axios releases, which were poisoned within 39 minutes of each other. Harden-Runner, a behavioral detection tool used in over 12,000 public repositories, flagged anomalous outbound connections to the attacker’s domain sfrclak.com:8000 during CI runs, including in the popular Backstage developer portal framework.\n\nThe malware employed advanced evasion techniques, such as detaching from the process tree to avoid attribution and masquerading its persistent files under system-owned directories with names resembling legitimate Apple daemons. The attack highlights the escalating sophistication of supply chain threats, as it compromises developers’ local environments, potentially exposing credentials, SSH keys, and cloud tokens. StepSecurity’s real-time monitoring and automated alerts enabled rapid detection and response, underscoring the importance of continuous behavioral analysis and metadata verification in securing open source dependencies.\n\nOrganizations using axios should immediately verify their dependencies and apply remediation steps outlined in StepSecurity’s threat alert. This incident exemplifies how even trusted packages can be weaponized to infiltrate software supply chains, emphasizing the need for layered security controls and vigilant monitoring in modern development workflows.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 9110
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
