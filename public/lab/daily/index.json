@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-03-31T10:10:59.223Z",
+  "updatedAt": "2026-04-01T10:12:22.872Z",
   "items": [
+    {
+      "slug": "2026-04-01",
+      "title": "U.S. stocks are set to deliver their worst quarter in nearly four years",
+      "url": "https://www.wsj.com/finance/stocks/wall-street-is-finishing-the-worst-quarter-for-stocks-in-four-years-31ac41ea",
+      "source": "wsj.com",
+      "selectedAt": "2026-04-01T10:12:15.427Z",
+      "publishedAt": "2026-03-31T11:53:04.000Z",
+      "hn": {
+        "id": 47586018,
+        "score": 140,
+        "comments": 223
+      }
+    },
     {
       "slug": "2026-03-31",
       "title": "Axios compromised on NPM – Malicious versions drop remote access trojan",
@@ -662,19 +675,6 @@
         "id": 46934579,
         "score": 124,
         "comments": 69
-      }
-    },
-    {
-      "slug": "2026-02-08",
-      "title": "SectorC: A C Compiler in 512 bytes (2023)",
-      "url": "https://xorvoid.com/sectorc.html",
-      "source": "xorvoid.com",
-      "selectedAt": "2026-02-08T09:39:15.226Z",
-      "publishedAt": "2026-02-07T17:39:53.000Z",
-      "hn": {
-        "id": 46925741,
-        "score": 296,
-        "comments": 57
       }
     }
   ]

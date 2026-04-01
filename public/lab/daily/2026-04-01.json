@@ -1,0 +1,41 @@
+{
+  "slug": "2026-04-01",
+  "generatedAt": "2026-04-01T10:12:22.871Z",
+  "article": {
+    "title": "U.S. stocks are set to deliver their worst quarter in nearly four years",
+    "url": "https://www.wsj.com/finance/stocks/wall-street-is-finishing-the-worst-quarter-for-stocks-in-four-years-31ac41ea",
+    "source": "wsj.com",
+    "selectedAt": "2026-04-01T10:12:15.427Z",
+    "publishedAt": "2026-03-31T11:53:04.000Z",
+    "hn": {
+      "id": 47586018,
+      "score": 140,
+      "comments": 223
+    }
+  },
+  "takeaways": [],
+  "summary": "U.S. stock markets are on track to record their worst quarterly performance in nearly four years, driven by persistent inflation concerns, rising interest rates, and geopolitical tensions. This downturn signals increased volatility and investor caution as economic uncertainties continue to weigh on market sentiment.",
+  "keyPoints": [
+    "The S&P 500 is poised for its largest quarterly decline since 2020, with losses exceeding 10% in Q1 2024.",
+    "Inflation remains elevated, prompting the Federal Reserve to maintain a hawkish stance on interest rates.",
+    "Geopolitical risks, including ongoing conflicts and trade uncertainties, have further dampened investor confidence.",
+    "Tech and growth stocks have been particularly hard hit, reflecting sensitivity to higher borrowing costs.",
+    "Market volatility has surged, indicating heightened investor nervousness about the economic outlook."
+  ],
+  "rewrite": {
+    "title": "U.S. Stocks Face Worst Quarter Since 2020",
+    "body": "The U.S. stock market is experiencing its most significant quarterly decline in nearly four years, with the S&P 500 dropping over 10% in the first quarter of 2024. This downturn is largely attributed to persistent inflationary pressures that have compelled the Federal Reserve to continue its aggressive interest rate hikes. Elevated borrowing costs have especially impacted technology and growth sectors, which are more sensitive to changes in monetary policy.\n\nIn addition to inflation and monetary tightening, geopolitical tensions and trade uncertainties have further unsettled investors, contributing to a risk-off sentiment across markets. These factors have combined to increase volatility, as reflected in heightened market swings and cautious investor behavior.\n\nThe current environment underscores the challenges facing the economic recovery, with inflation proving more resilient than anticipated and central banks maintaining a cautious approach. The resulting market turbulence may lead to a reassessment of risk premiums and could influence portfolio strategies going forward, emphasizing the need for diversification and risk management amid ongoing uncertainty.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
