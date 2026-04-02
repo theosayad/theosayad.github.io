@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-01T10:12:22.872Z",
+  "updatedAt": "2026-04-02T10:07:18.577Z",
   "items": [
+    {
+      "slug": "2026-04-02",
+      "title": "EmDash – A spiritual successor to WordPress that solves plugin security",
+      "url": "https://blog.cloudflare.com/emdash-wordpress/",
+      "source": "blog.cloudflare.com",
+      "selectedAt": "2026-04-02T10:07:07.087Z",
+      "publishedAt": "2026-04-01T16:14:38.000Z",
+      "hn": {
+        "id": 47602832,
+        "score": 570,
+        "comments": 416
+      }
+    },
     {
       "slug": "2026-04-01",
       "title": "U.S. stocks are set to deliver their worst quarter in nearly four years",
@@ -662,19 +675,6 @@
         "id": 46945497,
         "score": 291,
         "comments": 78
-      }
-    },
-    {
-      "slug": "2026-02-09",
-      "title": "Exploiting signed bootloaders to circumvent UEFI Secure Boot (2019)",
-      "url": "https://habr.com/en/articles/446238/",
-      "source": "habr.com",
-      "selectedAt": "2026-02-09T10:10:14.366Z",
-      "publishedAt": "2026-02-08T14:40:52.000Z",
-      "hn": {
-        "id": 46934579,
-        "score": 124,
-        "comments": 69
       }
     }
   ]

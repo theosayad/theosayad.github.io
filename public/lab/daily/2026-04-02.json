@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-02",
+  "generatedAt": "2026-04-02T10:07:18.576Z",
+  "article": {
+    "title": "EmDash – A spiritual successor to WordPress that solves plugin security",
+    "url": "https://blog.cloudflare.com/emdash-wordpress/",
+    "source": "blog.cloudflare.com",
+    "selectedAt": "2026-04-02T10:07:07.087Z",
+    "publishedAt": "2026-04-01T16:14:38.000Z",
+    "hn": {
+      "id": 47602832,
+      "score": 570,
+      "comments": 416
+    }
+  },
+  "takeaways": [],
+  "summary": "Cloudflare introduced EmDash, a modern, serverless CMS designed as a spiritual successor to WordPress, addressing longstanding plugin security issues by sandboxing plugins in isolated environments. EmDash leverages contemporary web infrastructure and TypeScript to offer a secure, scalable, and flexible platform that simplifies content publishing and plugin management while enabling seamless migration from WordPress.",
+  "keyPoints": [
+    "WordPress powers over 40% of the web but is nearly 24 years old and built for a pre-cloud era.",
+    "EmDash is built entirely in TypeScript, serverless by design, and runs plugins in isolated sandboxes called Dynamic Workers.",
+    "Plugins declare explicit capabilities in manifests, limiting permissions and eliminating broad access risks inherent in WordPress plugins.",
+    "WordPress.org’s plugin review queue exceeds 800 plugins with a two-week wait, highlighting security and scalability challenges.",
+    "EmDash themes cannot perform database operations, reducing attack surfaces compared to WordPress themes.",
+    "Migration from WordPress is streamlined via WXR export or a dedicated EmDash Exporter plugin, supporting custom content types natively."
+  ],
+  "rewrite": {
+    "title": "EmDash: A Secure, Serverless Successor to WordPress",
+    "body": "WordPress, which currently powers over 40% of websites globally, has been the cornerstone of online publishing for nearly 24 years. However, its architecture predates modern cloud infrastructure, leading to significant challenges in scalability and plugin security. Cloudflare’s EmDash emerges as a next-generation CMS that embraces serverless technology and TypeScript to modernize content management. Unlike WordPress, EmDash runs plugins in isolated sandboxes known as Dynamic Workers, where each plugin explicitly declares its required capabilities. This design drastically reduces security risks by ensuring plugins cannot exceed their granted permissions, a stark contrast to WordPress plugins that operate with broad access and often pose vulnerabilities.\n\nThe WordPress plugin ecosystem, while vast, suffers from a lengthy manual review process with over 800 plugins queued and a two-week approval timeline, underscoring the difficulty of maintaining security at scale. EmDash’s capability-based permission model allows administrators to pre-approve plugins based on declared permissions rather than relying on reputation or marketplace vetting, paving the way for a more trustworthy and decentralized plugin ecosystem. Additionally, EmDash themes are designed with security in mind, prohibiting direct database operations and thus minimizing attack vectors common in WordPress themes.\n\nEmDash also simplifies migration from WordPress through WXR exports or a dedicated exporter plugin, preserving media and custom content types. It supports defining custom schemas natively, avoiding the complexities and inefficiencies of WordPress’s custom post type implementations. Beyond security and migration, EmDash incorporates passkey-based authentication by default, eliminating password vulnerabilities, and offers pluggable authentication compatible with enterprise single sign-on systems. This combination of modern security, serverless scalability, and developer-friendly tooling positions EmDash as a compelling platform for the future of web publishing.\n\nAs the web’s business models evolve, especially with the rise of automated agents accessing content, EmDash provides a secure, flexible foundation for creators and publishers to innovate and monetize their work without the legacy constraints of WordPress’s architecture.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and community discussion highlights."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 8901
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
