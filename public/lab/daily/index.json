@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-03T09:57:57.117Z",
+  "updatedAt": "2026-04-04T09:49:45.042Z",
   "items": [
+    {
+      "slug": "2026-04-04",
+      "title": "Async Python Is Secretly Deterministic",
+      "url": "https://www.dbos.dev/blog/async-python-is-secretly-deterministic",
+      "source": "dbos.dev",
+      "selectedAt": "2026-04-04T09:49:38.786Z",
+      "publishedAt": "2026-04-03T18:55:12.000Z",
+      "hn": {
+        "id": 47630592,
+        "score": 70,
+        "comments": 29
+      }
+    },
     {
       "slug": "2026-04-03",
       "title": "A forecast of the fair market value of SpaceX's businesses",
@@ -662,19 +675,6 @@
         "id": 46979936,
         "score": 97,
         "comments": 30
-      }
-    },
-    {
-      "slug": "2026-02-11",
-      "title": "Competition is not market validation",
-      "url": "https://www.ablg.io/blog/competition-is-not-validation",
-      "source": "ablg.io",
-      "selectedAt": "2026-02-11T10:00:27.468Z",
-      "publishedAt": "2026-02-10T16:04:21.000Z",
-      "hn": {
-        "id": 46961726,
-        "score": 110,
-        "comments": 31
       }
     }
   ]

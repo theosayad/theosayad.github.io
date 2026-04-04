@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-04",
+  "generatedAt": "2026-04-04T09:49:45.040Z",
+  "article": {
+    "title": "Async Python Is Secretly Deterministic",
+    "url": "https://www.dbos.dev/blog/async-python-is-secretly-deterministic",
+    "source": "dbos.dev",
+    "selectedAt": "2026-04-04T09:49:38.786Z",
+    "publishedAt": "2026-04-03T18:55:12.000Z",
+    "hn": {
+      "id": 47630592,
+      "score": 70,
+      "comments": 29
+    }
+  },
+  "takeaways": [],
+  "summary": "DBOS tackled the challenge of making Python async workflows deterministic to enable reliable replay-based recovery in durable executions. By leveraging the single-threaded FIFO scheduling nature of Python’s asyncio event loop, they assign deterministic step IDs before awaiting, reconciling concurrency with reproducibility. This insight simplifies building fault-tolerant async workflows critical for resilient distributed systems.",
+  "keyPoints": [
+    "Durable workflows require deterministic execution to support replay-based recovery.",
+    "Python’s asyncio event loop is single-threaded and schedules tasks in FIFO order.",
+    "Async tasks start execution in a deterministic sequence but interleave unpredictably after yielding.",
+    "DBOS assigns step IDs before the first await in each async step to preserve order.",
+    "This approach enables concurrent execution without sacrificing deterministic replay.",
+    "DBOS offers an open-source Transact library and a 30-day free trial of their Pro tooling."
+  ],
+  "rewrite": {
+    "title": "Deterministic Execution in Python Async Workflows",
+    "body": "Ensuring deterministic execution in asynchronous Python workflows is essential for durable systems that rely on replay-based recovery. The core challenge arises because async tasks often run concurrently, completing in unpredictable orders, which complicates consistent replay. DBOS addressed this by closely examining Python’s asyncio event loop, which operates on a single thread and schedules tasks in a first-in, first-out (FIFO) manner.\n\nWhen multiple coroutines are passed to asyncio.gather, each is wrapped into a task and queued in FIFO order. Although tasks yield control and interleave unpredictably during execution, their initial scheduling order remains consistent. DBOS exploits this by assigning step IDs deterministically before any await calls within each async step, ensuring that the workflow’s logical step order aligns with the task creation sequence.\n\nThis method reconciles the benefits of concurrency—such as improved I/O-bound performance—with the strict ordering requirements of durable workflows. By understanding and leveraging the event loop’s single-threaded scheduler, DBOS simplifies reasoning about async workflows, making them both concurrent and reliably replayable. This advancement is critical for building fault-tolerant distributed applications where workflow recovery must be precise and repeatable.\n\nTo facilitate adoption, DBOS provides the open-source Transact library, which incorporates these principles, alongside a free 30-day trial of their Pro tooling and support. Their work highlights the importance of deep asyncio knowledge when designing resilient Python systems and offers a practical path to deterministic async execution.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4721
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
