@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-04T09:49:45.042Z",
+  "updatedAt": "2026-04-05T09:49:58.467Z",
   "items": [
+    {
+      "slug": "2026-04-05",
+      "title": "Polymarket apologizes for allowing wagers on fate of U.S. pilots downed in Iran",
+      "url": "https://www.nbcnews.com/news/us-news/polymarket-apologizes-allowing-wagers-fate-us-pilots-downed-iran-rcna266715",
+      "source": "nbcnews.com",
+      "selectedAt": "2026-04-05T09:49:52.344Z",
+      "publishedAt": "2026-04-04T17:23:16.000Z",
+      "hn": {
+        "id": 47641164,
+        "score": 29,
+        "comments": 23
+      }
+    },
     {
       "slug": "2026-04-04",
       "title": "Async Python Is Secretly Deterministic",
@@ -662,19 +675,6 @@
         "id": 46990359,
         "score": 30,
         "comments": 6
-      }
-    },
-    {
-      "slug": "2026-02-12",
-      "title": "Microwave Oven Failure: Spontaneously turned on by its LED display (2024)",
-      "url": "https://blog.stuffedcow.net/2024/06/microwave-failure-spontaneously-turns-on/",
-      "source": "blog.stuffedcow.net",
-      "selectedAt": "2026-02-12T09:58:46.615Z",
-      "publishedAt": "2026-02-11T19:50:43.000Z",
-      "hn": {
-        "id": 46979936,
-        "score": 97,
-        "comments": 30
       }
     }
   ]
