@@ -1,0 +1,41 @@
+{
+  "slug": "2026-04-06",
+  "generatedAt": "2026-04-06T10:16:57.552Z",
+  "article": {
+    "title": "Employers use your personal data to figure out the lowest salary you'll accept",
+    "url": "https://www.marketwatch.com/story/employers-are-using-your-personal-data-to-figure-out-the-lowest-salary-youll-accept-c2b968fb",
+    "source": "marketwatch.com",
+    "selectedAt": "2026-04-06T10:16:52.583Z",
+    "publishedAt": "2026-04-06T00:29:08.000Z",
+    "hn": {
+      "id": 47655466,
+      "score": 226,
+      "comments": 124
+    }
+  },
+  "takeaways": [],
+  "summary": "Employers increasingly leverage personal data analytics to estimate the minimum salary candidates are willing to accept, enabling more aggressive wage negotiations. This practice raises concerns about privacy and fairness in hiring, as it can suppress wages and exploit personal information without candidates' awareness.",
+  "keyPoints": [
+    "Companies analyze online behavior, social media, and public records to infer salary expectations.",
+    "This data-driven approach allows employers to tailor offers closer to candidates' minimum acceptable pay.",
+    "Such tactics can reduce overall wage growth by limiting negotiation leverage for job seekers.",
+    "The practice is part of a broader trend of using AI and big data in recruitment decisions.",
+    "Privacy advocates warn this could exacerbate inequalities and undermine transparency in hiring."
+  ],
+  "rewrite": {
+    "title": "Employers Use Personal Data to Set Salary Offers",
+    "body": "In the evolving landscape of recruitment, employers are increasingly utilizing personal data to determine the lowest salary a candidate might accept. By analyzing online footprints, social media activity, and publicly available information, companies can estimate a candidate’s financial expectations with greater precision. This strategy allows employers to craft salary offers that are just above the inferred minimum, potentially reducing labor costs.\n\nThis data-driven approach reflects a broader shift toward integrating artificial intelligence and big data analytics into hiring processes. While it can improve efficiency in matching candidates to roles, it also raises significant ethical and privacy concerns. Candidates often remain unaware that their personal information is being mined to influence salary negotiations, which can undermine their bargaining power.\n\nThe implications extend beyond individual negotiations. By systematically suppressing salary offers based on inferred thresholds, this practice risks stagnating wage growth and exacerbating income inequality. Privacy advocates argue that without clear regulations and transparency, such tactics could deepen disparities and erode trust in the hiring process. As this trend grows, it highlights the need for stronger protections around personal data use in employment contexts.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
