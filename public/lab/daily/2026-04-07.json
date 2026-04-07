@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-07",
+  "generatedAt": "2026-04-07T10:13:08.900Z",
+  "article": {
+    "title": "A cryptography engineer's perspective on quantum computing timelines",
+    "url": "https://words.filippo.io/crqc-timeline/",
+    "source": "words.filippo.io",
+    "selectedAt": "2026-04-07T10:12:55.800Z",
+    "publishedAt": "2026-04-06T15:31:20.000Z",
+    "hn": {
+      "id": 47662234,
+      "score": 480,
+      "comments": 193
+    }
+  },
+  "takeaways": [],
+  "summary": "Recent research drastically lowers the quantum resources needed to break widely used 256-bit elliptic curve cryptography, suggesting that practical quantum attacks could emerge by 2030. This accelerates the urgency for deploying post-quantum cryptographic standards, especially for authentication, to protect critical internet infrastructure and user security.",
+  "keyPoints": [
+    "Google revised estimates show breaking 256-bit elliptic curves like NIST P-256 could require far fewer logical qubits and gates, enabling attacks in minutes on fast quantum architectures.",
+    "Oratomic’s paper indicates 256-bit curves may be broken with as few as 10,000 physical qubits using non-local connectivity, albeit slower but still catastrophic if even one key is compromised monthly.",
+    "The timeline for practical cryptographically relevant quantum computers (CRQCs) is now plausibly by 2030, not 2035, demanding immediate migration to post-quantum (PQ) cryptography.",
+    "Hybrid classical + PQ authentication schemes add complexity and delay; pure lattice-based PQ signatures like ML-DSA-44 are recommended for faster, simpler adoption.",
+    "Symmetric encryption remains secure at 128-bit keys against Grover’s algorithm, so increasing to 256-bit keys is unnecessary and could hinder PQ rollout.",
+    "Trusted Execution Environments (TEEs) lack PQ-secure keys, undermining their reliability in a post-quantum world and requiring reassessment of their security role."
+  ],
+  "rewrite": {
+    "title": "Quantum Threats Accelerate Post-Quantum Crypto Urgency",
+    "body": "Two recent papers have dramatically shifted the quantum cryptography landscape by lowering the quantum resources needed to break 256-bit elliptic curve cryptography, such as NIST P-256 and secp256k1. Google’s updated analysis suggests that on fast quantum architectures like superconducting qubits, attacks could be executed in minutes, while Oratomic’s work shows that with advanced connectivity (e.g., neutral atoms), breaking these curves might require as few as 10,000 physical qubits. Although slower, even infrequent compromises could have devastating consequences for internet security.\n\nThis research implies that cryptographically relevant quantum computers (CRQCs) could realistically emerge by 2030, not 2035 as previously thought. Consequently, the window to transition to post-quantum cryptography (PQC) is rapidly closing. The article argues against hybrid classical and PQ authentication schemes due to their complexity and potential to delay adoption. Instead, it advocates for immediate deployment of pure lattice-based PQ signatures like ML-DSA-44, which have gained confidence from NSA approval and are easier to implement securely.\n\nSymmetric cryptography remains robust at 128-bit keys against quantum attacks, dispelling myths that 256-bit keys are necessary to counter Grover’s algorithm. Overemphasizing symmetric key length could complicate PQ rollout unnecessarily. Additionally, Trusted Execution Environments (TEEs) such as Intel SGX and AMD SEV-SNP currently lack PQ-secure keys, forcing a reevaluation of their security guarantees in a quantum future.\n\nOverall, the findings underscore an urgent need for the cryptographic community and industry to accelerate PQC deployment, update protocols, and reconsider legacy systems to safeguard against imminent quantum threats.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 8810
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
