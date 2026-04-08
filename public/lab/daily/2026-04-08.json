@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-08",
+  "generatedAt": "2026-04-08T10:14:00.823Z",
+  "article": {
+    "title": "Project Glasswing: Securing critical software for the AI era",
+    "url": "https://www.anthropic.com/glasswing",
+    "source": "anthropic.com",
+    "selectedAt": "2026-04-08T10:13:50.545Z",
+    "publishedAt": "2026-04-07T18:09:34.000Z",
+    "hn": {
+      "id": 47679121,
+      "score": 1292,
+      "comments": 641
+    }
+  },
+  "takeaways": [],
+  "summary": "Anthropic has launched Project Glasswing, deploying its Claude Mythos Preview AI model to enhance cybersecurity across critical software infrastructure. By providing $100 million in usage credits and collaborating with over 40 organizations, the initiative aims to accelerate vulnerability detection and remediation amid rapidly advancing AI capabilities that both defenders and attackers can leverage.",
+  "keyPoints": [
+    "Project Glasswing offers Mythos Preview access to 40+ organizations maintaining critical software, backed by $100M in usage credits and $4M in open-source security donations.",
+    "AI models like Claude Mythos Preview now identify vulnerabilities that have evaded human and automated detection for decades, marking a leap in cyber defense capabilities.",
+    "The accelerating pace of AI-driven exploits compresses the window between vulnerability discovery and exploitation from months to minutes, raising urgency for coordinated defense.",
+    "Leading tech companies including Cisco, AWS, Microsoft, CrowdStrike, JPMorganChase, and Google have joined the initiative, emphasizing cross-industry collaboration.",
+    "Open-source maintainers, traditionally underserved in security resources, gain AI-augmented tools to proactively secure foundational codebases critical to global infrastructure.",
+    "The global cost of cybercrime is estimated around $500 billion annually, with state-sponsored attacks from countries like China, Iran, North Korea, and Russia threatening vital civilian and military systems."
+  ],
+  "rewrite": {
+    "title": "Project Glasswing: AI-Driven Cybersecurity for Critical Software",
+    "body": "Anthropic’s Project Glasswing represents a significant step toward fortifying cybersecurity in an era where AI dramatically shifts the threat landscape. By granting access to its Claude Mythos Preview model to over 40 organizations responsible for critical software infrastructure, and committing $100 million in usage credits plus $4 million to open-source security initiatives, Anthropic is enabling faster, more comprehensive vulnerability detection and mitigation. This initiative acknowledges that no single entity can address the escalating cyber risks alone, especially as frontier AI models increasingly rival top human experts in identifying and exploiting software flaws.\n\nThe urgency stems from the fact that AI has compressed the time between vulnerability discovery and exploitation from months to mere minutes, a trend that could amplify the frequency and sophistication of cyberattacks. Claude Mythos Preview has uncovered vulnerabilities that have persisted for decades despite extensive human and automated review, signaling a profound shift in defensive capabilities. This shift compels technology providers and users alike to adopt new security paradigms rapidly.\n\nMajor industry players such as Cisco, AWS, Microsoft, CrowdStrike, JPMorganChase, and Google have joined Project Glasswing, underscoring the necessity of cross-sector collaboration. Particularly notable is the focus on empowering open-source maintainers, who historically lack extensive security resources despite their code underpinning much of modern infrastructure and AI development. By integrating AI tools into their workflows, these maintainers can proactively address vulnerabilities at scale.\n\nWith cybercrime costs estimated at $500 billion annually and persistent threats from state-sponsored actors, Project Glasswing’s collaborative, AI-augmented approach to cybersecurity aims to safeguard both civilian and military systems. The initiative highlights that as AI capabilities evolve rapidly, defensive measures must accelerate in tandem to protect critical infrastructure worldwide.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 11930
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

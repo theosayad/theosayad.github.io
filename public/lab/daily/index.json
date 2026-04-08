@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-07T10:13:08.903Z",
+  "updatedAt": "2026-04-08T10:14:00.825Z",
   "items": [
+    {
+      "slug": "2026-04-08",
+      "title": "Project Glasswing: Securing critical software for the AI era",
+      "url": "https://www.anthropic.com/glasswing",
+      "source": "anthropic.com",
+      "selectedAt": "2026-04-08T10:13:50.545Z",
+      "publishedAt": "2026-04-07T18:09:34.000Z",
+      "hn": {
+        "id": 47679121,
+        "score": 1292,
+        "comments": 641
+      }
+    },
     {
       "slug": "2026-04-07",
       "title": "A cryptography engineer's perspective on quantum computing timelines",
@@ -662,19 +675,6 @@
         "id": 47024773,
         "score": 18,
         "comments": 27
-      }
-    },
-    {
-      "slug": "2026-02-15",
-      "title": "Canada Has a Secessionist Movement on Its Hands. Its Supporters Thank Trump",
-      "url": "https://www.wsj.com/world/americas/alberta-canada-independence-7549e240",
-      "source": "wsj.com",
-      "selectedAt": "2026-02-15T09:40:41.776Z",
-      "publishedAt": "2026-02-14T23:18:30.000Z",
-      "hn": {
-        "id": 47019411,
-        "score": 9,
-        "comments": 6
       }
     }
   ]
