@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-09",
+  "generatedAt": "2026-04-09T10:18:25.574Z",
+  "article": {
+    "title": "Newly created Polymarket accounts win big on well-timed Iran ceasefire bets",
+    "url": "https://www.theguardian.com/business/2026/apr/08/polymarket-trump-us-iran-ceasefire",
+    "source": "theguardian.com",
+    "selectedAt": "2026-04-09T10:18:13.930Z",
+    "publishedAt": "2026-04-09T00:55:46.000Z",
+    "hn": {
+      "id": 47698082,
+      "score": 137,
+      "comments": 103
+    }
+  },
+  "takeaways": [],
+  "summary": "Newly created accounts on Polymarket placed large, well-timed bets on a US-Iran ceasefire just hours before the announcement, resulting in hundreds of thousands in profits. This pattern raises concerns about potential insider information use in prediction markets, prompting calls for regulatory oversight.",
+  "keyPoints": [
+    "At least 50 new Polymarket wallets made substantial 'yes' bets on a US-Iran ceasefire before the official announcement on April 7, 2026.",
+    "One wallet created at 10am ET placed $72,000 in bets at an average price of 8.8¢, cashing out $200,000 after the ceasefire announcement.",
+    "Another wallet created minutes before Trump’s ceasefire post earned an estimated $48,500 betting at a higher price point, reflecting late developments.",
+    "Polymarket currently labels the ceasefire contract as 'disputed' due to ongoing regional tensions, delaying some payouts by up to 48 hours.",
+    "Similar betting patterns on Polymarket have occurred before major geopolitical events, fueling suspicions of insider trading.",
+    "Bipartisan US lawmakers and prediction market platforms acknowledge the need to expand insider trading definitions and regulate these markets."
+  ],
+  "rewrite": {
+    "title": "Polymarket New Accounts Profit Big on Iran Ceasefire Bets",
+    "body": "On April 7, 2026, shortly before the US and Iran announced a two-week ceasefire, a cluster of newly created accounts on the prediction market Polymarket placed large, well-timed bets predicting the ceasefire outcome. Despite escalating tensions and aggressive rhetoric from then-President Trump earlier that day, including a dire social media warning about the Strait of Hormuz, these accounts wagered heavily on a ceasefire. One wallet created at 10am ET invested roughly $72,000 at low odds and later cashed out for a $200,000 profit, while another wallet created just minutes before the announcement earned nearly $50,000.\n\nThese bets were made before Trump’s ceasefire announcement at approximately 6:30pm ET, suggesting access to non-public information or sophisticated market timing. Polymarket’s use of proxy smart contract wallets obscures the identities behind these accounts, complicating efforts to determine if these were new users or existing traders using multiple accounts. The ceasefire contract remains marked as \"disputed\" due to ongoing Iranian restrictions and missile activity, delaying some payouts.\n\nThis episode echoes previous instances where new Polymarket accounts profited significantly from geopolitical events, such as the January 2026 Venezuelan presidential capture. Such patterns have intensified scrutiny from lawmakers concerned about insider trading in prediction markets. Both industry leaders and bipartisan congressional groups have called for expanded regulatory frameworks to address these risks, emphasizing the need to protect market integrity and participant trust.\n\nExperts argue that without regulation, prediction markets risk being exploited by traders with privileged information, undermining fairness. The Iran ceasefire betting episode underscores the urgency for clearer rules and oversight in this rapidly evolving financial niche.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3955
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

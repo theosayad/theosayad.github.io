@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-08T10:14:00.825Z",
+  "updatedAt": "2026-04-09T10:18:25.576Z",
   "items": [
+    {
+      "slug": "2026-04-09",
+      "title": "Newly created Polymarket accounts win big on well-timed Iran ceasefire bets",
+      "url": "https://www.theguardian.com/business/2026/apr/08/polymarket-trump-us-iran-ceasefire",
+      "source": "theguardian.com",
+      "selectedAt": "2026-04-09T10:18:13.930Z",
+      "publishedAt": "2026-04-09T00:55:46.000Z",
+      "hn": {
+        "id": 47698082,
+        "score": 137,
+        "comments": 103
+      }
+    },
     {
       "slug": "2026-04-08",
       "title": "Project Glasswing: Securing critical software for the AI era",
@@ -662,19 +675,6 @@
         "id": 47043751,
         "score": 65,
         "comments": 59
-      }
-    },
-    {
-      "slug": "2026-02-16",
-      "title": "Under the current DTC model, investors do not directly own their securities",
-      "url": "https://www.foxnews.com/opinion/wall-street-could-seize-your-retirement-savings-next-financial-crash-its-perfectly-legal",
-      "source": "foxnews.com",
-      "selectedAt": "2026-02-16T10:02:48.398Z",
-      "publishedAt": "2026-02-15T16:03:54.000Z",
-      "hn": {
-        "id": 47024773,
-        "score": 18,
-        "comments": 27
       }
     }
   ]
