@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-09T10:18:25.576Z",
+  "updatedAt": "2026-04-10T10:14:24.805Z",
   "items": [
+    {
+      "slug": "2026-04-10",
+      "title": "US defense official overseeing AI reaped millions selling xAI stock",
+      "url": "https://www.theguardian.com/us-news/2026/apr/09/pentagon-ai-xai-emil-michael",
+      "source": "theguardian.com",
+      "selectedAt": "2026-04-10T10:14:12.931Z",
+      "publishedAt": "2026-04-09T20:14:23.000Z",
+      "hn": {
+        "id": 47709197,
+        "score": 49,
+        "comments": 7
+      }
+    },
     {
       "slug": "2026-04-09",
       "title": "Newly created Polymarket accounts win big on well-timed Iran ceasefire bets",
@@ -662,19 +675,6 @@
         "id": 47051866,
         "score": 28,
         "comments": 20
-      }
-    },
-    {
-      "slug": "2026-02-17",
-      "title": "Long-term unemployment is becoming 'a status quo' in today's job market",
-      "url": "https://www.cnbc.com/2026/02/16/long-term-unemployment-becoming-a-status-quo-in-todays-job-market.html",
-      "source": "cnbc.com",
-      "selectedAt": "2026-02-17T09:57:50.672Z",
-      "publishedAt": "2026-02-17T04:36:58.000Z",
-      "hn": {
-        "id": 47043751,
-        "score": 65,
-        "comments": 59
       }
     }
   ]
