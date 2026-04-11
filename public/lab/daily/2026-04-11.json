@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-11",
+  "generatedAt": "2026-04-11T09:51:44.932Z",
+  "article": {
+    "title": "You can't trust macOS Privacy and Security settings",
+    "url": "https://eclecticlight.co/2026/04/10/why-you-cant-trust-privacy-security/",
+    "source": "eclecticlight.co",
+    "selectedAt": "2026-04-11T09:51:39.124Z",
+    "publishedAt": "2026-04-10T15:28:24.000Z",
+    "hn": {
+      "id": 47719602,
+      "score": 461,
+      "comments": 158
+    }
+  },
+  "takeaways": [],
+  "summary": "macOS Privacy & Security settings can misrepresent an app's actual access to protected folders, allowing apps to bypass restrictions through user-initiated file dialogs. This undermines the reliability of TCC (Transparency, Consent, and Control) protections and complicates user control over sensitive data access.",
+  "keyPoints": [
+    "Apps like Insent can access protected folders such as Documents despite Privacy & Security settings indicating otherwise.",
+    "Access granted via Open/Save dialogs bypasses sandbox restrictions without updating TCC permissions or UI listings.",
+    "Resetting app permissions requires a Terminal command (`tccutil reset All <bundleID>`) and a system restart.",
+    "Extended access may persist due to MACL extended attributes, which are protected by System Integrity Protection (SIP) and difficult to remove.",
+    "This behavior is folder-specific and does not affect other protected folders unless explicitly accessed.",
+    "The discrepancy between actual access and UI representation poses risks of unnoticed data exposure."
+  ],
+  "rewrite": {
+    "title": "macOS Privacy Settings Mislead on Folder Access",
+    "body": "Recent investigations reveal that macOS Privacy & Security settings do not reliably reflect an app’s true access to protected folders like Documents. An app named Insent demonstrates that even when denied access in the system settings, it can still read folder contents if the user opens the folder via standard Open or Save dialogs. This user-initiated access circumvents the sandbox and TCC (Transparency, Consent, and Control) restrictions without updating the system’s permission records or user interface, misleading users about the app’s actual privileges.\n\nThe issue is specific to individual protected folders and does not generalize across all such locations. To revoke this unintended access, users must run a Terminal command (`tccutil reset All co.eclecticlight.Insent`) followed by a system restart. However, residual access may persist due to MACL extended attributes, which are protected by System Integrity Protection (SIP) and require recovery mode to remove. This complexity makes it difficult for users to regain full control over app permissions.\n\nMost apps request folder access during initialization, but this loophole allows apps to gain persistent access post user interaction without clear consent. The system’s failure to update Privacy & Security listings accordingly means users cannot trust the displayed access controls. This discrepancy introduces a significant security risk, as apps may silently retain access to sensitive data despite appearing blocked in system settings.\n\nOverall, this behavior highlights a critical gap in macOS’s privacy architecture, where user intent overrides system-enforced restrictions without transparent feedback. Users and administrators should be aware that permission settings may not guarantee protection, and manual intervention might be necessary to ensure privacy.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 6471
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
