@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-12",
+  "generatedAt": "2026-04-12T09:52:59.805Z",
+  "article": {
+    "title": "Bitcoin miners are losing on every coin produced as difficulty drops",
+    "url": "https://www.coindesk.com/markets/2026/03/22/bitcoin-miners-are-losing-usd19-000-on-every-btc-produced-as-difficulty-drops-7-8",
+    "source": "coindesk.com",
+    "selectedAt": "2026-04-12T09:52:53.230Z",
+    "publishedAt": "2026-04-11T13:22:25.000Z",
+    "hn": {
+      "id": 47730370,
+      "score": 228,
+      "comments": 212
+    }
+  },
+  "takeaways": [],
+  "summary": "Bitcoin miners are currently operating at a loss, with production costs exceeding market prices by nearly $19,000 per coin due to a sharp decline in mining difficulty and rising energy costs driven by geopolitical tensions. This profitability squeeze is forcing miners to sell holdings, increasing market supply pressure and prompting diversification into alternative tech sectors.",
+  "keyPoints": [
+    "As of March 13, average bitcoin production cost reached $88,000, while market price stood at $69,200, causing a 21% loss per mined coin.",
+    "Mining difficulty dropped 7.76% on March 21 to 133.79 trillion, the second-largest decline in 2026, reflecting miner exits.",
+    "Hashrate fell to approximately 920 EH/s from a 2025 peak of 1 zetahash, with average block times extending to 12 minutes 36 seconds.",
+    "Rising oil prices above $100 due to Middle East conflict increased electricity costs, impacting 8-10% of global hashrate in sensitive regions.",
+    "Hashprice is near breakeven at $33.30 per PH/s/day, close to the all-time low of $28, pressuring miners to liquidate bitcoin holdings.",
+    "Public miners like Marathon Digital and Cipher Mining are diversifying into AI and high-performance computing to stabilize revenues."
+  ],
+  "rewrite": {
+    "title": "Bitcoin Miners Face Heavy Losses Amid Difficulty Drop",
+    "body": "Bitcoin mining economics have deteriorated sharply in early 2026, with miners losing an estimated $19,000 on every bitcoin produced. According to Checkonchain’s model, production costs hit $88,000 per BTC by mid-March, while prices languished around $69,200, marking a 21% loss per block. This squeeze intensified following the October 2025 price crash from $126,000 and was exacerbated by geopolitical tensions in the Middle East. Oil prices surging above $100 have driven up electricity costs, particularly affecting 8-10% of the global hashrate concentrated in energy-sensitive regions near the Strait of Hormuz, a critical oil transit chokepoint currently disrupted by conflict and threats of military strikes.\n\nMining difficulty fell 7.76% on March 21 to 133.79 trillion, the second-largest drop this year after February’s 11.16% plunge during Winter Storm Fern. The network’s hashrate retreated to about 920 EH/s, well below the 1 zetahash peak in 2025, causing average block times to stretch beyond the 10-minute target to over 12 minutes. Hashprice, measuring revenue per unit of computing power, hovers near $33.30 per petahash per day, barely covering operational costs and close to the all-time low of $28 recorded in late February.\n\nThis unprofitable environment forces miners to liquidate bitcoin holdings to sustain operations, adding selling pressure to a market already challenged by a large share of coins held at a loss and leveraged trading dynamics. Public mining firms are responding by diversifying into AI and high-performance computing sectors, seeking steadier income streams. The next difficulty adjustment expected in early April is projected to decline further if prices remain subdued, potentially accelerating miner exits. While the Bitcoin protocol self-corrects by lowering difficulty as miners drop out, the interim period of unprofitability risks destabilizing both mining operations and market structure due to forced selling.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4351
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
