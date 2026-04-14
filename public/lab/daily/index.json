@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-13T10:52:38.140Z",
+  "updatedAt": "2026-04-14T10:22:02.492Z",
   "items": [
+    {
+      "slug": "2026-04-14",
+      "title": "Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets",
+      "url": "https://github.com/sterlingcrispin/nothing-ever-happens",
+      "source": "github.com",
+      "selectedAt": "2026-04-14T10:21:52.872Z",
+      "publishedAt": "2026-04-13T15:31:06.000Z",
+      "hn": {
+        "id": 47753472,
+        "score": 421,
+        "comments": 235
+      }
+    },
     {
       "slug": "2026-04-13",
       "title": "Sam Altman's home targeted in second attack",
@@ -662,19 +675,6 @@
         "id": 47102576,
         "score": 445,
         "comments": 196
-      }
-    },
-    {
-      "slug": "2026-02-21",
-      "title": "The path to ubiquitous AI (17k tokens/sec)",
-      "url": "https://taalas.com/the-path-to-ubiquitous-ai/",
-      "source": "taalas.com",
-      "selectedAt": "2026-02-21T09:38:36.656Z",
-      "publishedAt": "2026-02-20T10:32:52.000Z",
-      "hn": {
-        "id": 47086181,
-        "score": 734,
-        "comments": 410
       }
     }
   ]

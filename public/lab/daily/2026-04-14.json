@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-14",
+  "generatedAt": "2026-04-14T10:22:02.490Z",
+  "article": {
+    "title": "Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets",
+    "url": "https://github.com/sterlingcrispin/nothing-ever-happens",
+    "source": "github.com",
+    "selectedAt": "2026-04-14T10:21:52.872Z",
+    "publishedAt": "2026-04-13T15:31:06.000Z",
+    "hn": {
+      "id": 47753472,
+      "score": 421,
+      "comments": 235
+    }
+  },
+  "takeaways": [],
+  "summary": "A Python bot named 'Nothing Ever Happens' automates trading on Polymarket by consistently buying 'No' on non-sports yes/no markets below a set price threshold. This strategy reflects a skeptical stance on event occurrence in these markets and provides a tool for users to engage with prediction markets through automated, configurable trading.",
+  "keyPoints": [
+    "The bot targets standalone non-sports yes/no markets on Polymarket, focusing exclusively on 'No' positions.",
+    "It operates by scanning markets for 'No' entries priced below a configurable cap, enabling disciplined risk management.",
+    "Real order execution requires three environment variables; otherwise, the bot runs in a simulated 'paper' trading mode.",
+    "Features include a live dashboard, position tracking, and state persistence to support recovery and monitoring.",
+    "Configuration is flexible via JSON files and environment variables, with deployment options tailored for Heroku.",
+    "The project is provided as-is for entertainment, with no warranties or liability for losses."
+  ],
+  "rewrite": {
+    "title": "Automated Bot Bets Against Events on Polymarket",
+    "body": "The 'Nothing Ever Happens' bot is a specialized Python tool designed to automate trading on Polymarket by consistently purchasing 'No' positions in standalone non-sports yes/no markets. By focusing solely on 'No' entries priced below a user-defined threshold, the bot embodies a contrarian approach, betting that these events will not materialize. This strategy can be seen as a reflection of market skepticism toward certain propositions, potentially influencing liquidity and pricing dynamics on these markets.\n\nOperationally, the bot scans relevant markets, tracks open positions, and maintains a live dashboard for real-time monitoring. It also supports state persistence to enable recovery in case of interruptions. While the bot can execute real trades, this requires setting three specific environment variables; absent these, it defaults to a paper trading mode, allowing users to test strategies without financial risk.\n\nThe bot’s configuration is highly customizable through JSON files and environment variables, supporting deployment on platforms like Heroku with dedicated web dynos. Despite its automation capabilities, the project is explicitly provided for entertainment purposes without warranties or liability, underscoring the risks inherent in algorithmic trading. Overall, this tool offers a unique lens on prediction market behavior by systematically betting against event occurrence, which may affect market sentiment and participant strategies over time.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 1199
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
