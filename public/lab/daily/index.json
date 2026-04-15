@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-14T10:22:02.492Z",
+  "updatedAt": "2026-04-15T10:23:05.919Z",
   "items": [
+    {
+      "slug": "2026-04-15",
+      "title": "SpaceX Is Basically a Huge Meme Stock",
+      "url": "https://www.theatlantic.com/ideas/2026/04/spacex-ipo-elon-musk/686793/",
+      "source": "theatlantic.com",
+      "selectedAt": "2026-04-15T10:22:54.005Z",
+      "publishedAt": "2026-04-14T20:57:24.000Z",
+      "hn": {
+        "id": 47771417,
+        "score": 54,
+        "comments": 16
+      }
+    },
     {
       "slug": "2026-04-14",
       "title": "Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets",
@@ -662,19 +675,6 @@
         "id": 47109880,
         "score": 5,
         "comments": 0
-      }
-    },
-    {
-      "slug": "2026-02-22",
-      "title": "What not to write on your security clearance form (1988)",
-      "url": "https://milk.com/wall-o-shame/security_clearance.html",
-      "source": "milk.com",
-      "selectedAt": "2026-02-22T09:39:55.450Z",
-      "publishedAt": "2026-02-21T17:08:12.000Z",
-      "hn": {
-        "id": 47102576,
-        "score": 445,
-        "comments": 196
       }
     }
   ]
