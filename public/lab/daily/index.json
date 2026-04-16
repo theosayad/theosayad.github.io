@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-15T10:23:05.919Z",
+  "updatedAt": "2026-04-16T10:22:09.285Z",
   "items": [
+    {
+      "slug": "2026-04-16",
+      "title": "Live Nation illegally monopolized ticketing market, jury finds",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds",
+      "source": "bloomberg.com",
+      "selectedAt": "2026-04-16T10:21:59.469Z",
+      "publishedAt": "2026-04-15T19:06:39.000Z",
+      "hn": {
+        "id": 47783713,
+        "score": 547,
+        "comments": 160
+      }
+    },
     {
       "slug": "2026-04-15",
       "title": "SpaceX Is Basically a Huge Meme Stock",
@@ -662,19 +675,6 @@
         "id": 47127396,
         "score": 503,
         "comments": 215
-      }
-    },
-    {
-      "slug": "2026-02-23",
-      "title": "Costco Joins Companies Suing Trump Administration over Tariffs",
-      "url": "https://www.wsj.com/politics/policy/costco-joins-companies-suing-trump-administration-over-tariffs-ab1bb066",
-      "source": "wsj.com",
-      "selectedAt": "2026-02-23T10:03:19.189Z",
-      "publishedAt": "2026-02-22T10:23:09.000Z",
-      "hn": {
-        "id": 47109880,
-        "score": 5,
-        "comments": 0
       }
     }
   ]
