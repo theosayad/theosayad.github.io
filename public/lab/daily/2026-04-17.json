@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-17",
+  "generatedAt": "2026-04-17T10:19:36.693Z",
+  "article": {
+    "title": "US tech firms lobbied EU to keep datacentre emissions secret",
+    "url": "https://www.theguardian.com/technology/2026/apr/17/microsoft-us-tech-firms-lobbied-eu-secrecy-rules-datacentre-emissions",
+    "source": "theguardian.com",
+    "selectedAt": "2026-04-17T10:19:28.400Z",
+    "publishedAt": "2026-04-17T06:17:41.000Z",
+    "hn": {
+      "id": 47802962,
+      "score": 33,
+      "comments": 5
+    }
+  },
+  "takeaways": [],
+  "summary": "In 2024, major US tech firms including Microsoft successfully lobbied the EU to keep individual datacentre emissions data confidential, embedding near-verbatim industry language into EU rules. This move restricts transparency on the environmental impact of rapidly expanding datacentres, complicating efforts to monitor and regulate their carbon footprint amid the AI-driven infrastructure boom.",
+  "keyPoints": [
+    "The EU Commission’s 2024 regulation mandates datacentre operators to report energy and emissions data but classifies individual facility metrics as confidential.",
+    "Lobbying was led by Microsoft, DigitalEurope (representing Google, Amazon, Meta), and Video Games Europe (including Netflix).",
+    "Only aggregated national-level data is publicly available, blocking access even through freedom of information requests.",
+    "The EU plans to triple datacentre capacity in 5-7 years to support AI ambitions, increasing environmental stakes.",
+    "Compliance with reporting is low, with only 36% of eligible datacentres submitting data under current rules.",
+    "Legal experts warn the confidentiality clause violates EU transparency laws and the Aarhus convention on environmental information."
+  ],
+  "rewrite": {
+    "title": "US Tech Firms Shield Datacentre Emissions from EU Transparency",
+    "body": "In 2024, Microsoft and other leading US tech companies successfully influenced the European Union to embed strict confidentiality clauses into new datacentre environmental reporting rules. The legislation requires operators to submit key performance indicators on energy use and emissions but classifies all data at the individual datacentre level as confidential, effectively barring public scrutiny and freedom of information requests. This secrecy provision was incorporated almost verbatim from industry lobbying submissions, primarily from Microsoft, DigitalEurope, and Video Games Europe.\n\nThe timing coincides with a surge in datacentre construction driven by the AI boom, as the EU aims to triple its datacentre capacity within the next five to seven years to compete globally. These facilities are energy-intensive and often powered partly by fossil gas, raising concerns about their environmental footprint. Despite the EU’s efforts to increase transparency through updated energy efficiency directives in 2023, only 36% of eligible datacentres have complied with reporting requirements, suggesting industry reluctance.\n\nLegal scholars and environmental law experts have criticized the confidentiality clause as incompatible with EU transparency standards and the Aarhus convention, which guarantees public access to environmental information. They argue that the blanket secrecy favors corporate interests over public accountability, undermining efforts to monitor and reduce emissions. The European Commission acknowledges the tension but fears that full disclosure might discourage operators from reporting data altogether.\n\nLooking ahead, the EU plans a second phase of regulation to publish aggregated sustainability scores to facilitate datacentre comparisons and promote efficiency. However, under current proposals, most detailed data will remain hidden, limiting the ability of researchers, policymakers, and the public to assess the true environmental impact of the continent’s expanding digital infrastructure.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5301
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
