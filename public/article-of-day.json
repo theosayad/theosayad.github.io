@@ -1,13 +1,13 @@
 {
-  "title": "US tech firms lobbied EU to keep datacentre emissions secret",
-  "url": "https://www.theguardian.com/technology/2026/apr/17/microsoft-us-tech-firms-lobbied-eu-secrecy-rules-datacentre-emissions",
-  "source": "theguardian.com",
-  "selectedAt": "2026-04-17T10:19:28.400Z",
-  "publishedAt": "2026-04-17T06:17:41.000Z",
+  "title": "Cerebras S-1",
+  "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026025762/cerebras-sx1april2026.htm",
+  "source": "sec.gov",
+  "selectedAt": "2026-04-18T09:54:13.443Z",
+  "publishedAt": "2026-04-17T20:42:19.000Z",
   "hn": {
-    "id": 47802962,
-    "score": 33,
-    "comments": 5
+    "id": 47810357,
+    "score": 37,
+    "comments": 8
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }

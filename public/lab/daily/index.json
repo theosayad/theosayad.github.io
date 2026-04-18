@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-17T10:19:36.695Z",
+  "updatedAt": "2026-04-18T09:54:18.891Z",
   "items": [
+    {
+      "slug": "2026-04-18",
+      "title": "Cerebras S-1",
+      "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026025762/cerebras-sx1april2026.htm",
+      "source": "sec.gov",
+      "selectedAt": "2026-04-18T09:54:13.443Z",
+      "publishedAt": "2026-04-17T20:42:19.000Z",
+      "hn": {
+        "id": 47810357,
+        "score": 37,
+        "comments": 8
+      }
+    },
     {
       "slug": "2026-04-17",
       "title": "US tech firms lobbied EU to keep datacentre emissions secret",
@@ -662,19 +675,6 @@
         "id": 47156925,
         "score": 631,
         "comments": 127
-      }
-    },
-    {
-      "slug": "2026-02-25",
-      "title": "Tesla registrations crash 17% in Europe as BEV market surges 14%",
-      "url": "https://electrek.co/2026/02/24/tesla-eu-registrations-crash-january-2026-bev-growth/",
-      "source": "electrek.co",
-      "selectedAt": "2026-02-25T10:01:58.328Z",
-      "publishedAt": "2026-02-24T18:46:25.000Z",
-      "hn": {
-        "id": 47140932,
-        "score": 221,
-        "comments": 256
       }
     }
   ]
