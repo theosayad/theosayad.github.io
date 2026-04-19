@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-19",
+  "generatedAt": "2026-04-19T09:55:03.754Z",
+  "article": {
+    "title": "Keep Pushing: We Get 10 More Days to Reform Section 702",
+    "url": "https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702",
+    "source": "eff.org",
+    "selectedAt": "2026-04-19T09:54:57.706Z",
+    "publishedAt": "2026-04-19T07:05:17.000Z",
+    "hn": {
+      "id": 47822356,
+      "score": 58,
+      "comments": 4
+    }
+  },
+  "takeaways": [],
+  "summary": "Congress has secured a 10-day extension to push for meaningful reforms to Section 702 of the Foreign Intelligence Surveillance Act, which currently allows warrantless FBI access to Americans' communications collected under a mass surveillance program. Lawmakers rejected a reauthorization with minimal privacy protections, emphasizing the urgent need for stronger safeguards to protect civil liberties.",
+  "keyPoints": [
+    "Section 702 enables NSA to collect international communications, including those involving Americans, stored in large databases accessible by FBI without a warrant.",
+    "A bipartisan group of lawmakers blocked a reauthorization that would have extended Section 702 for five years with only superficial privacy changes.",
+    "Senator Ron Wyden revealed a classified interpretation of Section 702 that facilitates surveillance of Americans, raising transparency and accountability concerns.",
+    "EFF and allied organizations demand probable cause warrants for FBI queries of Section 702 data and greater notification rights for surveillance victims.",
+    "Congress has 10 days to pass substantive reforms following the defeat of the weak amendment; prior efforts like the 2021 RISAA bill yielded limited improvements.",
+    "The debate highlights ongoing tension between national security interests and protecting the privacy of law-abiding Americans engaged in sensitive communications."
+  ],
+  "rewrite": {
+    "title": "Congress Gains 10 Days to Reform Section 702 Surveillance",
+    "body": "In a late-night bipartisan standoff, Congress secured a crucial 10-day extension to negotiate meaningful reforms to Section 702 of the Foreign Intelligence Surveillance Act (FISA). This provision authorizes the National Security Agency (NSA) to collect international communications, including those involving Americans, and store them in massive databases. Currently, the FBI can access and query this data without a probable cause warrant, raising significant privacy and civil liberties concerns.\n\nLawmakers rejected a proposed amendment that would have reauthorized Section 702 for another five years with only nominal privacy protections, signaling a strong demand for substantive change. Senator Ron Wyden has publicly highlighted a secret interpretation of the law that permits warrantless surveillance of Americans, underscoring the lack of transparency and accountability in the program. Advocacy groups like the Electronic Frontier Foundation (EFF) and others are pushing for reforms that require actual warrants for FBI access and better notification for individuals whose communications are surveilled.\n\nThe 10-day extension offers a narrow window for Congress to move beyond superficial fixes. Previous legislation, such as the 2021 Reforming Intelligence and Securing America Act (RISAA), introduced some improvements but also expanded certain surveillance powers, leaving privacy advocates unsatisfied. The ongoing debate reflects the complex balance between national security imperatives and the protection of privacy rights for everyday Americans, including journalists, aid workers, and individuals seeking sensitive information.\n\nAs the deadline approaches, the pressure mounts on lawmakers to enact reforms that ensure surveillance programs operate with greater oversight and respect for constitutional protections. Without such changes, the status quo risks perpetuating unchecked government access to private communications, eroding public trust and civil liberties.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5131
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-18T09:54:18.891Z",
+  "updatedAt": "2026-04-19T09:55:03.756Z",
   "items": [
+    {
+      "slug": "2026-04-19",
+      "title": "Keep Pushing: We Get 10 More Days to Reform Section 702",
+      "url": "https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702",
+      "source": "eff.org",
+      "selectedAt": "2026-04-19T09:54:57.706Z",
+      "publishedAt": "2026-04-19T07:05:17.000Z",
+      "hn": {
+        "id": 47822356,
+        "score": 58,
+        "comments": 4
+      }
+    },
     {
       "slug": "2026-04-18",
       "title": "Cerebras S-1",
@@ -662,19 +675,6 @@
         "id": 47172664,
         "score": 238,
         "comments": 253
-      }
-    },
-    {
-      "slug": "2026-02-26",
-      "title": "Google API keys weren't secrets, but then Gemini changed the rules",
-      "url": "https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules",
-      "source": "trufflesecurity.com",
-      "selectedAt": "2026-02-26T09:58:37.204Z",
-      "publishedAt": "2026-02-25T19:54:14.000Z",
-      "hn": {
-        "id": 47156925,
-        "score": 631,
-        "comments": 127
       }
     }
   ]
