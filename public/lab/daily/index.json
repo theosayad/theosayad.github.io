@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-19T09:55:03.756Z",
+  "updatedAt": "2026-04-20T10:55:16.726Z",
   "items": [
+    {
+      "slug": "2026-04-20",
+      "title": "Vercel April 2026 security incident",
+      "url": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+      "source": "bleepingcomputer.com",
+      "selectedAt": "2026-04-20T10:55:07.783Z",
+      "publishedAt": "2026-04-19T14:14:38.000Z",
+      "hn": {
+        "id": 47824463,
+        "score": 760,
+        "comments": 432
+      }
+    },
     {
       "slug": "2026-04-19",
       "title": "Keep Pushing: We Get 10 More Days to Reform Section 702",
@@ -662,19 +675,6 @@
         "id": 47188697,
         "score": 914,
         "comments": 303
-      }
-    },
-    {
-      "slug": "2026-02-27",
-      "title": "Smartphone market forecast to decline this year due to memory shortage",
-      "url": "https://www.idc.com/resource-center/press-releases/wwsmartphoneforecast4q25/",
-      "source": "idc.com",
-      "selectedAt": "2026-02-27T09:53:55.206Z",
-      "publishedAt": "2026-02-26T22:09:45.000Z",
-      "hn": {
-        "id": 47172664,
-        "score": 238,
-        "comments": 253
       }
     }
   ]

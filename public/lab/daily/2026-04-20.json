@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-20",
+  "generatedAt": "2026-04-20T10:55:16.725Z",
+  "article": {
+    "title": "Vercel April 2026 security incident",
+    "url": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+    "source": "bleepingcomputer.com",
+    "selectedAt": "2026-04-20T10:55:07.783Z",
+    "publishedAt": "2026-04-19T14:14:38.000Z",
+    "hn": {
+      "id": 47824463,
+      "score": 760,
+      "comments": 432
+    }
+  },
+  "takeaways": [],
+  "summary": "In April 2026, Vercel experienced a security breach originating from a compromised third-party AI tool's Google Workspace OAuth application, leading to unauthorized access to employee accounts and unencrypted environment variables. This incident exposed sensitive internal data and access keys, underscoring the risks of third-party integrations and the importance of encrypting all environment variables.",
+  "keyPoints": [
+    "Initial breach traced to Context.ai’s compromised Google Workspace OAuth app affecting a Vercel employee account.",
+    "Attackers accessed environment variables not marked as sensitive, which were stored unencrypted at rest.",
+    "Data leaked includes access keys, source code, API tokens (NPM, GitHub), and 580 employee records.",
+    "Vercel engaged incident response experts, notified law enforcement, and enhanced dashboard security features.",
+    "Hacker claimed $2 million ransom demand; ShinyHunters gang denies involvement despite hacker’s claim.",
+    "Vercel advises customers to review and rotate environment variables, emphasizing use of sensitive variable encryption."
+  ],
+  "rewrite": {
+    "title": "Vercel Data Breach Exposes Developer Secrets",
+    "body": "In April 2026, Vercel, the company behind the popular Next.js framework and a suite of developer tools, disclosed a significant security breach. The intrusion originated from the compromise of a third-party AI platform, Context.ai, which led to unauthorized access to a Vercel employee’s Google Workspace account via OAuth. This initial foothold allowed attackers to escalate privileges and access Vercel environments where environment variables not flagged as sensitive were stored without encryption.\n\nThe breach exposed a range of sensitive data, including access keys, source code, API tokens for services like NPM and GitHub, and detailed employee information comprising 580 records with names, emails, and activity logs. The attacker also shared screenshots of internal Vercel dashboards and claimed to be selling this data while demanding a $2 million ransom. Although the hacker purported affiliation with the ShinyHunters extortion group, the gang has publicly denied involvement.\n\nIn response, Vercel has engaged cybersecurity experts and law enforcement, updated its security protocols, and rolled out enhanced dashboard features to help customers better manage environment variables. The company strongly urges users to audit their environment variables, enable sensitive variable encryption, and rotate secrets to mitigate potential risks. This incident highlights the vulnerabilities introduced by third-party integrations and the critical need for comprehensive encryption practices even within trusted environments.\n\nThe breach serves as a cautionary tale for organizations relying heavily on cloud-based developer tools and third-party services, emphasizing that even robust encryption and defense-in-depth strategies can be circumvented if peripheral systems are compromised. Vercel’s swift transparency and remediation efforts aim to restore trust while underscoring the evolving threat landscape in software development ecosystems.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3702
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
