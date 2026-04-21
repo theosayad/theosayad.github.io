@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-20T10:55:16.726Z",
+  "updatedAt": "2026-04-21T10:23:40.882Z",
   "items": [
+    {
+      "slug": "2026-04-21",
+      "title": "Israeli soldiers using sexual assault to force Palestinians out of West Bank",
+      "url": "https://www.theguardian.com/world/2026/apr/21/israeli-soldiers-using-sexual-assault-to-force-palestinians-out-of-west-bank-report-says",
+      "source": "theguardian.com",
+      "selectedAt": "2026-04-21T10:23:25.473Z",
+      "publishedAt": "2026-04-21T05:15:23.000Z",
+      "hn": {
+        "id": 47844797,
+        "score": 107,
+        "comments": 42
+      }
+    },
     {
       "slug": "2026-04-20",
       "title": "Vercel April 2026 security incident",
@@ -662,19 +675,6 @@
         "id": 47195317,
         "score": 277,
         "comments": 143
-      }
-    },
-    {
-      "slug": "2026-02-28",
-      "title": "Statement on the comments from Secretary of War Pete Hegseth",
-      "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
-      "source": "anthropic.com",
-      "selectedAt": "2026-02-28T09:34:12.921Z",
-      "publishedAt": "2026-02-28T01:20:10.000Z",
-      "hn": {
-        "id": 47188697,
-        "score": 914,
-        "comments": 303
       }
     }
   ]
