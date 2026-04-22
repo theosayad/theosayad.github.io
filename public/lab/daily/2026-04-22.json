@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-22",
+  "generatedAt": "2026-04-22T10:24:55.253Z",
+  "article": {
+    "title": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
+    "url": "https://www.brex.com/crabtrap",
+    "source": "brex.com",
+    "selectedAt": "2026-04-22T10:24:41.974Z",
+    "publishedAt": "2026-04-21T15:29:16.000Z",
+    "hn": {
+      "id": 47850212,
+      "score": 113,
+      "comments": 42
+    }
+  },
+  "takeaways": [],
+  "summary": "Brex introduced CrabTrap, an HTTP proxy leveraging large language models (LLMs) to act as a dynamic gatekeeper for API requests, enhancing security by combining static rules with AI-driven judgments. This innovation aims to improve real-time decision-making in production environments, balancing automation with human oversight potential. CrabTrap’s design supports iterative rule updates, enabling adaptive threat mitigation and operational transparency.",
+  "keyPoints": [
+    "CrabTrap functions as an LLM-powered judge proxy that approves or blocks requests based on static rules or AI evaluation.",
+    "It logs decision origins, distinguishing between rule matches and LLM judgments for auditability and refinement.",
+    "Users can edit or add rules dynamically, allowing CrabTrap to intercept evolving threats or operational anomalies.",
+    "Brex offers a suite of financial products including Checking accounts via Column N.A. and Treasury services through Brex Treasury LLC, with varying FDIC insurance coverage.",
+    "Brex Mastercard and Commercial Cards are issued by multiple unaffiliated banks under Mastercard and Visa licenses, with no ATM access and subject to credit approval.",
+    "Brex payment services operate under a licensed money transmitter status (NMLS #2035354), with pricing plans starting at $0 and advanced features at $12 per user monthly."
+  ],
+  "rewrite": {
+    "title": "CrabTrap: AI-Driven Proxy Secures Production Agents",
+    "body": "Brex has developed CrabTrap, an innovative HTTP proxy that integrates large language models (LLMs) to act as a decision-making layer for API requests in production systems. By combining static rule enforcement with AI-powered judgment, CrabTrap dynamically approves or blocks incoming requests, enhancing security and operational resilience. Each decision is logged with its source—whether a predefined rule or an LLM evaluation—providing transparency and enabling continuous improvement through rule adjustments.\n\nThis approach allows organizations to adapt quickly to emerging threats or anomalies by editing or adding rules in real time, effectively creating a self-improving security mechanism. CrabTrap’s design reflects a broader trend of embedding AI into infrastructure to augment traditional controls, reducing reliance on manual oversight while maintaining auditability.\n\nBeyond CrabTrap, Brex’s financial ecosystem includes commercial checking accounts offered through Column N.A., and cash management services provided by Brex Treasury LLC, a Capital One subsidiary. While funds held in Treasury are not FDIC-insured, deposits in Vault accounts at partner banks qualify for FDIC coverage once transferred. Brex also issues corporate credit cards via multiple unaffiliated banks under Mastercard and Visa networks, subject to credit and underwriting approvals.\n\nPayment services are managed by Brex Payments LLC, a licensed money transmitter (NMLS #2035354). Pricing for Brex’s platform ranges from free basic plans to $12 per user monthly for advanced features, reflecting a scalable model catering to diverse business needs. CrabTrap exemplifies Brex’s commitment to integrating cutting-edge technology with financial services to enhance security and user control in complex production environments.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 2350
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

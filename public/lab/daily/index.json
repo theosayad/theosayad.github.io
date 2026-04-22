@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-21T10:23:40.882Z",
+  "updatedAt": "2026-04-22T10:24:55.255Z",
   "items": [
+    {
+      "slug": "2026-04-22",
+      "title": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
+      "url": "https://www.brex.com/crabtrap",
+      "source": "brex.com",
+      "selectedAt": "2026-04-22T10:24:41.974Z",
+      "publishedAt": "2026-04-21T15:29:16.000Z",
+      "hn": {
+        "id": 47850212,
+        "score": 113,
+        "comments": 42
+      }
+    },
     {
       "slug": "2026-04-21",
       "title": "Israeli soldiers using sexual assault to force Palestinians out of West Bank",
@@ -662,19 +675,6 @@
         "id": 47211476,
         "score": 88,
         "comments": 47
-      }
-    },
-    {
-      "slug": "2026-03-01",
-      "title": "OpenAI fires an employee for prediction market insider trading",
-      "url": "https://www.wired.com/story/openai-fires-employee-insider-trading-polymarket-kalshi/",
-      "source": "wired.com",
-      "selectedAt": "2026-03-01T09:38:15.242Z",
-      "publishedAt": "2026-02-28T13:46:20.000Z",
-      "hn": {
-        "id": 47195317,
-        "score": 277,
-        "comments": 143
       }
     }
   ]
