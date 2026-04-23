@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-22T10:24:55.255Z",
+  "updatedAt": "2026-04-23T10:26:29.304Z",
   "items": [
+    {
+      "slug": "2026-04-23",
+      "title": "Kernel code removals driven by LLM-created security reports",
+      "url": "https://lwn.net/Articles/1068928/",
+      "source": "lwn.net",
+      "selectedAt": "2026-04-23T10:26:19.678Z",
+      "publishedAt": "2026-04-22T11:48:07.000Z",
+      "hn": {
+        "id": 47862230,
+        "score": 115,
+        "comments": 97
+      }
+    },
     {
       "slug": "2026-04-22",
       "title": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
@@ -662,19 +675,6 @@
         "id": 47224832,
         "score": 68,
         "comments": 9
-      }
-    },
-    {
-      "slug": "2026-03-02",
-      "title": "Allegations of insider trading over prediction-market bets tied to Iran conflict",
-      "url": "https://www.morningstar.com/news/marketwatch/20260301140/allegations-of-insider-trading-over-prediction-market-bets-tied-to-iran-conflict",
-      "source": "morningstar.com",
-      "selectedAt": "2026-03-02T09:59:43.190Z",
-      "publishedAt": "2026-03-01T22:39:27.000Z",
-      "hn": {
-        "id": 47211476,
-        "score": 88,
-        "comments": 47
       }
     }
   ]
