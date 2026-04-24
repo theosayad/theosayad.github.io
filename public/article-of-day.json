@@ -1,13 +1,13 @@
 {
-  "title": "Kernel code removals driven by LLM-created security reports",
-  "url": "https://lwn.net/Articles/1068928/",
-  "source": "lwn.net",
-  "selectedAt": "2026-04-23T10:26:19.678Z",
-  "publishedAt": "2026-04-22T11:48:07.000Z",
+  "title": "'Hairdryer used to trick weather sensor' to win Polymarket bet",
+  "url": "https://www.telegraph.co.uk/business/2026/04/23/hairdryer-used-trick-weather-sensor-34000-polymarket-bet/",
+  "source": "telegraph.co.uk",
+  "selectedAt": "2026-04-24T10:40:49.078Z",
+  "publishedAt": "2026-04-23T17:01:01.000Z",
   "hn": {
-    "id": 47862230,
-    "score": 115,
-    "comments": 97
+    "id": 47878208,
+    "score": 243,
+    "comments": 236
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }

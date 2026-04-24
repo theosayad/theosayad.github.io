@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-23T10:26:29.304Z",
+  "updatedAt": "2026-04-24T10:41:00.141Z",
   "items": [
+    {
+      "slug": "2026-04-24",
+      "title": "'Hairdryer used to trick weather sensor' to win Polymarket bet",
+      "url": "https://www.telegraph.co.uk/business/2026/04/23/hairdryer-used-trick-weather-sensor-34000-polymarket-bet/",
+      "source": "telegraph.co.uk",
+      "selectedAt": "2026-04-24T10:40:49.078Z",
+      "publishedAt": "2026-04-23T17:01:01.000Z",
+      "hn": {
+        "id": 47878208,
+        "score": 243,
+        "comments": 236
+      }
+    },
     {
       "slug": "2026-04-23",
       "title": "Kernel code removals driven by LLM-created security reports",
@@ -662,19 +675,6 @@
         "id": 47235117,
         "score": 72,
         "comments": 81
-      }
-    },
-    {
-      "slug": "2026-03-03",
-      "title": "The 185-Microsecond Type Hint",
-      "url": "https://blog.sturdystatistics.com/posts/type_hint/",
-      "source": "blog.sturdystatistics.com",
-      "selectedAt": "2026-03-03T09:54:37.103Z",
-      "publishedAt": "2026-03-02T22:04:56.000Z",
-      "hn": {
-        "id": 47224832,
-        "score": 68,
-        "comments": 9
       }
     }
   ]

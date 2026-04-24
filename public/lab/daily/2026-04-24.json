@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-24",
+  "generatedAt": "2026-04-24T10:41:00.139Z",
+  "article": {
+    "title": "'Hairdryer used to trick weather sensor' to win Polymarket bet",
+    "url": "https://www.telegraph.co.uk/business/2026/04/23/hairdryer-used-trick-weather-sensor-34000-polymarket-bet/",
+    "source": "telegraph.co.uk",
+    "selectedAt": "2026-04-24T10:40:49.078Z",
+    "publishedAt": "2026-04-23T17:01:01.000Z",
+    "hn": {
+      "id": 47878208,
+      "score": 243,
+      "comments": 236
+    }
+  },
+  "takeaways": [],
+  "summary": "Temperature readings at Paris’s Charles de Gaulle airport were artificially inflated twice in April, likely manipulated to influence Polymarket bets on peak daily temperatures. This manipulation enabled some bettors to secure outsized cryptocurrency winnings by exploiting skewed weather data, prompting a police investigation and a shift to a new data source for betting markets.",
+  "keyPoints": [
+    "On April 6 and April 15, temperature sensors at Charles de Gaulle airport recorded unexpected spikes to 21°C and 22°C respectively, well above the forecasted 18°C.",
+    "Polymarket, a major crypto prediction market, ran daily bets on Paris peak temperatures using this sensor data, with odds of above 21°C under 1%, creating lucrative opportunities for bettors.",
+    "One trader reportedly won $21,000 by betting against the 18°C peak temperature on April 15, capitalizing on manipulated data.",
+    "French authorities, including the Air Transport Gendarmerie, are investigating possible tampering, with speculation that a battery-powered hairdryer was used to alter sensor readings.",
+    "Following the incident, Polymarket switched its temperature data source to the smaller Paris-Le Bourget airport to prevent further manipulation.",
+    "No evidence yet suggests that winnings have been clawed back, raising questions about the integrity of automated data-dependent betting markets."
+  ],
+  "rewrite": {
+    "title": "Weather Sensor Tampering Nets $21K Polymarket Win",
+    "body": "In April 2026, suspicious temperature spikes at Paris’s Charles de Gaulle airport weather station coincided with unusually profitable bets on Polymarket, a leading cryptocurrency prediction platform. On April 6 and 15, the airport’s sensor recorded peak temperatures of 21°C and 22°C respectively, significantly exceeding the forecasted 18°C. These anomalies occurred late in the day, just as Polymarket’s daily betting markets on Paris peak temperatures were closing.\n\nThe odds for temperatures above 21°C were below 1%, meaning bettors who anticipated such spikes stood to gain substantial returns. Indeed, one trader secured $21,000 by wagering against the expected 18°C peak on April 15. French meteorological authorities, alerted by irregular sensor data, filed a complaint and launched an investigation into potential tampering. Reports suggest a battery-powered hairdryer might have been used to artificially heat the sensor, although definitive proof remains pending.\n\nThis incident exposes vulnerabilities in automated data feeds underpinning prediction markets, where manipulated environmental data can translate into significant financial gains. In response, Polymarket has shifted its data source to the smaller Paris-Le Bourget airport to mitigate further risks. The episode raises broader concerns about the integrity and regulation of decentralized betting platforms reliant on external data streams, highlighting the need for robust verification mechanisms to prevent exploitation.\n\nWhile no action has yet been taken to reclaim the disputed winnings, the ongoing investigation underscores the challenges of policing data-driven markets and the potential for novel forms of fraud in the intersection of real-world events and digital finance.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3213
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
