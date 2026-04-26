@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-25T09:57:42.811Z",
+  "updatedAt": "2026-04-26T10:00:37.161Z",
   "items": [
+    {
+      "slug": "2026-04-26",
+      "title": "Show HN: Kloak, A secret manager that keeps K8s workload away from secrets",
+      "url": "https://getkloak.io/",
+      "source": "getkloak.io",
+      "selectedAt": "2026-04-26T10:00:31.545Z",
+      "publishedAt": "2026-04-25T19:03:01.000Z",
+      "hn": {
+        "id": 47903690,
+        "score": 50,
+        "comments": 40
+      }
+    },
     {
       "slug": "2026-04-25",
       "title": "Asia's Billionaires Are Bankrolling a Push for More Babies",
@@ -662,19 +675,6 @@
         "id": 47268391,
         "score": 194,
         "comments": 279
-      }
-    },
-    {
-      "slug": "2026-03-05",
-      "title": "Snow Investors Have Opportunity to Lead Snowflake Inc. Securities Fraud Lawsuit",
-      "url": "https://markets.ft.com/data/announce/detail",
-      "source": "markets.ft.com",
-      "selectedAt": "2026-03-05T09:55:18.530Z",
-      "publishedAt": "2026-03-04T15:05:10.000Z",
-      "hn": {
-        "id": 47248553,
-        "score": 4,
-        "comments": 0
       }
     }
   ]

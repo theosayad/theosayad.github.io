@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-26",
+  "generatedAt": "2026-04-26T10:00:37.159Z",
+  "article": {
+    "title": "Show HN: Kloak, A secret manager that keeps K8s workload away from secrets",
+    "url": "https://getkloak.io/",
+    "source": "getkloak.io",
+    "selectedAt": "2026-04-26T10:00:31.545Z",
+    "publishedAt": "2026-04-25T19:03:01.000Z",
+    "hn": {
+      "id": 47903690,
+      "score": 50,
+      "comments": 40
+    }
+  },
+  "takeaways": [],
+  "summary": "Kloak introduces a novel approach to Kubernetes secret management by intercepting HTTPS traffic at the kernel level using eBPF, replacing hashed placeholders with real secrets only at the network edge. This method prevents applications from ever accessing actual credentials, significantly reducing the risk of secret leakage even if workloads are compromised. Its lightweight, sidecar-free design offers enterprise-grade security with minimal overhead and seamless integration.",
+  "keyPoints": [
+    "Kloak uses eBPF to transparently intercept HTTPS traffic within Kubernetes, replacing hashed secret placeholders with real credentials at the network edge.",
+    "Applications never see actual secrets, preventing accidental exposure or leaks from compromised processes.",
+    "Works with standard Kubernetes Secrets by simply adding a label (getkloak.io/enabled=true); no SDK or sidecars required.",
+    "Implements fine-grained access control to restrict which secrets can be used by specific hosts.",
+    "Operates entirely in kernel space, adding negligible latency and avoiding complex CNI plugins or bulky sidecars.",
+    "Fully open source under AGPL-3.0, enabling inspection, contribution, and confidence in security."
+  ],
+  "rewrite": {
+    "title": "Kloak: Kernel-Level Secret Management for Kubernetes",
+    "body": "Kloak offers a groundbreaking solution for managing secrets in Kubernetes environments by leveraging eBPF to intercept HTTPS traffic at the kernel level. Instead of embedding real credentials within application code or environment variables, Kloak replaces hashed placeholders with actual secrets only at the network edge, ensuring that workloads never directly handle sensitive data. This approach substantially mitigates the risk of secret leakage, even if an application process is compromised.\n\nThe system integrates seamlessly with existing Kubernetes Secrets by requiring a simple label addition (getkloak.io/enabled=true), which triggers Kloak to generate unique ULID-based placeholders for each secret. Applications reference these placeholders in their configurations, and Kloak transparently substitutes them with real secrets during HTTPS requests. This design eliminates the need for SDKs, sidecars, or complex network plugins, reducing operational overhead and performance impact.\n\nKloak also enforces fine-grained access controls, allowing administrators to specify which hosts can use particular secrets, further enhancing security posture. Operating entirely in kernel space, the eBPF-powered interception introduces negligible latency, making it suitable for production workloads requiring high efficiency. As a fully open-source project under the AGPL-3.0 license, Kloak invites community scrutiny and contributions, fostering trust and continuous improvement in Kubernetes secret management.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 1532
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
