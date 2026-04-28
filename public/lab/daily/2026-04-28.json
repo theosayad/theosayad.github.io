@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-28",
+  "generatedAt": "2026-04-28T11:09:27.942Z",
+  "article": {
+    "title": "Windows 11's second-chance setup dialogs hurt IT, drain productivity",
+    "url": "https://www.theregister.com/2026/04/26/windows_second_chance_setup/",
+    "source": "theregister.com",
+    "selectedAt": "2026-04-28T11:09:16.867Z",
+    "publishedAt": "2026-04-27T12:55:39.000Z",
+    "hn": {
+      "id": 47920973,
+      "score": 104,
+      "comments": 71
+    }
+  },
+  "takeaways": [],
+  "summary": "Microsoft’s Windows 11 has introduced a recurring post-setup experience called SCOOBE (Second Chance Out of Box Experience) that prompts users with repeated setup dialogs months or years after initial installation. This intrusive process disrupts productivity, confuses employees, and generates unnecessary IT support tickets, while aggressively promoting Microsoft subscription services like Xbox Game Pass and Office 365.",
+  "keyPoints": [
+    "SCOOBE can appear multiple times during a PC’s lifecycle, often triggered by Windows updates, even long after initial setup.",
+    "The dialogs push Microsoft’s recommended browser settings, phone linking, Office subscriptions, and Xbox Game Pass ($14.99/month in the US).",
+    "Organizations report increased helpdesk tickets due to user confusion and perceived system errors caused by SCOOBE.",
+    "Users risk unintentionally subscribing to services or changing corporate-approved settings, complicating IT management.",
+    "Disabling SCOOBE requires Group Policy changes and task scheduler edits, but Microsoft may circumvent these workarounds.",
+    "Smaller businesses suffer more from productivity losses as each interruption directly impacts their operations."
+  ],
+  "rewrite": {
+    "title": "Windows 11’s Recurring Setup Hurts IT and Productivity",
+    "body": "Windows 11’s Second Chance Out of Box Experience (SCOOBE) is a persistent setup prompt that can appear months or even years after a PC’s initial configuration, often following updates. This intrusive process forces users to navigate multiple dialogs that push Microsoft’s subscription services, including Xbox Game Pass at $14.99 per month and Office 365, while also encouraging changes to browser and phone integration settings. The lack of clear opt-out options and the timing of these prompts cause confusion and frustration among users.\n\nFor organizations, SCOOBE is more than a nuisance; it generates a significant volume of IT support tickets as employees mistake the dialogs for system errors or incomplete setups. This leads to lost productivity and increased operational costs, especially for smaller companies where every minute counts. Additionally, the risk of users inadvertently subscribing to unwanted services or overriding corporate IT policies complicates device management and compliance.\n\nIT administrators can mitigate SCOOBE’s impact by disabling consumer experiences through Group Policy Editor and removing related scheduled tasks, but these measures may not be permanent as Microsoft could update the system to bypass such restrictions. The situation highlights a growing tension between Microsoft’s push for subscription revenue and the needs of enterprise customers who have already paid for Windows licenses.\n\nOverall, SCOOBE exemplifies a broader trend of software vendors embedding monetization tactics into core workflows, undermining user trust and productivity. Enterprises must weigh the cost of tolerating these interruptions against the complexity of switching platforms, while advocating for more respectful user experiences from dominant OS providers.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 7169
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
