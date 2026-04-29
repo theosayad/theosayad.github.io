@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-28T11:09:27.943Z",
+  "updatedAt": "2026-04-29T11:01:33.714Z",
   "items": [
+    {
+      "slug": "2026-04-29",
+      "title": "Your Terminal Is Burning Battery Like It's Mining Bitcoin",
+      "url": "https://www.frr.dev/posts/terminal-gpu-battery-macbook-ghostty-iterm2/",
+      "source": "frr.dev",
+      "selectedAt": "2026-04-29T11:01:20.825Z",
+      "publishedAt": "2026-04-28T22:07:25.000Z",
+      "hn": {
+        "id": 47941517,
+        "score": 49,
+        "comments": 31
+      }
+    },
     {
       "slug": "2026-04-28",
       "title": "Windows 11's second-chance setup dialogs hurt IT, drain productivity",
@@ -662,19 +675,6 @@
         "id": 47302022,
         "score": 207,
         "comments": 212
-      }
-    },
-    {
-      "slug": "2026-03-08",
-      "title": "Effort to prevent government officials from engaging in prediction markets",
-      "url": "https://www.merkley.senate.gov/merkley-klobuchar-launch-new-effort-to-ban-federal-elected-officials-profiting-from-prediction-markets/",
-      "source": "merkley.senate.gov",
-      "selectedAt": "2026-03-08T09:37:59.191Z",
-      "publishedAt": "2026-03-07T20:55:48.000Z",
-      "hn": {
-        "id": 47291406,
-        "score": 310,
-        "comments": 114
       }
     }
   ]

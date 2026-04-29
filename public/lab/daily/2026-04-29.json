@@ -1,0 +1,42 @@
+{
+  "slug": "2026-04-29",
+  "generatedAt": "2026-04-29T11:01:33.713Z",
+  "article": {
+    "title": "Your Terminal Is Burning Battery Like It's Mining Bitcoin",
+    "url": "https://www.frr.dev/posts/terminal-gpu-battery-macbook-ghostty-iterm2/",
+    "source": "frr.dev",
+    "selectedAt": "2026-04-29T11:01:20.825Z",
+    "publishedAt": "2026-04-28T22:07:25.000Z",
+    "hn": {
+      "id": 47941517,
+      "score": 49,
+      "comments": 31
+    }
+  },
+  "takeaways": [],
+  "summary": "Modern GPU-accelerated terminal emulators like Ghostty significantly drain MacBook Air M3 battery life by leveraging GPU rendering for simple text display tasks, consuming far more energy than traditional CPU-based terminals or even video calls. This inefficiency highlights a trade-off between performance features and power consumption, with implications for users working on battery power.",
+  "keyPoints": [
+    "Ghostty terminal consumed an accumulated energy score of 3,600 over 12 hours on a MacBook Air M3, vastly exceeding Brave Browser (125) and Zoom video calls (99).",
+    "Terminal emulators like Ghostty use GPU acceleration to render text and animations, triggering continuous GPU activity and preventing macOS from entering energy-saving App Nap mode.",
+    "Traditional terminals (e.g., macOS Terminal.app) rely on CPU rendering and consume far less power, despite lacking modern features like ligatures or GPU acceleration.",
+    "iTerm2 offers a compromise by allowing GPU rendering to be disabled and automatically switching to energy-efficient profiles when on battery, unlike Ghostty which lacks such options.",
+    "The increased power consumption stems from constant rendering of dynamic terminal output (spinners, logs) that keeps GPU pipelines active unnecessarily.",
+    "This phenomenon reflects a broader question about software optimization priorities, where marginal performance gains come at disproportionate energy costs."
+  ],
+  "rewrite": {
+    "title": "GPU-Powered Terminals Drain MacBook Battery Fast",
+    "body": "Despite their vintage origins as simple text display tools, modern terminal emulators have evolved into GPU-accelerated applications that can severely impact battery life. On a MacBook Air M3, the Ghostty terminal consumed an energy score of 3,600 over 12 hours—far surpassing the consumption of resource-intensive apps like Brave Browser and Zoom video calls. This is largely due to continuous GPU rendering triggered by frequent terminal output such as spinners and logs, which keeps the GPU pipeline active and prevents macOS from entering low-power App Nap mode.\n\nTraditional terminal apps like the macOS default Terminal rely on CPU rendering and thus consume significantly less power, despite lacking modern visual enhancements. iTerm2 strikes a balance by allowing users to disable GPU acceleration and automatically switch to energy-efficient profiles when running on battery, an option Ghostty currently does not offer. This design choice means Ghostty prioritizes performance and smooth rendering over energy efficiency, making it less suitable for users who need to conserve battery life.\n\nThe situation underscores a broader issue in software design: the pursuit of incremental performance improvements—such as faster text rendering or smoother animations—can come at the cost of substantial increases in energy consumption. In 2026, displaying simple terminal text can require more power than an intercontinental video call, raising questions about the true value of these optimizations for everyday users. For those reliant on battery power, opting for CPU-based terminals or configurable GPU acceleration may be a more practical choice.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3408
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
