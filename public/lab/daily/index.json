@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-29T11:01:33.714Z",
+  "updatedAt": "2026-04-30T11:00:15.622Z",
   "items": [
+    {
+      "slug": "2026-04-30",
+      "title": "The lost boys, thrown out of US sect so older men can marry more wives (2005)",
+      "url": "https://www.theguardian.com/world/2005/jun/14/usa.julianborger",
+      "source": "theguardian.com",
+      "selectedAt": "2026-04-30T11:00:03.519Z",
+      "publishedAt": "2026-04-29T14:32:18.000Z",
+      "hn": {
+        "id": 47948995,
+        "score": 20,
+        "comments": 4
+      }
+    },
     {
       "slug": "2026-04-29",
       "title": "Your Terminal Is Burning Battery Like It's Mining Bitcoin",
@@ -662,19 +675,6 @@
         "id": 47310092,
         "score": 195,
         "comments": 190
-      }
-    },
-    {
-      "slug": "2026-03-09",
-      "title": "Most of the US economy is in a recession",
-      "url": "https://www.businessinsider.com/recession-economy-us-tech-wall-street-strategist-investing-stocks-market-2026-3",
-      "source": "businessinsider.com",
-      "selectedAt": "2026-03-09T10:01:33.556Z",
-      "publishedAt": "2026-03-08T22:01:32.000Z",
-      "hn": {
-        "id": 47302022,
-        "score": 207,
-        "comments": 212
       }
     }
   ]
