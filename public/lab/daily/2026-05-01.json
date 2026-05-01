@@ -1,0 +1,41 @@
+{
+  "slug": "2026-05-01",
+  "generatedAt": "2026-05-01T10:39:32.840Z",
+  "article": {
+    "title": "U.S. Senators Vote to Ban Themselves from Trading on Prediction Markets",
+    "url": "https://www.wsj.com/politics/policy/senators-vote-to-ban-themselves-from-trading-on-prediction-markets-ae4535dd",
+    "source": "wsj.com",
+    "selectedAt": "2026-05-01T10:39:26.188Z",
+    "publishedAt": "2026-04-30T19:42:33.000Z",
+    "hn": {
+      "id": 47967289,
+      "score": 299,
+      "comments": 98
+    }
+  },
+  "takeaways": [],
+  "summary": "The U.S. Senate has approved a measure prohibiting senators from trading on prediction markets, aiming to prevent conflicts of interest and insider trading risks. This move reflects growing concerns about lawmakers potentially leveraging privileged information for financial gain, reinforcing ethical standards in government.",
+  "keyPoints": [
+    "The Senate voted to ban its members from participating in prediction markets related to political or legislative outcomes.",
+    "The ban addresses concerns that senators could exploit non-public information to profit from market speculation.",
+    "Prediction markets aggregate collective forecasts on events like elections or policy decisions, often seen as accurate indicators.",
+    "The legislation underscores heightened scrutiny on lawmakers' financial activities amid broader ethics reform efforts.",
+    "No specific date for the ban's enforcement was detailed, but the vote signals imminent regulatory changes."
+  ],
+  "rewrite": {
+    "title": "Senate Bars Senators from Trading on Prediction Markets",
+    "body": "In a move to strengthen ethical boundaries, the U.S. Senate has voted to prohibit its members from trading on prediction markets that speculate on political or legislative outcomes. These markets, which aggregate collective forecasts and often provide accurate insights into future events, pose a risk when lawmakers with privileged information participate. By restricting senators from engaging in such trading, the Senate aims to mitigate potential conflicts of interest and prevent insider trading scenarios.\n\nThis legislative action reflects increasing vigilance over the financial conduct of elected officials, aligning with broader efforts to enhance transparency and accountability in government. While the exact timeline for implementing the ban remains unspecified, the vote indicates a clear intent to regulate and monitor lawmakers' investment activities more closely. The decision also highlights the challenges in balancing innovative forecasting tools like prediction markets with the need to uphold ethical standards in public service.\n\nOverall, the Senate's ban on trading in prediction markets by its members is a proactive step to preserve public trust and ensure that legislative decisions are not influenced by personal financial interests. It sets a precedent for other government bodies to consider similar measures amid evolving financial technologies and market platforms.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

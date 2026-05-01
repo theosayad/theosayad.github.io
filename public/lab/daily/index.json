@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-04-30T11:00:15.622Z",
+  "updatedAt": "2026-05-01T10:39:32.841Z",
   "items": [
+    {
+      "slug": "2026-05-01",
+      "title": "U.S. Senators Vote to Ban Themselves from Trading on Prediction Markets",
+      "url": "https://www.wsj.com/politics/policy/senators-vote-to-ban-themselves-from-trading-on-prediction-markets-ae4535dd",
+      "source": "wsj.com",
+      "selectedAt": "2026-05-01T10:39:26.188Z",
+      "publishedAt": "2026-04-30T19:42:33.000Z",
+      "hn": {
+        "id": 47967289,
+        "score": 299,
+        "comments": 98
+      }
+    },
     {
       "slug": "2026-04-30",
       "title": "The lost boys, thrown out of US sect so older men can marry more wives (2005)",
@@ -662,19 +675,6 @@
         "id": 47329238,
         "score": 40,
         "comments": 36
-      }
-    },
-    {
-      "slug": "2026-03-10",
-      "title": "New farm bill would condemn pigs to a lifetime in gestation crates",
-      "url": "https://twitter.com/Lewis_Bollard/status/2030985704902099335",
-      "source": "twitter.com",
-      "selectedAt": "2026-03-10T09:55:30.946Z",
-      "publishedAt": "2026-03-09T15:06:37.000Z",
-      "hn": {
-        "id": 47310092,
-        "score": 195,
-        "comments": 190
       }
     }
   ]
