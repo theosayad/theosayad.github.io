@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-01T10:39:32.841Z",
+  "updatedAt": "2026-05-02T10:04:57.104Z",
   "items": [
+    {
+      "slug": "2026-05-02",
+      "title": "Show HN: Stop playing my matchstick puzzles, start building your own in seconds",
+      "url": "https://mathstick.github.io",
+      "source": "mathstick.github.io",
+      "selectedAt": "2026-05-02T10:04:52.214Z",
+      "publishedAt": "2026-05-02T05:04:39.000Z",
+      "hn": {
+        "id": 47983485,
+        "score": 12,
+        "comments": 12
+      }
+    },
     {
       "slug": "2026-05-01",
       "title": "U.S. Senators Vote to Ban Themselves from Trading on Prediction Markets",
@@ -662,19 +675,6 @@
         "id": 47335572,
         "score": 596,
         "comments": 259
-      }
-    },
-    {
-      "slug": "2026-03-11",
-      "title": "America's never had such high national debt heading into an economic shock",
-      "url": "https://fortune.com/2026/03/10/national-debt-100-percent-of-gdp-crisis-break-glass-plan-crfb-report/",
-      "source": "fortune.com",
-      "selectedAt": "2026-03-11T09:54:00.314Z",
-      "publishedAt": "2026-03-10T21:52:54.000Z",
-      "hn": {
-        "id": 47329238,
-        "score": 40,
-        "comments": 36
       }
     }
   ]

@@ -1,0 +1,41 @@
+{
+  "slug": "2026-05-02",
+  "generatedAt": "2026-05-02T10:04:57.102Z",
+  "article": {
+    "title": "Show HN: Stop playing my matchstick puzzles, start building your own in seconds",
+    "url": "https://mathstick.github.io",
+    "source": "mathstick.github.io",
+    "selectedAt": "2026-05-02T10:04:52.214Z",
+    "publishedAt": "2026-05-02T05:04:39.000Z",
+    "hn": {
+      "id": 47983485,
+      "score": 12,
+      "comments": 12
+    }
+  },
+  "takeaways": [],
+  "summary": "A new web tool enables users to create and solve matchstick puzzles quickly, enhancing engagement beyond merely playing existing challenges. By storing progress locally, it prioritizes user privacy but risks data loss if browser data is cleared. This innovation fosters creativity and puzzle design accessibility within seconds.",
+  "keyPoints": [
+    "The platform allows instant creation of custom matchstick puzzles, shifting focus from playing to building.",
+    "User progress is saved only on the local device, with no cloud backup, risking loss if browser data is cleared or in private browsing modes.",
+    "The tool is accessible via https://mathstick.github.io, targeting puzzle enthusiasts and creators.",
+    "This approach encourages deeper interaction by enabling users to design their own puzzles rather than just solving pre-made ones.",
+    "Local storage design emphasizes privacy but may impact user experience due to potential progress loss."
+  ],
+  "rewrite": {
+    "title": "Build Your Own Matchstick Puzzles Instantly",
+    "body": "A new web-based application at https://mathstick.github.io revolutionizes the way matchstick puzzles are experienced by allowing users to create their own puzzles within seconds. Unlike traditional platforms that focus solely on solving pre-existing challenges, this tool empowers users to become creators, fostering a more engaging and personalized puzzle-solving environment.\n\nProgress in the application is stored exclusively on the user's device, ensuring privacy by avoiding cloud storage. However, this design choice means that if users clear their browser data or use incognito or guest modes, their puzzle progress may be lost. While this trade-off prioritizes data security, it introduces a risk of inadvertent loss that users should be aware of.\n\nBy lowering the barrier to puzzle creation, the platform encourages a broader range of users to experiment with matchstick puzzles, potentially expanding the community of enthusiasts and creators. This shift from passive playing to active building could lead to richer puzzle diversity and innovation within the genre. Overall, the tool represents a significant step in interactive puzzle design, balancing user autonomy with privacy considerations.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 147
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
