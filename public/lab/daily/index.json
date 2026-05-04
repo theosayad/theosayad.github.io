@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-03T10:12:28.553Z",
+  "updatedAt": "2026-05-04T11:10:03.113Z",
   "items": [
+    {
+      "slug": "2026-05-04",
+      "title": "New statue in London, attributed to Banksy, of a suited man, blinded by a flag",
+      "url": "https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/",
+      "source": "smithsonianmag.com",
+      "selectedAt": "2026-05-04T11:09:54.990Z",
+      "publishedAt": "2026-05-03T18:54:28.000Z",
+      "hn": {
+        "id": 48000152,
+        "score": 419,
+        "comments": 381
+      }
+    },
     {
       "slug": "2026-05-03",
       "title": "Investors pile into clean energy as Iran war drives push for energy security",
@@ -662,19 +675,6 @@
         "id": 47370829,
         "score": 100,
         "comments": 20
-      }
-    },
-    {
-      "slug": "2026-03-13",
-      "title": "ATMs didn’t kill bank teller jobs, but the iPhone did",
-      "url": "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller",
-      "source": "davidoks.blog",
-      "selectedAt": "2026-03-13T09:51:26.795Z",
-      "publishedAt": "2026-03-12T14:48:57.000Z",
-      "hn": {
-        "id": 47351371,
-        "score": 420,
-        "comments": 441
       }
     }
   ]
