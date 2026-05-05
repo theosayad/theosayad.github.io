@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-04T11:10:03.113Z",
+  "updatedAt": "2026-05-05T10:51:15.059Z",
   "items": [
+    {
+      "slug": "2026-05-05",
+      "title": "Does Employment Slow Cognitive Decline? Evidence from Labor Market Shocks",
+      "url": "https://www.nber.org/papers/w35117",
+      "source": "nber.org",
+      "selectedAt": "2026-05-05T10:50:57.631Z",
+      "publishedAt": "2026-05-04T15:32:46.000Z",
+      "hn": {
+        "id": 48009983,
+        "score": 294,
+        "comments": 276
+      }
+    },
     {
       "slug": "2026-05-04",
       "title": "New statue in London, attributed to Banksy, of a suited man, blinded by a flag",
@@ -662,19 +675,6 @@
         "id": 47380295,
         "score": 171,
         "comments": 74
-      }
-    },
-    {
-      "slug": "2026-03-14",
-      "title": "Google Fiber will be sold to private equity firm and merge with cable company",
-      "url": "https://arstechnica.com/tech-policy/2026/03/google-fiber-will-be-sold-to-private-equity-firm-and-merge-with-cable-company/",
-      "source": "arstechnica.com",
-      "selectedAt": "2026-03-14T09:42:01.852Z",
-      "publishedAt": "2026-03-13T22:28:34.000Z",
-      "hn": {
-        "id": 47370829,
-        "score": 100,
-        "comments": 20
       }
     }
   ]
