@@ -1,0 +1,42 @@
+{
+  "slug": "2026-05-06",
+  "generatedAt": "2026-05-06T11:10:58.340Z",
+  "article": {
+    "title": "Two millionth electric car registered as market rebounds from tax changes",
+    "url": "https://www.smmt.co.uk/two-millionth-electric-car-registered-as-market-rebounds-strongly-from-tax-changes/",
+    "source": "smmt.co.uk",
+    "selectedAt": "2026-05-06T11:10:47.608Z",
+    "publishedAt": "2026-05-05T16:03:17.000Z",
+    "hn": {
+      "id": 48024364,
+      "score": 162,
+      "comments": 272
+    }
+  },
+  "takeaways": [],
+  "summary": "The UK new car market rebounded strongly in April 2024, driven by a 24% increase in registrations following last year's tax-driven pull-forward effect. Battery electric vehicles (BEVs) reached a milestone with the two millionth registration, yet their market share remains below government targets amid rising costs and geopolitical uncertainties.",
+  "keyPoints": [
+    "UK new car registrations rose 24.0% in April 2024 to 149,247 units, the highest April volume since 2019.",
+    "BEV registrations surged 59.1% year-on-year, hitting 26.2% market share in April and surpassing two million cumulative registrations.",
+    "Electrified vehicles overall accounted for 53.2% of April sales, with plug-in hybrids up 46.4% and hybrids up 18.8%.",
+    "Despite growth, BEVs represent 23.1% of year-to-date sales, below the 33% Zero Emission Vehicle Mandate target.",
+    "Industry forecasts for 2026 lower BEV share to 26.8% amid high energy, production, and charging costs, plus inflationary pressures.",
+    "Calls for urgent policy review to align transition plans with market realities to protect UK competitiveness and consumer choice."
+  ],
+  "rewrite": {
+    "title": "UK Electric Car Market Hits Two Million Amid Rebound",
+    "body": "In April 2024, the UK new car market experienced a robust recovery, with registrations climbing 24% to 149,247 units—the strongest April performance since 2019. This rebound follows a weak April 2023, when buyers accelerated purchases to March to avoid new vehicle tax hikes, including the Vehicle Excise Duty and the Expensive Car Supplement applied to battery electric vehicles (BEVs).\n\nBattery electric cars marked a significant milestone with the two millionth unit registered, reflecting a 59.1% year-on-year increase. BEVs accounted for 26.2% of April registrations, contributing to electrified vehicles making up over half (53.2%) of the market. Plug-in hybrids and hybrids also saw notable growth, with market shares of 13.8% and 13.2%, respectively. Despite this momentum, BEVs represent only 23.1% of the year-to-date market, falling short of the 33% target mandated by the UK government’s Zero Emission Vehicle policy.\n\nLooking ahead, industry forecasts have been revised downward for BEV adoption, projecting a 26.8% share in 2026, compared to an earlier estimate of 28.5%. Challenges such as elevated energy prices, production costs, and charging infrastructure expenses, compounded by inflation and geopolitical tensions like the Iran conflict, are tempering demand. The 2027 outlook anticipates BEVs will comprise 32% of new registrations, still trailing the mandated goal by approximately six percentage points.\n\nThese developments underscore the critical impact of fiscal policy on market dynamics and highlight the urgent need for the UK government to reassess its electric vehicle transition strategy. Without adjustments, rising compliance costs risk constraining consumer choice, slowing decarbonization efforts, and diminishing the UK’s competitiveness as both a vehicle market and manufacturing hub.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4128
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

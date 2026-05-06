@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-05T10:51:15.059Z",
+  "updatedAt": "2026-05-06T11:10:58.342Z",
   "items": [
+    {
+      "slug": "2026-05-06",
+      "title": "Two millionth electric car registered as market rebounds from tax changes",
+      "url": "https://www.smmt.co.uk/two-millionth-electric-car-registered-as-market-rebounds-strongly-from-tax-changes/",
+      "source": "smmt.co.uk",
+      "selectedAt": "2026-05-06T11:10:47.608Z",
+      "publishedAt": "2026-05-05T16:03:17.000Z",
+      "hn": {
+        "id": 48024364,
+        "score": 162,
+        "comments": 272
+      }
+    },
     {
       "slug": "2026-05-05",
       "title": "Does Employment Slow Cognitive Decline? Evidence from Labor Market Shocks",
@@ -662,19 +675,6 @@
         "id": 47394264,
         "score": 80,
         "comments": 44
-      }
-    },
-    {
-      "slug": "2026-03-15",
-      "title": "Marketing for Founders",
-      "url": "https://github.com/EdoStra/Marketing-for-Founders",
-      "source": "github.com",
-      "selectedAt": "2026-03-15T09:43:41.398Z",
-      "publishedAt": "2026-03-14T19:35:40.000Z",
-      "hn": {
-        "id": 47380295,
-        "score": 171,
-        "comments": 74
       }
     }
   ]
