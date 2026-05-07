@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-06T11:10:58.342Z",
+  "updatedAt": "2026-05-07T11:13:29.583Z",
   "items": [
+    {
+      "slug": "2026-05-07",
+      "title": "BYD overtakes Tesla and Kia as the best-selling EV brand in key overseas markets",
+      "url": "https://electrek.co/2026/05/05/byd-overtakes-tesla-kia-best-selling-ev-brand-key-overseas-markets/",
+      "source": "electrek.co",
+      "selectedAt": "2026-05-07T11:13:14.194Z",
+      "publishedAt": "2026-05-06T18:25:06.000Z",
+      "hn": {
+        "id": 48039739,
+        "score": 244,
+        "comments": 412
+      }
+    },
     {
       "slug": "2026-05-06",
       "title": "Two millionth electric car registered as market rebounds from tax changes",
@@ -662,19 +675,6 @@
         "id": 47406779,
         "score": 579,
         "comments": 313
-      }
-    },
-    {
-      "slug": "2026-03-16",
-      "title": "Federal Right to Privacy Act – Draft legislation",
-      "url": "https://righttoprivacyact.github.io",
-      "source": "righttoprivacyact.github.io",
-      "selectedAt": "2026-03-16T10:10:56.138Z",
-      "publishedAt": "2026-03-16T01:58:56.000Z",
-      "hn": {
-        "id": 47394264,
-        "score": 80,
-        "comments": 44
       }
     }
   ]
