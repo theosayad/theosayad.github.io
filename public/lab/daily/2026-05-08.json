@@ -1,0 +1,42 @@
+{
+  "slug": "2026-05-08",
+  "generatedAt": "2026-05-08T10:44:51.864Z",
+  "article": {
+    "title": "U.S. Treasury will have to borrow $2T this year just to continue functioning",
+    "url": "https://fortune.com/2026/05/07/treasury-expected-to-borrow-2-trillion-omb-cbo-estimates/",
+    "source": "fortune.com",
+    "selectedAt": "2026-05-08T10:44:41.534Z",
+    "publishedAt": "2026-05-07T15:29:28.000Z",
+    "hn": {
+      "id": 48050616,
+      "score": 20,
+      "comments": 7
+    }
+  },
+  "takeaways": [],
+  "summary": "The U.S. Treasury is projected to borrow over $2 trillion in the current fiscal year to cover deficits, marking a significant increase in federal borrowing that raises concerns about fiscal sustainability. With national debt nearing $39 trillion and interest payments rivaling major government spending categories, the growing deficit poses risks for economic stability and future investment priorities.",
+  "keyPoints": [
+    "OMB projects a $2.06 trillion deficit for FY2026, exceeding the CBO’s $1.85 trillion estimate.",
+    "The fiscal year ends September 30; FY2027 deficit is forecasted at $2.17 trillion.",
+    "Monthly borrowing averages $166 billion in FY2026, rising to $181 billion monthly in FY2027.",
+    "U.S. national debt stands at $38.91 trillion, approaching $39 trillion.",
+    "Interest payments hit nearly $530 billion in six months, exceeding combined education and defense spending.",
+    "Deficits now exceed 6% of GDP, double the bipartisan-supported 3% target, implying a need for $10 trillion deficit reduction over the next decade."
+  ],
+  "rewrite": {
+    "title": "U.S. Faces $2 Trillion Annual Borrowing to Cover Deficits",
+    "body": "The U.S. Treasury is on track to borrow more than $2 trillion during the current fiscal year, according to the latest Office of Management and Budget (OMB) projections. This figure surpasses Congressional Budget Office (CBO) estimates and signals a deepening fiscal imbalance as the government continues to finance persistent deficits. The fiscal year ending September 30 is expected to close with a deficit of $2.06 trillion, while the following year’s deficit could rise further to $2.17 trillion.\n\nMonthly borrowing has averaged over $166 billion and is set to increase to approximately $181 billion starting October. This relentless debt accumulation has pushed the national debt close to the $39 trillion threshold, currently standing at $38.91 trillion. The cost of servicing this debt is substantial, with interest payments totaling nearly $530 billion over the first half of the fiscal year—more than the combined federal spending on education and defense.\n\nFiscal experts warn that such large deficits, now exceeding 6% of GDP, are unsustainable and elevate the risk of a fiscal crisis. The bipartisan consensus advocating for a deficit ceiling of 3% of GDP would require significant budgetary adjustments, including roughly $10 trillion in deficit reduction over the next decade to restore fiscal balance. Failure to address these deficits could lead to higher interest rates on mortgages and business loans, divert resources from investments critical to national competitiveness, and undermine trust in U.S. financial leadership.\n\nThe current trajectory underscores the urgency for policymakers to implement measures to curb borrowing and stabilize the nation’s fiscal outlook amid growing economic and geopolitical challenges.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4537
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

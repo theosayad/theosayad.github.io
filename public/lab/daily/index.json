@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-07T11:13:29.583Z",
+  "updatedAt": "2026-05-08T10:44:51.866Z",
   "items": [
+    {
+      "slug": "2026-05-08",
+      "title": "U.S. Treasury will have to borrow $2T this year just to continue functioning",
+      "url": "https://fortune.com/2026/05/07/treasury-expected-to-borrow-2-trillion-omb-cbo-estimates/",
+      "source": "fortune.com",
+      "selectedAt": "2026-05-08T10:44:41.534Z",
+      "publishedAt": "2026-05-07T15:29:28.000Z",
+      "hn": {
+        "id": 48050616,
+        "score": 20,
+        "comments": 7
+      }
+    },
     {
       "slug": "2026-05-07",
       "title": "BYD overtakes Tesla and Kia as the best-selling EV brand in key overseas markets",
@@ -662,19 +675,6 @@
         "id": 47414440,
         "score": 144,
         "comments": 68
-      }
-    },
-    {
-      "slug": "2026-03-17",
-      "title": "US SEC preparing to scrap quarterly reporting requirement",
-      "url": "https://www.reuters.com/business/finance/us-sec-preparing-eliminate-quarterly-reporting-requirement-wsj-says-2026-03-16/",
-      "source": "reuters.com",
-      "selectedAt": "2026-03-17T10:00:48.597Z",
-      "publishedAt": "2026-03-17T00:02:35.000Z",
-      "hn": {
-        "id": 47406779,
-        "score": 579,
-        "comments": 313
       }
     }
   ]
