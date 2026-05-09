@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-08T10:44:51.866Z",
+  "updatedAt": "2026-05-09T10:13:28.284Z",
   "items": [
+    {
+      "slug": "2026-05-09",
+      "title": "Korea Surpasses Canada as Seventh-Largest Stock Market",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-07/korea-surpasses-canada-as-world-s-seventh-largest-stock-market",
+      "source": "bloomberg.com",
+      "selectedAt": "2026-05-09T10:13:22.213Z",
+      "publishedAt": "2026-05-08T18:36:36.000Z",
+      "hn": {
+        "id": 48067018,
+        "score": 22,
+        "comments": 3
+      }
+    },
     {
       "slug": "2026-05-08",
       "title": "U.S. Treasury will have to borrow $2T this year just to continue functioning",
@@ -662,19 +675,6 @@
         "id": 47426057,
         "score": 460,
         "comments": 211
-      }
-    },
-    {
-      "slug": "2026-03-18",
-      "title": "'The Secret Agent': Exploring a Vibrant, yet Violent Brazil (2025)",
-      "url": "https://theasc.com/articles/the-secret-agent-cinematography",
-      "source": "theasc.com",
-      "selectedAt": "2026-03-18T10:02:54.670Z",
-      "publishedAt": "2026-03-17T15:56:09.000Z",
-      "hn": {
-        "id": 47414440,
-        "score": 144,
-        "comments": 68
       }
     }
   ]
