@@ -1,0 +1,42 @@
+{
+  "slug": "2026-05-10",
+  "generatedAt": "2026-05-10T10:20:26.658Z",
+  "article": {
+    "title": "\"Dirty Frag\" (CVE-2026-43284): The Second Linux Root Exploit in Eight Days",
+    "url": "https://www.copahost.com/blog/dirty-frag-cve-2026-43284/",
+    "source": "copahost.com",
+    "selectedAt": "2026-05-10T10:20:20.450Z",
+    "publishedAt": "2026-05-09T18:59:49.000Z",
+    "hn": {
+      "id": 48077314,
+      "score": 31,
+      "comments": 11
+    }
+  },
+  "takeaways": [],
+  "summary": "A critical Linux kernel vulnerability dubbed Dirty Frag (CVE-2026-43284) was disclosed on May 7, 2026, enabling local attackers with code execution to escalate privileges to root. This exploit, the second major Linux root vulnerability within eight days following Copy Fail (CVE-2026-31431), poses an immediate risk to servers running mainstream kernels since 2017 if unpatched and un-rebooted.",
+  "keyPoints": [
+    "Dirty Frag combines two kernel flaws (CVE-2026-43284 and CVE-2026-43500) to achieve reliable root escalation; the first is patched, the second still being rolled out.",
+    "The vulnerability stems from improper handling of shared memory pages in IPsec/ESP packet processing, allowing controlled kernel page cache writes.",
+    "Unlike Copy Fail’s race condition, Dirty Frag is a deterministic logic bug, making exploitation highly reliable with minimal risk of kernel crashes.",
+    "All major Linux distributions since 2017, including AlmaLinux 8-10, are affected; unpatched servers remain vulnerable until rebooted after patching.",
+    "Attackers gaining local code execution via common vectors (e.g., compromised web apps, weak SSH) can immediately escalate to root and disable defenses.",
+    "Mitigation includes kernel updates and reboot; temporary module unloading is possible but may disrupt IPsec VPNs or Kubernetes network policies."
+  ],
+  "rewrite": {
+    "title": "Dirty Frag: Second Critical Linux Root Exploit in Days",
+    "body": "On May 7, 2026, security researchers disclosed Dirty Frag (CVE-2026-43284), a severe Linux kernel vulnerability that allows local attackers with code execution to escalate privileges to root. This exploit emerged just eight days after the Copy Fail vulnerability (CVE-2026-31431), marking an unprecedented rapid succession of critical Linux kernel flaws. Dirty Frag exploits a deterministic logic error in the kernel’s IPsec/ESP packet handling, specifically how shared memory pages are managed during network packet processing. This flaw enables attackers to perform controlled writes into the kernel page cache, bypassing protections and gaining root access with high reliability and minimal risk of crashing the system.\n\nThe exploit is a chained attack involving two related vulnerabilities: CVE-2026-43284, which is patched, and CVE-2026-43500, which remains in the process of being distributed across Linux distributions. Together, they cover each other’s weaknesses, enabling immediate root escalation on most mainstream Linux kernels built since 2017, including all supported AlmaLinux releases from versions 8 through 10. Servers remain vulnerable if they have not been patched and rebooted since May 8, 2026.\n\nThis vulnerability is particularly dangerous in web hosting environments where attackers often gain initial access through compromised plugins, weak SSH credentials, or container escapes. Once inside, Dirty Frag allows them to escalate privileges instantly, disable security tools, manipulate logs, and persist on the system. While temporary mitigation by unloading vulnerable kernel modules is possible, it risks breaking active IPsec VPNs or Kubernetes network policies, making timely kernel patching and reboot the recommended approach.\n\nThe disclosure process was complicated by a premature leak of exploit details before all patches were widely available, echoing the problematic rollout of Copy Fail. This underscores the shrinking window between vulnerability disclosure and active exploitation, emphasizing the need for administrators to prioritize Linux kernel updates with the same urgency as application security patches to prevent rapid compromise.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5569
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

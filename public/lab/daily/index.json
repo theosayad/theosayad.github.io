@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-09T10:13:28.284Z",
+  "updatedAt": "2026-05-10T10:20:26.659Z",
   "items": [
+    {
+      "slug": "2026-05-10",
+      "title": "\"Dirty Frag\" (CVE-2026-43284): The Second Linux Root Exploit in Eight Days",
+      "url": "https://www.copahost.com/blog/dirty-frag-cve-2026-43284/",
+      "source": "copahost.com",
+      "selectedAt": "2026-05-10T10:20:20.450Z",
+      "publishedAt": "2026-05-09T18:59:49.000Z",
+      "hn": {
+        "id": 48077314,
+        "score": 31,
+        "comments": 11
+      }
+    },
     {
       "slug": "2026-05-09",
       "title": "Korea Surpasses Canada as Seventh-Largest Stock Market",
@@ -662,19 +675,6 @@
         "id": 47444195,
         "score": 152,
         "comments": 123
-      }
-    },
-    {
-      "slug": "2026-03-19",
-      "title": "Despite doubts, federal cyber experts approved Microsoft cloud service",
-      "url": "https://www.propublica.org/article/microsoft-cloud-fedramp-cybersecurity-government",
-      "source": "propublica.org",
-      "selectedAt": "2026-03-19T09:56:01.713Z",
-      "publishedAt": "2026-03-18T14:14:02.000Z",
-      "hn": {
-        "id": 47426057,
-        "score": 460,
-        "comments": 211
       }
     }
   ]
