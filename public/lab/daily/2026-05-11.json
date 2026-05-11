@@ -1,0 +1,42 @@
+{
+  "slug": "2026-05-11",
+  "generatedAt": "2026-05-11T12:18:10.355Z",
+  "article": {
+    "title": "Obsidian plugin was abused to deploy a remote access trojan",
+    "url": "https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/",
+    "source": "cyber.netsecops.io",
+    "selectedAt": "2026-05-11T12:18:00.232Z",
+    "publishedAt": "2026-05-10T22:02:43.000Z",
+    "hn": {
+      "id": 48088576,
+      "score": 247,
+      "comments": 133
+    }
+  },
+  "takeaways": [],
+  "summary": "A sophisticated social engineering campaign exploited the Obsidian note-taking app to deploy a novel Remote Access Trojan (RAT) called PHANTOMPULSE, targeting finance and cryptocurrency professionals on Windows and macOS. The malware’s use of the Ethereum blockchain for command-and-control enhances its resilience, posing significant risks to sensitive financial data and crypto assets.",
+  "keyPoints": [
+    "Campaign REF6598 uses LinkedIn and Telegram to build trust before sharing a malicious Obsidian vault.",
+    "Victims are tricked into enabling community plugins, activating malicious versions of legitimate plugins to deploy PHANTOMPULSE.",
+    "PHANTOMPULSE can capture keystrokes, screenshots, exfiltrate files, and execute commands, granting full system control.",
+    "The malware dynamically resolves its C2 server via the Ethereum blockchain, complicating takedown efforts.",
+    "Targets include finance and cryptocurrency sectors on both Windows and macOS platforms.",
+    "Mitigations include user training against social engineering, strict plugin controls, and application-level script execution restrictions."
+  ],
+  "rewrite": {
+    "title": "Obsidian Plugin Exploited to Deploy Advanced PHANTOMPULSE RAT",
+    "body": "Security researchers have uncovered a targeted social engineering campaign, designated REF6598, that weaponizes the Obsidian note-taking application to deliver a previously unknown Remote Access Trojan named PHANTOMPULSE. The attackers focus on professionals in the financial and cryptocurrency sectors, leveraging platforms like LinkedIn and Telegram to establish credibility before inviting victims to collaborate through a shared Obsidian vault. The infection hinges on convincing users to enable community plugins, which then execute malicious code by hijacking legitimate plugin frameworks.\n\nPHANTOMPULSE exhibits advanced capabilities, including keystroke logging, screenshot capture, file exfiltration, and arbitrary command execution, effectively granting attackers full control over compromised machines. Notably, the malware uses the Ethereum blockchain to dynamically determine its command-and-control server address, significantly increasing its resilience against takedown attempts and complicating traditional defense mechanisms.\n\nThe cross-platform nature of the attack, affecting both Windows and macOS users, broadens its potential impact. For finance and crypto professionals, the consequences extend beyond data theft to include the compromise of intellectual property, trading strategies, and critical cryptocurrency wallet credentials. Defensive measures emphasize user awareness of social engineering tactics, strict governance over plugin installations, and application control policies that prevent unauthorized script execution.\n\nThis campaign underscores the evolving sophistication of threat actors who blend social engineering with innovative technical methods, such as blockchain-based C2 infrastructure, to evade detection and maintain persistence. Organizations should prioritize layered defenses and continuous monitoring to mitigate risks posed by such multifaceted attacks.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4208
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
