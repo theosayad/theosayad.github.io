@@ -1,0 +1,41 @@
+{
+  "slug": "2026-05-12",
+  "generatedAt": "2026-05-12T11:24:34.536Z",
+  "article": {
+    "title": "Sam Altman's Business Dealings Under GOP Scrutiny Ahead of OpenAI's IPO",
+    "url": "https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d",
+    "source": "wsj.com",
+    "selectedAt": "2026-05-12T11:24:27.596Z",
+    "publishedAt": "2026-05-12T03:31:28.000Z",
+    "hn": {
+      "id": 48103887,
+      "score": 7,
+      "comments": 2
+    }
+  },
+  "takeaways": [],
+  "summary": "Sam Altman, CEO of OpenAI, is facing increased scrutiny from GOP lawmakers over his business dealings as OpenAI prepares for a highly anticipated IPO. The investigation highlights concerns about transparency and governance amid OpenAI's rapid valuation growth and significant market influence in AI technology.",
+  "keyPoints": [
+    "OpenAI is gearing up for an IPO, expected to be one of the largest tech public offerings in recent years.",
+    "GOP lawmakers are probing Altman's prior business relationships and financial arrangements to assess potential conflicts of interest.",
+    "OpenAI's valuation has surged to tens of billions of dollars, intensifying regulatory and political attention.",
+    "Concerns focus on governance structures and the alignment of OpenAI’s commercial goals with public interest.",
+    "The scrutiny could influence investor confidence and regulatory frameworks for AI companies going public."
+  ],
+  "rewrite": {
+    "title": "GOP Probes Sam Altman Ahead of OpenAI IPO",
+    "body": "As OpenAI moves closer to launching its initial public offering, CEO Sam Altman finds himself under the microscope of GOP lawmakers investigating his past business dealings. This inquiry emerges amid OpenAI's rapid ascent as a dominant player in artificial intelligence, with valuations reportedly reaching into the tens of billions of dollars. The scrutiny aims to uncover any potential conflicts of interest or governance issues that could affect the company's transparency and accountability.\n\nThe heightened political attention reflects broader concerns about the governance of AI firms, especially those with significant market power and public impact. Lawmakers are particularly focused on how OpenAI balances its commercial ambitions with ethical considerations and public accountability. The investigation could have ripple effects on investor sentiment and regulatory approaches to AI companies preparing for public listings.\n\nGiven the scale of OpenAI’s anticipated IPO, which is poised to be among the largest tech offerings in recent memory, the outcome of this scrutiny will be closely watched by market participants and policymakers alike. It underscores the increasing intersection of technology innovation, corporate governance, and political oversight in the rapidly evolving AI sector.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

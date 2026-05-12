@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-11T12:18:10.357Z",
+  "updatedAt": "2026-05-12T11:24:34.537Z",
   "items": [
+    {
+      "slug": "2026-05-12",
+      "title": "Sam Altman's Business Dealings Under GOP Scrutiny Ahead of OpenAI's IPO",
+      "url": "https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d",
+      "source": "wsj.com",
+      "selectedAt": "2026-05-12T11:24:27.596Z",
+      "publishedAt": "2026-05-12T03:31:28.000Z",
+      "hn": {
+        "id": 48103887,
+        "score": 7,
+        "comments": 2
+      }
+    },
     {
       "slug": "2026-05-11",
       "title": "Obsidian plugin was abused to deploy a remote access trojan",
@@ -662,19 +675,6 @@
         "id": 47471805,
         "score": 82,
         "comments": 21
-      }
-    },
-    {
-      "slug": "2026-03-21",
-      "title": "MacBook M5 Pro and Qwen3.5 = Local AI Security System",
-      "url": "https://www.sharpai.org/benchmark/",
-      "source": "sharpai.org",
-      "selectedAt": "2026-03-21T09:40:31.924Z",
-      "publishedAt": "2026-03-20T16:41:42.000Z",
-      "hn": {
-        "id": 47457107,
-        "score": 159,
-        "comments": 147
       }
     }
   ]
