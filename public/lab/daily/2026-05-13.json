@@ -1,0 +1,42 @@
+{
+  "slug": "2026-05-13",
+  "generatedAt": "2026-05-13T11:33:48.553Z",
+  "article": {
+    "title": "US inflation jumps to 3.8% as energy costs surge from Iran war",
+    "url": "https://www.bbc.com/news/articles/c202pgxx89lo",
+    "source": "bbc.com",
+    "selectedAt": "2026-05-13T11:33:39.737Z",
+    "publishedAt": "2026-05-12T13:51:36.000Z",
+    "hn": {
+      "id": 48108313,
+      "score": 252,
+      "comments": 420
+    }
+  },
+  "takeaways": [],
+  "summary": "US inflation accelerated to 3.8% in April, driven largely by soaring energy costs linked to the Iran conflict and closure of the Strait of Hormuz. This surge complicates Federal Reserve policy, diminishing prospects for interest rate cuts and raising political stakes ahead of the 2024 elections.",
+  "keyPoints": [
+    "April CPI rose to 3.8%, up from 3.3% in March, marking the fastest inflation increase since May 2023.",
+    "Nearly half of the inflation rise was due to energy price spikes, with gasoline hitting $4.50 per gallon—the highest since July 2022.",
+    "The US-Israel war in Iran and the effective closure of the Strait of Hormuz disrupted oil supply, pushing jet fuel and grocery prices higher.",
+    "The inflation uptick reduces the likelihood of Federal Reserve interest rate cuts this year; some analysts even consider hikes possible.",
+    "Incoming Fed Chair Kevin Warsh faces limited flexibility amid these pressures, contrasting with former Chair Jerome Powell's cautious stance.",
+    "Rising inflation poses a political challenge for the Republican Party and President Trump ahead of the November midterms, undermining campaign promises to reduce prices."
+  ],
+  "rewrite": {
+    "title": "US Inflation Hits 3.8% Amid Iran Conflict Energy Shock",
+    "body": "In April 2026, US inflation surged to 3.8%, the fastest pace since May 2023, propelled primarily by a sharp rise in energy prices. The ongoing conflict involving Iran and Israel has effectively closed the Strait of Hormuz, a critical oil shipping route, triggering a spike in global oil prices. This disruption pushed the national average price of unleaded gasoline to $4.50 per gallon, the highest level since July 2022, and caused jet fuel costs to soar, with airlines passing these increases directly to consumers.\n\nEnergy costs accounted for nearly half of the inflation increase, while housing and food prices also contributed to the overall rise. This inflation acceleration has significant implications for US monetary policy. The Federal Reserve, under incoming Chair Kevin Warsh, is now less likely to reduce interest rates this year, with some experts suggesting that rate hikes remain a possibility. Warsh inherits a challenging environment with limited room to maneuver, contrasting with former Chair Jerome Powell’s more cautious approach.\n\nPolitically, the inflation spike complicates the landscape for President Trump and the Republican Party as they prepare for the November midterm elections. Inflation had been a central theme of Trump’s 2024 re-election campaign, with promises to lower prices. However, the renewed pressure on consumers’ budgets—especially from rising gasoline and grocery costs—could erode voter confidence. Trump has downplayed the inflation rise as short-term and linked it to national security priorities, but the economic impact remains a critical issue for American households.\n\nAdditionally, April marked the first time in three years that wage growth failed to outpace inflation, signaling a real decline in purchasing power for many Americans. This dynamic underscores the broader economic challenges ahead as geopolitical tensions continue to reverberate through energy markets and consumer prices.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 2937
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-12T11:24:34.537Z",
+  "updatedAt": "2026-05-13T11:33:48.555Z",
   "items": [
+    {
+      "slug": "2026-05-13",
+      "title": "US inflation jumps to 3.8% as energy costs surge from Iran war",
+      "url": "https://www.bbc.com/news/articles/c202pgxx89lo",
+      "source": "bbc.com",
+      "selectedAt": "2026-05-13T11:33:39.737Z",
+      "publishedAt": "2026-05-12T13:51:36.000Z",
+      "hn": {
+        "id": 48108313,
+        "score": 252,
+        "comments": 420
+      }
+    },
     {
       "slug": "2026-05-12",
       "title": "Sam Altman's Business Dealings Under GOP Scrutiny Ahead of OpenAI's IPO",
@@ -662,19 +675,6 @@
         "id": 47479962,
         "score": 342,
         "comments": 230
-      }
-    },
-    {
-      "slug": "2026-03-22",
-      "title": "Attempts to post the latest Trivy security incident have been marked [dead]",
-      "url": "https://news.ycombinator.com/from?site=github.com%2Faquasecurity",
-      "source": "news.ycombinator.com",
-      "selectedAt": "2026-03-22T09:41:13.182Z",
-      "publishedAt": "2026-03-21T21:49:56.000Z",
-      "hn": {
-        "id": 47471805,
-        "score": 82,
-        "comments": 21
       }
     }
   ]
