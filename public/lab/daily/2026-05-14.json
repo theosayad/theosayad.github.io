@@ -1,0 +1,42 @@
+{
+  "slug": "2026-05-14",
+  "generatedAt": "2026-05-14T11:19:28.202Z",
+  "article": {
+    "title": "Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration",
+    "url": "https://www.tryardent.com/",
+    "source": "tryardent.com",
+    "selectedAt": "2026-05-14T11:19:19.189Z",
+    "publishedAt": "2026-05-13T16:54:03.000Z",
+    "hn": {
+      "id": 48124436,
+      "score": 91,
+      "comments": 36
+    }
+  },
+  "takeaways": [],
+  "summary": "Ardent, a YC-backed startup, enables instant, zero-migration Postgres database cloning in under six seconds, allowing developers and AI coding agents to test directly on production-equivalent environments without risk. This innovation promises to accelerate database development workflows and reduce operational overhead by eliminating traditional sandbox setup delays and storage duplication.",
+  "keyPoints": [
+    "Ardent creates isolated Postgres clones in under 6 seconds with zero impact on production systems.",
+    "Clones are efficient, autoscaling compute resources and do not duplicate storage, even at terabyte scale.",
+    "Supports full compatibility with RDS Postgres, Supabase, and PlanetScale-specific extensions and configurations.",
+    "Enables developers and AI agents to validate code on exact production data copies, improving reliability.",
+    "Tailored workflows and infrastructure adapt to team needs, reducing database management complexity.",
+    "Investors highlight Ardent as a transformative tool for data engineering akin to git’s impact on code."
+  ],
+  "rewrite": {
+    "title": "Ardent Enables Instant Postgres Clones for Safe Dev Testing",
+    "body": "Ardent, a Y Combinator P26 startup, has introduced a groundbreaking solution that allows developers and AI coding agents to create fully isolated Postgres database clones in under six seconds. These clones are exact replicas of production environments, enabling safe and reliable testing of database code without any migration or configuration changes. By isolating clones at both compute and storage levels, Ardent ensures zero impact on live production systems, addressing a critical pain point in database development workflows.\n\nThe platform’s efficiency is notable: clones autoscale compute resources and scale down to zero when idle, while avoiding storage duplication even for terabyte-scale databases. This leads to significant cost savings and operational simplicity. Ardent supports seamless integration with common Postgres environments, including AWS RDS, Supabase, and PlanetScale extensions, ensuring compatibility with existing infrastructure and workflows.\n\nBy enabling developers and AI agents to branch directly off production data, Ardent accelerates iteration speed and reduces risks associated with testing on stale or synthetic datasets. The ability to tailor workflows and infrastructure to specific team requirements further enhances productivity and control. Investors and early adopters view Ardent as a fundamental shift in data engineering, likening its impact to how git revolutionized code management. This innovation could significantly disrupt traditional database development and maintenance practices, fostering faster, safer, and more scalable data operations.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 1427
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
