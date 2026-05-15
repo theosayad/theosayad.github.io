@@ -1,0 +1,42 @@
+{
+  "slug": "2026-05-15",
+  "generatedAt": "2026-05-15T11:26:20.690Z",
+  "article": {
+    "title": "Bitcoin trader recovers wallet with help of Claude",
+    "url": "https://www.tomshardware.com/tech-industry/cryptocurrency/bitcoin-trader-recovers-usd400-000-using-claude-ai-after-losing-wallet-password-11-years-ago-bot-tried-3-5-trillion-passwords-before-decrypting-an-old-wallet-backup",
+    "source": "tomshardware.com",
+    "selectedAt": "2026-05-15T11:26:10.439Z",
+    "publishedAt": "2026-05-14T14:49:48.000Z",
+    "hn": {
+      "id": 48136240,
+      "score": 323,
+      "comments": 169
+    }
+  },
+  "takeaways": [],
+  "summary": "A Bitcoin user recovered a wallet containing 5 BTC—worth nearly $400,000 after 11 years of failed attempts—by leveraging the AI Claude to identify and fix a password recovery bug. This case highlights AI's growing role in resolving complex crypto asset access issues that traditional tools alone could not solve.",
+  "keyPoints": [
+    "User lost wallet password after changing it under the influence, making 5 BTC inaccessible for over a decade.",
+    "Recovered an old mnemonic seed phrase recently, confirming the wallet but not decrypting it due to password encryption.",
+    "Dumped college-era computer files into Anthropic’s Claude AI, which found a 2019 backup wallet file and uncovered a bug in password handling.",
+    "Claude fixed the password-key combination bug in btcrecover, enabling successful decryption and transfer of the 5 BTC.",
+    "Early Bitcoin wallets mixed HD and non-HD keys, complicating recovery solely via seed phrases.",
+    "AI-assisted recovery contrasts with earlier efforts that took months to crack wallets with forgotten passwords, underscoring AI’s efficiency."
+  ],
+  "rewrite": {
+    "title": "AI Unlocks Bitcoin Wallet Lost for 11 Years",
+    "body": "A Bitcoin holder who lost access to a wallet containing 5 BTC—now valued at nearly $400,000—finally regained control after more than 11 years, thanks to the AI assistant Claude. The user had changed the wallet password while impaired and subsequently forgot it, rendering the Bitcoins inaccessible despite numerous recovery attempts. Early Bitcoin wallets combined hierarchical deterministic (HD) and non-HD keys, with some keys protected by passwords rather than seed phrases, complicating retrieval.\n\nAfter recently discovering an old mnemonic seed phrase that confirmed the wallet’s identity, the user fed their entire college computer archive into Claude. The AI identified an older backup wallet file from December 2019 and detected a critical flaw in the open-source recovery tool btcrecover: the shared key and password components were not correctly combined. By correcting this bug, Claude enabled the decryption of the private keys, allowing the user to transfer the Bitcoins to a new wallet.\n\nThis case illustrates how AI can accelerate and improve cryptocurrency recovery efforts that previously demanded extensive manual brute-forcing. Before the rise of large language models, cracking a forgotten 20-character Bitcoin wallet password could take half a year or more. The successful recovery not only secured a significant financial windfall but also demonstrated AI’s potential to resolve longstanding crypto access challenges. Meanwhile, other high-profile losses, such as a 2025 court ruling that barred recovery attempts of 8,000 BTC discarded with a laptop, underscore the stakes involved in wallet security and recovery.\n\nClaude’s intervention did not guess the password outright but rather fixed a technical barrier overlooked by the user, enabling existing tools to work effectively. This breakthrough highlights the evolving intersection of AI and cryptocurrency security, offering hope for others locked out of valuable digital assets.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4570
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

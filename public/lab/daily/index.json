@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-14T11:19:28.204Z",
+  "updatedAt": "2026-05-15T11:26:20.692Z",
   "items": [
+    {
+      "slug": "2026-05-15",
+      "title": "Bitcoin trader recovers wallet with help of Claude",
+      "url": "https://www.tomshardware.com/tech-industry/cryptocurrency/bitcoin-trader-recovers-usd400-000-using-claude-ai-after-losing-wallet-password-11-years-ago-bot-tried-3-5-trillion-passwords-before-decrypting-an-old-wallet-backup",
+      "source": "tomshardware.com",
+      "selectedAt": "2026-05-15T11:26:10.439Z",
+      "publishedAt": "2026-05-14T14:49:48.000Z",
+      "hn": {
+        "id": 48136240,
+        "score": 323,
+        "comments": 169
+      }
+    },
     {
       "slug": "2026-05-14",
       "title": "Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration",
@@ -662,19 +675,6 @@
         "id": 47503617,
         "score": 328,
         "comments": 91
-      }
-    },
-    {
-      "slug": "2026-03-24",
-      "title": "Box of Secrets: Discreetly modding an apartment intercom to work with Apple Home",
-      "url": "https://www.jackhogan.me/blog/box-of-secrets/",
-      "source": "jackhogan.me",
-      "selectedAt": "2026-03-24T10:01:42.872Z",
-      "publishedAt": "2026-03-23T12:42:00.000Z",
-      "hn": {
-        "id": 47488686,
-        "score": 133,
-        "comments": 39
       }
     }
   ]
