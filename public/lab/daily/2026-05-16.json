@@ -1,0 +1,42 @@
+{
+  "slug": "2026-05-16",
+  "generatedAt": "2026-05-16T10:22:32.310Z",
+  "article": {
+    "title": "Welcome to the Strip Mining Era of OSS Security",
+    "url": "https://www.metabase.com/blog/strip-mining-era-of-open-source-security",
+    "source": "metabase.com",
+    "selectedAt": "2026-05-16T10:22:24.999Z",
+    "publishedAt": "2026-05-15T11:37:17.000Z",
+    "hn": {
+      "id": 48147339,
+      "score": 116,
+      "comments": 79
+    }
+  },
+  "takeaways": [],
+  "summary": "Starting early 2024, open source software (OSS) projects have faced a surge in automated vulnerability reports driven by advances in AI-powered code scanning tools. This shift marks a new era where bulk, low-effort security probing uncovers many minor flaws rapidly, forcing maintainers to accelerate patching cycles and rethink security strategies. The trend erodes traditional OSS security advantages and pressures both commercial and non-commercial projects alike.",
+  "keyPoints": [
+    "Metabase saw a jump from 10 security reports per month to 10 per week starting January 2024, with many valid findings.",
+    "Improved AI coding agents like Claude Security (launched Feb 2024) and OpenAI Codex contribute to widespread automated scanning.",
+    "Over 1000 SaaS offerings now bulk-scan OSS repositories, often sending findings with service advertisements.",
+    "Vulnerabilities disclosed should be treated as publicly known immediately due to ease of rediscovery by other tools.",
+    "Some commercial OSS projects, e.g., Cal.com, are moving to closed source to avoid relentless security issue chasing.",
+    "Maintainers must adopt faster patching, continuous dependency upgrades, defense-in-depth, and enhanced monitoring to cope."
+  ],
+  "rewrite": {
+    "title": "AI-Driven Surge in OSS Security Vulnerabilities",
+    "body": "The open source software landscape is entering a challenging phase in 2024 as AI-powered automated code scanning tools dramatically increase the volume and quality of vulnerability reports. For example, Metabase experienced a tenfold rise in security submissions—from 10 per month to 10 per week—starting January, with many reports now legitimate and actionable. This surge is fueled by advances in large language models and coding agents like Claude Security and OpenAI’s Codex, which enable bulk scanning of codebases at scale.\n\nThis new reality means that vulnerabilities once obscure or deeply buried are now easily discoverable and rapidly disclosed. Security teams can no longer assume any reported flaw is a rare find; instead, they must treat all disclosures as effectively public and urgent. The proliferation of over a thousand SaaS services offering automated scanning has turned vulnerability discovery into a competitive, commoditized process, often accompanied by marketing pitches to OSS maintainers and commercial users.\n\nThe implications are significant: commercial OSS projects such as Cal.com are opting to go closed source to mitigate the relentless influx of security issues. Meanwhile, non-commercial projects face increased pressure without dedicated resources to respond promptly. To adapt, maintainers must accelerate patching cycles, continuously update dependencies, enforce defense-in-depth architectures, and enhance observability and access controls. This shift diminishes the traditional security advantage of open source, as automated tools level the playing field by uncovering flaws regardless of project popularity or researcher expertise.\n\nUltimately, the OSS community must embrace more aggressive and systematic security practices to survive this new era of AI-driven vulnerability discovery. While painful in the short term, these developments promise a more secure software ecosystem as flaws are identified and resolved faster than ever before.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 7276
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

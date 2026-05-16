@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-15T11:26:20.692Z",
+  "updatedAt": "2026-05-16T10:22:32.312Z",
   "items": [
+    {
+      "slug": "2026-05-16",
+      "title": "Welcome to the Strip Mining Era of OSS Security",
+      "url": "https://www.metabase.com/blog/strip-mining-era-of-open-source-security",
+      "source": "metabase.com",
+      "selectedAt": "2026-05-16T10:22:24.999Z",
+      "publishedAt": "2026-05-15T11:37:17.000Z",
+      "hn": {
+        "id": 48147339,
+        "score": 116,
+        "comments": 79
+      }
+    },
     {
       "slug": "2026-05-15",
       "title": "Bitcoin trader recovers wallet with help of Claude",
@@ -662,19 +675,6 @@
         "id": 47517885,
         "score": 49,
         "comments": 36
-      }
-    },
-    {
-      "slug": "2026-03-25",
-      "title": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
-      "url": "https://github.com/ssrajadh/sentrysearch",
-      "source": "github.com",
-      "selectedAt": "2026-03-25T10:01:07.323Z",
-      "publishedAt": "2026-03-24T14:58:27.000Z",
-      "hn": {
-        "id": 47503617,
-        "score": 328,
-        "comments": 91
       }
     }
   ]
