@@ -1,13 +1,13 @@
 {
-  "title": "Welcome to the Strip Mining Era of OSS Security",
-  "url": "https://www.metabase.com/blog/strip-mining-era-of-open-source-security",
-  "source": "metabase.com",
-  "selectedAt": "2026-05-16T10:22:24.999Z",
-  "publishedAt": "2026-05-15T11:37:17.000Z",
+  "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
+  "url": "https://crates.io/crates/zerostack/1.0.0",
+  "source": "crates.io",
+  "selectedAt": "2026-05-17T10:26:12.956Z",
+  "publishedAt": "2026-05-16T22:23:50.000Z",
   "hn": {
-    "id": 48147339,
-    "score": 116,
-    "comments": 79
+    "id": 48164287,
+    "score": 402,
+    "comments": 167
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }

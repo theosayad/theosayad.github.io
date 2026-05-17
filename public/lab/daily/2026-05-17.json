@@ -1,0 +1,41 @@
+{
+  "slug": "2026-05-17",
+  "generatedAt": "2026-05-17T10:26:17.588Z",
+  "article": {
+    "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
+    "url": "https://crates.io/crates/zerostack/1.0.0",
+    "source": "crates.io",
+    "selectedAt": "2026-05-17T10:26:12.956Z",
+    "publishedAt": "2026-05-16T22:23:50.000Z",
+    "hn": {
+      "id": 48164287,
+      "score": 402,
+      "comments": 167
+    }
+  },
+  "takeaways": [],
+  "summary": "Zerostack, a new coding agent inspired by Unix principles and developed entirely in Rust, has been released on crates.io. This tool aims to streamline development workflows by leveraging Rust's safety and performance, potentially influencing how developers automate coding tasks.",
+  "keyPoints": [
+    "Zerostack version 1.0.0 launched on crates.io, the Rust package registry.",
+    "The project is designed as a Unix-inspired coding agent, emphasizing modularity and composability.",
+    "Written purely in Rust, highlighting the language's growing adoption for tooling requiring safety and speed.",
+    "Targets developers seeking efficient automation in coding environments.",
+    "Reflects a broader trend of Rust-based developer tools gaining traction in open-source ecosystems."
+  ],
+  "rewrite": {
+    "title": "Zerostack: Unix-Inspired Rust Coding Agent Released",
+    "body": "Zerostack 1.0.0 has debuted on crates.io, marking a significant addition to Rust's ecosystem of developer tools. Drawing inspiration from Unix philosophies, Zerostack is designed as a coding agent that emphasizes modularity and composability, enabling developers to automate and streamline their workflows more effectively. The choice to build Zerostack entirely in Rust underscores the language's reputation for delivering both safety and high performance, critical attributes for tools that interact closely with codebases.\n\nBy adopting Unix principles, Zerostack aims to provide a flexible and extensible foundation for coding automation, potentially reducing the complexity and overhead associated with traditional development pipelines. Its release reflects a growing movement within the software community towards leveraging Rust for tooling, as it balances speed with memory safety, a combination that is increasingly valued in open-source projects.\n\nThe availability of Zerostack on crates.io makes it readily accessible to the Rust community and beyond, encouraging experimentation and integration into existing development environments. As Rust continues to expand its footprint in systems programming and developer tooling, projects like Zerostack could influence how coding agents evolve, promoting more reliable and efficient automation solutions.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 32
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
