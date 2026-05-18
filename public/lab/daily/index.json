@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-17T10:26:17.589Z",
+  "updatedAt": "2026-05-18T12:40:48.959Z",
   "items": [
+    {
+      "slug": "2026-05-18",
+      "title": "Security researcher says Microsoft built a Bitlocker backdoor, releases exploit",
+      "url": "https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html",
+      "source": "techspot.com",
+      "selectedAt": "2026-05-18T12:40:40.404Z",
+      "publishedAt": "2026-05-17T13:42:30.000Z",
+      "hn": {
+        "id": 48168856,
+        "score": 571,
+        "comments": 258
+      }
+    },
     {
       "slug": "2026-05-17",
       "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
@@ -662,19 +675,6 @@
         "id": 47542722,
         "score": 134,
         "comments": 155
-      }
-    },
-    {
-      "slug": "2026-03-27",
-      "title": "We haven't seen the worst of what gambling and prediction markets will do",
-      "url": "https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what",
-      "source": "derekthompson.org",
-      "selectedAt": "2026-03-27T10:00:09.131Z",
-      "publishedAt": "2026-03-26T19:48:05.000Z",
-      "hn": {
-        "id": 47534848,
-        "score": 728,
-        "comments": 505
       }
     }
   ]
