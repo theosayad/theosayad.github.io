@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-18T12:40:48.959Z",
+  "updatedAt": "2026-05-19T12:17:37.682Z",
   "items": [
+    {
+      "slug": "2026-05-19",
+      "title": "Iran starts Bitcoin-backed ship insurance for Hormuz strait",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-18/iran-starts-bitcoin-backed-shipping-insurance-for-hormuz-strait",
+      "source": "bloomberg.com",
+      "selectedAt": "2026-05-19T12:17:27.796Z",
+      "publishedAt": "2026-05-18T17:25:54.000Z",
+      "hn": {
+        "id": 48182592,
+        "score": 318,
+        "comments": 556
+      }
+    },
     {
       "slug": "2026-05-18",
       "title": "Security researcher says Microsoft built a Bitlocker backdoor, releases exploit",
@@ -662,19 +675,6 @@
         "id": 47558372,
         "score": 151,
         "comments": 96
-      }
-    },
-    {
-      "slug": "2026-03-28",
-      "title": "Hong Kong police can now demand phone passwords under new security rules",
-      "url": "https://www.gadgetreview.com/hong-kong-police-can-now-demand-phone-passwords-under-new-security-rules",
-      "source": "gadgetreview.com",
-      "selectedAt": "2026-03-28T09:48:18.879Z",
-      "publishedAt": "2026-03-27T13:57:36.000Z",
-      "hn": {
-        "id": 47542722,
-        "score": 134,
-        "comments": 155
       }
     }
   ]
