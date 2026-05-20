@@ -1,0 +1,42 @@
+{
+  "slug": "2026-05-20",
+  "generatedAt": "2026-05-20T11:54:15.941Z",
+  "article": {
+    "title": "Minnesota becomes first state to ban prediction markets",
+    "url": "https://www.npr.org/2026/05/19/nx-s1-5821265/minnesota-ban-prediction-markets",
+    "source": "npr.org",
+    "selectedAt": "2026-05-20T11:54:05.148Z",
+    "publishedAt": "2026-05-19T19:13:26.000Z",
+    "hn": {
+      "id": 48197980,
+      "score": 687,
+      "comments": 211
+    }
+  },
+  "takeaways": [],
+  "summary": "Minnesota has enacted the first state law banning prediction markets, criminalizing their operation and advertising. The move has sparked a federal lawsuit by the Commodity Futures Trading Commission (CFTC), which claims exclusive regulatory authority over these markets, setting the stage for a broader legal conflict over state versus federal oversight of an industry handling billions in weekly trades.",
+  "keyPoints": [
+    "Minnesota's ban criminalizes hosting or advertising prediction markets, including tools like VPNs that circumvent the law.",
+    "The law exempts weather-related event contracts used by farmers for hedging, following agricultural industry pushback.",
+    "The CFTC filed suit to block the law, arguing prediction markets fall under federal jurisdiction and are vital for risk management.",
+    "Similar restrictive bills have been introduced in 14 other states; Hawaii and North Carolina aim to ban prediction markets statewide.",
+    "Kalshi and Polymarket facilitate billions in weekly trades, with over 85% related to sports betting, often in states where such betting is otherwise illegal.",
+    "Legal disputes over jurisdiction have triggered 20+ lawsuits, including CFTC actions against Arizona, Wisconsin, and New York."
+  ],
+  "rewrite": {
+    "title": "Minnesota First State to Outlaw Prediction Markets",
+    "body": "Minnesota has become the first U.S. state to ban prediction markets, signing a law that criminalizes their operation and advertising. The legislation targets platforms like Kalshi and Polymarket, which enable users to wager on a wide range of future events, from sports outcomes to political developments. The ban also prohibits services that help users evade restrictions, such as VPNs. An exception was carved out for weather-related contracts, reflecting the agricultural sector’s reliance on such instruments to hedge against risks like storms.\n\nThe Commodity Futures Trading Commission (CFTC) swiftly responded by filing a federal lawsuit to block Minnesota’s law, asserting exclusive federal regulatory authority over prediction markets. CFTC Chairman Michael Selig emphasized the importance of these markets for farmers and innovators, warning that the state’s ban could criminalize lawful participants overnight. This legal confrontation highlights the ongoing tension between state efforts to regulate or restrict prediction markets and the federal government’s push to maintain oversight.\n\nBeyond Minnesota, at least 14 other states have introduced similar legislation, with Hawaii and North Carolina considering outright bans. The industry, which processes billions of dollars in weekly trades—predominantly on sports events—has become mainstream despite regulatory challenges. Critics warn that state crackdowns could push activity offshore, reducing competition and consumer protections. Meanwhile, legal battles continue to unfold nationwide, with over 20 lawsuits addressing jurisdictional disputes, including CFTC suits against states like Arizona, Wisconsin, and New York.\n\nThe Minnesota ban marks a significant escalation in the regulatory struggle over prediction markets, underscoring broader questions about the future of this emerging financial sector and its intersection with gambling laws, federal authority, and state public safety concerns.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4678
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
