@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-21T12:22:54.160Z",
+  "updatedAt": "2026-05-22T11:51:08.498Z",
   "items": [
+    {
+      "slug": "2026-05-22",
+      "title": "Who wins and who loses in prediction markets? Evidence from Polymarket",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443103",
+      "source": "papers.ssrn.com",
+      "selectedAt": "2026-05-22T11:50:59.295Z",
+      "publishedAt": "2026-05-21T12:55:16.000Z",
+      "hn": {
+        "id": 48221877,
+        "score": 149,
+        "comments": 146
+      }
+    },
     {
       "slug": "2026-05-21",
       "title": "SpaceX S-1",
@@ -662,19 +675,6 @@
         "id": 47586018,
         "score": 140,
         "comments": 223
-      }
-    },
-    {
-      "slug": "2026-03-31",
-      "title": "Axios compromised on NPM – Malicious versions drop remote access trojan",
-      "url": "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan",
-      "source": "stepsecurity.io",
-      "selectedAt": "2026-03-31T10:10:47.764Z",
-      "publishedAt": "2026-03-31T02:54:17.000Z",
-      "hn": {
-        "id": 47582220,
-        "score": 808,
-        "comments": 288
       }
     }
   ]

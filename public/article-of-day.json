@@ -1,13 +1,13 @@
 {
-  "title": "SpaceX S-1",
-  "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
-  "source": "sec.gov",
-  "selectedAt": "2026-05-21T12:22:41.813Z",
-  "publishedAt": "2026-05-20T20:49:59.000Z",
+  "title": "Who wins and who loses in prediction markets? Evidence from Polymarket",
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443103",
+  "source": "papers.ssrn.com",
+  "selectedAt": "2026-05-22T11:50:59.295Z",
+  "publishedAt": "2026-05-21T12:55:16.000Z",
   "hn": {
-    "id": 48213933,
-    "score": 379,
-    "comments": 296
+    "id": 48221877,
+    "score": 149,
+    "comments": 146
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }
