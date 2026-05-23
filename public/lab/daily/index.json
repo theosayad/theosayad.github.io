@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-22T11:51:08.498Z",
+  "updatedAt": "2026-05-23T10:40:51.263Z",
   "items": [
+    {
+      "slug": "2026-05-23",
+      "title": "A blueprint for formal verification of Apple corecrypto",
+      "url": "https://security.apple.com/blog/formal-verification-corecrypto/",
+      "source": "security.apple.com",
+      "selectedAt": "2026-05-23T10:40:45.201Z",
+      "publishedAt": "2026-05-22T18:52:17.000Z",
+      "hn": {
+        "id": 48239862,
+        "score": 98,
+        "comments": 6
+      }
+    },
     {
       "slug": "2026-05-22",
       "title": "Who wins and who loses in prediction markets? Evidence from Polymarket",
@@ -662,19 +675,6 @@
         "id": 47602832,
         "score": 570,
         "comments": 416
-      }
-    },
-    {
-      "slug": "2026-04-01",
-      "title": "U.S. stocks are set to deliver their worst quarter in nearly four years",
-      "url": "https://www.wsj.com/finance/stocks/wall-street-is-finishing-the-worst-quarter-for-stocks-in-four-years-31ac41ea",
-      "source": "wsj.com",
-      "selectedAt": "2026-04-01T10:12:15.427Z",
-      "publishedAt": "2026-03-31T11:53:04.000Z",
-      "hn": {
-        "id": 47586018,
-        "score": 140,
-        "comments": 223
       }
     }
   ]

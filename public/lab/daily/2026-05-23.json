@@ -1,0 +1,42 @@
+{
+  "slug": "2026-05-23",
+  "generatedAt": "2026-05-23T10:40:51.261Z",
+  "article": {
+    "title": "A blueprint for formal verification of Apple corecrypto",
+    "url": "https://security.apple.com/blog/formal-verification-corecrypto/",
+    "source": "security.apple.com",
+    "selectedAt": "2026-05-23T10:40:45.201Z",
+    "publishedAt": "2026-05-22T18:52:17.000Z",
+    "hn": {
+      "id": 48239862,
+      "score": 98,
+      "comments": 6
+    }
+  },
+  "takeaways": [],
+  "summary": "Apple has integrated quantum-resistant cryptography into its corecrypto library, underpinning all Apple platforms, to preempt future threats from quantum computing. To ensure the highest security and correctness, Apple developed and publicly released formal verification proofs and tools, marking a major advancement in cryptographic software assurance.",
+  "keyPoints": [
+    "In 2024, Apple added post-quantum ML-KEM and ML-DSA algorithms to corecrypto, aligned with NIST FIPS 203 and 204 standards.",
+    "Formal verification was used to mathematically prove the implementation's correctness, surpassing conventional testing.",
+    "Apple hand-optimized critical subroutines for Apple silicon, leveraging hardware features like Data Independent Timing and Pointer Authentication.",
+    "Verification involved translating Cryptol models and FIPS specs into Isabelle, requiring over 50,000 proof steps supported by new reusable Isabelle libraries.",
+    "ARM64 assembly optimizations were also verified by comparing them to corresponding C implementations to manage complexity.",
+    "Apple published both the quantum-secure algorithms and the formal verification tools for independent expert evaluation."
+  ],
+  "rewrite": {
+    "title": "Apple’s Quantum-Secure Corecrypto Verified Mathematically",
+    "body": "In 2024, Apple enhanced its foundational cryptographic library, corecrypto, by integrating quantum-resistant algorithms ML-KEM and ML-DSA, which align with NIST’s FIPS 203 and 204 standards. This move addresses the looming threat posed by quantum computers to current encryption methods, securing sensitive communications across Apple platforms such as iMessage, VPN, and TLS networking. Apple also extended quantum-safe APIs to developers via CryptoKit, facilitating broader adoption of post-quantum cryptography.\n\nTo guarantee the implementation’s security and correctness, Apple employed formal verification—a rigorous mathematical process that proves the equivalence between the code and its formal specification. This approach surpasses traditional testing by providing strong assurance that the cryptographic operations will behave correctly under all conditions. The verification process was highly complex, involving the translation of Cryptol models and FIPS specifications into the Isabelle proof assistant, culminating in over 50,000 proof steps. To streamline this, Apple developed new Isabelle libraries that enable reusable and succinct proofs across the many intricate subroutines.\n\nApple’s engineering team also optimized performance-critical components by hand-tuning assembly code for Apple silicon processors. These optimizations leverage hardware features like Data Independent Timing and Pointer Authentication to mitigate side-channel attacks and memory corruption vulnerabilities. Verifying these assembly routines required comparing them against their C counterparts, a strategy that simplified the proof process despite the low-level complexity.\n\nBy publicly releasing both the quantum-secure algorithm implementations and the formal verification tools, Apple invites independent experts to scrutinize and validate their work. This transparency not only advances cryptographic assurance practices but also sets a new benchmark for secure, production-grade post-quantum cryptography in widely deployed software.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 12145
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
