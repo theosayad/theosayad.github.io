@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-25T12:38:23.187Z",
+  "updatedAt": "2026-05-27T12:28:08.836Z",
   "items": [
+    {
+      "slug": "2026-05-27",
+      "title": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
+      "url": "https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/",
+      "source": "reuters.com",
+      "selectedAt": "2026-05-27T12:28:01.545Z",
+      "publishedAt": "2026-05-26T13:08:13.000Z",
+      "hn": {
+        "id": 48279316,
+        "score": 972,
+        "comments": 451
+      }
+    },
     {
       "slug": "2026-05-25",
       "title": "D. Trump Jr. and Eric Trump Running Felony Fraud Scheme Prosecutable in New York",
@@ -662,19 +675,6 @@
         "id": 47641164,
         "score": 29,
         "comments": 23
-      }
-    },
-    {
-      "slug": "2026-04-04",
-      "title": "Async Python Is Secretly Deterministic",
-      "url": "https://www.dbos.dev/blog/async-python-is-secretly-deterministic",
-      "source": "dbos.dev",
-      "selectedAt": "2026-04-04T09:49:38.786Z",
-      "publishedAt": "2026-04-03T18:55:12.000Z",
-      "hn": {
-        "id": 47630592,
-        "score": 70,
-        "comments": 29
       }
     }
   ]

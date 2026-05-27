@@ -1,0 +1,41 @@
+{
+  "slug": "2026-05-27",
+  "generatedAt": "2026-05-27T12:28:08.835Z",
+  "article": {
+    "title": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
+    "url": "https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/",
+    "source": "reuters.com",
+    "selectedAt": "2026-05-27T12:28:01.545Z",
+    "publishedAt": "2026-05-26T13:08:13.000Z",
+    "hn": {
+      "id": 48279316,
+      "score": 972,
+      "comments": 451
+    }
+  },
+  "takeaways": [],
+  "summary": "Spain has blocked access to prediction market platforms Polymarket and Kalshi due to their failure to obtain the necessary gambling licenses. This move underscores Spain's strict regulatory stance on online gambling and prediction markets, potentially impacting the growth and accessibility of these platforms in the Spanish market.",
+  "keyPoints": [
+    "Spain's gambling regulator enforced the block in May 2026 for lack of official gambling licenses.",
+    "Polymarket and Kalshi operate prediction markets allowing users to trade on event outcomes, often viewed as gambling under Spanish law.",
+    "The regulatory action reflects Spain's rigorous approach to online gambling oversight, emphasizing consumer protection and legal compliance.",
+    "Blocking these platforms may limit Spanish users' access to decentralized and innovative prediction market services.",
+    "This decision could set a precedent for other European regulators regarding the classification and licensing of prediction markets."
+  ],
+  "rewrite": {
+    "title": "Spain Blocks Polymarket and Kalshi Over Gambling Licenses",
+    "body": "In May 2026, Spain's gambling regulator took decisive action against prediction market platforms Polymarket and Kalshi by blocking their access within the country. The regulator cited the absence of required gambling licenses as the primary reason for the ban. Both platforms facilitate trading on the outcomes of various events, a service that Spanish authorities classify under gambling activities, thus subject to strict licensing requirements.\n\nThis regulatory enforcement highlights Spain's stringent approach to overseeing online gambling and related financial products. By restricting unlicensed operators, Spain aims to protect consumers and maintain control over the gambling sector. However, this move also restricts Spanish users from engaging with these innovative prediction markets, which often leverage decentralized technologies and offer alternative mechanisms for event speculation.\n\nThe blocking of Polymarket and Kalshi may have broader implications across Europe, signaling a cautious regulatory environment for prediction markets. Other jurisdictions might follow Spain's lead, demanding clear licensing and compliance from similar platforms. This could slow the expansion of decentralized prediction markets but also push operators toward greater regulatory alignment and consumer safeguards.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
