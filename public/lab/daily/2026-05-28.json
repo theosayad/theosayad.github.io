@@ -1,0 +1,42 @@
+{
+  "slug": "2026-05-28",
+  "generatedAt": "2026-05-28T12:37:02.288Z",
+  "article": {
+    "title": "I think Anthropic and OpenAI have found product-market fit",
+    "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+    "source": "simonwillison.net",
+    "selectedAt": "2026-05-28T12:36:53.242Z",
+    "publishedAt": "2026-05-27T16:39:13.000Z",
+    "hn": {
+      "id": 48296794,
+      "score": 928,
+      "comments": 1045
+    }
+  },
+  "takeaways": [],
+  "summary": "Anthropic and OpenAI appear to have achieved product-market fit with their coding agent products, driving significant enterprise adoption and revenue growth. This shift is marked by aggressive pricing changes and large-scale compute commitments, signaling a maturation from consumer popularity to sustainable business models.",
+  "keyPoints": [
+    "Anthropic is rumored to approach their first profitable quarter amid rising enterprise usage costs.",
+    "In November 2025, Anthropic revamped their Enterprise pricing to $20/seat/month plus API usage, confirmed publicly in April 2026.",
+    "April 2026 saw both Anthropic and OpenAI release advanced models with higher API prices and locked-in enterprise pricing.",
+    "OpenAI reported 900 million weekly ChatGPT users in February 2026, but only 5.6% were paying subscribers, highlighting the revenue challenge.",
+    "Coding agents like Claude Code and OpenAI’s Codex have become essential tools for highly paid professionals, driving token consumption and revenue.",
+    "Anthropic committed to $1.25 billion/month in compute capacity through May 2029, underscoring massive inference demand and enterprise scale."
+  ],
+  "rewrite": {
+    "title": "Anthropic and OpenAI Achieve Product-Market Fit with Coding Agents",
+    "body": "Anthropic and OpenAI have reached a critical milestone in their AI development: product-market fit, driven primarily by the adoption of coding agents such as Claude Code and Codex. While consumer-facing tools like ChatGPT boast enormous user bases—OpenAI reported 900 million weekly active users in early 2026—only a small fraction convert to paying customers, limiting revenue potential. The breakthrough came with coding agents, which consume substantially more tokens but are rapidly becoming indispensable for skilled professionals, especially software engineers.\n\nIn November 2025, Anthropic shifted its Enterprise pricing model to a $20 per seat monthly fee plus API usage charges, a move publicly acknowledged in April 2026. This change, alongside the release of new frontier models with higher API prices in April 2026, reflects a strategic pivot to monetize heavy enterprise users effectively. These pricing adjustments coincide with large-scale commitments, including Anthropic’s $1.25 billion per month contract for compute capacity through 2029, signaling unprecedented inference demand.\n\nThe transition to enterprise-focused revenue models also reveals competitive dynamics. Anthropic’s Claude Code directly challenges existing players like Cursor and GitHub Copilot, which historically contributed significantly to Anthropic’s revenue. Microsoft’s reported cancellation of Claude Code licenses, partly financial and aligned with fiscal year-end, further illustrates the evolving landscape where companies optimize AI tool usage against cost and strategic priorities.\n\nOverall, the combination of advanced agent capabilities, aggressive pricing, and massive compute investments indicates that Anthropic and OpenAI are moving beyond experimental phases into sustainable, profitable operations. This evolution not only validates the coding agent market but also suggests broader applications across knowledge work, potentially reshaping productivity for highly skilled professionals.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5584
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
