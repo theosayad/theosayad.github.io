@@ -1,0 +1,42 @@
+{
+  "slug": "2026-05-29",
+  "generatedAt": "2026-05-29T12:23:27.770Z",
+  "article": {
+    "title": "GitHub bans security researcher who posted zero-day Windows exploits",
+    "url": "https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation",
+    "source": "tomshardware.com",
+    "selectedAt": "2026-05-29T12:23:17.848Z",
+    "publishedAt": "2026-05-28T21:45:54.000Z",
+    "hn": {
+      "id": 48315968,
+      "score": 449,
+      "comments": 212
+    }
+  },
+  "takeaways": [],
+  "summary": "Security researcher Nightmare-Eclipse was banned from GitHub by Microsoft after publishing multiple zero-day Windows exploits and alleging ignored bug bounty claims. This dispute highlights tensions in vulnerability disclosure practices and raises concerns about the effectiveness of current security collaboration frameworks.",
+  "keyPoints": [
+    "Nightmare-Eclipse (aka Chaotic Eclipse) published six zero-day Windows exploits, including BlueHammer and YellowKey.",
+    "Microsoft banned Eclipse's GitHub account and deleted the Microsoft account used for bug reporting, citing unspecified reasons.",
+    "Eclipse claims Microsoft ignored their vulnerability reports and withheld bug bounty payments, which can range from $30,000 to $250,000.",
+    "Several exploits like BlueHammer, RedSun, and UnDefend are confirmed to be actively exploited in the wild.",
+    "Security experts criticize Microsoft's handling, suggesting cost-cutting led to less skilled MSRC staff and stricter disclosure requirements.",
+    "The incident underscores challenges in the 90-day disclosure model amid rapidly evolving exploit timelines and AI-driven research."
+  ],
+  "rewrite": {
+    "title": "Microsoft Bans Researcher Over Zero-Day Exploits",
+    "body": "Security researcher Nightmare-Eclipse, known for publishing multiple zero-day vulnerabilities affecting Windows, has been banned from GitHub by Microsoft. The ban follows a contentious dispute where Eclipse alleges that Microsoft ignored their vulnerability disclosures and withheld bug bounty payments, which can reach up to $250,000 for critical exploits like those targeting Hyper-V. In response, Eclipse moved their work to GitLab and threatened further exploit releases, with a notable date set for July 14.\n\nEclipse’s portfolio includes six zero-day exploits, such as BlueHammer and RedSun, which grant SYSTEM-level access through Windows Defender, and YellowKey, a critical flaw in BitLocker encryption. Several of these vulnerabilities, including BlueHammer, RedSun, and UnDefend, are confirmed to be actively exploited in the wild, raising significant security concerns. The public release of proof-of-concept code has made it easier for malicious actors to weaponize these flaws.\n\nIndustry experts suggest Microsoft's Security Response Center (MSRC) has degraded in quality due to cost-cutting measures, leading to stricter disclosure policies like requiring video proof of exploits. This may have contributed to the breakdown in communication with Eclipse. Microsoft's silence on the matter and the ban on Eclipse’s GitHub account have drawn criticism for poor optics and potential harm to security collaboration.\n\nThis episode highlights the growing friction between security researchers and software vendors amid evolving threat landscapes. Traditional 90-day disclosure windows are increasingly inadequate as AI accelerates exploit development and reduces patching timeframes. Microsoft and others may need to rethink vulnerability management policies to foster better cooperation and timely mitigation of critical security risks.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4753
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
