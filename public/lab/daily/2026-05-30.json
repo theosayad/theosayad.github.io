@@ -1,0 +1,42 @@
+{
+  "slug": "2026-05-30",
+  "generatedAt": "2026-05-30T10:50:15.545Z",
+  "article": {
+    "title": "Robinhood now lets your AI agents trade stocks",
+    "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
+    "source": "techcrunch.com",
+    "selectedAt": "2026-05-30T10:50:08.317Z",
+    "publishedAt": "2026-05-29T17:46:27.000Z",
+    "hn": {
+      "id": 48326659,
+      "score": 100,
+      "comments": 171
+    }
+  },
+  "takeaways": [],
+  "summary": "Robinhood has introduced AI agent-enabled stock trading and a virtual credit card for AI-driven payments, marking a significant step in integrating autonomous financial tools into retail investing. This move reflects growing industry momentum toward allowing AI agents to manage user assets with oversight, potentially reshaping how individuals interact with financial services.",
+  "keyPoints": [
+    "Robinhood launched AI agentic trading in beta on May 27, 2026, initially limited to stocks with plans to expand to options, crypto, futures, and prediction markets.",
+    "Users create separate accounts and wallets for AI agents, which can analyze portfolios and execute trades using pre-loaded funds, with notifications and some trades requiring user approval.",
+    "A new virtual credit card for AI agents is available to Robinhood Gold Card holders, enabling AI-driven payments with user-set limits and approval controls; Platinum Card support is planned for later in 2026.",
+    "Security features include fraud detection and a dedicated Robinhood team reviewing suspicious trades to protect users.",
+    "Robinhood's AI push follows its 2024 acquisition of AI research platform Pluto and last year's launch of an AI investment assistant.",
+    "This development aligns Robinhood with other tech firms like Stripe, Amazon, and Google, which are enabling AI agents to perform financial transactions autonomously."
+  ],
+  "rewrite": {
+    "title": "Robinhood Enables AI Agents to Trade Stocks and Make Payments",
+    "body": "On May 27, 2026, Robinhood unveiled a beta feature allowing AI agents to trade stocks on behalf of users, signaling a new era of autonomous retail investing. Users can now create dedicated accounts and wallets for their AI agents, which analyze portfolios and execute trades using pre-funded balances. While some trades require user approval, all activities generate notifications, ensuring transparency. The company has integrated fraud detection protocols, with a specialized team monitoring suspicious transactions to safeguard users.\n\nBeyond trading, Robinhood introduced a virtual credit card designed for AI agents, currently accessible to Gold Card holders. This card enables AI-driven payments with customizable monthly limits and optional approval steps for each transaction. The upcoming Platinum Card will also support this feature, expanding AI’s role in managing user finances.\n\nRobinhood’s AI initiatives build on its 2024 acquisition of the AI research platform Pluto and the prior launch of an AI assistant offering investment advice. The integration with its Model Context Protocol (MCP) allows AI agents to assess concentration risk, sector exposure, and scan analyst notes to identify new opportunities. While the initial rollout focuses on stocks, Robinhood plans to extend AI agent trading to options, cryptocurrencies, futures, and prediction markets.\n\nThis move places Robinhood alongside major players like Stripe, Amazon, and Google, who are developing AI agent capabilities for autonomous financial transactions. As AI agents gain the ability to manage investments and payments with user oversight, this could transform how retail investors interact with financial services, raising new considerations around security, control, and regulatory compliance.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and discussion signals."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3778
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

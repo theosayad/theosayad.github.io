@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-29T12:23:27.772Z",
+  "updatedAt": "2026-05-30T10:50:15.547Z",
   "items": [
+    {
+      "slug": "2026-05-30",
+      "title": "Robinhood now lets your AI agents trade stocks",
+      "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
+      "source": "techcrunch.com",
+      "selectedAt": "2026-05-30T10:50:08.317Z",
+      "publishedAt": "2026-05-29T17:46:27.000Z",
+      "hn": {
+        "id": 48326659,
+        "score": 100,
+        "comments": 171
+      }
+    },
     {
       "slug": "2026-05-29",
       "title": "GitHub bans security researcher who posted zero-day Windows exploits",
@@ -662,19 +675,6 @@
         "id": 47679121,
         "score": 1292,
         "comments": 641
-      }
-    },
-    {
-      "slug": "2026-04-07",
-      "title": "A cryptography engineer's perspective on quantum computing timelines",
-      "url": "https://words.filippo.io/crqc-timeline/",
-      "source": "words.filippo.io",
-      "selectedAt": "2026-04-07T10:12:55.800Z",
-      "publishedAt": "2026-04-06T15:31:20.000Z",
-      "hn": {
-        "id": 47662234,
-        "score": 480,
-        "comments": 193
       }
     }
   ]
