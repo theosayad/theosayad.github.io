@@ -1,0 +1,42 @@
+{
+  "slug": "2026-05-31",
+  "generatedAt": "2026-05-31T11:03:55.531Z",
+  "article": {
+    "title": "Hormuz crisis side effect: a sharp rise in container shipping rates",
+    "url": "https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates",
+    "source": "lloydslist.com",
+    "selectedAt": "2026-05-31T11:03:46.593Z",
+    "publishedAt": "2026-05-30T18:19:23.000Z",
+    "hn": {
+      "id": 48339180,
+      "score": 187,
+      "comments": 163
+    }
+  },
+  "takeaways": [],
+  "summary": "Container shipping rates have surged sharply due to the effective closure of the Strait of Hormuz, driven by geopolitical tensions and escalating fuel costs. This disruption has significantly increased operational expenses for major carriers, pushing spot freight rates to multi-year highs and tightening global shipping capacity.",
+  "keyPoints": [
+    "Shanghai Containerized Freight Index rose 16% in one week to 2,572 points, doubling since late February 2026.",
+    "Maersk faces approximately $500 million monthly extra fuel costs; Hapag-Lloyd incurs €50-60 million weekly increases.",
+    "Asia-US west coast spot rates increased 74% to $3,624 per feu; Asia-US east coast rates rose 65% to $4,367 per feu.",
+    "Red Sea route avoidance reduces effective container shipping capacity by 12%, exacerbating supply constraints.",
+    "Brent crude oil prices could spike to $150-$160 per barrel if the strait remains closed, further inflating fuel costs.",
+    "US import tariff rates average 11.8%, the highest since the 1940s excluding 2025, compounding cost pressures on shippers."
+  ],
+  "rewrite": {
+    "title": "Hormuz Crisis Drives Container Shipping Rates Skyward",
+    "body": "The ongoing closure of the Strait of Hormuz amid Middle East tensions has triggered a sharp escalation in container shipping costs globally. The Shanghai Containerized Freight Index (SCFI) surged 16% in the week ending mid-June 2026, reaching 2,572 points—double its level from late February before the US and Israel's attack on Iran. This spike reflects carriers passing on soaring fuel expenses resulting from disrupted crude supply routes.\n\nMajor ocean carriers are absorbing unprecedented fuel surcharges. Maersk’s CEO Vincent Clerc reported an additional $500 million in monthly fuel costs, while Hapag-Lloyd faces €50-60 million ($250-$300 million) weekly increases. These costs have driven spot freight rates on key trade lanes sharply higher, with Asia-US west coast rates up 74% to $3,624 per feu and east coast rates rising 65% to $4,367 per feu since February. The Shanghai-Mediterranean route also saw a 63% increase, hitting $7,500 per feu, the highest since January 2025.\n\nThe crisis has forced liners to avoid the Red Sea route, reducing effective container capacity by 12%, tightening supply further. Fuel prices remain volatile; ExxonMobil warns Brent crude could spike to $150-$160 per barrel if the strait remains closed, exacerbating cost pressures. Meanwhile, US importers face average tariff rates of 11.8%, the highest since the 1940s excluding 2025, compounding the inflationary impact on global trade.\n\nThese developments suggest sustained elevated shipping costs and constrained capacity until the Strait of Hormuz reopens or geopolitical tensions ease, with significant implications for global supply chains and inflationary pressures on consumer goods.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4478
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

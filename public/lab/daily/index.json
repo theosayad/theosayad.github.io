@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-05-30T10:50:15.547Z",
+  "updatedAt": "2026-05-31T11:03:55.532Z",
   "items": [
+    {
+      "slug": "2026-05-31",
+      "title": "Hormuz crisis side effect: a sharp rise in container shipping rates",
+      "url": "https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates",
+      "source": "lloydslist.com",
+      "selectedAt": "2026-05-31T11:03:46.593Z",
+      "publishedAt": "2026-05-30T18:19:23.000Z",
+      "hn": {
+        "id": 48339180,
+        "score": 187,
+        "comments": 163
+      }
+    },
     {
       "slug": "2026-05-30",
       "title": "Robinhood now lets your AI agents trade stocks",
@@ -662,19 +675,6 @@
         "id": 47698082,
         "score": 137,
         "comments": 103
-      }
-    },
-    {
-      "slug": "2026-04-08",
-      "title": "Project Glasswing: Securing critical software for the AI era",
-      "url": "https://www.anthropic.com/glasswing",
-      "source": "anthropic.com",
-      "selectedAt": "2026-04-08T10:13:50.545Z",
-      "publishedAt": "2026-04-07T18:09:34.000Z",
-      "hn": {
-        "id": 47679121,
-        "score": 1292,
-        "comments": 641
       }
     }
   ]
