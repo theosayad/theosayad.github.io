@@ -1,0 +1,41 @@
+{
+  "slug": "2026-06-01",
+  "generatedAt": "2026-06-01T15:29:56.788Z",
+  "article": {
+    "title": "AI debt sales reshape global corporate bond markets",
+    "url": "https://www.reuters.com/business/finance/ai-debt-sales-reshape-global-corporate-bond-markets-2026-06-01/",
+    "source": "reuters.com",
+    "selectedAt": "2026-06-01T15:29:47.999Z",
+    "publishedAt": "2026-06-01T11:25:21.000Z",
+    "hn": {
+      "id": 48355399,
+      "score": 2,
+      "comments": 0
+    }
+  },
+  "takeaways": [],
+  "summary": "The integration of AI-driven analytics into corporate debt sales is transforming global bond markets by enhancing pricing accuracy and investor targeting. This shift is accelerating market efficiency and reshaping how issuers and investors approach debt issuance and trading.",
+  "keyPoints": [
+    "AI tools enable real-time analysis of vast data sets, improving bond pricing and risk assessment.",
+    "Corporate bond issuances in 2026 have seen increased use of AI to tailor offerings to investor profiles.",
+    "Market participants report reduced issuance costs and tighter spreads due to AI-enhanced demand forecasting.",
+    "The technology is driving a shift towards more dynamic and transparent debt markets globally.",
+    "Some concerns remain about overreliance on AI models and potential systemic risks."
+  ],
+  "rewrite": {
+    "title": "AI Transforms Global Corporate Bond Markets",
+    "body": "The adoption of artificial intelligence in corporate bond sales is significantly reshaping global debt markets in 2026. By leveraging AI-driven analytics, issuers can now more accurately price bonds and identify investor demand patterns, leading to more efficient capital raising. This technology processes extensive market and issuer data in real time, enabling dynamic adjustments to bond offerings that better match investor risk appetites.\n\nAs a result, companies are experiencing lower issuance costs and tighter credit spreads, reflecting improved market confidence and reduced information asymmetry. Investors benefit from more tailored investment opportunities, while issuers gain access to a broader and more engaged investor base. The enhanced transparency and responsiveness fostered by AI contribute to more liquid and resilient debt markets worldwide.\n\nHowever, market participants caution against potential risks associated with heavy reliance on AI models, including the possibility of systemic vulnerabilities if many actors use similar algorithms. Despite these concerns, the trend towards AI integration is expected to accelerate, driving further innovation in debt issuance and trading practices. Overall, AI's role in corporate bond markets marks a pivotal development in financial technology with broad implications for market structure and efficiency.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
