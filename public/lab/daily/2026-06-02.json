@@ -1,0 +1,42 @@
+{
+  "slug": "2026-06-02",
+  "generatedAt": "2026-06-02T12:48:02.079Z",
+  "article": {
+    "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
+    "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
+    "source": "economist.com",
+    "selectedAt": "2026-06-02T12:47:51.106Z",
+    "publishedAt": "2026-06-01T23:45:46.000Z",
+    "hn": {
+      "id": 48364055,
+      "score": 443,
+      "comments": 786
+    }
+  },
+  "takeaways": [],
+  "summary": "The impending public listings of high-profile private companies Anthropic, SpaceX, and OpenAI pose significant challenges for the stock market due to their immense valuations and unique business models. Their entrance could reshape investor dynamics and market capitalization distribution, raising questions about valuation sustainability and market absorption capacity.",
+  "keyPoints": [
+    "Anthropic, SpaceX, and OpenAI are preparing for IPOs or direct listings within the next few years.",
+    "These companies have valuations ranging from tens to hundreds of billions, reflecting their dominant positions in AI and aerospace sectors.",
+    "Their business models combine cutting-edge technology with long-term capital intensity, complicating traditional valuation methods.",
+    "Market absorption of these giants could lead to increased volatility and concentration risks in public equity markets.",
+    "Investor appetite for tech and AI innovation remains strong but may be tested by the scale and complexity of these listings.",
+    "Potential regulatory scrutiny and geopolitical factors could influence investor sentiment and post-listing performance."
+  ],
+  "rewrite": {
+    "title": "Can Markets Absorb Anthropic, SpaceX, OpenAI IPOs?",
+    "body": "The anticipated public offerings of Anthropic, SpaceX, and OpenAI represent a pivotal moment for equity markets, as these tech titans prepare to transition from private to public ownership. Valued collectively in the hundreds of billions, these companies dominate sectors critical to future economic growth, including artificial intelligence and aerospace. Their listings are expected within the next few years, signaling a shift in market capitalization towards technology-driven enterprises with complex, capital-intensive business models.\n\nAnthropic and OpenAI, leaders in AI development, bring unique challenges due to their rapid innovation cycles and uncertain revenue streams, complicating traditional valuation frameworks. SpaceX, with its ambitious space exploration and satellite internet projects, similarly demands long-term investor commitment and tolerance for operational risk. The scale of these offerings could strain market liquidity and elevate concentration risks, potentially increasing volatility as investors adjust portfolios to accommodate these heavyweight entrants.\n\nInvestor enthusiasm for breakthrough technologies remains robust, but the sheer size and complexity of these companies may test market resilience. Additionally, evolving regulatory landscapes and geopolitical tensions surrounding technology and space industries could impact investor confidence and stock performance post-listing. The integration of Anthropic, SpaceX, and OpenAI into public markets will not only reshape investor allocations but also set precedents for valuing innovation-driven enterprises in the years ahead.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

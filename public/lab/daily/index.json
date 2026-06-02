@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-06-01T15:29:56.789Z",
+  "updatedAt": "2026-06-02T12:48:02.081Z",
   "items": [
+    {
+      "slug": "2026-06-02",
+      "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
+      "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
+      "source": "economist.com",
+      "selectedAt": "2026-06-02T12:47:51.106Z",
+      "publishedAt": "2026-06-01T23:45:46.000Z",
+      "hn": {
+        "id": 48364055,
+        "score": 443,
+        "comments": 786
+      }
+    },
     {
       "slug": "2026-06-01",
       "title": "AI debt sales reshape global corporate bond markets",
@@ -662,19 +675,6 @@
         "id": 47719602,
         "score": 461,
         "comments": 158
-      }
-    },
-    {
-      "slug": "2026-04-10",
-      "title": "US defense official overseeing AI reaped millions selling xAI stock",
-      "url": "https://www.theguardian.com/us-news/2026/apr/09/pentagon-ai-xai-emil-michael",
-      "source": "theguardian.com",
-      "selectedAt": "2026-04-10T10:14:12.931Z",
-      "publishedAt": "2026-04-09T20:14:23.000Z",
-      "hn": {
-        "id": 47709197,
-        "score": 49,
-        "comments": 7
       }
     }
   ]
