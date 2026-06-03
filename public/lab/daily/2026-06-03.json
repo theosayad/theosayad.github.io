@@ -1,0 +1,41 @@
+{
+  "slug": "2026-06-03",
+  "generatedAt": "2026-06-03T13:21:41.067Z",
+  "article": {
+    "title": "Morningstar values SpaceX at $780B, half its IPO target",
+    "url": "https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02/",
+    "source": "reuters.com",
+    "selectedAt": "2026-06-03T13:21:28.561Z",
+    "publishedAt": "2026-06-02T18:09:53.000Z",
+    "hn": {
+      "id": 48373909,
+      "score": 201,
+      "comments": 167
+    }
+  },
+  "takeaways": [],
+  "summary": "Morningstar has valued SpaceX at $780 billion, significantly below the company's anticipated $1.6 trillion valuation target for its planned 2026 IPO. This valuation gap highlights investor skepticism about SpaceX's future growth prospects and the challenges of justifying such a high market capitalization in the aerospace and space infrastructure sectors.",
+  "keyPoints": [
+    "Morningstar's valuation of SpaceX stands at $780 billion, roughly half of SpaceX's $1.6 trillion IPO target.",
+    "SpaceX aims for an IPO in 2026, targeting a valuation that would make it one of the most valuable companies globally.",
+    "The valuation discrepancy underscores market concerns about the scalability and profitability of SpaceX’s ambitious projects, including Starship and Starlink.",
+    "SpaceX's valuation debate reflects broader investor caution in the space industry despite growing commercial and government demand.",
+    "Morningstar's assessment may influence investor expectations and pricing dynamics ahead of the IPO."
+  ],
+  "rewrite": {
+    "title": "Morningstar Values SpaceX at $780B, IPO Target Halved",
+    "body": "Morningstar has appraised SpaceX at approximately $780 billion, a figure that is about half of the $1.6 trillion valuation SpaceX is reportedly targeting for its planned initial public offering in 2026. This significant valuation gap reveals a cautious market stance on SpaceX’s ambitious growth trajectory and the feasibility of its long-term revenue streams. SpaceX’s projects, such as the Starship launch system and the Starlink satellite internet constellation, are central to its valuation narrative, but uncertainties around profitability and scale remain key concerns for investors.\n\nThe planned 2026 IPO aims to position SpaceX among the most valuable companies worldwide, reflecting the transformative potential of commercial space ventures. However, Morningstar’s more conservative valuation suggests that the market is not yet fully convinced of the company’s ability to sustain rapid growth and generate consistent profits amid the high capital expenditure and technological risks inherent in the aerospace sector.\n\nThis valuation divergence is emblematic of broader investor caution in the space industry, despite increasing government contracts and expanding commercial demand for satellite-based services. Morningstar’s assessment could temper investor enthusiasm and set more measured expectations for SpaceX’s public market debut, potentially impacting the pricing and reception of the IPO when it occurs.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

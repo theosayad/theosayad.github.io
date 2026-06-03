@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-06-02T12:48:02.081Z",
+  "updatedAt": "2026-06-03T13:21:41.069Z",
   "items": [
+    {
+      "slug": "2026-06-03",
+      "title": "Morningstar values SpaceX at $780B, half its IPO target",
+      "url": "https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02/",
+      "source": "reuters.com",
+      "selectedAt": "2026-06-03T13:21:28.561Z",
+      "publishedAt": "2026-06-02T18:09:53.000Z",
+      "hn": {
+        "id": 48373909,
+        "score": 201,
+        "comments": 167
+      }
+    },
     {
       "slug": "2026-06-02",
       "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
@@ -662,19 +675,6 @@
         "id": 47730370,
         "score": 228,
         "comments": 212
-      }
-    },
-    {
-      "slug": "2026-04-11",
-      "title": "You can't trust macOS Privacy and Security settings",
-      "url": "https://eclecticlight.co/2026/04/10/why-you-cant-trust-privacy-security/",
-      "source": "eclecticlight.co",
-      "selectedAt": "2026-04-11T09:51:39.124Z",
-      "publishedAt": "2026-04-10T15:28:24.000Z",
-      "hn": {
-        "id": 47719602,
-        "score": 461,
-        "comments": 158
       }
     }
   ]
