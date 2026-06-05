@@ -1,0 +1,41 @@
+{
+  "slug": "2026-06-05",
+  "generatedAt": "2026-06-05T12:16:18.219Z",
+  "article": {
+    "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
+    "source": "bloomberg.com",
+    "selectedAt": "2026-06-05T12:16:10.569Z",
+    "publishedAt": "2026-06-04T22:48:19.000Z",
+    "hn": {
+      "id": 48405718,
+      "score": 667,
+      "comments": 323
+    }
+  },
+  "takeaways": [],
+  "summary": "S&P Dow Jones Indices has decided to maintain its existing rules for including mega-cap IPOs in its flagship indices, delaying fast-track entry for companies like SpaceX. This decision impacts market exposure and index fund flows for newly public giants, underscoring the cautious approach to index composition amid evolving IPO dynamics.",
+  "keyPoints": [
+    "S&P Dow Jones consulted on potential rule changes for mega-cap IPOs but chose to keep current standards.",
+    "Companies such as SpaceX, despite their large valuations, will not receive immediate inclusion in key indices like the S&P 500.",
+    "The existing policy requires a waiting period and additional criteria before mega IPOs can join indices.",
+    "This approach limits instant index fund inflows that typically follow index inclusion, affecting liquidity and valuation.",
+    "The decision reflects a balance between index stability and responsiveness to market events involving high-profile IPOs."
+  ],
+  "rewrite": {
+    "title": "S&P Keeps Mega IPO Index Rules, Delays SpaceX Inclusion",
+    "body": "S&P Dow Jones Indices has opted to uphold its current methodology for incorporating mega-cap IPOs into its major indices, including the S&P 500. Despite significant market interest and the high valuations of companies like SpaceX, the index provider will not expedite their inclusion. This means such companies must still satisfy established criteria and endure a waiting period before becoming index constituents.\n\nThe decision follows a consultation process aimed at revising the rules to better accommodate large IPOs that can dramatically impact index composition. However, S&P Dow Jones prioritized index stability and consistency over rapid adjustments. Immediate inclusion of mega IPOs typically triggers substantial inflows from index-tracking funds, which can amplify stock price volatility and affect market dynamics.\n\nBy maintaining the status quo, S&P Dow Jones signals a cautious stance amid the evolving landscape of mega IPOs. For companies like SpaceX, this means delayed benefits from index-related demand, potentially influencing their post-IPO trading behavior and liquidity. Investors and market participants will continue to monitor how index inclusion policies adapt to the growing prominence of mega-cap public listings.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

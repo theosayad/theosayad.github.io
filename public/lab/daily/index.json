@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-06-04T12:08:36.347Z",
+  "updatedAt": "2026-06-05T12:16:18.220Z",
   "items": [
+    {
+      "slug": "2026-06-05",
+      "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
+      "source": "bloomberg.com",
+      "selectedAt": "2026-06-05T12:16:10.569Z",
+      "publishedAt": "2026-06-04T22:48:19.000Z",
+      "hn": {
+        "id": 48405718,
+        "score": 667,
+        "comments": 323
+      }
+    },
     {
       "slug": "2026-06-04",
       "title": "UK media fails to disclose defence sector links in nearly 60% of cases",
@@ -662,19 +675,6 @@
         "id": 47753472,
         "score": 421,
         "comments": 235
-      }
-    },
-    {
-      "slug": "2026-04-13",
-      "title": "Sam Altman's home targeted in second attack",
-      "url": "https://sfstandard.com/2026/04/12/sam-altman-s-home-targeted-second-attack/",
-      "source": "sfstandard.com",
-      "selectedAt": "2026-04-13T10:52:27.983Z",
-      "publishedAt": "2026-04-12T22:30:55.000Z",
-      "hn": {
-        "id": 47745230,
-        "score": 121,
-        "comments": 254
       }
     }
   ]
