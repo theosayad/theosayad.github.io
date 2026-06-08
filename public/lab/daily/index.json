@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-06-07T11:12:44.794Z",
+  "updatedAt": "2026-06-08T13:13:12.488Z",
   "items": [
+    {
+      "slug": "2026-06-08",
+      "title": "Texas grid flags risks as data centers, crypto sites fail voltage tests",
+      "url": "https://www.reuters.com/business/energy/texas-grid-flags-risks-data-centers-crypto-sites-fail-voltage-tests-2026-06-05/",
+      "source": "reuters.com",
+      "selectedAt": "2026-06-08T13:13:00.127Z",
+      "publishedAt": "2026-06-08T02:05:40.000Z",
+      "hn": {
+        "id": 48440610,
+        "score": 128,
+        "comments": 87
+      }
+    },
     {
       "slug": "2026-06-07",
       "title": "Dallas Housing Market Cools as H-1B Visa Indian Buyers Vanish",
@@ -662,19 +675,6 @@
         "id": 47802962,
         "score": 33,
         "comments": 5
-      }
-    },
-    {
-      "slug": "2026-04-16",
-      "title": "Live Nation illegally monopolized ticketing market, jury finds",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds",
-      "source": "bloomberg.com",
-      "selectedAt": "2026-04-16T10:21:59.469Z",
-      "publishedAt": "2026-04-15T19:06:39.000Z",
-      "hn": {
-        "id": 47783713,
-        "score": 547,
-        "comments": 160
       }
     }
   ]

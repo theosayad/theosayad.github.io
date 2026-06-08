@@ -1,0 +1,41 @@
+{
+  "slug": "2026-06-08",
+  "generatedAt": "2026-06-08T13:13:12.486Z",
+  "article": {
+    "title": "Texas grid flags risks as data centers, crypto sites fail voltage tests",
+    "url": "https://www.reuters.com/business/energy/texas-grid-flags-risks-data-centers-crypto-sites-fail-voltage-tests-2026-06-05/",
+    "source": "reuters.com",
+    "selectedAt": "2026-06-08T13:13:00.127Z",
+    "publishedAt": "2026-06-08T02:05:40.000Z",
+    "hn": {
+      "id": 48440610,
+      "score": 128,
+      "comments": 87
+    }
+  },
+  "takeaways": [],
+  "summary": "Texas grid operators have flagged significant risks after data centers and cryptocurrency mining facilities failed critical voltage stability tests. This raises concerns about the growing strain these high-demand power users place on the grid, potentially threatening reliability during peak periods.",
+  "keyPoints": [
+    "ERCOT identified multiple data centers and crypto mining sites that did not meet voltage ride-through requirements.",
+    "Voltage ride-through tests ensure facilities can maintain operation during brief grid disturbances, critical for overall stability.",
+    "Failures suggest these large power consumers could exacerbate grid instability during outages or high demand.",
+    "Texas grid faces increasing pressure as data centers and crypto operations expand rapidly, consuming substantial electricity.",
+    "ERCOT's findings highlight the need for stricter compliance and infrastructure upgrades to safeguard grid reliability."
+  ],
+  "rewrite": {
+    "title": "Texas Grid Risks from Data Center, Crypto Voltage Failures",
+    "body": "The Electric Reliability Council of Texas (ERCOT) recently reported that several data centers and cryptocurrency mining operations failed essential voltage ride-through tests, which assess a facility's ability to withstand short-term voltage drops without disconnecting from the grid. These failures are alarming because they indicate that these large-scale power consumers may disconnect during grid disturbances, potentially worsening outages and threatening overall system stability.\n\nData centers and crypto mining facilities are among the fastest-growing electricity users in Texas, driven by the state's favorable energy costs and regulatory environment. However, their rapid expansion is placing unprecedented stress on the grid, especially during peak demand periods or extreme weather events. Voltage ride-through compliance is critical to ensure these facilities remain connected and support grid resilience.\n\nERCOT's identification of these vulnerabilities underscores the urgent need for enhanced regulatory oversight and infrastructure investment. Without addressing these compliance gaps, the risk of cascading failures increases, which could lead to widespread blackouts. The situation also signals broader challenges as Texas balances economic growth in energy-intensive industries with the imperative of maintaining a reliable power supply.\n\nMoving forward, ERCOT and stakeholders must prioritize stricter enforcement of grid connection standards and consider upgrading grid infrastructure to accommodate the unique demands of data centers and crypto mining. These steps are essential to prevent future disruptions and ensure the Texas grid can sustain its evolving energy landscape.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
