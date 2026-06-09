@@ -1,0 +1,42 @@
+{
+  "slug": "2026-06-09",
+  "generatedAt": "2026-06-09T12:11:44.598Z",
+  "article": {
+    "title": "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
+    "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
+    "source": "mimo.xiaomi.com",
+    "selectedAt": "2026-06-09T12:11:29.878Z",
+    "publishedAt": "2026-06-08T15:27:33.000Z",
+    "hn": {
+      "id": 48446639,
+      "score": 584,
+      "comments": 431
+    }
+  },
+  "takeaways": [],
+  "summary": "Xiaomi has unveiled the MiMo-V2.5-Pro-UltraSpeed, a trillion-parameter AI model capable of generating over 1000 tokens per second on commodity 8-GPU hardware. This breakthrough enables real-time AI reasoning and decision-making in critical applications, from high-frequency trading to surgical assistance, by leveraging innovative model-system co-design and advanced quantization techniques.",
+  "keyPoints": [
+    "MiMo-V2.5-Pro-UltraSpeed offers 1000+ tokens per second generation using a single standard 8-GPU node.",
+    "Trial API access is limited to approved users from June 9 to June 23, 2026 (Beijing Time).",
+    "Selective FP4 quantization applied to Mixture of Experts (MoE) components reduces model size and memory bandwidth without sacrificing accuracy.",
+    "DFlash speculative decoding enables block-level parallel token prediction, significantly increasing throughput and acceptance rates.",
+    "TileRT system architecture tightly integrates with model algorithms to minimize latency and maximize hardware utilization.",
+    "Real-time millisecond-level inference opens new possibilities in time-sensitive domains like quantitative trading, fraud detection, intelligent bidding, and medical imaging."
+  ],
+  "rewrite": {
+    "title": "Xiaomi’s 1T Model Hits 1000 Tokens/Second on GPUs",
+    "body": "Xiaomi’s MiMo-V2.5-Pro-UltraSpeed marks a significant leap in AI inference speed by delivering over 1000 tokens per second on a single commodity 8-GPU node. This milestone is achieved not through specialized hardware but via deep co-design between the trillion-parameter MiMo model and the TileRT system, which optimizes compilation and execution pipelines to exploit hardware limits fully. The model’s selective FP4 quantization, applied specifically to its Mixture of Experts components, dramatically reduces memory bandwidth demands while preserving overall accuracy.\n\nA key innovation is the adoption of DFlash speculative decoding, a block-level masked parallel prediction method that replaces traditional token-by-token autoregressive generation. This approach allows the model to predict multiple tokens simultaneously, increasing acceptance rates to over 6 tokens per verification round in coding tasks, thus boosting throughput without compromising output quality. TileRT’s runtime architecture further minimizes microsecond-scale execution gaps by tightly coupling with the model’s quantization and decoding strategies.\n\nThe implications of this speed breakthrough extend beyond productivity gains. With millisecond-level response times, trillion-parameter models can now operate in real-time decision loops critical for high-frequency quantitative trading, instant fraud detection, dynamic bidding, and interactive dialogue systems. Moreover, in life-critical applications such as surgical assistance and medical imaging, the accelerated inference translates into faster lesion analysis and risk prediction, potentially saving lives by providing surgeons with timely insights.\n\nAvailable through a limited trial API window from June 9 to June 23, 2026, access prioritizes enterprises and professional developers with genuine business needs. Xiaomi invites deeper business collaborations to expand UltraSpeed’s deployment. This advancement underscores a paradigm shift where AI speed is not merely a performance metric but a foundational enabler of real-time intelligent systems that integrate seamlessly into human workflows.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and community discussion highlights."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 9220
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

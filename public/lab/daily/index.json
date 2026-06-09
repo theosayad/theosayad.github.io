@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-06-08T13:13:12.488Z",
+  "updatedAt": "2026-06-09T12:11:44.600Z",
   "items": [
+    {
+      "slug": "2026-06-09",
+      "title": "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
+      "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
+      "source": "mimo.xiaomi.com",
+      "selectedAt": "2026-06-09T12:11:29.878Z",
+      "publishedAt": "2026-06-08T15:27:33.000Z",
+      "hn": {
+        "id": 48446639,
+        "score": 584,
+        "comments": 431
+      }
+    },
     {
       "slug": "2026-06-08",
       "title": "Texas grid flags risks as data centers, crypto sites fail voltage tests",
@@ -662,19 +675,6 @@
         "id": 47810357,
         "score": 37,
         "comments": 8
-      }
-    },
-    {
-      "slug": "2026-04-17",
-      "title": "US tech firms lobbied EU to keep datacentre emissions secret",
-      "url": "https://www.theguardian.com/technology/2026/apr/17/microsoft-us-tech-firms-lobbied-eu-secrecy-rules-datacentre-emissions",
-      "source": "theguardian.com",
-      "selectedAt": "2026-04-17T10:19:28.400Z",
-      "publishedAt": "2026-04-17T06:17:41.000Z",
-      "hn": {
-        "id": 47802962,
-        "score": 33,
-        "comments": 5
       }
     }
   ]
