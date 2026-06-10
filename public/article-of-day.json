@@ -1,13 +1,13 @@
 {
-  "title": "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
-  "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
-  "source": "mimo.xiaomi.com",
-  "selectedAt": "2026-06-09T12:11:29.878Z",
-  "publishedAt": "2026-06-08T15:27:33.000Z",
+  "title": "Show HN: Nucleus – A security-hardened, Nix-native container runtime",
+  "url": "https://github.com/sig-id/nucleus",
+  "source": "github.com",
+  "selectedAt": "2026-06-10T12:30:39.008Z",
+  "publishedAt": "2026-06-09T23:03:40.000Z",
   "hn": {
-    "id": 48446639,
-    "score": 584,
-    "comments": 431
+    "id": 48469039,
+    "score": 30,
+    "comments": 7
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }

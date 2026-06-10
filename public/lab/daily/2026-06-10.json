@@ -1,0 +1,42 @@
+{
+  "slug": "2026-06-10",
+  "generatedAt": "2026-06-10T12:30:53.327Z",
+  "article": {
+    "title": "Show HN: Nucleus – A security-hardened, Nix-native container runtime",
+    "url": "https://github.com/sig-id/nucleus",
+    "source": "github.com",
+    "selectedAt": "2026-06-10T12:30:39.008Z",
+    "publishedAt": "2026-06-09T23:03:40.000Z",
+    "hn": {
+      "id": 48469039,
+      "score": 30,
+      "comments": 7
+    }
+  },
+  "takeaways": [],
+  "summary": "Nucleus is a security-focused, minimalist container runtime for Linux that leverages Nix for fully declarative, reproducible environments. Unlike Docker, it emphasizes hardened sandboxing, strict policy enforcement, and immutable root filesystems to improve isolation and auditability in production workloads.",
+  "keyPoints": [
+    "Nucleus uses Nix to build root filesystems and NixOS modules to declare services, enabling pinned, reproducible container environments.",
+    "It prioritizes security by employing Linux kernel primitives, Landlock, seccomp, and explicit privilege dropping, rejecting writable executable workspaces in production.",
+    "Unlike Docker, Nucleus omits image distribution, focusing instead on lightweight, single-host orchestration and stronger isolation akin to runtimes like runc or gVisor.",
+    "Secrets management avoids environment variables, favoring systemd credential pipelines and file-based secrets to reduce exposure risks.",
+    "Network egress policies require exact DNS names with IPv4 resolution, ensuring predictable and auditable outbound traffic control.",
+    "Agent mode offers best-effort security but is not hardened; production mode enforces strict isolation and reproducibility for long-running services."
+  ],
+  "rewrite": {
+    "title": "Nucleus: Secure, Declarative Nix-Based Container Runtime",
+    "body": "Nucleus introduces a minimalist container runtime designed for Linux environments where security and reproducibility are paramount. By integrating tightly with Nix, it constructs fully declarative root filesystems and service definitions, enabling containers to run pinned, immutable closures instead of mutable host states. This approach ensures that production workloads are reproducible and auditable, reducing drift and configuration errors.\n\nDistinct from Docker, Nucleus does not handle image distribution but instead focuses on hardened sandboxing and lightweight orchestration on single hosts. It leverages Linux kernel security features such as Landlock and seccomp to enforce strict process isolation, with explicit privilege dropping after setup to minimize attack surfaces. Writable executable mounts are disallowed in production, and secrets are managed securely via systemd's credential pipeline rather than environment variables, mitigating common secret leakage vectors.\n\nNetworking policies in Nucleus require exact DNS entries resolved to IPv4 addresses, preventing wildcard or suffix-based rules and ensuring precise control over outbound connections. While agent mode provides a more flexible but less secure environment for development and testing, production mode enforces rigorous security and reproducibility standards suitable for long-running NixOS services. Event logging is supported through JSON Lines or file descriptors, enabling operators to monitor container lifecycle and resource usage independently of workload output.\n\nOverall, Nucleus offers a novel container runtime alternative that prioritizes security, reproducibility, and declarative management, making it well-suited for environments where auditability and minimal attack surface are critical.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 6607
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
