@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-06-10T12:30:53.329Z",
+  "updatedAt": "2026-06-11T12:51:11.795Z",
   "items": [
+    {
+      "slug": "2026-06-11",
+      "title": "A €0.01 bank transfer could compromise a banking AI agent",
+      "url": "https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/",
+      "source": "blue41.com",
+      "selectedAt": "2026-06-11T12:50:58.224Z",
+      "publishedAt": "2026-06-10T13:39:11.000Z",
+      "hn": {
+        "id": 48476136,
+        "score": 192,
+        "comments": 181
+      }
+    },
     {
       "slug": "2026-06-10",
       "title": "Show HN: Nucleus – A security-hardened, Nix-native container runtime",
@@ -662,19 +675,6 @@
         "id": 47824463,
         "score": 760,
         "comments": 432
-      }
-    },
-    {
-      "slug": "2026-04-19",
-      "title": "Keep Pushing: We Get 10 More Days to Reform Section 702",
-      "url": "https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702",
-      "source": "eff.org",
-      "selectedAt": "2026-04-19T09:54:57.706Z",
-      "publishedAt": "2026-04-19T07:05:17.000Z",
-      "hn": {
-        "id": 47822356,
-        "score": 58,
-        "comments": 4
       }
     }
   ]
