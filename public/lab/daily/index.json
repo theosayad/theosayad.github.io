@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-06-11T12:51:11.795Z",
+  "updatedAt": "2026-06-12T12:25:01.246Z",
   "items": [
+    {
+      "slug": "2026-06-12",
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+      "source": "lantian.pub",
+      "selectedAt": "2026-06-12T12:24:51.098Z",
+      "publishedAt": "2026-06-12T04:42:53.000Z",
+      "hn": {
+        "id": 48500012,
+        "score": 792,
+        "comments": 303
+      }
+    },
     {
       "slug": "2026-06-11",
       "title": "A €0.01 bank transfer could compromise a banking AI agent",
@@ -662,19 +675,6 @@
         "id": 47844797,
         "score": 107,
         "comments": 42
-      }
-    },
-    {
-      "slug": "2026-04-20",
-      "title": "Vercel April 2026 security incident",
-      "url": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
-      "source": "bleepingcomputer.com",
-      "selectedAt": "2026-04-20T10:55:07.783Z",
-      "publishedAt": "2026-04-19T14:14:38.000Z",
-      "hn": {
-        "id": 47824463,
-        "score": 760,
-        "comments": 432
       }
     }
   ]
