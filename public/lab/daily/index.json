@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-06-12T12:25:01.246Z",
+  "updatedAt": "2026-06-13T11:22:26.771Z",
   "items": [
+    {
+      "slug": "2026-06-13",
+      "title": "Pirates, a naval warfare game inspired by Sid Meier's Pirates",
+      "url": "https://piwodlaiwo.github.io/pirates/",
+      "source": "piwodlaiwo.github.io",
+      "selectedAt": "2026-06-13T11:22:03.345Z",
+      "publishedAt": "2026-06-12T17:07:46.000Z",
+      "hn": {
+        "id": 48506659,
+        "score": 271,
+        "comments": 81
+      }
+    },
     {
       "slug": "2026-06-12",
       "title": "AI agent bankrupted their operator while trying to scan DN42",
@@ -661,19 +674,6 @@
       "hn": {
         "id": 47850212,
         "score": 113,
-        "comments": 42
-      }
-    },
-    {
-      "slug": "2026-04-21",
-      "title": "Israeli soldiers using sexual assault to force Palestinians out of West Bank",
-      "url": "https://www.theguardian.com/world/2026/apr/21/israeli-soldiers-using-sexual-assault-to-force-palestinians-out-of-west-bank-report-says",
-      "source": "theguardian.com",
-      "selectedAt": "2026-04-21T10:23:25.473Z",
-      "publishedAt": "2026-04-21T05:15:23.000Z",
-      "hn": {
-        "id": 47844797,
-        "score": 107,
         "comments": 42
       }
     }

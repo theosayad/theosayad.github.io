@@ -1,0 +1,41 @@
+{
+  "slug": "2026-06-13",
+  "generatedAt": "2026-06-13T11:22:26.770Z",
+  "article": {
+    "title": "Pirates, a naval warfare game inspired by Sid Meier's Pirates",
+    "url": "https://piwodlaiwo.github.io/pirates/",
+    "source": "piwodlaiwo.github.io",
+    "selectedAt": "2026-06-13T11:22:03.345Z",
+    "publishedAt": "2026-06-12T17:07:46.000Z",
+    "hn": {
+      "id": 48506659,
+      "score": 271,
+      "comments": 81
+    }
+  },
+  "takeaways": [],
+  "summary": "A new naval warfare game titled 'Pirates: Naval Combat' draws inspiration from the classic Sid Meier's Pirates, aiming to capture the strategic and adventurous spirit of its predecessor. Its release has sparked interest on Hacker News, highlighting the enduring appeal of pirate-themed strategy games and the challenges of modernizing such classics for contemporary audiences.",
+  "keyPoints": [
+    "'Pirates: Naval Combat' is a recent game inspired by Sid Meier's Pirates, focusing on naval battles and strategy.",
+    "The game emphasizes tactical ship combat, a core element that defined the original's gameplay experience.",
+    "Community discussions on Hacker News reveal both nostalgia for the original and critical perspectives on game mechanics and design choices.",
+    "The project is available online, indicating a trend toward accessible, browser-based strategy games.",
+    "The game's reception underscores the challenge of balancing homage with innovation in reviving classic game concepts."
+  ],
+  "rewrite": {
+    "title": "Pirates: Naval Combat Revives Classic Strategy Game",
+    "body": "Drawing from the legacy of Sid Meier's Pirates, 'Pirates: Naval Combat' offers a fresh take on naval warfare strategy, focusing on ship-to-ship combat and tactical decision-making. By leveraging browser accessibility, it targets a broad audience eager for strategic gameplay without the barriers of complex installations. The game’s design seeks to evoke the adventurous spirit and strategic depth that made the original a classic, while adapting mechanics to modern expectations.\n\nDiscussions on Hacker News reveal a community divided between enthusiasm for the nostalgic elements and critiques regarding gameplay execution. These conversations highlight the inherent difficulty in updating beloved titles: maintaining core appeal while introducing meaningful innovations. The game’s online availability also reflects a growing trend toward lightweight, accessible strategy games that can reach players more easily.\n\nOverall, 'Pirates: Naval Combat' exemplifies how classic game concepts continue to inspire new projects, demonstrating the lasting influence of Sid Meier's work on contemporary game development. Its reception may inform future efforts to modernize vintage games, balancing respect for the original with the demands of today’s gaming landscape.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 21
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
