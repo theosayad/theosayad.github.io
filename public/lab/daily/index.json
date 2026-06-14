@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-06-13T11:22:26.771Z",
+  "updatedAt": "2026-06-14T11:34:53.613Z",
   "items": [
+    {
+      "slug": "2026-06-14",
+      "title": "Building a serial and VGA \"everything console\"",
+      "url": "http://oldvcr.blogspot.com/2026/06/building-serial-and-vga-everything.html",
+      "source": "oldvcr.blogspot.com",
+      "selectedAt": "2026-06-14T11:34:23.543Z",
+      "publishedAt": "2026-06-14T02:31:15.000Z",
+      "hn": {
+        "id": 48523615,
+        "score": 34,
+        "comments": 5
+      }
+    },
     {
       "slug": "2026-06-13",
       "title": "Pirates, a naval warfare game inspired by Sid Meier's Pirates",
@@ -662,19 +675,6 @@
         "id": 47862230,
         "score": 115,
         "comments": 97
-      }
-    },
-    {
-      "slug": "2026-04-22",
-      "title": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
-      "url": "https://www.brex.com/crabtrap",
-      "source": "brex.com",
-      "selectedAt": "2026-04-22T10:24:41.974Z",
-      "publishedAt": "2026-04-21T15:29:16.000Z",
-      "hn": {
-        "id": 47850212,
-        "score": 113,
-        "comments": 42
       }
     }
   ]

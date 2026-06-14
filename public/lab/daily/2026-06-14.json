@@ -1,0 +1,42 @@
+{
+  "slug": "2026-06-14",
+  "generatedAt": "2026-06-14T11:34:53.612Z",
+  "article": {
+    "title": "Building a serial and VGA \"everything console\"",
+    "url": "http://oldvcr.blogspot.com/2026/06/building-serial-and-vga-everything.html",
+    "source": "oldvcr.blogspot.com",
+    "selectedAt": "2026-06-14T11:34:23.543Z",
+    "publishedAt": "2026-06-14T02:31:15.000Z",
+    "hn": {
+      "id": 48523615,
+      "score": 34,
+      "comments": 5
+    }
+  },
+  "takeaways": [],
+  "summary": "An enthusiast repurposed an IBM 7316-TF3 rackmount console from 2004-2014 to build a versatile serial and VGA terminal setup. By integrating a VT100 terminal emulator and custom modifications, the project enables seamless switching between legacy serial terminal use and modern USB/VGA connectivity, highlighting practical retrofitting for mixed hardware environments.",
+  "keyPoints": [
+    "IBM 7316-TF3 console features a 17\" LCD and combo keyboard-mouse, manufactured 2004-2014.",
+    "Original keyboard is an IBM USB Travel Keyboard with UltraNav (SK-8845RC), but incompatible with chosen VT100 terminal emulator due to USB combo device limitations.",
+    "VT100 terminal emulator from Tattler Solutions costs $86 shipped, supports up to 115200bps and VT100 standards.",
+    "Custom tray modifications involved silane metal glue curing over a week and Velcro for keyboard mounting.",
+    "Setup includes dual USB and VGA manual switchboxes ($20 total) for toggling between terminal box and direct PC connections.",
+    "Power management uses a miniature power strip with USB ports, and cable routing is secured with Velcro and clips for neatness and accessibility."
+  ],
+  "rewrite": {
+    "title": "Retrofit IBM Rack Console for Serial and VGA Terminal",
+    "body": "The IBM 7316-TF3, a 1U rackmount console produced between 2004 and 2014, was repurposed to create a flexible serial and VGA terminal solution. Featuring a 17-inch LCD and an IBM USB Travel Keyboard with UltraNav, this console was acquired at a discount due to minor screen damage but remained fully functional for terminal use. Despite liking the original keyboard's tactile feel and pointing device options, hardware limitations of the selected VT100 terminal emulator prevented its use, necessitating a switch to a simpler USB keyboard.\n\nThe VT100 terminal emulator, sourced from Tattler Solutions for $86 including shipping, supports baud rates up to 115200bps and standard VT100 terminal functions. It is USB-powered and housed in a compact case, making it ideal for integration. To accommodate the new keyboard, the console’s lower tray was modified with silane metal glue and reinforced with painted braces, requiring a week-long curing process for stability. Velcro strips were then used to secure the keyboard, balancing usability with space constraints.\n\nTo enable dual functionality, the setup incorporates two manual USB and VGA switchboxes costing $20 total, allowing the user to toggle connections between the terminal emulator and external devices. Power is managed through a miniature power strip with built-in USB ports, and meticulous cable management using Velcro ties and clips ensures tidy routing and easy access. This project demonstrates practical retrofitting of legacy server hardware to bridge vintage serial terminal needs with modern USB and VGA interfaces, useful for mixed IT environments or hobbyist setups.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 11348
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
