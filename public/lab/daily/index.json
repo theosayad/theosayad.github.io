@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-06-14T11:34:53.613Z",
+  "updatedAt": "2026-06-15T15:23:03.170Z",
   "items": [
+    {
+      "slug": "2026-06-15",
+      "title": "Kevin Warsh Wants the Fed to Stop Explaining Everything",
+      "url": "https://www.wsj.com/economy/central-banking/fed-warsh-chair-communication-d2f2d226",
+      "source": "wsj.com",
+      "selectedAt": "2026-06-15T15:21:57.236Z",
+      "publishedAt": "2026-06-15T01:25:16.000Z",
+      "hn": {
+        "id": 48535351,
+        "score": 4,
+        "comments": 1
+      }
+    },
     {
       "slug": "2026-06-14",
       "title": "Building a serial and VGA \"everything console\"",
@@ -662,19 +675,6 @@
         "id": 47878208,
         "score": 243,
         "comments": 236
-      }
-    },
-    {
-      "slug": "2026-04-23",
-      "title": "Kernel code removals driven by LLM-created security reports",
-      "url": "https://lwn.net/Articles/1068928/",
-      "source": "lwn.net",
-      "selectedAt": "2026-04-23T10:26:19.678Z",
-      "publishedAt": "2026-04-22T11:48:07.000Z",
-      "hn": {
-        "id": 47862230,
-        "score": 115,
-        "comments": 97
       }
     }
   ]
