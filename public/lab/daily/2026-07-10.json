@@ -1,0 +1,41 @@
+{
+  "slug": "2026-07-10",
+  "generatedAt": "2026-07-10T12:05:47.676Z",
+  "article": {
+    "title": "No leap second will be introduced at the end of December 2026",
+    "url": "https://datacenter.iers.org/data/latestVersion/bulletinC.txt",
+    "source": "datacenter.iers.org",
+    "selectedAt": "2026-07-10T12:05:33.420Z",
+    "publishedAt": "2026-07-09T14:16:34.000Z",
+    "hn": {
+      "id": 48846281,
+      "score": 291,
+      "comments": 225
+    }
+  },
+  "takeaways": [],
+  "summary": "The International Earth Rotation and Reference Systems Service (IERS) announced that no leap second will be added at the end of December 2026, maintaining the current offset between Coordinated Universal Time (UTC) and International Atomic Time (TAI). This decision reflects the stable difference of 37 seconds since 2017 and impacts timekeeping systems worldwide that rely on precise synchronization.",
+  "keyPoints": [
+    "No leap second will be inserted at December 31, 2026, as per IERS Bulletin C issued on July 6, 2026.",
+    "The UTC-TAI offset remains steady at -37 seconds since January 1, 2017.",
+    "Leap seconds are typically added at the end of June or December to adjust for Earth's irregular rotation.",
+    "IERS issues Bulletin C biannually to confirm upcoming leap second adjustments or their absence.",
+    "The absence of a leap second indicates that the difference between UT1 (Earth rotation time) and TAI has not crossed the threshold requiring correction."
+  ],
+  "rewrite": {
+    "title": "No Leap Second Scheduled for December 2026",
+    "body": "The International Earth Rotation and Reference Systems Service (IERS) confirmed on July 6, 2026, that no leap second will be introduced at the end of December 2026. This announcement maintains the current 37-second difference between Coordinated Universal Time (UTC) and International Atomic Time (TAI), a stable offset that has persisted since January 1, 2017. Leap seconds are occasionally added to UTC to compensate for irregularities in Earth's rotation, ensuring that civil time remains aligned with solar time.\n\nLeap seconds are typically inserted at the end of June or December when the difference between UT1 (a measure of Earth's rotation) and TAI approaches or exceeds 0.9 seconds. The decision to omit a leap second this cycle indicates that Earth's rotation has remained sufficiently stable, avoiding the need for adjustment. IERS issues Bulletin C twice yearly to inform timekeeping authorities about upcoming leap second changes or their absence, enabling synchronization across global systems.\n\nThis stability has implications for systems reliant on precise timekeeping, such as satellite navigation, telecommunications, and financial markets, which must account for leap seconds to maintain accuracy. The continued absence of leap seconds may influence ongoing discussions about the future of UTC and whether leap seconds should be phased out to simplify timekeeping infrastructure worldwide.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 1064
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
