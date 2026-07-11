@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-10T12:05:47.677Z",
+  "updatedAt": "2026-07-11T10:21:32.163Z",
   "items": [
+    {
+      "slug": "2026-07-11",
+      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+      "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+      "source": "9to5mac.com",
+      "selectedAt": "2026-07-11T10:21:24.830Z",
+      "publishedAt": "2026-07-10T20:47:09.000Z",
+      "hn": {
+        "id": 48865019,
+        "score": 1095,
+        "comments": 563
+      }
+    },
     {
       "slug": "2026-07-10",
       "title": "No leap second will be introduced at the end of December 2026",
@@ -662,19 +675,6 @@
         "id": 47916410,
         "score": 103,
         "comments": 86
-      }
-    },
-    {
-      "slug": "2026-04-26",
-      "title": "Show HN: Kloak, A secret manager that keeps K8s workload away from secrets",
-      "url": "https://getkloak.io/",
-      "source": "getkloak.io",
-      "selectedAt": "2026-04-26T10:00:31.545Z",
-      "publishedAt": "2026-04-25T19:03:01.000Z",
-      "hn": {
-        "id": 47903690,
-        "score": 50,
-        "comments": 40
       }
     }
   ]

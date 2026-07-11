@@ -1,0 +1,42 @@
+{
+  "slug": "2026-07-11",
+  "generatedAt": "2026-07-11T10:21:32.162Z",
+  "article": {
+    "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+    "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+    "source": "9to5mac.com",
+    "selectedAt": "2026-07-11T10:21:24.830Z",
+    "publishedAt": "2026-07-10T20:47:09.000Z",
+    "hn": {
+      "id": 48865019,
+      "score": 1095,
+      "comments": 563
+    }
+  },
+  "takeaways": [],
+  "summary": "Apple has sued OpenAI alleging that former Apple employees stole trade secrets to benefit OpenAI's emerging hardware division, which is led by ex-Apple design chief Jony Ive. The lawsuit highlights serious concerns over confidential information leaks amid OpenAI’s hardware ambitions, potentially impacting competitive dynamics in tech hardware innovation.",
+  "keyPoints": [
+    "Apple filed the lawsuit on July 10, 2026, in the Northern District of California.",
+    "Defendants include Chang Liu, a former senior electrical engineer who left Apple in January 2026, and Tang Tan, ex-VP of product design who departed in February 2024.",
+    "OpenAI acquired Jony Ive’s startup io in 2025 for $6.5 billion, bringing over 50 Apple alumni into its hardware team.",
+    "Apple alleges Tan used insider knowledge to extract confidential info during job interviews, including requesting Apple hardware parts and proprietary design details.",
+    "Liu reportedly exploited a security bug post-departure to download over a thousand pages of sensitive engineering documents and failed to return company equipment.",
+    "Apple claims OpenAI misled trusted suppliers to replicate Apple’s proprietary manufacturing techniques and sought detailed component information."
+  ],
+  "rewrite": {
+    "title": "Apple Sues OpenAI Over Trade Secret Theft",
+    "body": "On July 10, 2026, Apple initiated legal action against OpenAI, accusing the AI company of orchestrating trade secret theft through former Apple employees. The complaint centers on Chang Liu and Tang Tan, who held senior technical and design roles at Apple before joining OpenAI. Liu allegedly exploited a security flaw to download extensive confidential engineering files after leaving Apple, while Tan reportedly leveraged insider knowledge to extract sensitive information during recruitment interviews, even instructing candidates to bring actual Apple hardware components.\n\nOpenAI’s hardware division, spearheaded by former Apple design chief Jony Ive following a $6.5 billion acquisition of his startup io in 2025, has incorporated over 50 ex-Apple engineers and designers. Apple contends that this influx of talent facilitated the transfer of proprietary information, including unreleased product details and manufacturing processes. The lawsuit further alleges that OpenAI misrepresented its intentions to trusted Apple suppliers to gain access to proprietary metal-finishing techniques and component specifications.\n\nApple first raised these concerns directly with OpenAI in February 2026, but claims the company failed to respond. The legal filing suggests that the misconduct is widespread within OpenAI’s hardware efforts, potentially undermining Apple’s competitive edge in product innovation. This dispute emerges amid reports that OpenAI is developing its own smartphone, expected by 2028, and a smart speaker, signaling intensified competition in consumer hardware.\n\nThe case underscores the risks tech companies face in protecting intellectual property amid talent mobility and aggressive expansion into adjacent markets. It also highlights the complexities of collaboration and competition between established tech giants and emerging AI-driven firms.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 6197
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
