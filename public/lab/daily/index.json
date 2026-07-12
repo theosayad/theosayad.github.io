@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-11T10:21:32.163Z",
+  "updatedAt": "2026-07-12T10:39:12.625Z",
   "items": [
+    {
+      "slug": "2026-07-12",
+      "title": "Firefox 12.58% for Desktop Browser Market Share in North America June 2026",
+      "url": "https://gs.statcounter.com/browser-market-share/desktop/north-america",
+      "source": "gs.statcounter.com",
+      "selectedAt": "2026-07-12T10:39:03.993Z",
+      "publishedAt": "2026-07-12T01:05:04.000Z",
+      "hn": {
+        "id": 48877349,
+        "score": 38,
+        "comments": 19
+      }
+    },
     {
       "slug": "2026-07-11",
       "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
@@ -662,19 +675,6 @@
         "id": 47920973,
         "score": 104,
         "comments": 71
-      }
-    },
-    {
-      "slug": "2026-04-27",
-      "title": "Google banks on AI edge to catch up to cloud rivals Amazon and Microsoft",
-      "url": "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c",
-      "source": "ft.com",
-      "selectedAt": "2026-04-27T11:09:45.813Z",
-      "publishedAt": "2026-04-27T00:34:30.000Z",
-      "hn": {
-        "id": 47916410,
-        "score": 103,
-        "comments": 86
       }
     }
   ]
