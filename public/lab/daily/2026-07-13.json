@@ -1,0 +1,42 @@
+{
+  "slug": "2026-07-13",
+  "generatedAt": "2026-07-13T12:14:46.964Z",
+  "article": {
+    "title": "Berkshire's $397B Bet Against an Overheated Market",
+    "url": "https://www.disruptionbanking.com/2026/07/13/inside-berkshires-397-billion-bet-against-an-overheated-market/",
+    "source": "disruptionbanking.com",
+    "selectedAt": "2026-07-13T12:14:30.042Z",
+    "publishedAt": "2026-07-13T08:15:52.000Z",
+    "hn": {
+      "id": 48889429,
+      "score": 69,
+      "comments": 72
+    }
+  },
+  "takeaways": [],
+  "summary": "Berkshire Hathaway holds a record $397.4 billion in cash and T-bills, signaling caution amid an overheated stock market. With key valuation metrics like the Buffett Indicator and Shiller P/E ratio at historic highs, Berkshire’s prolonged equity selling streak under new CEO Greg Abel suggests a strategic wait for better investment opportunities. This cash reserve positions the company to capitalize on potential market corrections.",
+  "keyPoints": [
+    "Berkshire’s cash and T-bills total $397.4 billion, 59% of its investable portfolio as of mid-2026.",
+    "The Buffett Indicator stands at ~232%, nearly double the historical overvaluation threshold of 120%.",
+    "Shiller P/E ratio has surpassed 40%, a level only seen once before in 1929.",
+    "Berkshire has sold equities for 14 consecutive quarters, continuing under CEO Greg Abel.",
+    "Insurance division, contributing 28% of revenue and 48% of pre-tax earnings, faces rising claims costs due to expensive auto repairs and underinsurance.",
+    "Berkshire maintains significant stakes in Apple and Alphabet but overall tech exposure remains limited compared to market momentum stocks."
+  ],
+  "rewrite": {
+    "title": "Berkshire’s $397B Cash Hoard Signals Market Caution",
+    "body": "Berkshire Hathaway’s latest financials reveal an unprecedented $397.4 billion held in cash and Treasury bills, representing 59% of its investable assets. This record liquidity follows 14 straight quarters of net equity sales, a trend that has persisted under new CEO Greg Abel. The move reflects a conservative stance amid what Warren Buffett’s own valuation tools suggest is an overheated market.\n\nThe Buffett Indicator, which compares total market capitalization to U.S. GDP, has surged to approximately 232%, far exceeding the 120% level historically associated with overvaluation. Complementing this, the Shiller P/E ratio has breached 40%, a rare occurrence only previously recorded before the 1929 crash. These metrics underscore significant market risk and likely inform Berkshire’s cautious positioning.\n\nWhile Berkshire remains a major investor in tech giants like Apple and Alphabet—deepening its exposure to artificial intelligence—the conglomerate’s overall tech allocation is modest compared to the broader market’s momentum-driven rally. Meanwhile, its insurance division, a critical profit engine accounting for nearly half of pre-tax earnings, is under pressure from rising claims severity and repair costs, which have increased by 20% to 47% since 2020 due to more expensive vehicle technology and supply constraints.\n\nThe combination of elevated market valuations, operational headwinds in insurance, and the departure of Warren Buffett as CEO has weighed on Berkshire’s stock performance. Yet, the substantial cash reserve equips the company to act decisively during any market downturn, reminiscent of Buffett’s opportunistic $5 billion Goldman Sachs investment during the 2008 crisis. Greg Abel’s challenge is to replicate Buffett’s capital allocation success without the legendary investor’s aura, as the market awaits a correction that could validate Berkshire’s patient strategy.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5536
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
