@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-13T12:14:46.966Z",
+  "updatedAt": "2026-07-14T10:52:49.447Z",
   "items": [
+    {
+      "slug": "2026-07-14",
+      "title": "Section 219, the US-Israel Military Merger, Would Thwart American Democracy",
+      "url": "https://www.commondreams.org/opinion/us-israel-military-merger",
+      "source": "commondreams.org",
+      "selectedAt": "2026-07-14T10:52:37.071Z",
+      "publishedAt": "2026-07-13T19:50:12.000Z",
+      "hn": {
+        "id": 48897855,
+        "score": 69,
+        "comments": 27
+      }
+    },
     {
       "slug": "2026-07-13",
       "title": "Berkshire's $397B Bet Against an Overheated Market",
@@ -662,19 +675,6 @@
         "id": 47948995,
         "score": 20,
         "comments": 4
-      }
-    },
-    {
-      "slug": "2026-04-29",
-      "title": "Your Terminal Is Burning Battery Like It's Mining Bitcoin",
-      "url": "https://www.frr.dev/posts/terminal-gpu-battery-macbook-ghostty-iterm2/",
-      "source": "frr.dev",
-      "selectedAt": "2026-04-29T11:01:20.825Z",
-      "publishedAt": "2026-04-28T22:07:25.000Z",
-      "hn": {
-        "id": 47941517,
-        "score": 49,
-        "comments": 31
       }
     }
   ]
