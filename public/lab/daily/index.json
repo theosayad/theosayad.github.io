@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-14T10:52:49.447Z",
+  "updatedAt": "2026-07-15T10:57:40.767Z",
   "items": [
+    {
+      "slug": "2026-07-15",
+      "title": "I tricked Claude into leaking your deepest, darkest secrets",
+      "url": "https://www.ayush.digital/blog/the-memory-heist",
+      "source": "ayush.digital",
+      "selectedAt": "2026-07-15T10:57:31.791Z",
+      "publishedAt": "2026-07-15T06:28:00.000Z",
+      "hn": {
+        "id": 48916975,
+        "score": 346,
+        "comments": 158
+      }
+    },
     {
       "slug": "2026-07-14",
       "title": "Section 219, the US-Israel Military Merger, Would Thwart American Democracy",
@@ -662,19 +675,6 @@
         "id": 47967289,
         "score": 299,
         "comments": 98
-      }
-    },
-    {
-      "slug": "2026-04-30",
-      "title": "The lost boys, thrown out of US sect so older men can marry more wives (2005)",
-      "url": "https://www.theguardian.com/world/2005/jun/14/usa.julianborger",
-      "source": "theguardian.com",
-      "selectedAt": "2026-04-30T11:00:03.519Z",
-      "publishedAt": "2026-04-29T14:32:18.000Z",
-      "hn": {
-        "id": 47948995,
-        "score": 20,
-        "comments": 4
       }
     }
   ]
