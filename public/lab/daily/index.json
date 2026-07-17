@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-16T11:06:07.754Z",
+  "updatedAt": "2026-07-17T10:53:50.475Z",
   "items": [
+    {
+      "slug": "2026-07-17",
+      "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
+      "url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
+      "source": "latimes.com",
+      "selectedAt": "2026-07-17T10:53:37.883Z",
+      "publishedAt": "2026-07-16T12:02:11.000Z",
+      "hn": {
+        "id": 48933344,
+        "score": 295,
+        "comments": 261
+      }
+    },
     {
       "slug": "2026-07-16",
       "title": "SpaceX bond worth 10% less than issue price – heading for junk bond status",
@@ -662,19 +675,6 @@
         "id": 47995125,
         "score": 2,
         "comments": 0
-      }
-    },
-    {
-      "slug": "2026-05-02",
-      "title": "Show HN: Stop playing my matchstick puzzles, start building your own in seconds",
-      "url": "https://mathstick.github.io",
-      "source": "mathstick.github.io",
-      "selectedAt": "2026-05-02T10:04:52.214Z",
-      "publishedAt": "2026-05-02T05:04:39.000Z",
-      "hn": {
-        "id": 47983485,
-        "score": 12,
-        "comments": 12
       }
     }
   ]

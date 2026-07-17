@@ -1,0 +1,42 @@
+{
+  "slug": "2026-07-17",
+  "generatedAt": "2026-07-17T10:53:50.473Z",
+  "article": {
+    "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
+    "url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
+    "source": "latimes.com",
+    "selectedAt": "2026-07-17T10:53:37.883Z",
+    "publishedAt": "2026-07-16T12:02:11.000Z",
+    "hn": {
+      "id": 48933344,
+      "score": 295,
+      "comments": 261
+    }
+  },
+  "takeaways": [],
+  "summary": "SpaceX shares fell below their $135 IPO price for the first time since debuting last month, reflecting investor concerns over the company’s aggressive spending and upcoming share lockup expirations. Despite a historic $2.2 trillion valuation at IPO, the stock’s decline signals cooling enthusiasm for Elon Musk’s ambitious AI and satellite ventures.",
+  "keyPoints": [
+    "SpaceX IPO on June 2026 raised $75 billion initially, with an additional $11 billion from underwriters, totaling $86 billion—the largest IPO ever.",
+    "Shares peaked over 50% above IPO price shortly after listing but dropped below $135 on July 15, 2026.",
+    "Market cap at IPO was $2.2 trillion, briefly making Musk the world’s first trillionaire; his net worth now stands near $800 billion.",
+    "SpaceX joined Nasdaq-100 on July 7, 2026, following a rule change allowing inclusion 15 days post-IPO.",
+    "Upcoming lockup expirations could release at least 20% of shares after Q2 earnings, with full lockup ending in December, potentially pressuring the stock further.",
+    "Recent strategic moves include acquiring AI coding startup Cursor for $60 billion and merging Musk’s xAI into SpaceX, aiming to lead in AI with solar-powered satellite data centers."
+  ],
+  "rewrite": {
+    "title": "SpaceX Stock Falls Below IPO Amid Investor Concerns",
+    "body": "SpaceX’s stock price slipped below its initial public offering level of $135 for the first time since its June 2026 debut, marking a significant shift in investor sentiment. The company’s IPO raised a record $86 billion, valuing SpaceX at $2.2 trillion and briefly elevating Elon Musk to the status of the world’s first trillionaire. However, the stock’s recent decline underscores growing investor wariness about the company’s heavy spending and debt profile.\n\nThe company’s inclusion in the Nasdaq-100 index on July 7, shortly after the IPO, initially boosted visibility and demand. Yet, concerns have mounted as SpaceX prepares for the release of locked-up shares held by insiders and employees, with at least 20% becoming available after the upcoming second-quarter earnings announcement and all lockups expiring by December. This influx of shares could exert additional downward pressure on the stock.\n\nSpaceX continues to expand its footprint beyond space launches, notably through its Starlink broadband service and ambitious AI initiatives. The recent $60 billion acquisition of AI coding startup Cursor and the integration of Musk’s xAI firm signal a strategic pivot toward AI-driven satellite data centers powered by solar energy. While these moves position SpaceX as a potential AI leader, investors remain cautious about the execution risks and capital intensity involved.\n\nThe stock’s trajectory mirrors early struggles experienced by other tech giants post-IPO, such as Meta, which took over a year to recover after a steep post-IPO decline. SpaceX’s performance in the coming months will be critical in determining whether it can sustain its lofty valuation amid evolving market dynamics and investor scrutiny.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and discussion signals."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3638
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
