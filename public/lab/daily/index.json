@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-17T10:53:50.475Z",
+  "updatedAt": "2026-07-18T10:24:38.634Z",
   "items": [
+    {
+      "slug": "2026-07-18",
+      "title": "Short sellers notch $8.7B profit as SpaceX shares dip to IPO price",
+      "url": "https://www.reuters.com/business/media-telecom/short-sellers-rack-up-87-bln-profit-spacex-slips-below-ipo-price-ortex-2026-07-16/",
+      "source": "reuters.com",
+      "selectedAt": "2026-07-18T10:24:31.349Z",
+      "publishedAt": "2026-07-17T15:17:54.000Z",
+      "hn": {
+        "id": 48948435,
+        "score": 159,
+        "comments": 171
+      }
+    },
     {
       "slug": "2026-07-17",
       "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
@@ -662,19 +675,6 @@
         "id": 48000152,
         "score": 419,
         "comments": 381
-      }
-    },
-    {
-      "slug": "2026-05-03",
-      "title": "Investors pile into clean energy as Iran war drives push for energy security",
-      "url": "https://www.ft.com/content/9921f2b5-c910-4cec-a50f-cad453935a1a",
-      "source": "ft.com",
-      "selectedAt": "2026-05-03T10:12:22.182Z",
-      "publishedAt": "2026-05-03T09:26:48.000Z",
-      "hn": {
-        "id": 47995125,
-        "score": 2,
-        "comments": 0
       }
     }
   ]
