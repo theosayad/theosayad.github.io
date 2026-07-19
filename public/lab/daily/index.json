@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-18T10:24:38.634Z",
+  "updatedAt": "2026-07-19T10:39:31.191Z",
   "items": [
+    {
+      "slug": "2026-07-19",
+      "title": "Traders are increasingly betting against SpaceX just weeks after IPO",
+      "url": "https://www.ft.com/content/2b96703d-440b-46db-8d86-9fff9ecc59d5",
+      "source": "ft.com",
+      "selectedAt": "2026-07-19T10:39:24.967Z",
+      "publishedAt": "2026-07-18T15:26:13.000Z",
+      "hn": {
+        "id": 48958985,
+        "score": 52,
+        "comments": 27
+      }
+    },
     {
       "slug": "2026-07-18",
       "title": "Short sellers notch $8.7B profit as SpaceX shares dip to IPO price",
@@ -662,19 +675,6 @@
         "id": 48009983,
         "score": 294,
         "comments": 276
-      }
-    },
-    {
-      "slug": "2026-05-04",
-      "title": "New statue in London, attributed to Banksy, of a suited man, blinded by a flag",
-      "url": "https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/",
-      "source": "smithsonianmag.com",
-      "selectedAt": "2026-05-04T11:09:54.990Z",
-      "publishedAt": "2026-05-03T18:54:28.000Z",
-      "hn": {
-        "id": 48000152,
-        "score": 419,
-        "comments": 381
       }
     }
   ]
