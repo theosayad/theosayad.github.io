@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-19T10:39:31.191Z",
+  "updatedAt": "2026-07-20T11:52:46.058Z",
   "items": [
+    {
+      "slug": "2026-07-20",
+      "title": "Big tech needs to justify AI spending as investors dump stocks",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks",
+      "source": "bloomberg.com",
+      "selectedAt": "2026-07-20T11:52:38.841Z",
+      "publishedAt": "2026-07-20T04:41:10.000Z",
+      "hn": {
+        "id": 48974426,
+        "score": 42,
+        "comments": 14
+      }
+    },
     {
       "slug": "2026-07-19",
       "title": "Traders are increasingly betting against SpaceX just weeks after IPO",
@@ -662,19 +675,6 @@
         "id": 48024364,
         "score": 162,
         "comments": 272
-      }
-    },
-    {
-      "slug": "2026-05-05",
-      "title": "Does Employment Slow Cognitive Decline? Evidence from Labor Market Shocks",
-      "url": "https://www.nber.org/papers/w35117",
-      "source": "nber.org",
-      "selectedAt": "2026-05-05T10:50:57.631Z",
-      "publishedAt": "2026-05-04T15:32:46.000Z",
-      "hn": {
-        "id": 48009983,
-        "score": 294,
-        "comments": 276
       }
     }
   ]

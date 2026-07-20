@@ -1,0 +1,41 @@
+{
+  "slug": "2026-07-20",
+  "generatedAt": "2026-07-20T11:52:46.053Z",
+  "article": {
+    "title": "Big tech needs to justify AI spending as investors dump stocks",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks",
+    "source": "bloomberg.com",
+    "selectedAt": "2026-07-20T11:52:38.841Z",
+    "publishedAt": "2026-07-20T04:41:10.000Z",
+    "hn": {
+      "id": 48974426,
+      "score": 42,
+      "comments": 14
+    }
+  },
+  "takeaways": [],
+  "summary": "Major technology companies are facing investor pressure to demonstrate clear returns on their substantial AI investments amid a notable sell-off in their stocks. Despite aggressive spending on AI development, market skepticism is growing as shareholders demand tangible financial benefits and sustainable growth trajectories.",
+  "keyPoints": [
+    "Big tech firms have significantly increased AI-related expenditures in recent years, aiming to lead the next wave of technological innovation.",
+    "Investor confidence has waned, triggering stock sell-offs as market participants question the near-term profitability of AI projects.",
+    "The sell-off reflects broader concerns about inflated valuations and the timeline for AI-driven revenue generation.",
+    "Companies must now balance continued AI investment with delivering measurable financial outcomes to satisfy shareholders.",
+    "The pressure may lead to strategic shifts, prioritizing monetizable AI applications over exploratory research."
+  ],
+  "rewrite": {
+    "title": "Big Tech Faces Investor Scrutiny Over AI Spending",
+    "body": "In 2026, leading technology companies are under increasing scrutiny from investors who are growing wary of the substantial capital being funneled into artificial intelligence initiatives. Despite the promise of AI as a transformative force, the anticipated financial returns have yet to materialize at scale, prompting a wave of stock sell-offs across the sector. This market reaction underscores skepticism about the pace at which AI investments will translate into profitable products and services.\n\nThe surge in AI spending reflects big tech’s strategic bet on maintaining competitive advantage in a rapidly evolving landscape. However, the current investor sentiment signals a demand for clearer evidence of ROI and sustainable growth. As a result, companies face mounting pressure to justify their AI budgets by accelerating the commercialization of AI technologies and demonstrating tangible revenue impact.\n\nThis dynamic is likely to influence corporate priorities, potentially shifting focus from long-term exploratory projects to AI applications with more immediate monetization potential. The outcome will shape not only the financial health of these firms but also the broader trajectory of AI innovation in the tech industry. Investors’ insistence on accountability could drive more disciplined and outcome-oriented AI development strategies moving forward.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
