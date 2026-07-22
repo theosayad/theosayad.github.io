@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-21T11:13:20.592Z",
+  "updatedAt": "2026-07-22T11:14:16.102Z",
   "items": [
+    {
+      "slug": "2026-07-22",
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "source": "openai.com",
+      "selectedAt": "2026-07-22T11:14:06.152Z",
+      "publishedAt": "2026-07-21T20:09:52.000Z",
+      "hn": {
+        "id": 48997548,
+        "score": 1219,
+        "comments": 842
+      }
+    },
     {
       "slug": "2026-07-21",
       "title": "Cross sectioning insects in an electron microscope with a femtosecond laser [video]",
@@ -662,19 +675,6 @@
         "id": 48050616,
         "score": 20,
         "comments": 7
-      }
-    },
-    {
-      "slug": "2026-05-07",
-      "title": "BYD overtakes Tesla and Kia as the best-selling EV brand in key overseas markets",
-      "url": "https://electrek.co/2026/05/05/byd-overtakes-tesla-kia-best-selling-ev-brand-key-overseas-markets/",
-      "source": "electrek.co",
-      "selectedAt": "2026-05-07T11:13:14.194Z",
-      "publishedAt": "2026-05-06T18:25:06.000Z",
-      "hn": {
-        "id": 48039739,
-        "score": 244,
-        "comments": 412
       }
     }
   ]
