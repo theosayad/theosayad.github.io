@@ -1,0 +1,42 @@
+{
+  "slug": "2026-07-23",
+  "generatedAt": "2026-07-23T11:16:43.380Z",
+  "article": {
+    "title": "Codeberg Bans Cryptocurrency Projects",
+    "url": "https://codeberg.org/Codeberg/org/pulls/1254",
+    "source": "codeberg.org",
+    "selectedAt": "2026-07-23T11:16:30.175Z",
+    "publishedAt": "2026-07-23T01:06:56.000Z",
+    "hn": {
+      "id": 49015588,
+      "score": 297,
+      "comments": 483
+    }
+  },
+  "takeaways": [],
+  "summary": "Codeberg, a privacy-focused code hosting platform, has banned all cryptocurrency-related projects, citing reputational harm. This move has sparked controversy among developers who argue that such a blanket ban undermines privacy tools and punishes legitimate use cases, especially for vulnerable communities relying on crypto for financial autonomy.",
+  "keyPoints": [
+    "Codeberg's updated Terms of Use explicitly prohibit cryptocurrency-related projects, linking them to reputational damage.",
+    "The decision was democratically approved by Codeberg e.V. members, with provisions for reversal via future amendments.",
+    "Critics highlight that crypto tools enable sanctioned or marginalized groups, such as LGBTQ+ individuals in hostile countries, to access essential services.",
+    "The ban risks pushing affected projects to corporate or less reliable hosting alternatives, fracturing tool ecosystems and accessibility.",
+    "Some community members fear the vague wording could lead to future bans on other controversial tech categories like AI or encrypted messaging.",
+    "Supporters argue the ban helps maintain Codeberg’s ethical stance by excluding projects perceived as socially harmful or exploitative."
+  ],
+  "rewrite": {
+    "title": "Codeberg Prohibits Cryptocurrency Projects Amid Debate",
+    "body": "Codeberg, a platform known for its commitment to privacy and ethical hosting, has enacted a policy banning all cryptocurrency-related projects. This decision, ratified by the Codeberg e.V. membership through a democratic process, aims to protect the platform’s reputation by excluding content deemed harmful, with cryptocurrency projects explicitly cited. The move reflects growing concerns within the community about the association of crypto with illicit trade and sanction evasion, though the policy’s broad language has generated significant pushback.\n\nOpponents argue that the ban unfairly targets tools that provide financial autonomy and security to vulnerable populations, including LGBTQ+ individuals in sanctioned or oppressive regimes who rely on cryptocurrencies to access healthcare and bypass censorship. They warn that this blanket prohibition could fragment the ecosystem, forcing developers to migrate to corporate hosts with potentially stricter controls or to less maintainable self-hosted solutions, thereby reducing accessibility and innovation.\n\nThe policy’s ambiguity has also raised fears about potential future restrictions on other technologies, such as AI projects or encrypted messaging platforms, reflecting a slippery slope concern. Meanwhile, supporters of the ban emphasize Codeberg’s ethical mission to prioritize human-centered projects and reject technologies they view as net-negative to society, including cryptocurrency and certain AI applications.\n\nWhile the platform maintains that moderation decisions will be made thoughtfully and not through mass purges, the controversy underscores tensions between maintaining ethical standards and supporting open innovation. Codeberg invites dissatisfied members to propose amendments at upcoming assemblies, highlighting its grassroots democratic governance. This development marks a significant moment in the ongoing debate over the role of cryptocurrency and related technologies within privacy-focused open-source communities.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and community discussion highlights."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 8642
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

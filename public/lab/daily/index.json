@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-22T11:14:16.102Z",
+  "updatedAt": "2026-07-23T11:16:43.381Z",
   "items": [
+    {
+      "slug": "2026-07-23",
+      "title": "Codeberg Bans Cryptocurrency Projects",
+      "url": "https://codeberg.org/Codeberg/org/pulls/1254",
+      "source": "codeberg.org",
+      "selectedAt": "2026-07-23T11:16:30.175Z",
+      "publishedAt": "2026-07-23T01:06:56.000Z",
+      "hn": {
+        "id": 49015588,
+        "score": 297,
+        "comments": 483
+      }
+    },
     {
       "slug": "2026-07-22",
       "title": "OpenAI and Hugging Face address security incident during model evaluation",
@@ -662,19 +675,6 @@
         "id": 48067018,
         "score": 22,
         "comments": 3
-      }
-    },
-    {
-      "slug": "2026-05-08",
-      "title": "U.S. Treasury will have to borrow $2T this year just to continue functioning",
-      "url": "https://fortune.com/2026/05/07/treasury-expected-to-borrow-2-trillion-omb-cbo-estimates/",
-      "source": "fortune.com",
-      "selectedAt": "2026-05-08T10:44:41.534Z",
-      "publishedAt": "2026-05-07T15:29:28.000Z",
-      "hn": {
-        "id": 48050616,
-        "score": 20,
-        "comments": 7
       }
     }
   ]
