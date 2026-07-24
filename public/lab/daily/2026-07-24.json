@@ -1,0 +1,41 @@
+{
+  "slug": "2026-07-24",
+  "generatedAt": "2026-07-24T11:06:49.793Z",
+  "article": {
+    "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
+    "url": "https://github.com/onecli/onecli",
+    "source": "github.com",
+    "selectedAt": "2026-07-24T11:06:40.918Z",
+    "publishedAt": "2026-07-23T15:42:40.000Z",
+    "hn": {
+      "id": 49023427,
+      "score": 101,
+      "comments": 30
+    }
+  },
+  "takeaways": [],
+  "summary": "OneCLI is an open-source credential gateway designed to enhance security for AI agents by centralizing API key management and preventing direct exposure of secrets. By injecting real credentials at the gateway level, it reduces risk and simplifies key rotation and monitoring. This approach addresses a growing security challenge as AI agents increasingly interact with multiple APIs.",
+  "keyPoints": [
+    "OneCLI acts as a proxy between AI agents and external services, injecting real API keys transparently while agents use placeholder keys.",
+    "The gateway stores credentials securely in a built-in vault, ensuring agents never access raw secrets directly.",
+    "Local mode allows quick setup without environment variables or authentication; multi-user support with Google OAuth is available via configuration.",
+    "Centralized key management enables easier rotation, access control, and auditing of agent activity.",
+    "Open-source project encourages community contributions and provides a dashboard and HTTP gateway on localhost ports 10254 and 10255 respectively."
+  ],
+  "rewrite": {
+    "title": "OneCLI: Secure Credential Gateway for AI Agents",
+    "body": "As AI agents increasingly rely on multiple APIs, managing and securing their credentials has become a critical challenge. OneCLI offers an open-source solution by acting as a credential gateway that stores API keys in a secure vault and injects them transparently into outbound requests. Instead of embedding sensitive keys directly into each agent, developers assign placeholder keys, which OneCLI swaps for real credentials at runtime. This architecture ensures that AI agents never directly handle or see the secrets, significantly reducing the risk of credential leakage.\n\nOneCLI supports a simple local setup mode that requires no environment variables or authentication, enabling rapid testing and development. For production or multi-user environments, it integrates with Google OAuth and supports environment-based configuration for secure access control. The gateway runs on localhost ports 10254 (dashboard) and 10255 (HTTP proxy), providing a user-friendly interface for managing agents and secrets.\n\nBy centralizing credential management, OneCLI simplifies key rotation and auditing, offering visibility into every API call made by AI agents. This is particularly valuable as organizations scale their AI deployments and need to enforce strict security policies. The project is open source and actively encourages community contributions to enhance functionality and security.\n\nOverall, OneCLI addresses a pressing security gap in AI operations by providing a robust, transparent, and easy-to-use credential management layer that protects sensitive keys while maintaining seamless API access for AI agents.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 1818
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

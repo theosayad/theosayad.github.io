@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-23T11:16:43.381Z",
+  "updatedAt": "2026-07-24T11:06:49.798Z",
   "items": [
+    {
+      "slug": "2026-07-24",
+      "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
+      "url": "https://github.com/onecli/onecli",
+      "source": "github.com",
+      "selectedAt": "2026-07-24T11:06:40.918Z",
+      "publishedAt": "2026-07-23T15:42:40.000Z",
+      "hn": {
+        "id": 49023427,
+        "score": 101,
+        "comments": 30
+      }
+    },
     {
       "slug": "2026-07-23",
       "title": "Codeberg Bans Cryptocurrency Projects",
@@ -662,19 +675,6 @@
         "id": 48077314,
         "score": 31,
         "comments": 11
-      }
-    },
-    {
-      "slug": "2026-05-09",
-      "title": "Korea Surpasses Canada as Seventh-Largest Stock Market",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-07/korea-surpasses-canada-as-world-s-seventh-largest-stock-market",
-      "source": "bloomberg.com",
-      "selectedAt": "2026-05-09T10:13:22.213Z",
-      "publishedAt": "2026-05-08T18:36:36.000Z",
-      "hn": {
-        "id": 48067018,
-        "score": 22,
-        "comments": 3
       }
     }
   ]
