@@ -1,0 +1,42 @@
+{
+  "slug": "2026-07-25",
+  "generatedAt": "2026-07-25T10:39:24.654Z",
+  "article": {
+    "title": "My security camera shipped a GitHub admin token in its login page",
+    "url": "https://hhh.hn/hanwha-github-token/",
+    "source": "hhh.hn",
+    "selectedAt": "2026-07-25T10:39:16.501Z",
+    "publishedAt": "2026-07-24T11:54:41.000Z",
+    "hn": {
+      "id": 49034292,
+      "score": 596,
+      "comments": 191
+    }
+  },
+  "takeaways": [],
+  "summary": "A security researcher discovered that Hanwha Vision's security camera firmware contained a hardcoded GitHub admin token exposed across multiple files, potentially granting access to hundreds of repositories. This vulnerability highlights significant risks in IoT device firmware management and the dangers of embedding sensitive credentials in build environments.",
+  "keyPoints": [
+    "Hanwha Vision camera firmware contained a GitHub admin token embedded in about 30 files.",
+    "The token granted admin access to hundreds of repositories within Hanwha's GitHub organization.",
+    "The token exposure stemmed from the build process leaking the entire CI environment into UI files.",
+    "Researcher analyzed ~500 firmware images, extracting 62%, with only three containing the same token.",
+    "Hanwha responded within 12 hours to revoke the token after responsible disclosure.",
+    "Firmware also contained environment variables referencing US Department of Defense IPs, raising questions about Hanwha’s connections."
+  ],
+  "rewrite": {
+    "title": "Hanwha Cameras Leaked GitHub Admin Token in Firmware",
+    "body": "Security researcher analysis of Hanwha Vision security cameras revealed a critical vulnerability: a hardcoded GitHub admin token embedded in the firmware’s UI files. This token, duplicated across roughly 30 files, provided administrative access to hundreds of repositories within Hanwha’s GitHub organization. The root cause was traced to the build system, which inadvertently injected the entire continuous integration environment variables into the camera’s frontend code during compilation.\n\nThe researcher downloaded approximately 500 firmware images from Hanwha’s website, successfully extracting 62% of them. Only three firmware versions contained the exposed token, and all shared the same credential. Upon responsible disclosure, Hanwha promptly revoked the token within 12 hours, demonstrating a swift response despite the initial security lapse.\n\nFurther analysis uncovered environment variables referencing IP addresses assigned to the US Department of Defense, prompting speculation about Hanwha’s ties to US defense entities or shared infrastructure with its aerospace and defense subsidiaries. Hanwha Vision, originally Samsung Techwin and now part of Hanwha Group, produces surveillance equipment alongside related defense technologies.\n\nThis incident underscores the risks of embedding sensitive credentials in IoT device firmware and the importance of secure build pipelines. The exposure of an admin-level GitHub token could have allowed attackers to compromise source code repositories, potentially impacting product security and intellectual property. Hanwha’s quick remediation mitigated immediate risks but highlights the need for rigorous credential management in embedded systems development.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and Hacker News discussion highlights."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5449
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

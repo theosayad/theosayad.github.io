@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-24T11:06:49.798Z",
+  "updatedAt": "2026-07-25T10:39:24.656Z",
   "items": [
+    {
+      "slug": "2026-07-25",
+      "title": "My security camera shipped a GitHub admin token in its login page",
+      "url": "https://hhh.hn/hanwha-github-token/",
+      "source": "hhh.hn",
+      "selectedAt": "2026-07-25T10:39:16.501Z",
+      "publishedAt": "2026-07-24T11:54:41.000Z",
+      "hn": {
+        "id": 49034292,
+        "score": 596,
+        "comments": 191
+      }
+    },
     {
       "slug": "2026-07-24",
       "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
@@ -662,19 +675,6 @@
         "id": 48088576,
         "score": 247,
         "comments": 133
-      }
-    },
-    {
-      "slug": "2026-05-10",
-      "title": "\"Dirty Frag\" (CVE-2026-43284): The Second Linux Root Exploit in Eight Days",
-      "url": "https://www.copahost.com/blog/dirty-frag-cve-2026-43284/",
-      "source": "copahost.com",
-      "selectedAt": "2026-05-10T10:20:20.450Z",
-      "publishedAt": "2026-05-09T18:59:49.000Z",
-      "hn": {
-        "id": 48077314,
-        "score": 31,
-        "comments": 11
       }
     }
   ]
