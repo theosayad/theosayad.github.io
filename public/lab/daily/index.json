@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-26T10:48:21.357Z",
+  "updatedAt": "2026-07-27T12:32:47.558Z",
   "items": [
+    {
+      "slug": "2026-07-27",
+      "title": "Google Discloses $94.1B in SpaceX Stock, Marking 6% Stake",
+      "url": "https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c",
+      "source": "wsj.com",
+      "selectedAt": "2026-07-27T12:32:37.620Z",
+      "publishedAt": "2026-07-26T12:43:21.000Z",
+      "hn": {
+        "id": 49057574,
+        "score": 329,
+        "comments": 308
+      }
+    },
     {
       "slug": "2026-07-26",
       "title": "Clinical failure rates over the decades: yikes",
@@ -662,19 +675,6 @@
         "id": 48108313,
         "score": 252,
         "comments": 420
-      }
-    },
-    {
-      "slug": "2026-05-12",
-      "title": "Sam Altman's Business Dealings Under GOP Scrutiny Ahead of OpenAI's IPO",
-      "url": "https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d",
-      "source": "wsj.com",
-      "selectedAt": "2026-05-12T11:24:27.596Z",
-      "publishedAt": "2026-05-12T03:31:28.000Z",
-      "hn": {
-        "id": 48103887,
-        "score": 7,
-        "comments": 2
       }
     }
   ]

@@ -1,0 +1,41 @@
+{
+  "slug": "2026-07-27",
+  "generatedAt": "2026-07-27T12:32:47.556Z",
+  "article": {
+    "title": "Google Discloses $94.1B in SpaceX Stock, Marking 6% Stake",
+    "url": "https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c",
+    "source": "wsj.com",
+    "selectedAt": "2026-07-27T12:32:37.620Z",
+    "publishedAt": "2026-07-26T12:43:21.000Z",
+    "hn": {
+      "id": 49057574,
+      "score": 329,
+      "comments": 308
+    }
+  },
+  "takeaways": [],
+  "summary": "Google has disclosed a $94.1 billion stake in SpaceX, representing roughly 6% ownership in the private aerospace company. This significant investment highlights Google's strategic interest in space technology and satellite internet, potentially influencing the competitive landscape in both sectors.",
+  "keyPoints": [
+    "Google holds approximately a 6% stake in SpaceX, valued at $94.1 billion.",
+    "The disclosure underscores Google's expanding footprint beyond traditional tech into aerospace and satellite internet.",
+    "SpaceX remains a private company, with this valuation reflecting its rapid growth and investor confidence.",
+    "Google's investment could accelerate development of satellite-based internet services, competing with other tech giants.",
+    "This move signals intensifying competition in the space and telecommunications industries."
+  ],
+  "rewrite": {
+    "title": "Google Reveals $94B Stake in SpaceX",
+    "body": "Google recently disclosed ownership of about 6% of SpaceX, valuing its stake at $94.1 billion. This sizeable investment reflects the tech giant's strategic push into the aerospace sector, particularly in satellite internet services where SpaceX's Starlink project is a major player. As SpaceX remains privately held, this valuation underscores strong investor confidence and the company's rapid expansion.\n\nGoogle's involvement in SpaceX signals a broader trend of technology companies diversifying into space infrastructure, aiming to capitalize on the growing demand for global connectivity. The partnership may accelerate advancements in satellite internet, positioning Google to better compete against rivals in telecommunications and cloud services.\n\nThis disclosure also highlights the increasing convergence of the tech and aerospace industries, where investments in space technology are becoming critical to future growth and innovation. Google's stake could influence SpaceX's strategic decisions and market positioning, potentially reshaping competitive dynamics in both sectors.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
