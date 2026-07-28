@@ -1,0 +1,42 @@
+{
+  "slug": "2026-07-28",
+  "generatedAt": "2026-07-28T11:24:07.037Z",
+  "article": {
+    "title": "Residential Proxies Are a National Security Threat",
+    "url": "https://jacob.gold/posts/residential-proxies-are-a-national-security-threat/",
+    "source": "jacob.gold",
+    "selectedAt": "2026-07-28T11:23:54.347Z",
+    "publishedAt": "2026-07-28T01:51:18.000Z",
+    "hn": {
+      "id": 49078266,
+      "score": 74,
+      "comments": 79
+    }
+  },
+  "takeaways": [],
+  "summary": "US residential proxies, which route internet traffic through real home IP addresses, have become a significant vector for social media manipulation and spam, posing a national security risk. Because these proxies use genuine residential IPs, companies cannot easily block them without affecting legitimate users, enabling bad actors to exploit trusted networks. This issue demands urgent intervention from ISPs and government agencies to protect internet integrity and user security.",
+  "keyPoints": [
+    "Residential proxies use compromised home internet connections, often without owners' knowledge.",
+    "LG banned proxy apps on its smart TVs after finding over 42% could covertly turn devices into proxies.",
+    "Blocking US residential IPs is impractical for internet services due to overlap with legitimate users.",
+    "Threat intelligence firms monetize IP abuse data but have little incentive to eliminate the problem.",
+    "Major ISPs like Comcast and AT&T should monitor suspicious activity and alert customers to infections.",
+    "The US government, likely the NSA, should intensify efforts to dismantle residential proxy networks."
+  ],
+  "rewrite": {
+    "title": "Residential Proxies Threaten National Security",
+    "body": "Residential proxies, which route internet traffic through unsuspecting home IP addresses, have emerged as a critical security concern in the US. These proxies enable bad actors to mask malicious activities such as social media manipulation and spam behind legitimate residential IPs from providers like Comcast and AT&T. Because these IPs belong to real users, internet platforms cannot block them without disrupting genuine traffic, making them an ideal tool for abuse.\n\nA striking example of this vulnerability is LG’s recent move to ban proxy-related apps on its smart TVs after researchers discovered that over 42% of these apps could covertly convert devices into proxy nodes. This highlights how consumer electronics can be hijacked to fuel proxy networks without user consent.\n\nThe problem is compounded by an industry of threat intelligence companies that track and sell information on abusive IPs. While this data is valuable, these firms have limited motivation to eradicate the issue, as their business depends on ongoing demand for such intelligence. Consequently, the proliferation of residential proxies persists unchecked.\n\nTo mitigate this threat, major ISPs should actively monitor for unusual outbound traffic patterns indicative of proxy activity and notify affected customers to inspect their devices. On a broader scale, the US government—likely involving the NSA—must prioritize dismantling these networks to safeguard national security. This challenge is not unique to the US; global cooperation is essential to maintain a secure and trustworthy internet infrastructure.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 2059
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
