@@ -1,0 +1,41 @@
+{
+  "slug": "2026-07-29",
+  "generatedAt": "2026-07-29T11:30:35.610Z",
+  "article": {
+    "title": "Codex Security",
+    "url": "https://github.com/openai/codex-security",
+    "source": "github.com",
+    "selectedAt": "2026-07-29T11:30:22.326Z",
+    "publishedAt": "2026-07-28T20:52:55.000Z",
+    "hn": {
+      "id": 49089755,
+      "score": 516,
+      "comments": 185
+    }
+  },
+  "takeaways": [],
+  "summary": "OpenAI has released @openai/codex-security, a CLI and TypeScript SDK designed to detect and remediate security vulnerabilities in codebases. By integrating with CI pipelines and supporting interactive scans via ChatGPT or API keys, it aims to streamline security workflows for developers. This tool requires modern runtime environments and maintains scan histories to track security posture over time.",
+  "keyPoints": [
+    "@openai/codex-security supports scanning repositories, reviewing code changes, and tracking vulnerabilities longitudinally.",
+    "Requires Node.js 22+ and Python 3.10+ to operate, reflecting a reliance on up-to-date developer environments.",
+    "Interactive scans prompt users to choose between ChatGPT sign-in or API key authentication; noninteractive scans default to API keys.",
+    "Scan history is saved locally in a configurable state directory, enabling persistent security tracking outside the repository if needed.",
+    "Designed for seamless integration into CI workflows to automate security checks during development cycles."
+  ],
+  "rewrite": {
+    "title": "OpenAI Launches Codex Security for Automated Code Vulnerability Detection",
+    "body": "OpenAI has introduced @openai/codex-security, a command-line interface and TypeScript software development kit focused on identifying and addressing security vulnerabilities within software projects. This tool facilitates scanning entire repositories, reviewing incremental code changes, and maintaining a history of findings to monitor security trends over time. It supports integration with continuous integration (CI) systems, allowing automated security checks as part of the development pipeline.\n\nThe tool requires Node.js version 22 or higher and Python 3.10 or later, underscoring the need for modern development environments. Authentication for scans can be handled via ChatGPT sign-in or API keys, with interactive scans prompting users to select their preferred credential. Noninteractive scans, such as those in CI, default to API key usage, though users can explicitly configure credential preferences. To maintain scan histories, Codex Security stores data in a designated state directory, which can be customized to locations outside the repository if write permissions are restricted.\n\nBy combining automated vulnerability detection with flexible authentication and persistent tracking, Codex Security aims to enhance developers' ability to proactively manage code security. Its integration into CI workflows helps embed security checks early and continuously, potentially reducing the risk of exploitable flaws reaching production environments. This release reflects OpenAI's expanding focus on practical developer tools that leverage AI to improve software quality and security.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 957
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
