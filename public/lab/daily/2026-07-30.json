@@ -1,0 +1,42 @@
+{
+  "slug": "2026-07-30",
+  "generatedAt": "2026-07-30T11:15:59.048Z",
+  "article": {
+    "title": "Turning a dumb AC unit smart (without losing my security deposit)",
+    "url": "https://prilik.com/blog/post/automating-ac-nyc/",
+    "source": "prilik.com",
+    "selectedAt": "2026-07-30T11:15:44.247Z",
+    "publishedAt": "2026-07-29T18:28:51.000Z",
+    "hn": {
+      "id": 49101198,
+      "score": 174,
+      "comments": 140
+    }
+  },
+  "takeaways": [],
+  "summary": "A NYC renter devised a non-invasive, ESP32-controlled stepper motor setup to automate analog PTAC AC units, circumventing landlord restrictions and preserving the security deposit. This DIY approach modernizes notoriously noisy, inefficient units common in NYC apartments, enabling smart home integration without rewiring or unit removal.",
+  "keyPoints": [
+    "In April 2025, the author moved to NYC and encountered analog PTAC AC units with manual knobs, typical in many buildings.",
+    "Landlord denied any upgrades, and internal wiring was inaccessible without removing the unit, which was impractical.",
+    "The solution involved mounting a stepper motor to the AC knob using L-brackets and binder clips, avoiding permanent modifications.",
+    "Firmware was rapidly developed using AI tools (Claude and Gemini), integrating the device with Home Assistant via MQTT Cover schema for seamless smart control.",
+    "A second iteration improved mounting stability using smaller dev boards and adjustable brackets, though binder clips still caused occasional mechanical sagging.",
+    "The system leverages the AC’s silent idle state when target temperature is reached, ensuring efficient operation without constant motor engagement."
+  ],
+  "rewrite": {
+    "title": "DIY Smart Control for Analog NYC AC Units",
+    "body": "Upon moving to New York City in April 2025, the author faced the common challenge of controlling outdated, noisy PTAC air conditioning units equipped only with analog knobs. With landlords unwilling to upgrade and internal wiring inaccessible without removing the entire unit, a creative, non-invasive solution was necessary to avoid jeopardizing the security deposit.\n\nThe author engineered a retrofit using an ESP32 microcontroller paired with a stepper motor physically coupled to the AC knob via metal L-brackets and binder clips padded with cardboard. This setup converts the manual dial into a digitally controlled device without permanent alterations. Firmware development was expedited using AI coding assistants, enabling integration with Home Assistant through MQTT’s Cover component, typically used for motorized blinds, to control the dial’s rotation.\n\nA second version refined the hardware by employing smaller development boards and adjustable brackets for a more secure motor mount, though reliance on binder clips introduced occasional mechanical sag and friction, requiring manual reseating. Despite these minor issues, the system effectively automates the AC units, taking advantage of their silent idle mode when the target temperature is met, thus conserving energy.\n\nThis approach demonstrates a practical, renter-friendly method to modernize legacy HVAC controls in NYC apartments, enhancing comfort and energy efficiency without landlord approval or invasive modifications. It also highlights the growing role of AI tools in accelerating DIY IoT projects and the utility of open-source platforms like Home Assistant in smart home automation.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5607
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-29T11:30:35.612Z",
+  "updatedAt": "2026-07-30T11:15:59.050Z",
   "items": [
+    {
+      "slug": "2026-07-30",
+      "title": "Turning a dumb AC unit smart (without losing my security deposit)",
+      "url": "https://prilik.com/blog/post/automating-ac-nyc/",
+      "source": "prilik.com",
+      "selectedAt": "2026-07-30T11:15:44.247Z",
+      "publishedAt": "2026-07-29T18:28:51.000Z",
+      "hn": {
+        "id": 49101198,
+        "score": 174,
+        "comments": 140
+      }
+    },
     {
       "slug": "2026-07-29",
       "title": "Codex Security",
@@ -662,19 +675,6 @@
         "id": 48147339,
         "score": 116,
         "comments": 79
-      }
-    },
-    {
-      "slug": "2026-05-15",
-      "title": "Bitcoin trader recovers wallet with help of Claude",
-      "url": "https://www.tomshardware.com/tech-industry/cryptocurrency/bitcoin-trader-recovers-usd400-000-using-claude-ai-after-losing-wallet-password-11-years-ago-bot-tried-3-5-trillion-passwords-before-decrypting-an-old-wallet-backup",
-      "source": "tomshardware.com",
-      "selectedAt": "2026-05-15T11:26:10.439Z",
-      "publishedAt": "2026-05-14T14:49:48.000Z",
-      "hn": {
-        "id": 48136240,
-        "score": 323,
-        "comments": 169
       }
     }
   ]
