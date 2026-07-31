@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-30T11:15:59.050Z",
+  "updatedAt": "2026-07-31T11:32:39.758Z",
   "items": [
+    {
+      "slug": "2026-07-31",
+      "title": "Read this before you buy that TV streaming stick",
+      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "source": "krebsonsecurity.com",
+      "selectedAt": "2026-07-31T11:32:38.620Z",
+      "publishedAt": "2026-07-30T17:04:53.000Z",
+      "hn": {
+        "id": 49112744,
+        "score": 731,
+        "comments": 439
+      }
+    },
     {
       "slug": "2026-07-30",
       "title": "Turning a dumb AC unit smart (without losing my security deposit)",
@@ -662,19 +675,6 @@
         "id": 48164287,
         "score": 402,
         "comments": 167
-      }
-    },
-    {
-      "slug": "2026-05-16",
-      "title": "Welcome to the Strip Mining Era of OSS Security",
-      "url": "https://www.metabase.com/blog/strip-mining-era-of-open-source-security",
-      "source": "metabase.com",
-      "selectedAt": "2026-05-16T10:22:24.999Z",
-      "publishedAt": "2026-05-15T11:37:17.000Z",
-      "hn": {
-        "id": 48147339,
-        "score": 116,
-        "comments": 79
       }
     }
   ]

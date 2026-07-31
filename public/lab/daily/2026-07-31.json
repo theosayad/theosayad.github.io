@@ -1,0 +1,30 @@
+{
+  "slug": "2026-07-31",
+  "generatedAt": "2026-07-31T11:32:39.757Z",
+  "article": {
+    "title": "Read this before you buy that TV streaming stick",
+    "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+    "source": "krebsonsecurity.com",
+    "selectedAt": "2026-07-31T11:32:38.620Z",
+    "publishedAt": "2026-07-30T17:04:53.000Z",
+    "hn": {
+      "id": 49112744,
+      "score": 731,
+      "comments": 439
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 8785
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
