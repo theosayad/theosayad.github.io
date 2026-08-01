@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-31T11:32:39.758Z",
+  "updatedAt": "2026-08-01T10:44:39.298Z",
   "items": [
+    {
+      "slug": "2026-08-01",
+      "title": "Situational Awareness down 67% in July in AI stock rout",
+      "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
+      "source": "wsj.com",
+      "selectedAt": "2026-08-01T10:44:38.530Z",
+      "publishedAt": "2026-07-31T13:37:36.000Z",
+      "hn": {
+        "id": 49122994,
+        "score": 147,
+        "comments": 158
+      }
+    },
     {
       "slug": "2026-07-31",
       "title": "Read this before you buy that TV streaming stick",
@@ -662,19 +675,6 @@
         "id": 48168856,
         "score": 571,
         "comments": 258
-      }
-    },
-    {
-      "slug": "2026-05-17",
-      "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
-      "url": "https://crates.io/crates/zerostack/1.0.0",
-      "source": "crates.io",
-      "selectedAt": "2026-05-17T10:26:12.956Z",
-      "publishedAt": "2026-05-16T22:23:50.000Z",
-      "hn": {
-        "id": 48164287,
-        "score": 402,
-        "comments": 167
       }
     }
   ]

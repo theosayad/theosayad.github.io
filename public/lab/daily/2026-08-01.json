@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-01",
+  "generatedAt": "2026-08-01T10:44:39.296Z",
+  "article": {
+    "title": "Situational Awareness down 67% in July in AI stock rout",
+    "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
+    "source": "wsj.com",
+    "selectedAt": "2026-08-01T10:44:38.530Z",
+    "publishedAt": "2026-07-31T13:37:36.000Z",
+    "hn": {
+      "id": 49122994,
+      "score": 147,
+      "comments": 158
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
