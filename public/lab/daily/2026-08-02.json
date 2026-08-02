@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-02",
+  "generatedAt": "2026-08-02T10:45:10.373Z",
+  "article": {
+    "title": "Linux desktop market share has hit over 10% in North America",
+    "url": "https://old.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/",
+    "source": "old.reddit.com",
+    "selectedAt": "2026-08-02T10:45:09.599Z",
+    "publishedAt": "2026-08-02T03:10:00.000Z",
+    "hn": {
+      "id": 49140696,
+      "score": 164,
+      "comments": 76
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}

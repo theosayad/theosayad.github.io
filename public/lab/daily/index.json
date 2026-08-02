@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-01T10:44:39.298Z",
+  "updatedAt": "2026-08-02T10:45:10.375Z",
   "items": [
+    {
+      "slug": "2026-08-02",
+      "title": "Linux desktop market share has hit over 10% in North America",
+      "url": "https://old.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/",
+      "source": "old.reddit.com",
+      "selectedAt": "2026-08-02T10:45:09.599Z",
+      "publishedAt": "2026-08-02T03:10:00.000Z",
+      "hn": {
+        "id": 49140696,
+        "score": 164,
+        "comments": 76
+      }
+    },
     {
       "slug": "2026-08-01",
       "title": "Situational Awareness down 67% in July in AI stock rout",
@@ -662,19 +675,6 @@
         "id": 48182592,
         "score": 318,
         "comments": 556
-      }
-    },
-    {
-      "slug": "2026-05-18",
-      "title": "Security researcher says Microsoft built a Bitlocker backdoor, releases exploit",
-      "url": "https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html",
-      "source": "techspot.com",
-      "selectedAt": "2026-05-18T12:40:40.404Z",
-      "publishedAt": "2026-05-17T13:42:30.000Z",
-      "hn": {
-        "id": 48168856,
-        "score": 571,
-        "comments": 258
       }
     }
   ]
