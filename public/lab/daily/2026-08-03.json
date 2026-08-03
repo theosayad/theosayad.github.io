@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-03",
+  "generatedAt": "2026-08-03T12:32:53.483Z",
+  "article": {
+    "title": "Europe EV Sales BEVs Jump 50% & Reach 26% Market Share",
+    "url": "https://cleantechnica.com/2026/08/02/europe-ev-sales-report-bevs-jump-50-reach-26-market-share/",
+    "source": "cleantechnica.com",
+    "selectedAt": "2026-08-03T12:32:52.481Z",
+    "publishedAt": "2026-08-02T19:20:50.000Z",
+    "hn": {
+      "id": 49147450,
+      "score": 95,
+      "comments": 165
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 10399
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
