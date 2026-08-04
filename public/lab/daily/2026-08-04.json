@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-04",
+  "generatedAt": "2026-08-04T11:29:47.439Z",
+  "article": {
+    "title": "AI's debt binge can't last, hidden borrowing reaches $1.65T",
+    "url": "https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance/",
+    "source": "fortune.com",
+    "selectedAt": "2026-08-04T11:29:46.698Z",
+    "publishedAt": "2026-08-03T20:02:21.000Z",
+    "hn": {
+      "id": 49160699,
+      "score": 131,
+      "comments": 158
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4320
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}

@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-03T12:32:53.484Z",
+  "updatedAt": "2026-08-04T11:29:47.441Z",
   "items": [
+    {
+      "slug": "2026-08-04",
+      "title": "AI's debt binge can't last, hidden borrowing reaches $1.65T",
+      "url": "https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance/",
+      "source": "fortune.com",
+      "selectedAt": "2026-08-04T11:29:46.698Z",
+      "publishedAt": "2026-08-03T20:02:21.000Z",
+      "hn": {
+        "id": 49160699,
+        "score": 131,
+        "comments": 158
+      }
+    },
     {
       "slug": "2026-08-03",
       "title": "Europe EV Sales BEVs Jump 50% & Reach 26% Market Share",
@@ -662,19 +675,6 @@
         "id": 48213933,
         "score": 379,
         "comments": 296
-      }
-    },
-    {
-      "slug": "2026-05-20",
-      "title": "Minnesota becomes first state to ban prediction markets",
-      "url": "https://www.npr.org/2026/05/19/nx-s1-5821265/minnesota-ban-prediction-markets",
-      "source": "npr.org",
-      "selectedAt": "2026-05-20T11:54:05.148Z",
-      "publishedAt": "2026-05-19T19:13:26.000Z",
-      "hn": {
-        "id": 48197980,
-        "score": 687,
-        "comments": 211
       }
     }
   ]
