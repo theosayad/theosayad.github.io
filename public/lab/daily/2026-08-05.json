@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-05",
+  "generatedAt": "2026-08-05T11:25:36.262Z",
+  "article": {
+    "title": "Oxide Computer raises $445M (SEC Form D)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml",
+    "source": "sec.gov",
+    "selectedAt": "2026-08-05T11:25:35.500Z",
+    "publishedAt": "2026-08-04T20:13:40.000Z",
+    "hn": {
+      "id": 49174407,
+      "score": 246,
+      "comments": 158
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
