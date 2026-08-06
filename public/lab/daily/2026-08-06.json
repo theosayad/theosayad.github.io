@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-06",
+  "generatedAt": "2026-08-06T11:28:49.409Z",
+  "article": {
+    "title": "LLMs won't break symmetric crypto",
+    "url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
+    "source": "bfswa.blog",
+    "selectedAt": "2026-08-06T11:28:48.413Z",
+    "publishedAt": "2026-08-06T01:39:06.000Z",
+    "hn": {
+      "id": 49191365,
+      "score": 69,
+      "comments": 82
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 7829
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}

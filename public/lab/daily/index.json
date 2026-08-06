@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-05T11:25:36.264Z",
+  "updatedAt": "2026-08-06T11:28:49.410Z",
   "items": [
+    {
+      "slug": "2026-08-06",
+      "title": "LLMs won't break symmetric crypto",
+      "url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
+      "source": "bfswa.blog",
+      "selectedAt": "2026-08-06T11:28:48.413Z",
+      "publishedAt": "2026-08-06T01:39:06.000Z",
+      "hn": {
+        "id": 49191365,
+        "score": 69,
+        "comments": 82
+      }
+    },
     {
       "slug": "2026-08-05",
       "title": "Oxide Computer raises $445M (SEC Form D)",
@@ -662,19 +675,6 @@
         "id": 48239862,
         "score": 98,
         "comments": 6
-      }
-    },
-    {
-      "slug": "2026-05-22",
-      "title": "Who wins and who loses in prediction markets? Evidence from Polymarket",
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443103",
-      "source": "papers.ssrn.com",
-      "selectedAt": "2026-05-22T11:50:59.295Z",
-      "publishedAt": "2026-05-21T12:55:16.000Z",
-      "hn": {
-        "id": 48221877,
-        "score": 149,
-        "comments": 146
       }
     }
   ]
