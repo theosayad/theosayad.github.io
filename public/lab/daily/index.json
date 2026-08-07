@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-06T11:28:49.410Z",
+  "updatedAt": "2026-08-07T10:05:36.459Z",
   "items": [
+    {
+      "slug": "2026-08-07",
+      "title": "Federal Communications Commission scraps limit on broadcast TV ownership",
+      "url": "https://www.nbcnews.com/business/media/federal-communications-commission-scraps-limit-broadcast-tv-ownership-rcna587641",
+      "source": "nbcnews.com",
+      "selectedAt": "2026-08-07T10:05:35.376Z",
+      "publishedAt": "2026-08-06T18:22:16.000Z",
+      "hn": {
+        "id": 49200390,
+        "score": 152,
+        "comments": 107
+      }
+    },
     {
       "slug": "2026-08-06",
       "title": "LLMs won't break symmetric crypto",
@@ -662,19 +675,6 @@
         "id": 48254475,
         "score": 211,
         "comments": 70
-      }
-    },
-    {
-      "slug": "2026-05-23",
-      "title": "A blueprint for formal verification of Apple corecrypto",
-      "url": "https://security.apple.com/blog/formal-verification-corecrypto/",
-      "source": "security.apple.com",
-      "selectedAt": "2026-05-23T10:40:45.201Z",
-      "publishedAt": "2026-05-22T18:52:17.000Z",
-      "hn": {
-        "id": 48239862,
-        "score": 98,
-        "comments": 6
       }
     }
   ]
