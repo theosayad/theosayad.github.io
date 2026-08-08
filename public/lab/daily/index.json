@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-07T10:05:36.459Z",
+  "updatedAt": "2026-08-08T09:45:46.128Z",
   "items": [
+    {
+      "slug": "2026-08-08",
+      "title": "Mykhailo Fedorov reveals struggle to secure Patriot missiles and Western support",
+      "url": "https://www.uawire.org/former-ukrainian-defense-minister-mykhailo-fedorov-reveals-struggles-to-secure-patriot-missiles-and-western-support",
+      "source": "uawire.org",
+      "selectedAt": "2026-08-08T09:45:44.763Z",
+      "publishedAt": "2026-08-07T19:38:05.000Z",
+      "hn": {
+        "id": 49215292,
+        "score": 36,
+        "comments": 17
+      }
+    },
     {
       "slug": "2026-08-07",
       "title": "Federal Communications Commission scraps limit on broadcast TV ownership",
@@ -662,19 +675,6 @@
         "id": 48262841,
         "score": 54,
         "comments": 3
-      }
-    },
-    {
-      "slug": "2026-05-24",
-      "title": "Amazon Web Services – Four Years and Out",
-      "url": "https://www.adventuresinoss.com/aws-four-years/",
-      "source": "adventuresinoss.com",
-      "selectedAt": "2026-05-24T10:46:38.702Z",
-      "publishedAt": "2026-05-24T04:51:22.000Z",
-      "hn": {
-        "id": 48254475,
-        "score": 211,
-        "comments": 70
       }
     }
   ]

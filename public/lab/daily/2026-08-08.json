@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-08",
+  "generatedAt": "2026-08-08T09:45:46.122Z",
+  "article": {
+    "title": "Mykhailo Fedorov reveals struggle to secure Patriot missiles and Western support",
+    "url": "https://www.uawire.org/former-ukrainian-defense-minister-mykhailo-fedorov-reveals-struggles-to-secure-patriot-missiles-and-western-support",
+    "source": "uawire.org",
+    "selectedAt": "2026-08-08T09:45:44.763Z",
+    "publishedAt": "2026-08-07T19:38:05.000Z",
+    "hn": {
+      "id": 49215292,
+      "score": 36,
+      "comments": 17
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3853
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
