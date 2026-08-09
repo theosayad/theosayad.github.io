@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-09",
+  "generatedAt": "2026-08-09T09:48:57.169Z",
+  "article": {
+    "title": "Maryland Closes More of Cunningham Falls State Park After Second Beaver Attack",
+    "url": "https://news.maryland.gov/dnr/2026/08/05/dnr-closes-additional-areas-of-cunningham-falls-state-park-following-second-beaver-attack/",
+    "source": "news.maryland.gov",
+    "selectedAt": "2026-08-09T09:48:55.315Z",
+    "publishedAt": "2026-08-08T21:07:10.000Z",
+    "hn": {
+      "id": 49225918,
+      "score": 107,
+      "comments": 65
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3352
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
