@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-09T09:48:57.171Z",
+  "updatedAt": "2026-08-10T10:24:22.931Z",
   "items": [
+    {
+      "slug": "2026-08-10",
+      "title": "Why Wall Street is ignoring big tech's debt [video]",
+      "url": "https://www.youtube.com/watch?v=NufJ7g63KSY",
+      "source": "youtube.com",
+      "selectedAt": "2026-08-10T10:24:20.969Z",
+      "publishedAt": "2026-08-09T12:01:39.000Z",
+      "hn": {
+        "id": 49230630,
+        "score": 90,
+        "comments": 163
+      }
+    },
     {
       "slug": "2026-08-09",
       "title": "Maryland Closes More of Cunningham Falls State Park After Second Beaver Attack",
@@ -662,19 +675,6 @@
         "id": 48296794,
         "score": 928,
         "comments": 1045
-      }
-    },
-    {
-      "slug": "2026-05-27",
-      "title": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
-      "url": "https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/",
-      "source": "reuters.com",
-      "selectedAt": "2026-05-27T12:28:01.545Z",
-      "publishedAt": "2026-05-26T13:08:13.000Z",
-      "hn": {
-        "id": 48279316,
-        "score": 972,
-        "comments": 451
       }
     }
   ]
