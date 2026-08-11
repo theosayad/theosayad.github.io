@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-10T10:24:22.931Z",
+  "updatedAt": "2026-08-11T10:05:18.926Z",
   "items": [
+    {
+      "slug": "2026-08-11",
+      "title": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
+      "url": "https://www.stoaexchange.com",
+      "source": "stoaexchange.com",
+      "selectedAt": "2026-08-11T10:05:17.968Z",
+      "publishedAt": "2026-08-10T16:35:27.000Z",
+      "hn": {
+        "id": 49246057,
+        "score": 75,
+        "comments": 50
+      }
+    },
     {
       "slug": "2026-08-10",
       "title": "Why Wall Street is ignoring big tech's debt [video]",
@@ -662,19 +675,6 @@
         "id": 48315968,
         "score": 449,
         "comments": 212
-      }
-    },
-    {
-      "slug": "2026-05-28",
-      "title": "I think Anthropic and OpenAI have found product-market fit",
-      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
-      "source": "simonwillison.net",
-      "selectedAt": "2026-05-28T12:36:53.242Z",
-      "publishedAt": "2026-05-27T16:39:13.000Z",
-      "hn": {
-        "id": 48296794,
-        "score": 928,
-        "comments": 1045
       }
     }
   ]
