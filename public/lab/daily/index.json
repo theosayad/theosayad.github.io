@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-11T10:05:18.926Z",
+  "updatedAt": "2026-08-12T10:14:19.896Z",
   "items": [
+    {
+      "slug": "2026-08-12",
+      "title": "CFTC declares market emergency, orders Kalshi to continue to operate in New York",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9281-26",
+      "source": "cftc.gov",
+      "selectedAt": "2026-08-12T10:14:19.264Z",
+      "publishedAt": "2026-08-12T00:17:59.000Z",
+      "hn": {
+        "id": 49266277,
+        "score": 146,
+        "comments": 129
+      }
+    },
     {
       "slug": "2026-08-11",
       "title": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
@@ -662,19 +675,6 @@
         "id": 48326659,
         "score": 100,
         "comments": 171
-      }
-    },
-    {
-      "slug": "2026-05-29",
-      "title": "GitHub bans security researcher who posted zero-day Windows exploits",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation",
-      "source": "tomshardware.com",
-      "selectedAt": "2026-05-29T12:23:17.848Z",
-      "publishedAt": "2026-05-28T21:45:54.000Z",
-      "hn": {
-        "id": 48315968,
-        "score": 449,
-        "comments": 212
       }
     }
   ]
