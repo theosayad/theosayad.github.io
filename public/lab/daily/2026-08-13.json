@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-13",
+  "generatedAt": "2026-08-13T10:16:06.326Z",
+  "article": {
+    "title": "Thanks to social media, canned sardines are a scarcity on the supermarket shelf",
+    "url": "https://corneroffifth.studio/why-cant-you-find-canned-sardines-right-now/",
+    "source": "corneroffifth.studio",
+    "selectedAt": "2026-08-13T10:16:05.142Z",
+    "publishedAt": "2026-08-12T21:45:29.000Z",
+    "hn": {
+      "id": 49279013,
+      "score": 127,
+      "comments": 161
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3125
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
