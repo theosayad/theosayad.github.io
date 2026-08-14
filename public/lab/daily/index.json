@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-13T10:16:06.327Z",
+  "updatedAt": "2026-08-14T10:11:43.914Z",
   "items": [
+    {
+      "slug": "2026-08-14",
+      "title": "Deutsche Bank becomes first foreign yuan clearing bank in Europe",
+      "url": "https://tradersunion.com/news/central-banks/show/2973571-deutsche-bank-becomes/",
+      "source": "tradersunion.com",
+      "selectedAt": "2026-08-14T10:11:41.096Z",
+      "publishedAt": "2026-08-13T12:09:50.000Z",
+      "hn": {
+        "id": 49284774,
+        "score": 403,
+        "comments": 443
+      }
+    },
     {
       "slug": "2026-08-13",
       "title": "Thanks to social media, canned sardines are a scarcity on the supermarket shelf",
@@ -662,19 +675,6 @@
         "id": 48355399,
         "score": 2,
         "comments": 0
-      }
-    },
-    {
-      "slug": "2026-05-31",
-      "title": "Hormuz crisis side effect: a sharp rise in container shipping rates",
-      "url": "https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates",
-      "source": "lloydslist.com",
-      "selectedAt": "2026-05-31T11:03:46.593Z",
-      "publishedAt": "2026-05-30T18:19:23.000Z",
-      "hn": {
-        "id": 48339180,
-        "score": 187,
-        "comments": 163
       }
     }
   ]
