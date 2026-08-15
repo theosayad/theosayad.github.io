@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-14T10:11:43.914Z",
+  "updatedAt": "2026-08-15T09:32:39.887Z",
   "items": [
+    {
+      "slug": "2026-08-15",
+      "title": "Going Dark, and the era of law enforcement hacking",
+      "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
+      "source": "blog.cryptographyengineering.com",
+      "selectedAt": "2026-08-15T09:32:39.248Z",
+      "publishedAt": "2026-08-14T20:52:44.000Z",
+      "hn": {
+        "id": 49304447,
+        "score": 339,
+        "comments": 149
+      }
+    },
     {
       "slug": "2026-08-14",
       "title": "Deutsche Bank becomes first foreign yuan clearing bank in Europe",
@@ -662,19 +675,6 @@
         "id": 48364055,
         "score": 443,
         "comments": 786
-      }
-    },
-    {
-      "slug": "2026-06-01",
-      "title": "AI debt sales reshape global corporate bond markets",
-      "url": "https://www.reuters.com/business/finance/ai-debt-sales-reshape-global-corporate-bond-markets-2026-06-01/",
-      "source": "reuters.com",
-      "selectedAt": "2026-06-01T15:29:47.999Z",
-      "publishedAt": "2026-06-01T11:25:21.000Z",
-      "hn": {
-        "id": 48355399,
-        "score": 2,
-        "comments": 0
       }
     }
   ]
