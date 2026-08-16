@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-15T09:32:39.887Z",
+  "updatedAt": "2026-08-16T09:34:04.109Z",
   "items": [
+    {
+      "slug": "2026-08-16",
+      "title": "Secondhand book sales are booming. Is it because of AI?",
+      "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o",
+      "source": "bbc.co.uk",
+      "selectedAt": "2026-08-16T09:34:03.213Z",
+      "publishedAt": "2026-08-15T14:08:55.000Z",
+      "hn": {
+        "id": 49310725,
+        "score": 67,
+        "comments": 70
+      }
+    },
     {
       "slug": "2026-08-15",
       "title": "Going Dark, and the era of law enforcement hacking",
@@ -662,19 +675,6 @@
         "id": 48373909,
         "score": 201,
         "comments": 167
-      }
-    },
-    {
-      "slug": "2026-06-02",
-      "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
-      "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
-      "source": "economist.com",
-      "selectedAt": "2026-06-02T12:47:51.106Z",
-      "publishedAt": "2026-06-01T23:45:46.000Z",
-      "hn": {
-        "id": 48364055,
-        "score": 443,
-        "comments": 786
       }
     }
   ]

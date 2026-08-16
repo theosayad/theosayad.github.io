@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-16",
+  "generatedAt": "2026-08-16T09:34:04.107Z",
+  "article": {
+    "title": "Secondhand book sales are booming. Is it because of AI?",
+    "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o",
+    "source": "bbc.co.uk",
+    "selectedAt": "2026-08-16T09:34:03.213Z",
+    "publishedAt": "2026-08-15T14:08:55.000Z",
+    "hn": {
+      "id": 49310725,
+      "score": 67,
+      "comments": 70
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3046
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
