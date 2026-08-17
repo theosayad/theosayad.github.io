@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-17",
+  "generatedAt": "2026-08-17T09:50:58.454Z",
+  "article": {
+    "title": "Anthropic IPO valuation hinges on $190-200B 2028 revenue forecast",
+    "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
+    "source": "reuters.com",
+    "selectedAt": "2026-08-17T09:50:57.475Z",
+    "publishedAt": "2026-08-16T21:00:25.000Z",
+    "hn": {
+      "id": 49323620,
+      "score": 43,
+      "comments": 60
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}

@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-16T09:34:04.109Z",
+  "updatedAt": "2026-08-17T09:50:58.455Z",
   "items": [
+    {
+      "slug": "2026-08-17",
+      "title": "Anthropic IPO valuation hinges on $190-200B 2028 revenue forecast",
+      "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
+      "source": "reuters.com",
+      "selectedAt": "2026-08-17T09:50:57.475Z",
+      "publishedAt": "2026-08-16T21:00:25.000Z",
+      "hn": {
+        "id": 49323620,
+        "score": 43,
+        "comments": 60
+      }
+    },
     {
       "slug": "2026-08-16",
       "title": "Secondhand book sales are booming. Is it because of AI?",
@@ -662,19 +675,6 @@
         "id": 48395938,
         "score": 163,
         "comments": 108
-      }
-    },
-    {
-      "slug": "2026-06-03",
-      "title": "Morningstar values SpaceX at $780B, half its IPO target",
-      "url": "https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02/",
-      "source": "reuters.com",
-      "selectedAt": "2026-06-03T13:21:28.561Z",
-      "publishedAt": "2026-06-02T18:09:53.000Z",
-      "hn": {
-        "id": 48373909,
-        "score": 201,
-        "comments": 167
       }
     }
   ]
