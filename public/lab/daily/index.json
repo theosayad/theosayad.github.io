@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-18T09:40:23.170Z",
+  "updatedAt": "2026-08-19T09:40:52.730Z",
   "items": [
+    {
+      "slug": "2026-08-19",
+      "title": "Sticky wage norms and the real wage cost of unexpected inflation",
+      "url": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
+      "source": "bfi.uchicago.edu",
+      "selectedAt": "2026-08-19T09:40:50.239Z",
+      "publishedAt": "2026-08-19T00:53:51.000Z",
+      "hn": {
+        "id": 49355142,
+        "score": 356,
+        "comments": 224
+      }
+    },
     {
       "slug": "2026-08-18",
       "title": "Flock cameras haven't improved Atlanta's crime clearance rates",
@@ -662,19 +675,6 @@
         "id": 48411799,
         "score": 92,
         "comments": 71
-      }
-    },
-    {
-      "slug": "2026-06-05",
-      "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
-      "source": "bloomberg.com",
-      "selectedAt": "2026-06-05T12:16:10.569Z",
-      "publishedAt": "2026-06-04T22:48:19.000Z",
-      "hn": {
-        "id": 48405718,
-        "score": 667,
-        "comments": 323
       }
     }
   ]

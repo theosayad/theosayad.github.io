@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-19",
+  "generatedAt": "2026-08-19T09:40:52.728Z",
+  "article": {
+    "title": "Sticky wage norms and the real wage cost of unexpected inflation",
+    "url": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
+    "source": "bfi.uchicago.edu",
+    "selectedAt": "2026-08-19T09:40:50.239Z",
+    "publishedAt": "2026-08-19T00:53:51.000Z",
+    "hn": {
+      "id": 49355142,
+      "score": 356,
+      "comments": 224
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3578471
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
