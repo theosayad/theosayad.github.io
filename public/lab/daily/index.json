@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-20T09:41:34.390Z",
+  "updatedAt": "2026-08-21T09:44:18.684Z",
   "items": [
+    {
+      "slug": "2026-08-21",
+      "title": "Malicious Rust crate Arrayref runs a build-time payload",
+      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+      "source": "safedep.io",
+      "selectedAt": "2026-08-21T09:44:17.856Z",
+      "publishedAt": "2026-08-20T13:23:12.000Z",
+      "hn": {
+        "id": 49374269,
+        "score": 494,
+        "comments": 420
+      }
+    },
     {
       "slug": "2026-08-20",
       "title": "How China Saved the Global Oil Market",
@@ -662,19 +675,6 @@
         "id": 48440610,
         "score": 128,
         "comments": 87
-      }
-    },
-    {
-      "slug": "2026-06-07",
-      "title": "Dallas Housing Market Cools as H-1B Visa Indian Buyers Vanish",
-      "url": "https://www.bloomberg.com/features/2026-dallas-h1b-housing-market/",
-      "source": "bloomberg.com",
-      "selectedAt": "2026-06-07T11:12:39.099Z",
-      "publishedAt": "2026-06-06T12:46:59.000Z",
-      "hn": {
-        "id": 48424560,
-        "score": 2,
-        "comments": 0
       }
     }
   ]

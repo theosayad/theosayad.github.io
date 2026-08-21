@@ -1,13 +1,13 @@
 {
-  "title": "How China Saved the Global Oil Market",
-  "url": "https://www.commoditycontext.com/p/public-how-china-saved-the-global-oil-market",
-  "source": "commoditycontext.com",
-  "selectedAt": "2026-08-20T09:41:33.581Z",
-  "publishedAt": "2026-08-19T22:19:49.000Z",
+  "title": "Malicious Rust crate Arrayref runs a build-time payload",
+  "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+  "source": "safedep.io",
+  "selectedAt": "2026-08-21T09:44:17.856Z",
+  "publishedAt": "2026-08-20T13:23:12.000Z",
   "hn": {
-    "id": 49367924,
-    "score": 29,
-    "comments": 9
+    "id": 49374269,
+    "score": 494,
+    "comments": 420
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }

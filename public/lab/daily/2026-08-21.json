@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-21",
+  "generatedAt": "2026-08-21T09:44:18.683Z",
+  "article": {
+    "title": "Malicious Rust crate Arrayref runs a build-time payload",
+    "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+    "source": "safedep.io",
+    "selectedAt": "2026-08-21T09:44:17.856Z",
+    "publishedAt": "2026-08-20T13:23:12.000Z",
+    "hn": {
+      "id": 49374269,
+      "score": 494,
+      "comments": 420
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5908
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
