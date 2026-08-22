@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-21T09:44:18.684Z",
+  "updatedAt": "2026-08-22T09:33:51.161Z",
   "items": [
+    {
+      "slug": "2026-08-22",
+      "title": "New York’s office market is home to the most tech workers: CBRE report",
+      "url": "https://www.cnbc.com/2026/08/21/new-york-san-francisco-tech-talent-cbre.html",
+      "source": "cnbc.com",
+      "selectedAt": "2026-08-22T09:33:50.664Z",
+      "publishedAt": "2026-08-21T15:36:16.000Z",
+      "hn": {
+        "id": 49389722,
+        "score": 34,
+        "comments": 43
+      }
+    },
     {
       "slug": "2026-08-21",
       "title": "Malicious Rust crate Arrayref runs a build-time payload",
@@ -662,19 +675,6 @@
         "id": 48446639,
         "score": 584,
         "comments": 431
-      }
-    },
-    {
-      "slug": "2026-06-08",
-      "title": "Texas grid flags risks as data centers, crypto sites fail voltage tests",
-      "url": "https://www.reuters.com/business/energy/texas-grid-flags-risks-data-centers-crypto-sites-fail-voltage-tests-2026-06-05/",
-      "source": "reuters.com",
-      "selectedAt": "2026-06-08T13:13:00.127Z",
-      "publishedAt": "2026-06-08T02:05:40.000Z",
-      "hn": {
-        "id": 48440610,
-        "score": 128,
-        "comments": 87
       }
     }
   ]

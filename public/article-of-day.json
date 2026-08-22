@@ -1,13 +1,13 @@
 {
-  "title": "Malicious Rust crate Arrayref runs a build-time payload",
-  "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
-  "source": "safedep.io",
-  "selectedAt": "2026-08-21T09:44:17.856Z",
-  "publishedAt": "2026-08-20T13:23:12.000Z",
+  "title": "New York’s office market is home to the most tech workers: CBRE report",
+  "url": "https://www.cnbc.com/2026/08/21/new-york-san-francisco-tech-talent-cbre.html",
+  "source": "cnbc.com",
+  "selectedAt": "2026-08-22T09:33:50.664Z",
+  "publishedAt": "2026-08-21T15:36:16.000Z",
   "hn": {
-    "id": 49374269,
-    "score": 494,
-    "comments": 420
+    "id": 49389722,
+    "score": 34,
+    "comments": 43
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }

@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-22",
+  "generatedAt": "2026-08-22T09:33:51.159Z",
+  "article": {
+    "title": "New York’s office market is home to the most tech workers: CBRE report",
+    "url": "https://www.cnbc.com/2026/08/21/new-york-san-francisco-tech-talent-cbre.html",
+    "source": "cnbc.com",
+    "selectedAt": "2026-08-22T09:33:50.664Z",
+    "publishedAt": "2026-08-21T15:36:16.000Z",
+    "hn": {
+      "id": 49389722,
+      "score": 34,
+      "comments": 43
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3710
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
