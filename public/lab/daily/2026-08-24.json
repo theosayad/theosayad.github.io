@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-24",
+  "generatedAt": "2026-08-24T09:55:31.067Z",
+  "article": {
+    "title": "Malware infects Android-based automotive head unit firmware",
+    "url": "https://securelist.com/android-head-unit-malware/121106/",
+    "source": "securelist.com",
+    "selectedAt": "2026-08-24T09:55:28.670Z",
+    "publishedAt": "2026-08-23T13:05:38.000Z",
+    "hn": {
+      "id": 49408550,
+      "score": 87,
+      "comments": 40
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 9310
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}

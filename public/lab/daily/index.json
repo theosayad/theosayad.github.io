@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-23T09:34:36.143Z",
+  "updatedAt": "2026-08-24T09:55:31.069Z",
   "items": [
+    {
+      "slug": "2026-08-24",
+      "title": "Malware infects Android-based automotive head unit firmware",
+      "url": "https://securelist.com/android-head-unit-malware/121106/",
+      "source": "securelist.com",
+      "selectedAt": "2026-08-24T09:55:28.670Z",
+      "publishedAt": "2026-08-23T13:05:38.000Z",
+      "hn": {
+        "id": 49408550,
+        "score": 87,
+        "comments": 40
+      }
+    },
     {
       "slug": "2026-08-23",
       "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
@@ -662,19 +675,6 @@
         "id": 48476136,
         "score": 192,
         "comments": 181
-      }
-    },
-    {
-      "slug": "2026-06-10",
-      "title": "Show HN: Nucleus – A security-hardened, Nix-native container runtime",
-      "url": "https://github.com/sig-id/nucleus",
-      "source": "github.com",
-      "selectedAt": "2026-06-10T12:30:39.008Z",
-      "publishedAt": "2026-06-09T23:03:40.000Z",
-      "hn": {
-        "id": 48469039,
-        "score": 30,
-        "comments": 7
       }
     }
   ]
