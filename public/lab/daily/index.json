@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-24T09:55:31.069Z",
+  "updatedAt": "2026-08-25T09:42:46.399Z",
   "items": [
+    {
+      "slug": "2026-08-25",
+      "title": "The treasury bond mess: is this the demise of the US as a safe haven?",
+      "url": "https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt",
+      "source": "theguardian.com",
+      "selectedAt": "2026-08-25T09:42:45.382Z",
+      "publishedAt": "2026-08-24T10:52:24.000Z",
+      "hn": {
+        "id": 49417941,
+        "score": 129,
+        "comments": 169
+      }
+    },
     {
       "slug": "2026-08-24",
       "title": "Malware infects Android-based automotive head unit firmware",
@@ -662,19 +675,6 @@
         "id": 48500012,
         "score": 792,
         "comments": 303
-      }
-    },
-    {
-      "slug": "2026-06-11",
-      "title": "A €0.01 bank transfer could compromise a banking AI agent",
-      "url": "https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/",
-      "source": "blue41.com",
-      "selectedAt": "2026-06-11T12:50:58.224Z",
-      "publishedAt": "2026-06-10T13:39:11.000Z",
-      "hn": {
-        "id": 48476136,
-        "score": 192,
-        "comments": 181
       }
     }
   ]

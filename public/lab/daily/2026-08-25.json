@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-25",
+  "generatedAt": "2026-08-25T09:42:46.396Z",
+  "article": {
+    "title": "The treasury bond mess: is this the demise of the US as a safe haven?",
+    "url": "https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt",
+    "source": "theguardian.com",
+    "selectedAt": "2026-08-25T09:42:45.382Z",
+    "publishedAt": "2026-08-24T10:52:24.000Z",
+    "hn": {
+      "id": 49417941,
+      "score": 129,
+      "comments": 169
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5831
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
