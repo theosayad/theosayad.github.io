@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-25T09:42:46.399Z",
+  "updatedAt": "2026-08-26T09:50:22.280Z",
   "items": [
+    {
+      "slug": "2026-08-26",
+      "title": "Anthropic tells staff to work from home due to possible security team strike",
+      "url": "https://www.businessinsider.com/anthropic-san-francisco-staff-work-remote-office-security-strike-2026-8",
+      "source": "businessinsider.com",
+      "selectedAt": "2026-08-26T09:50:21.530Z",
+      "publishedAt": "2026-08-25T14:00:27.000Z",
+      "hn": {
+        "id": 49434291,
+        "score": 121,
+        "comments": 126
+      }
+    },
     {
       "slug": "2026-08-25",
       "title": "The treasury bond mess: is this the demise of the US as a safe haven?",
@@ -662,19 +675,6 @@
         "id": 48506659,
         "score": 271,
         "comments": 81
-      }
-    },
-    {
-      "slug": "2026-06-12",
-      "title": "AI agent bankrupted their operator while trying to scan DN42",
-      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
-      "source": "lantian.pub",
-      "selectedAt": "2026-06-12T12:24:51.098Z",
-      "publishedAt": "2026-06-12T04:42:53.000Z",
-      "hn": {
-        "id": 48500012,
-        "score": 792,
-        "comments": 303
       }
     }
   ]
