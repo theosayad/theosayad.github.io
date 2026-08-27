@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-26T09:50:22.280Z",
+  "updatedAt": "2026-08-27T19:47:32.940Z",
   "items": [
+    {
+      "slug": "2026-08-27",
+      "title": "AC2 Protocol: The missing security layer for AI agents",
+      "url": "https://www.ac2protocol.org",
+      "source": "ac2protocol.org",
+      "selectedAt": "2026-08-27T19:47:31.902Z",
+      "publishedAt": "2026-08-27T13:55:42.000Z",
+      "hn": {
+        "id": 49464979,
+        "score": 16,
+        "comments": 14
+      }
+    },
     {
       "slug": "2026-08-26",
       "title": "Anthropic tells staff to work from home due to possible security team strike",
@@ -662,19 +675,6 @@
         "id": 48523615,
         "score": 34,
         "comments": 5
-      }
-    },
-    {
-      "slug": "2026-06-13",
-      "title": "Pirates, a naval warfare game inspired by Sid Meier's Pirates",
-      "url": "https://piwodlaiwo.github.io/pirates/",
-      "source": "piwodlaiwo.github.io",
-      "selectedAt": "2026-06-13T11:22:03.345Z",
-      "publishedAt": "2026-06-12T17:07:46.000Z",
-      "hn": {
-        "id": 48506659,
-        "score": 271,
-        "comments": 81
       }
     }
   ]
