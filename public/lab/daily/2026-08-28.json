@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-28",
+  "generatedAt": "2026-08-28T20:48:33.534Z",
+  "article": {
+    "title": "My Business Is Dying",
+    "url": "https://bankstatementconverter.com/blog/posts/2026-08-28-business-is-dying/",
+    "source": "bankstatementconverter.com",
+    "selectedAt": "2026-08-28T20:48:32.396Z",
+    "publishedAt": "2026-08-28T05:41:03.000Z",
+    "hn": {
+      "id": 49474776,
+      "score": 85,
+      "comments": 84
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4342
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
