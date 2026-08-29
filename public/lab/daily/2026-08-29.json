@@ -1,0 +1,30 @@
+{
+  "slug": "2026-08-29",
+  "generatedAt": "2026-08-29T14:22:30.020Z",
+  "article": {
+    "title": "Secrets of the Atomic City",
+    "url": "https://longreads.com/2026/08/06/radiation-paducah-atavist/",
+    "source": "longreads.com",
+    "selectedAt": "2026-08-29T14:22:29.281Z",
+    "publishedAt": "2026-08-28T17:16:58.000Z",
+    "hn": {
+      "id": 49481672,
+      "score": 24,
+      "comments": 6
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 11044
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}

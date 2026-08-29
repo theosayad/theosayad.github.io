@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-28T20:48:33.536Z",
+  "updatedAt": "2026-08-29T14:22:30.022Z",
   "items": [
+    {
+      "slug": "2026-08-29",
+      "title": "Secrets of the Atomic City",
+      "url": "https://longreads.com/2026/08/06/radiation-paducah-atavist/",
+      "source": "longreads.com",
+      "selectedAt": "2026-08-29T14:22:29.281Z",
+      "publishedAt": "2026-08-28T17:16:58.000Z",
+      "hn": {
+        "id": 49481672,
+        "score": 24,
+        "comments": 6
+      }
+    },
     {
       "slug": "2026-08-28",
       "title": "My Business Is Dying",
@@ -662,19 +675,6 @@
         "id": 48552687,
         "score": 286,
         "comments": 147
-      }
-    },
-    {
-      "slug": "2026-06-15",
-      "title": "Kevin Warsh Wants the Fed to Stop Explaining Everything",
-      "url": "https://www.wsj.com/economy/central-banking/fed-warsh-chair-communication-d2f2d226",
-      "source": "wsj.com",
-      "selectedAt": "2026-06-15T15:21:57.236Z",
-      "publishedAt": "2026-06-15T01:25:16.000Z",
-      "hn": {
-        "id": 48535351,
-        "score": 4,
-        "comments": 1
       }
     }
   ]
