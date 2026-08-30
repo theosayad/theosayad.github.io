@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-29T14:22:30.022Z",
+  "updatedAt": "2026-08-30T14:22:35.192Z",
   "items": [
+    {
+      "slug": "2026-08-30",
+      "title": "Google Reduced Pixel 11's Security",
+      "url": "https://twitter.com/GrapheneOS/status/2093731615243411862",
+      "source": "twitter.com",
+      "selectedAt": "2026-08-30T14:22:34.136Z",
+      "publishedAt": "2026-08-29T17:09:17.000Z",
+      "hn": {
+        "id": 49491512,
+        "score": 20,
+        "comments": 2
+      }
+    },
     {
       "slug": "2026-08-29",
       "title": "Secrets of the Atomic City",
@@ -662,19 +675,6 @@
         "id": 48846281,
         "score": 291,
         "comments": 225
-      }
-    },
-    {
-      "slug": "2026-06-16",
-      "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
-      "url": "https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827",
-      "source": "theregister.com",
-      "selectedAt": "2026-06-16T14:21:56.007Z",
-      "publishedAt": "2026-06-16T09:26:09.000Z",
-      "hn": {
-        "id": 48552687,
-        "score": 286,
-        "comments": 147
       }
     }
   ]
