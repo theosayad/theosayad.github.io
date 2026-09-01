@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-01",
+  "generatedAt": "2026-09-01T14:05:19.033Z",
+  "article": {
+    "title": "I turned my security cameras into an automatic bird identification system",
+    "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+    "source": "jasontucker.blog",
+    "selectedAt": "2026-09-01T14:05:18.157Z",
+    "publishedAt": "2026-08-31T16:47:11.000Z",
+    "hn": {
+      "id": 49511856,
+      "score": 548,
+      "comments": 144
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5274
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}

@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-31T17:00:26.925Z",
+  "updatedAt": "2026-09-01T14:05:19.034Z",
   "items": [
+    {
+      "slug": "2026-09-01",
+      "title": "I turned my security cameras into an automatic bird identification system",
+      "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+      "source": "jasontucker.blog",
+      "selectedAt": "2026-09-01T14:05:18.157Z",
+      "publishedAt": "2026-08-31T16:47:11.000Z",
+      "hn": {
+        "id": 49511856,
+        "score": 548,
+        "comments": 144
+      }
+    },
     {
       "slug": "2026-08-31",
       "title": "Meta Security Researcher's AI Agent Accidentally Deleted Her Emails",
@@ -662,19 +675,6 @@
         "id": 48877349,
         "score": 38,
         "comments": 19
-      }
-    },
-    {
-      "slug": "2026-07-11",
-      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
-      "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
-      "source": "9to5mac.com",
-      "selectedAt": "2026-07-11T10:21:24.830Z",
-      "publishedAt": "2026-07-10T20:47:09.000Z",
-      "hn": {
-        "id": 48865019,
-        "score": 1095,
-        "comments": 563
       }
     }
   ]
