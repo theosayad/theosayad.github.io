@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-01T14:05:19.034Z",
+  "updatedAt": "2026-09-02T13:31:08.710Z",
   "items": [
+    {
+      "slug": "2026-09-02",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "krebsonsecurity.com",
+      "selectedAt": "2026-09-02T13:31:07.431Z",
+      "publishedAt": "2026-09-01T23:17:43.000Z",
+      "hn": {
+        "id": 49529621,
+        "score": 301,
+        "comments": 163
+      }
+    },
     {
       "slug": "2026-09-01",
       "title": "I turned my security cameras into an automatic bird identification system",
@@ -662,19 +675,6 @@
         "id": 48889429,
         "score": 69,
         "comments": 72
-      }
-    },
-    {
-      "slug": "2026-07-12",
-      "title": "Firefox 12.58% for Desktop Browser Market Share in North America June 2026",
-      "url": "https://gs.statcounter.com/browser-market-share/desktop/north-america",
-      "source": "gs.statcounter.com",
-      "selectedAt": "2026-07-12T10:39:03.993Z",
-      "publishedAt": "2026-07-12T01:05:04.000Z",
-      "hn": {
-        "id": 48877349,
-        "score": 38,
-        "comments": 19
       }
     }
   ]
