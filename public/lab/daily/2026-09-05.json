@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-05",
+  "generatedAt": "2026-09-05T12:34:01.412Z",
+  "article": {
+    "title": "deSEC – Free Secure DNS",
+    "url": "https://desec.io/",
+    "source": "desec.io",
+    "selectedAt": "2026-09-05T12:34:00.592Z",
+    "publishedAt": "2026-09-04T15:38:58.000Z",
+    "hn": {
+      "id": 49566193,
+      "score": 141,
+      "comments": 51
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 23
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
