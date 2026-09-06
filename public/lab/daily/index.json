@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-05T12:34:01.414Z",
+  "updatedAt": "2026-09-06T12:48:52.880Z",
   "items": [
+    {
+      "slug": "2026-09-06",
+      "title": "How the Disaster of \"Forever Chemicals\" Was Kept Secret",
+      "url": "https://www.propublica.org/podcast/forever-chemicals-pfas-pfos-3m-secret-kris-hansen",
+      "source": "propublica.org",
+      "selectedAt": "2026-09-06T12:48:51.790Z",
+      "publishedAt": "2026-09-05T14:40:52.000Z",
+      "hn": {
+        "id": 49576986,
+        "score": 314,
+        "comments": 100
+      }
+    },
     {
       "slug": "2026-09-05",
       "title": "deSEC – Free Secure DNS",
@@ -662,19 +675,6 @@
         "id": 48933344,
         "score": 295,
         "comments": 261
-      }
-    },
-    {
-      "slug": "2026-07-16",
-      "title": "SpaceX bond worth 10% less than issue price – heading for junk bond status",
-      "url": "https://www.ft.com/content/3a023b95-66c3-41e1-b0ce-df752a499541",
-      "source": "ft.com",
-      "selectedAt": "2026-07-16T11:05:55.102Z",
-      "publishedAt": "2026-07-15T12:59:09.000Z",
-      "hn": {
-        "id": 48920181,
-        "score": 540,
-        "comments": 552
       }
     }
   ]
