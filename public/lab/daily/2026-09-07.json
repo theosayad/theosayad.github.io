@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-07",
+  "generatedAt": "2026-09-07T14:59:15.848Z",
+  "article": {
+    "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
+    "url": "https://grapheneos.social/@GrapheneOS/117225539756835649",
+    "source": "grapheneos.social",
+    "selectedAt": "2026-09-07T14:59:14.948Z",
+    "publishedAt": "2026-09-06T20:24:00.000Z",
+    "hn": {
+      "id": 49590512,
+      "score": 349,
+      "comments": 223
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 90
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}

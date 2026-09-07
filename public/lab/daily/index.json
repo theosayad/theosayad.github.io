@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-06T12:48:52.880Z",
+  "updatedAt": "2026-09-07T14:59:15.849Z",
   "items": [
+    {
+      "slug": "2026-09-07",
+      "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
+      "url": "https://grapheneos.social/@GrapheneOS/117225539756835649",
+      "source": "grapheneos.social",
+      "selectedAt": "2026-09-07T14:59:14.948Z",
+      "publishedAt": "2026-09-06T20:24:00.000Z",
+      "hn": {
+        "id": 49590512,
+        "score": 349,
+        "comments": 223
+      }
+    },
     {
       "slug": "2026-09-06",
       "title": "How the Disaster of \"Forever Chemicals\" Was Kept Secret",
@@ -662,19 +675,6 @@
         "id": 48948435,
         "score": 159,
         "comments": 171
-      }
-    },
-    {
-      "slug": "2026-07-17",
-      "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
-      "url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
-      "source": "latimes.com",
-      "selectedAt": "2026-07-17T10:53:37.883Z",
-      "publishedAt": "2026-07-16T12:02:11.000Z",
-      "hn": {
-        "id": 48933344,
-        "score": 295,
-        "comments": 261
       }
     }
   ]
