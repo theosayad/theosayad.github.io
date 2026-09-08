@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-07T14:59:15.849Z",
+  "updatedAt": "2026-09-08T13:28:17.092Z",
   "items": [
+    {
+      "slug": "2026-09-08",
+      "title": "We have a year to fix security everywhere",
+      "url": "https://jyn.dev/a-year-to-fix-security/",
+      "source": "jyn.dev",
+      "selectedAt": "2026-09-08T13:28:16.086Z",
+      "publishedAt": "2026-09-08T04:48:10.000Z",
+      "hn": {
+        "id": 49605691,
+        "score": 275,
+        "comments": 281
+      }
+    },
     {
       "slug": "2026-09-07",
       "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
@@ -662,19 +675,6 @@
         "id": 48958985,
         "score": 52,
         "comments": 27
-      }
-    },
-    {
-      "slug": "2026-07-18",
-      "title": "Short sellers notch $8.7B profit as SpaceX shares dip to IPO price",
-      "url": "https://www.reuters.com/business/media-telecom/short-sellers-rack-up-87-bln-profit-spacex-slips-below-ipo-price-ortex-2026-07-16/",
-      "source": "reuters.com",
-      "selectedAt": "2026-07-18T10:24:31.349Z",
-      "publishedAt": "2026-07-17T15:17:54.000Z",
-      "hn": {
-        "id": 48948435,
-        "score": 159,
-        "comments": 171
       }
     }
   ]
