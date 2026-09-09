@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-09",
+  "generatedAt": "2026-09-09T13:38:39.532Z",
+  "article": {
+    "title": "US police fear Meta smart glasses could be used to secretly record them",
+    "url": "https://www.theguardian.com/technology/2026/sep/08/us-law-enforcement-meta-smart-glasses",
+    "source": "theguardian.com",
+    "selectedAt": "2026-09-09T13:38:38.443Z",
+    "publishedAt": "2026-09-08T15:39:49.000Z",
+    "hn": {
+      "id": 49611946,
+      "score": 110,
+      "comments": 83
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 6334
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
