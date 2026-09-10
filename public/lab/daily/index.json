@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-09T13:38:39.534Z",
+  "updatedAt": "2026-09-10T13:29:46.469Z",
   "items": [
+    {
+      "slug": "2026-09-10",
+      "title": "EU and Canada Plan Deal to Boost Trade, Security as US Ties Fray",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-08/eu-and-canada-plan-far-reaching-alliance-to-strengthen-partnership",
+      "source": "bloomberg.com",
+      "selectedAt": "2026-09-10T13:29:45.954Z",
+      "publishedAt": "2026-09-09T21:44:58.000Z",
+      "hn": {
+        "id": 49634849,
+        "score": 5,
+        "comments": 0
+      }
+    },
     {
       "slug": "2026-09-09",
       "title": "US police fear Meta smart glasses could be used to secretly record them",
@@ -662,19 +675,6 @@
         "id": 48980404,
         "score": 103,
         "comments": 5
-      }
-    },
-    {
-      "slug": "2026-07-20",
-      "title": "Big tech needs to justify AI spending as investors dump stocks",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks",
-      "source": "bloomberg.com",
-      "selectedAt": "2026-07-20T11:52:38.841Z",
-      "publishedAt": "2026-07-20T04:41:10.000Z",
-      "hn": {
-        "id": 48974426,
-        "score": 42,
-        "comments": 14
       }
     }
   ]
