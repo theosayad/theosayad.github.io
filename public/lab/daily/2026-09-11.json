@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-11",
+  "generatedAt": "2026-09-11T13:28:04.882Z",
+  "article": {
+    "title": "Mexican student creates an acoustic fire extinguisher to put out fire in seconds",
+    "url": "https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/",
+    "source": "upsocl.com",
+    "selectedAt": "2026-09-11T13:28:04.006Z",
+    "publishedAt": "2026-09-11T01:00:56.000Z",
+    "hn": {
+      "id": 49652237,
+      "score": 280,
+      "comments": 92
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 922
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
