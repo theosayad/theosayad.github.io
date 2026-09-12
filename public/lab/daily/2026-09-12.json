@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-12",
+  "generatedAt": "2026-09-12T12:47:38.629Z",
+  "article": {
+    "title": "HuggingFace: Security.txt",
+    "url": "https://huggingface.co/security.txt",
+    "source": "huggingface.co",
+    "selectedAt": "2026-09-12T12:47:37.462Z",
+    "publishedAt": "2026-09-11T14:38:13.000Z",
+    "hn": {
+      "id": 49659245,
+      "score": 265,
+      "comments": 68
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 385
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
