@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-13",
+  "generatedAt": "2026-09-13T13:45:27.121Z",
+  "article": {
+    "title": "Compiler Can Undo Your Security Checks",
+    "url": "https://davidbombal.com/your-compiler-can-undo-your-security-checks/",
+    "source": "davidbombal.com",
+    "selectedAt": "2026-09-13T13:45:26.168Z",
+    "publishedAt": "2026-09-12T14:07:58.000Z",
+    "hn": {
+      "id": 49672474,
+      "score": 28,
+      "comments": 66
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3813
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}

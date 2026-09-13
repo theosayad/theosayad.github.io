@@ -1,13 +1,13 @@
 {
-  "title": "HuggingFace: Security.txt",
-  "url": "https://huggingface.co/security.txt",
-  "source": "huggingface.co",
-  "selectedAt": "2026-09-12T12:47:37.462Z",
-  "publishedAt": "2026-09-11T14:38:13.000Z",
+  "title": "Compiler Can Undo Your Security Checks",
+  "url": "https://davidbombal.com/your-compiler-can-undo-your-security-checks/",
+  "source": "davidbombal.com",
+  "selectedAt": "2026-09-13T13:45:26.168Z",
+  "publishedAt": "2026-09-12T14:07:58.000Z",
   "hn": {
-    "id": 49659245,
-    "score": 265,
-    "comments": 68
+    "id": 49672474,
+    "score": 28,
+    "comments": 66
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }
