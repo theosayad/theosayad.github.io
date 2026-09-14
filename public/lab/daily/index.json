@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-13T13:45:27.123Z",
+  "updatedAt": "2026-09-14T15:50:49.398Z",
   "items": [
+    {
+      "slug": "2026-09-14",
+      "title": "Nike exits the S&P 100 after 18 years and a $200B market-cap wipeout",
+      "url": "https://fortune.com/2026/09/08/nike-stock-plummets-sp500-market-cap-index/",
+      "source": "fortune.com",
+      "selectedAt": "2026-09-14T15:50:48.627Z",
+      "publishedAt": "2026-09-14T02:50:40.000Z",
+      "hn": {
+        "id": 49691343,
+        "score": 262,
+        "comments": 359
+      }
+    },
     {
       "slug": "2026-09-13",
       "title": "Compiler Can Undo Your Security Checks",
@@ -662,19 +675,6 @@
         "id": 49034292,
         "score": 596,
         "comments": 191
-      }
-    },
-    {
-      "slug": "2026-07-24",
-      "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
-      "url": "https://github.com/onecli/onecli",
-      "source": "github.com",
-      "selectedAt": "2026-07-24T11:06:40.918Z",
-      "publishedAt": "2026-07-23T15:42:40.000Z",
-      "hn": {
-        "id": 49023427,
-        "score": 101,
-        "comments": 30
       }
     }
   ]
