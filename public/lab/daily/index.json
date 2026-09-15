@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-14T15:50:49.398Z",
+  "updatedAt": "2026-09-15T14:16:53.424Z",
   "items": [
+    {
+      "slug": "2026-09-15",
+      "title": "Anthropic tells investors it will be profitable for second straight quarter",
+      "url": "https://www.reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13/",
+      "source": "reuters.com",
+      "selectedAt": "2026-09-15T14:16:52.450Z",
+      "publishedAt": "2026-09-14T15:47:29.000Z",
+      "hn": {
+        "id": 49698936,
+        "score": 51,
+        "comments": 95
+      }
+    },
     {
       "slug": "2026-09-14",
       "title": "Nike exits the S&P 100 after 18 years and a $200B market-cap wipeout",
@@ -662,19 +675,6 @@
         "id": 49052628,
         "score": 105,
         "comments": 86
-      }
-    },
-    {
-      "slug": "2026-07-25",
-      "title": "My security camera shipped a GitHub admin token in its login page",
-      "url": "https://hhh.hn/hanwha-github-token/",
-      "source": "hhh.hn",
-      "selectedAt": "2026-07-25T10:39:16.501Z",
-      "publishedAt": "2026-07-24T11:54:41.000Z",
-      "hn": {
-        "id": 49034292,
-        "score": 596,
-        "comments": 191
       }
     }
   ]

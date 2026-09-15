@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-15",
+  "generatedAt": "2026-09-15T14:16:53.423Z",
+  "article": {
+    "title": "Anthropic tells investors it will be profitable for second straight quarter",
+    "url": "https://www.reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13/",
+    "source": "reuters.com",
+    "selectedAt": "2026-09-15T14:16:52.450Z",
+    "publishedAt": "2026-09-14T15:47:29.000Z",
+    "hn": {
+      "id": 49698936,
+      "score": 51,
+      "comments": 95
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
