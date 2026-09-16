@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-15T14:16:53.424Z",
+  "updatedAt": "2026-09-16T14:09:07.935Z",
   "items": [
+    {
+      "slug": "2026-09-16",
+      "title": "Apple Reference Image: A New Approach for Verified Photography",
+      "url": "https://security.apple.com/blog/apple-reference-image/",
+      "source": "security.apple.com",
+      "selectedAt": "2026-09-16T14:09:06.942Z",
+      "publishedAt": "2026-09-16T02:07:31.000Z",
+      "hn": {
+        "id": 49721322,
+        "score": 358,
+        "comments": 239
+      }
+    },
     {
       "slug": "2026-09-15",
       "title": "Anthropic tells investors it will be profitable for second straight quarter",
@@ -662,19 +675,6 @@
         "id": 49057574,
         "score": 329,
         "comments": 308
-      }
-    },
-    {
-      "slug": "2026-07-26",
-      "title": "Clinical failure rates over the decades: yikes",
-      "url": "https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes",
-      "source": "science.org",
-      "selectedAt": "2026-07-26T10:48:16.725Z",
-      "publishedAt": "2026-07-25T22:57:17.000Z",
-      "hn": {
-        "id": 49052628,
-        "score": 105,
-        "comments": 86
       }
     }
   ]

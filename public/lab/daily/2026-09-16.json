@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-16",
+  "generatedAt": "2026-09-16T14:09:07.931Z",
+  "article": {
+    "title": "Apple Reference Image: A New Approach for Verified Photography",
+    "url": "https://security.apple.com/blog/apple-reference-image/",
+    "source": "security.apple.com",
+    "selectedAt": "2026-09-16T14:09:06.942Z",
+    "publishedAt": "2026-09-16T02:07:31.000Z",
+    "hn": {
+      "id": 49721322,
+      "score": 358,
+      "comments": 239
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 13767
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
