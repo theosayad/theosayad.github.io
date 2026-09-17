@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-17",
+  "generatedAt": "2026-09-17T14:14:38.817Z",
+  "article": {
+    "title": "Fed hikes rates as inflation worries push up bond yields",
+    "url": "https://www.reuters.com/live/live-fed-rate-hike-expected-inflation-worries-push-up-bond-yields-2026-09-16/",
+    "source": "reuters.com",
+    "selectedAt": "2026-09-17T14:14:37.663Z",
+    "publishedAt": "2026-09-16T18:55:21.000Z",
+    "hn": {
+      "id": 49731356,
+      "score": 177,
+      "comments": 233
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}
