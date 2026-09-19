@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-19",
+  "generatedAt": "2026-09-19T13:02:05.876Z",
+  "article": {
+    "title": "US Treasuries Have Become Unappetizing for Foreign Central Banks and Governments",
+    "url": "https://wolfstreet.com/2026/09/17/treasuries-have-become-badly-unappetizing-for-foreign-central-banks-governments/",
+    "source": "wolfstreet.com",
+    "selectedAt": "2026-09-19T13:02:04.383Z",
+    "publishedAt": "2026-09-18T15:50:29.000Z",
+    "hn": {
+      "id": 49756171,
+      "score": 147,
+      "comments": 130
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 8897
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}

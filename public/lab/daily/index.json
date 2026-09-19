@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-18T13:32:39.713Z",
+  "updatedAt": "2026-09-19T13:02:05.878Z",
   "items": [
+    {
+      "slug": "2026-09-19",
+      "title": "US Treasuries Have Become Unappetizing for Foreign Central Banks and Governments",
+      "url": "https://wolfstreet.com/2026/09/17/treasuries-have-become-badly-unappetizing-for-foreign-central-banks-governments/",
+      "source": "wolfstreet.com",
+      "selectedAt": "2026-09-19T13:02:04.383Z",
+      "publishedAt": "2026-09-18T15:50:29.000Z",
+      "hn": {
+        "id": 49756171,
+        "score": 147,
+        "comments": 130
+      }
+    },
     {
       "slug": "2026-09-18",
       "title": "Rising Rates Will Make Private Equity's Bad Year Worse",
@@ -662,19 +675,6 @@
         "id": 49101198,
         "score": 174,
         "comments": 140
-      }
-    },
-    {
-      "slug": "2026-07-29",
-      "title": "Codex Security",
-      "url": "https://github.com/openai/codex-security",
-      "source": "github.com",
-      "selectedAt": "2026-07-29T11:30:22.326Z",
-      "publishedAt": "2026-07-28T20:52:55.000Z",
-      "hn": {
-        "id": 49089755,
-        "score": 516,
-        "comments": 185
       }
     }
   ]
