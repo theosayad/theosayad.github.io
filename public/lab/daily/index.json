@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-19T13:02:05.878Z",
+  "updatedAt": "2026-09-20T13:32:39.693Z",
   "items": [
+    {
+      "slug": "2026-09-20",
+      "title": "Polymarket's Rush to Grow Left a Door Wide Open for Fraudsters",
+      "url": "https://www.wsj.com/business/polymarkets-fraud-regulators-coplan-5f418ab0",
+      "source": "wsj.com",
+      "selectedAt": "2026-09-20T13:32:38.688Z",
+      "publishedAt": "2026-09-20T04:38:00.000Z",
+      "hn": {
+        "id": 49772541,
+        "score": 27,
+        "comments": 23
+      }
+    },
     {
       "slug": "2026-09-19",
       "title": "US Treasuries Have Become Unappetizing for Foreign Central Banks and Governments",
@@ -662,19 +675,6 @@
         "id": 49112744,
         "score": 731,
         "comments": 439
-      }
-    },
-    {
-      "slug": "2026-07-30",
-      "title": "Turning a dumb AC unit smart (without losing my security deposit)",
-      "url": "https://prilik.com/blog/post/automating-ac-nyc/",
-      "source": "prilik.com",
-      "selectedAt": "2026-07-30T11:15:44.247Z",
-      "publishedAt": "2026-07-29T18:28:51.000Z",
-      "hn": {
-        "id": 49101198,
-        "score": 174,
-        "comments": 140
       }
     }
   ]
