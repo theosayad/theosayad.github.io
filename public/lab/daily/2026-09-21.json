@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-21",
+  "generatedAt": "2026-09-21T15:50:44.419Z",
+  "article": {
+    "title": "Bill to Ban Private Equity from Owning Medical Practices",
+    "url": "https://truthout.org/articles/warren-introduces-bill-to-ban-private-equity-from-owning-medical-practices/",
+    "source": "truthout.org",
+    "selectedAt": "2026-09-21T15:50:43.806Z",
+    "publishedAt": "2026-09-20T22:13:46.000Z",
+    "hn": {
+      "id": 49780630,
+      "score": 466,
+      "comments": 332
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 10298
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "AI rewrite failed: HTTP 410 · {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retirement brownout.\"}}"
+    }
+  }
+}

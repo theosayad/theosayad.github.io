@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-20T13:32:39.693Z",
+  "updatedAt": "2026-09-21T15:50:44.421Z",
   "items": [
+    {
+      "slug": "2026-09-21",
+      "title": "Bill to Ban Private Equity from Owning Medical Practices",
+      "url": "https://truthout.org/articles/warren-introduces-bill-to-ban-private-equity-from-owning-medical-practices/",
+      "source": "truthout.org",
+      "selectedAt": "2026-09-21T15:50:43.806Z",
+      "publishedAt": "2026-09-20T22:13:46.000Z",
+      "hn": {
+        "id": 49780630,
+        "score": 466,
+        "comments": 332
+      }
+    },
     {
       "slug": "2026-09-20",
       "title": "Polymarket's Rush to Grow Left a Door Wide Open for Fraudsters",
@@ -662,19 +675,6 @@
         "id": 49122994,
         "score": 147,
         "comments": 158
-      }
-    },
-    {
-      "slug": "2026-07-31",
-      "title": "Read this before you buy that TV streaming stick",
-      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-      "source": "krebsonsecurity.com",
-      "selectedAt": "2026-07-31T11:32:38.620Z",
-      "publishedAt": "2026-07-30T17:04:53.000Z",
-      "hn": {
-        "id": 49112744,
-        "score": 731,
-        "comments": 439
       }
     }
   ]
