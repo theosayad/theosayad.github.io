@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-22",
+  "generatedAt": "2026-09-22T13:59:30.850Z",
+  "article": {
+    "title": "Why does mathmain need an encrypted loader?",
+    "url": "https://safedep.io/mathmain-encrypted-loader/",
+    "source": "safedep.io",
+    "selectedAt": "2026-09-22T13:59:29.771Z",
+    "publishedAt": "2026-09-21T18:33:44.000Z",
+    "hn": {
+      "id": 49791378,
+      "score": 133,
+      "comments": 39
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5924
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}

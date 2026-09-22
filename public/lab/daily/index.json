@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-21T15:50:44.421Z",
+  "updatedAt": "2026-09-22T13:59:30.852Z",
   "items": [
+    {
+      "slug": "2026-09-22",
+      "title": "Why does mathmain need an encrypted loader?",
+      "url": "https://safedep.io/mathmain-encrypted-loader/",
+      "source": "safedep.io",
+      "selectedAt": "2026-09-22T13:59:29.771Z",
+      "publishedAt": "2026-09-21T18:33:44.000Z",
+      "hn": {
+        "id": 49791378,
+        "score": 133,
+        "comments": 39
+      }
+    },
     {
       "slug": "2026-09-21",
       "title": "Bill to Ban Private Equity from Owning Medical Practices",
@@ -662,19 +675,6 @@
         "id": 49140696,
         "score": 164,
         "comments": 76
-      }
-    },
-    {
-      "slug": "2026-08-01",
-      "title": "Situational Awareness down 67% in July in AI stock rout",
-      "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
-      "source": "wsj.com",
-      "selectedAt": "2026-08-01T10:44:38.530Z",
-      "publishedAt": "2026-07-31T13:37:36.000Z",
-      "hn": {
-        "id": 49122994,
-        "score": 147,
-        "comments": 158
       }
     }
   ]
