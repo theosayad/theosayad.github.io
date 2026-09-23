@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-22T13:59:30.852Z",
+  "updatedAt": "2026-09-23T14:11:19.509Z",
   "items": [
+    {
+      "slug": "2026-09-23",
+      "title": "Meta's Muse Drags Down Stocks That Depend on 'Consumer Inertia'",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-22/meta-s-muse-drags-down-stocks-that-depend-on-consumer-inertia",
+      "source": "bloomberg.com",
+      "selectedAt": "2026-09-23T14:11:18.551Z",
+      "publishedAt": "2026-09-22T20:13:32.000Z",
+      "hn": {
+        "id": 49807430,
+        "score": 3,
+        "comments": 0
+      }
+    },
     {
       "slug": "2026-09-22",
       "title": "Why does mathmain need an encrypted loader?",
@@ -662,19 +675,6 @@
         "id": 49147450,
         "score": 95,
         "comments": 165
-      }
-    },
-    {
-      "slug": "2026-08-02",
-      "title": "Linux desktop market share has hit over 10% in North America",
-      "url": "https://old.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/",
-      "source": "old.reddit.com",
-      "selectedAt": "2026-08-02T10:45:09.599Z",
-      "publishedAt": "2026-08-02T03:10:00.000Z",
-      "hn": {
-        "id": 49140696,
-        "score": 164,
-        "comments": 76
       }
     }
   ]
