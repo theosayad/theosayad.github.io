@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-25",
+  "generatedAt": "2026-09-25T14:32:57.003Z",
+  "article": {
+    "title": "Security headers on 4,688 small-business websites: 49.7% met none of 7 criteria",
+    "url": "https://rackcrunch.com/security-headers-2026",
+    "source": "rackcrunch.com",
+    "selectedAt": "2026-09-25T14:32:56.070Z",
+    "publishedAt": "2026-09-24T20:42:02.000Z",
+    "hn": {
+      "id": 49836494,
+      "score": 18,
+      "comments": 15
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 13336
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}

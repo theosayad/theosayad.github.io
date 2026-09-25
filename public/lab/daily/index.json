@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-24T14:09:34.722Z",
+  "updatedAt": "2026-09-25T14:32:57.005Z",
   "items": [
+    {
+      "slug": "2026-09-25",
+      "title": "Security headers on 4,688 small-business websites: 49.7% met none of 7 criteria",
+      "url": "https://rackcrunch.com/security-headers-2026",
+      "source": "rackcrunch.com",
+      "selectedAt": "2026-09-25T14:32:56.070Z",
+      "publishedAt": "2026-09-24T20:42:02.000Z",
+      "hn": {
+        "id": 49836494,
+        "score": 18,
+        "comments": 15
+      }
+    },
     {
       "slug": "2026-09-24",
       "title": "Feds Target AI Critics as \"Foreign Agents\"",
@@ -661,19 +674,6 @@
       "hn": {
         "id": 49174407,
         "score": 246,
-        "comments": 158
-      }
-    },
-    {
-      "slug": "2026-08-04",
-      "title": "AI's debt binge can't last, hidden borrowing reaches $1.65T",
-      "url": "https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance/",
-      "source": "fortune.com",
-      "selectedAt": "2026-08-04T11:29:46.698Z",
-      "publishedAt": "2026-08-03T20:02:21.000Z",
-      "hn": {
-        "id": 49160699,
-        "score": 131,
         "comments": 158
       }
     }
