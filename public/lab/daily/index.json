@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-25T14:32:57.005Z",
+  "updatedAt": "2026-09-26T13:42:48.392Z",
   "items": [
+    {
+      "slug": "2026-09-26",
+      "title": "Can AI Shopping Agents Be Trusted?",
+      "url": "https://www.f-secure.com/en/partners/insights/can-ai-shopping-agents-be-trusted-we-built-one-to-find-out",
+      "source": "f-secure.com",
+      "selectedAt": "2026-09-26T13:42:47.487Z",
+      "publishedAt": "2026-09-26T05:36:46.000Z",
+      "hn": {
+        "id": 49853522,
+        "score": 15,
+        "comments": 28
+      }
+    },
     {
       "slug": "2026-09-25",
       "title": "Security headers on 4,688 small-business websites: 49.7% met none of 7 criteria",
@@ -662,19 +675,6 @@
         "id": 49191365,
         "score": 69,
         "comments": 82
-      }
-    },
-    {
-      "slug": "2026-08-05",
-      "title": "Oxide Computer raises $445M (SEC Form D)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml",
-      "source": "sec.gov",
-      "selectedAt": "2026-08-05T11:25:35.500Z",
-      "publishedAt": "2026-08-04T20:13:40.000Z",
-      "hn": {
-        "id": 49174407,
-        "score": 246,
-        "comments": 158
       }
     }
   ]

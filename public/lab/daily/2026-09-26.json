@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-26",
+  "generatedAt": "2026-09-26T13:42:48.391Z",
+  "article": {
+    "title": "Can AI Shopping Agents Be Trusted?",
+    "url": "https://www.f-secure.com/en/partners/insights/can-ai-shopping-agents-be-trusted-we-built-one-to-find-out",
+    "source": "f-secure.com",
+    "selectedAt": "2026-09-26T13:42:47.487Z",
+    "publishedAt": "2026-09-26T05:36:46.000Z",
+    "hn": {
+      "id": 49853522,
+      "score": 15,
+      "comments": 28
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 6586
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
