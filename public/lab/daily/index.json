@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-26T13:42:48.392Z",
+  "updatedAt": "2026-09-27T14:39:09.646Z",
   "items": [
+    {
+      "slug": "2026-09-27",
+      "title": "Banks and Credit Unions to Team Up Against Apple Pay Fees",
+      "url": "https://www.macrumors.com/2026/09/25/apple-pay-antitrust-lawsuit-advances/",
+      "source": "macrumors.com",
+      "selectedAt": "2026-09-27T14:39:08.816Z",
+      "publishedAt": "2026-09-26T15:48:18.000Z",
+      "hn": {
+        "id": 49857651,
+        "score": 119,
+        "comments": 121
+      }
+    },
     {
       "slug": "2026-09-26",
       "title": "Can AI Shopping Agents Be Trusted?",
@@ -662,19 +675,6 @@
         "id": 49200390,
         "score": 152,
         "comments": 107
-      }
-    },
-    {
-      "slug": "2026-08-06",
-      "title": "LLMs won't break symmetric crypto",
-      "url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
-      "source": "bfswa.blog",
-      "selectedAt": "2026-08-06T11:28:48.413Z",
-      "publishedAt": "2026-08-06T01:39:06.000Z",
-      "hn": {
-        "id": 49191365,
-        "score": 69,
-        "comments": 82
       }
     }
   ]
