@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-28",
+  "generatedAt": "2026-09-28T17:34:57.358Z",
+  "article": {
+    "title": "Owed a billion dollars in Nvidia stock",
+    "url": "https://colo.to/nvidia-stock-narrative.html",
+    "source": "colo.to",
+    "selectedAt": "2026-09-28T17:34:56.405Z",
+    "publishedAt": "2026-09-28T02:05:13.000Z",
+    "hn": {
+      "id": 49872723,
+      "score": 989,
+      "comments": 420
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4659
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}

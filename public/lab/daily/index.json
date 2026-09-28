@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-09-27T14:39:09.646Z",
+  "updatedAt": "2026-09-28T17:34:57.360Z",
   "items": [
+    {
+      "slug": "2026-09-28",
+      "title": "Owed a billion dollars in Nvidia stock",
+      "url": "https://colo.to/nvidia-stock-narrative.html",
+      "source": "colo.to",
+      "selectedAt": "2026-09-28T17:34:56.405Z",
+      "publishedAt": "2026-09-28T02:05:13.000Z",
+      "hn": {
+        "id": 49872723,
+        "score": 989,
+        "comments": 420
+      }
+    },
     {
       "slug": "2026-09-27",
       "title": "Banks and Credit Unions to Team Up Against Apple Pay Fees",
@@ -662,19 +675,6 @@
         "id": 49215292,
         "score": 36,
         "comments": 17
-      }
-    },
-    {
-      "slug": "2026-08-07",
-      "title": "Federal Communications Commission scraps limit on broadcast TV ownership",
-      "url": "https://www.nbcnews.com/business/media/federal-communications-commission-scraps-limit-broadcast-tv-ownership-rcna587641",
-      "source": "nbcnews.com",
-      "selectedAt": "2026-08-07T10:05:35.376Z",
-      "publishedAt": "2026-08-06T18:22:16.000Z",
-      "hn": {
-        "id": 49200390,
-        "score": 152,
-        "comments": 107
       }
     }
   ]
