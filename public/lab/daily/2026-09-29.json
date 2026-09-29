@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-29",
+  "generatedAt": "2026-09-29T15:38:10.774Z",
+  "article": {
+    "title": "500k facial scans at UK stations yield no arrests, 1 false positive",
+    "url": "https://www.theguardian.com/technology/2026/sep/29/trial-live-facial-recognition-cameras-london-stations-false-positive",
+    "source": "theguardian.com",
+    "selectedAt": "2026-09-29T15:38:09.888Z",
+    "publishedAt": "2026-09-29T11:35:18.000Z",
+    "hn": {
+      "id": 49891480,
+      "score": 295,
+      "comments": 199
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5055
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}

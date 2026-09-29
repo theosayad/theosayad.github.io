@@ -1,13 +1,13 @@
 {
-  "title": "Owed a billion dollars in Nvidia stock",
-  "url": "https://colo.to/nvidia-stock-narrative.html",
-  "source": "colo.to",
-  "selectedAt": "2026-09-28T17:34:56.405Z",
-  "publishedAt": "2026-09-28T02:05:13.000Z",
+  "title": "500k facial scans at UK stations yield no arrests, 1 false positive",
+  "url": "https://www.theguardian.com/technology/2026/sep/29/trial-live-facial-recognition-cameras-london-stations-false-positive",
+  "source": "theguardian.com",
+  "selectedAt": "2026-09-29T15:38:09.888Z",
+  "publishedAt": "2026-09-29T11:35:18.000Z",
   "hn": {
-    "id": 49872723,
-    "score": 989,
-    "comments": 420
+    "id": 49891480,
+    "score": 295,
+    "comments": 199
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }
