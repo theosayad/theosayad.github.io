@@ -1,0 +1,30 @@
+{
+  "slug": "2026-09-30",
+  "generatedAt": "2026-09-30T15:49:24.188Z",
+  "article": {
+    "title": "Memory Companies Have Destroyed the Consumer Market",
+    "url": "https://gamersnexus.net/news-features/memory-companies-have-destroyed-consumer-market",
+    "source": "gamersnexus.net",
+    "selectedAt": "2026-09-30T15:49:23.339Z",
+    "publishedAt": "2026-09-29T19:27:41.000Z",
+    "hn": {
+      "id": 49899051,
+      "score": 115,
+      "comments": 97
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 8019
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
