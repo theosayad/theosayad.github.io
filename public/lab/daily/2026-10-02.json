@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-02",
+  "generatedAt": "2026-10-02T15:40:35.738Z",
+  "article": {
+    "title": "US tells France and Germany to release diesel stocks or face US export ban",
+    "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/",
+    "source": "reuters.com",
+    "selectedAt": "2026-10-02T15:40:34.935Z",
+    "publishedAt": "2026-10-02T05:22:20.000Z",
+    "hn": {
+      "id": 49930086,
+      "score": 79,
+      "comments": 110
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
