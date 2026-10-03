@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-03",
+  "generatedAt": "2026-10-03T14:15:28.664Z",
+  "article": {
+    "title": "Crypto Capture of Foreign Aid",
+    "url": "https://www.nber.org/papers/w35655",
+    "source": "nber.org",
+    "selectedAt": "2026-10-03T14:15:27.402Z",
+    "publishedAt": "2026-10-02T18:14:29.000Z",
+    "hn": {
+      "id": 49936725,
+      "score": 96,
+      "comments": 35
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 2946
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}

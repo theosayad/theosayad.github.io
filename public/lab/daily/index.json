@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-02T15:40:35.739Z",
+  "updatedAt": "2026-10-03T14:15:28.666Z",
   "items": [
+    {
+      "slug": "2026-10-03",
+      "title": "Crypto Capture of Foreign Aid",
+      "url": "https://www.nber.org/papers/w35655",
+      "source": "nber.org",
+      "selectedAt": "2026-10-03T14:15:27.402Z",
+      "publishedAt": "2026-10-02T18:14:29.000Z",
+      "hn": {
+        "id": 49936725,
+        "score": 96,
+        "comments": 35
+      }
+    },
     {
       "slug": "2026-10-02",
       "title": "US tells France and Germany to release diesel stocks or face US export ban",
@@ -662,19 +675,6 @@
         "id": 49279013,
         "score": 127,
         "comments": 161
-      }
-    },
-    {
-      "slug": "2026-08-12",
-      "title": "CFTC declares market emergency, orders Kalshi to continue to operate in New York",
-      "url": "https://www.cftc.gov/PressRoom/PressReleases/9281-26",
-      "source": "cftc.gov",
-      "selectedAt": "2026-08-12T10:14:19.264Z",
-      "publishedAt": "2026-08-12T00:17:59.000Z",
-      "hn": {
-        "id": 49266277,
-        "score": 146,
-        "comments": 129
       }
     }
   ]
