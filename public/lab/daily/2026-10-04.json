@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-04",
+  "generatedAt": "2026-10-04T14:44:15.112Z",
+  "article": {
+    "title": "Sloppy-Con Valley: VC as Private Equity",
+    "url": "https://em0sh.substack.com/p/sloppy-con-valley",
+    "source": "em0sh.substack.com",
+    "selectedAt": "2026-10-04T14:44:14.483Z",
+    "publishedAt": "2026-10-03T21:08:21.000Z",
+    "hn": {
+      "id": 49947793,
+      "score": 2,
+      "comments": 0
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}

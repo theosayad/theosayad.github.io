@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-03T14:15:28.666Z",
+  "updatedAt": "2026-10-04T14:44:15.114Z",
   "items": [
+    {
+      "slug": "2026-10-04",
+      "title": "Sloppy-Con Valley: VC as Private Equity",
+      "url": "https://em0sh.substack.com/p/sloppy-con-valley",
+      "source": "em0sh.substack.com",
+      "selectedAt": "2026-10-04T14:44:14.483Z",
+      "publishedAt": "2026-10-03T21:08:21.000Z",
+      "hn": {
+        "id": 49947793,
+        "score": 2,
+        "comments": 0
+      }
+    },
     {
       "slug": "2026-10-03",
       "title": "Crypto Capture of Foreign Aid",
@@ -662,19 +675,6 @@
         "id": 49284774,
         "score": 403,
         "comments": 443
-      }
-    },
-    {
-      "slug": "2026-08-13",
-      "title": "Thanks to social media, canned sardines are a scarcity on the supermarket shelf",
-      "url": "https://corneroffifth.studio/why-cant-you-find-canned-sardines-right-now/",
-      "source": "corneroffifth.studio",
-      "selectedAt": "2026-08-13T10:16:05.142Z",
-      "publishedAt": "2026-08-12T21:45:29.000Z",
-      "hn": {
-        "id": 49279013,
-        "score": 127,
-        "comments": 161
       }
     }
   ]
