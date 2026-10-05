@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-04T14:44:15.114Z",
+  "updatedAt": "2026-10-05T18:17:04.585Z",
   "items": [
+    {
+      "slug": "2026-10-05",
+      "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
+      "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
+      "source": "discuss.grapheneos.org",
+      "selectedAt": "2026-10-05T18:17:02.589Z",
+      "publishedAt": "2026-10-05T13:02:25.000Z",
+      "hn": {
+        "id": 49964303,
+        "score": 320,
+        "comments": 177
+      }
+    },
     {
       "slug": "2026-10-04",
       "title": "Sloppy-Con Valley: VC as Private Equity",
@@ -662,19 +675,6 @@
         "id": 49304447,
         "score": 339,
         "comments": 149
-      }
-    },
-    {
-      "slug": "2026-08-14",
-      "title": "Deutsche Bank becomes first foreign yuan clearing bank in Europe",
-      "url": "https://tradersunion.com/news/central-banks/show/2973571-deutsche-bank-becomes/",
-      "source": "tradersunion.com",
-      "selectedAt": "2026-08-14T10:11:41.096Z",
-      "publishedAt": "2026-08-13T12:09:50.000Z",
-      "hn": {
-        "id": 49284774,
-        "score": 403,
-        "comments": 443
       }
     }
   ]

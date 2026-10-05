@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-05",
+  "generatedAt": "2026-10-05T18:17:04.583Z",
+  "article": {
+    "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
+    "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
+    "source": "discuss.grapheneos.org",
+    "selectedAt": "2026-10-05T18:17:02.589Z",
+    "publishedAt": "2026-10-05T13:02:25.000Z",
+    "hn": {
+      "id": 49964303,
+      "score": 320,
+      "comments": 177
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 268
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
