@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-06",
+  "generatedAt": "2026-10-06T15:49:31.623Z",
+  "article": {
+    "title": "Meta's Muse Is an Adorable Privacy and Security Dumpster Fire",
+    "url": "https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/",
+    "source": "techdirt.com",
+    "selectedAt": "2026-10-06T15:49:30.625Z",
+    "publishedAt": "2026-10-06T12:45:49.000Z",
+    "hn": {
+      "id": 49977588,
+      "score": 193,
+      "comments": 92
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 6030
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
