@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-07T16:18:25.524Z",
+  "updatedAt": "2026-10-08T16:20:33.995Z",
   "items": [
+    {
+      "slug": "2026-10-08",
+      "title": "The world has nearly burned through its oil stockpile buffer",
+      "url": "https://www.reuters.com/business/energy/world-has-nearly-burned-through-its-oil-stockpile-buffer-executives-say-2026-10-06/",
+      "source": "reuters.com",
+      "selectedAt": "2026-10-08T16:20:33.272Z",
+      "publishedAt": "2026-10-07T18:50:58.000Z",
+      "hn": {
+        "id": 49997175,
+        "score": 42,
+        "comments": 14
+      }
+    },
     {
       "slug": "2026-10-07",
       "title": "The art of defusing a second world war bomb",
@@ -662,19 +675,6 @@
         "id": 49338732,
         "score": 57,
         "comments": 44
-      }
-    },
-    {
-      "slug": "2026-08-17",
-      "title": "Anthropic IPO valuation hinges on $190-200B 2028 revenue forecast",
-      "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
-      "source": "reuters.com",
-      "selectedAt": "2026-08-17T09:50:57.475Z",
-      "publishedAt": "2026-08-16T21:00:25.000Z",
-      "hn": {
-        "id": 49323620,
-        "score": 43,
-        "comments": 60
       }
     }
   ]

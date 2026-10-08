@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-08",
+  "generatedAt": "2026-10-08T16:20:33.993Z",
+  "article": {
+    "title": "The world has nearly burned through its oil stockpile buffer",
+    "url": "https://www.reuters.com/business/energy/world-has-nearly-burned-through-its-oil-stockpile-buffer-executives-say-2026-10-06/",
+    "source": "reuters.com",
+    "selectedAt": "2026-10-08T16:20:33.272Z",
+    "publishedAt": "2026-10-07T18:50:58.000Z",
+    "hn": {
+      "id": 49997175,
+      "score": 42,
+      "comments": 14
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
