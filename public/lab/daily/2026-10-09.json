@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-09",
+  "generatedAt": "2026-10-09T16:04:16.413Z",
+  "article": {
+    "title": "Yandex Takes a Second Data Center Hit in 48 Hours",
+    "url": "https://united24media.com/war-in-ukraine/yandex-takes-a-second-data-center-hit-in-48-hours-now-its-biggest-russian-site-is-damaged-23277",
+    "source": "united24media.com",
+    "selectedAt": "2026-10-09T16:04:14.712Z",
+    "publishedAt": "2026-10-09T14:20:19.000Z",
+    "hn": {
+      "id": 50020927,
+      "score": 134,
+      "comments": 119
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 1545
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
