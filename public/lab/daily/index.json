@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-09T16:04:16.415Z",
+  "updatedAt": "2026-10-10T15:12:33.590Z",
   "items": [
+    {
+      "slug": "2026-10-10",
+      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "source": "beaksec.github.io",
+      "selectedAt": "2026-10-10T15:12:32.827Z",
+      "publishedAt": "2026-10-10T03:02:47.000Z",
+      "hn": {
+        "id": 50029123,
+        "score": 274,
+        "comments": 141
+      }
+    },
     {
       "slug": "2026-10-09",
       "title": "Yandex Takes a Second Data Center Hit in 48 Hours",
@@ -662,19 +675,6 @@
         "id": 49367924,
         "score": 29,
         "comments": 9
-      }
-    },
-    {
-      "slug": "2026-08-19",
-      "title": "Sticky wage norms and the real wage cost of unexpected inflation",
-      "url": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
-      "source": "bfi.uchicago.edu",
-      "selectedAt": "2026-08-19T09:40:50.239Z",
-      "publishedAt": "2026-08-19T00:53:51.000Z",
-      "hn": {
-        "id": 49355142,
-        "score": 356,
-        "comments": 224
       }
     }
   ]

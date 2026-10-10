@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-10",
+  "generatedAt": "2026-10-10T15:12:33.589Z",
+  "article": {
+    "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+    "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+    "source": "beaksec.github.io",
+    "selectedAt": "2026-10-10T15:12:32.827Z",
+    "publishedAt": "2026-10-10T03:02:47.000Z",
+    "hn": {
+      "id": 50029123,
+      "score": 274,
+      "comments": 141
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 6776
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}

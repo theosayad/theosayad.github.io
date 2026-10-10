@@ -1,13 +1,13 @@
 {
-  "title": "Yandex Takes a Second Data Center Hit in 48 Hours",
-  "url": "https://united24media.com/war-in-ukraine/yandex-takes-a-second-data-center-hit-in-48-hours-now-its-biggest-russian-site-is-damaged-23277",
-  "source": "united24media.com",
-  "selectedAt": "2026-10-09T16:04:14.712Z",
-  "publishedAt": "2026-10-09T14:20:19.000Z",
+  "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+  "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+  "source": "beaksec.github.io",
+  "selectedAt": "2026-10-10T15:12:32.827Z",
+  "publishedAt": "2026-10-10T03:02:47.000Z",
   "hn": {
-    "id": 50020927,
-    "score": 134,
-    "comments": 119
+    "id": 50029123,
+    "score": 274,
+    "comments": 141
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }
