@@ -1,13 +1,13 @@
 {
-  "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-  "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-  "source": "beaksec.github.io",
-  "selectedAt": "2026-10-10T15:12:32.827Z",
-  "publishedAt": "2026-10-10T03:02:47.000Z",
+  "title": "Ukraine hits second major tech site, expanding range of targets inside Russia",
+  "url": "https://www.reuters.com/world/europe/russias-yandex-says-second-data-centre-hit-by-drone-attack-2026-10-09/",
+  "source": "reuters.com",
+  "selectedAt": "2026-10-11T15:32:18.689Z",
+  "publishedAt": "2026-10-11T05:27:34.000Z",
   "hn": {
-    "id": 50029123,
-    "score": 274,
-    "comments": 141
+    "id": 50040071,
+    "score": 11,
+    "comments": 1
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }
