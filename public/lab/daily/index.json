@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-11T15:32:19.910Z",
+  "updatedAt": "2026-10-12T18:52:57.916Z",
   "items": [
+    {
+      "slug": "2026-10-12",
+      "title": "Hackers activate automatic defrosting accross European supermarket fridges",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "source": "tomshardware.com",
+      "selectedAt": "2026-10-12T18:52:56.980Z",
+      "publishedAt": "2026-10-12T12:16:42.000Z",
+      "hn": {
+        "id": 50055304,
+        "score": 138,
+        "comments": 287
+      }
+    },
     {
       "slug": "2026-10-11",
       "title": "Ukraine hits second major tech site, expanding range of targets inside Russia",
@@ -662,19 +675,6 @@
         "id": 49389722,
         "score": 34,
         "comments": 43
-      }
-    },
-    {
-      "slug": "2026-08-21",
-      "title": "Malicious Rust crate Arrayref runs a build-time payload",
-      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
-      "source": "safedep.io",
-      "selectedAt": "2026-08-21T09:44:17.856Z",
-      "publishedAt": "2026-08-20T13:23:12.000Z",
-      "hn": {
-        "id": 49374269,
-        "score": 494,
-        "comments": 420
       }
     }
   ]

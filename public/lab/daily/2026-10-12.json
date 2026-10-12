@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-12",
+  "generatedAt": "2026-10-12T18:52:57.914Z",
+  "article": {
+    "title": "Hackers activate automatic defrosting accross European supermarket fridges",
+    "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+    "source": "tomshardware.com",
+    "selectedAt": "2026-10-12T18:52:56.980Z",
+    "publishedAt": "2026-10-12T12:16:42.000Z",
+    "hn": {
+      "id": 50055304,
+      "score": 138,
+      "comments": 287
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4478
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
