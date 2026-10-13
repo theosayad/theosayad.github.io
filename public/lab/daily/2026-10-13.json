@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-13",
+  "generatedAt": "2026-10-13T16:52:13.298Z",
+  "article": {
+    "title": "Crypto thieves sell hardware wallets with secret eSIM",
+    "url": "https://www.heise.de/en/news/Crypto-thieves-sell-hardware-wallets-with-secret-eSIM-11485188.html",
+    "source": "heise.de",
+    "selectedAt": "2026-10-13T16:52:10.907Z",
+    "publishedAt": "2026-10-13T08:34:12.000Z",
+    "hn": {
+      "id": 50068508,
+      "score": 105,
+      "comments": 79
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4578
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
