@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-14",
+  "generatedAt": "2026-10-14T14:26:50.660Z",
+  "article": {
+    "title": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
+    "url": "https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/",
+    "source": "zetter-zeroday.com",
+    "selectedAt": "2026-10-14T14:26:49.714Z",
+    "publishedAt": "2026-10-14T09:37:24.000Z",
+    "hn": {
+      "id": 50084838,
+      "score": 78,
+      "comments": 78
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 11205
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}

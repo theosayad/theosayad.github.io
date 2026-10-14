@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-13T16:52:13.300Z",
+  "updatedAt": "2026-10-14T14:26:50.662Z",
   "items": [
+    {
+      "slug": "2026-10-14",
+      "title": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
+      "url": "https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/",
+      "source": "zetter-zeroday.com",
+      "selectedAt": "2026-10-14T14:26:49.714Z",
+      "publishedAt": "2026-10-14T09:37:24.000Z",
+      "hn": {
+        "id": 50084838,
+        "score": 78,
+        "comments": 78
+      }
+    },
     {
       "slug": "2026-10-13",
       "title": "Crypto thieves sell hardware wallets with secret eSIM",
@@ -662,19 +675,6 @@
         "id": 49408550,
         "score": 87,
         "comments": 40
-      }
-    },
-    {
-      "slug": "2026-08-23",
-      "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-      "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
-      "source": "cnbc.com",
-      "selectedAt": "2026-08-23T09:34:34.972Z",
-      "publishedAt": "2026-08-22T16:23:09.000Z",
-      "hn": {
-        "id": 49401229,
-        "score": 36,
-        "comments": 78
       }
     }
   ]
