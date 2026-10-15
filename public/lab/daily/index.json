@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-14T14:26:50.662Z",
+  "updatedAt": "2026-10-15T14:05:11.363Z",
   "items": [
+    {
+      "slug": "2026-10-15",
+      "title": "Suicide rates highest ever among middle-aged men",
+      "url": "https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men/",
+      "source": "telegraph.co.uk",
+      "selectedAt": "2026-10-15T14:05:10.414Z",
+      "publishedAt": "2026-10-14T19:03:58.000Z",
+      "hn": {
+        "id": 50093180,
+        "score": 445,
+        "comments": 612
+      }
+    },
     {
       "slug": "2026-10-14",
       "title": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
@@ -662,19 +675,6 @@
         "id": 49417941,
         "score": 129,
         "comments": 169
-      }
-    },
-    {
-      "slug": "2026-08-24",
-      "title": "Malware infects Android-based automotive head unit firmware",
-      "url": "https://securelist.com/android-head-unit-malware/121106/",
-      "source": "securelist.com",
-      "selectedAt": "2026-08-24T09:55:28.670Z",
-      "publishedAt": "2026-08-23T13:05:38.000Z",
-      "hn": {
-        "id": 49408550,
-        "score": 87,
-        "comments": 40
       }
     }
   ]

@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-15",
+  "generatedAt": "2026-10-15T14:05:11.362Z",
+  "article": {
+    "title": "Suicide rates highest ever among middle-aged men",
+    "url": "https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men/",
+    "source": "telegraph.co.uk",
+    "selectedAt": "2026-10-15T14:05:10.414Z",
+    "publishedAt": "2026-10-14T19:03:58.000Z",
+    "hn": {
+      "id": 50093180,
+      "score": 445,
+      "comments": 612
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3420
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
