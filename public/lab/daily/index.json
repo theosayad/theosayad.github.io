@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-15T14:05:11.363Z",
+  "updatedAt": "2026-10-16T13:53:02.427Z",
   "items": [
+    {
+      "slug": "2026-10-16",
+      "title": "BIPM decides to stop adding leap seconds to UTC",
+      "url": "https://www.bipm.org/en/cgpm-2026/resolution-5",
+      "source": "bipm.org",
+      "selectedAt": "2026-10-16T13:53:01.249Z",
+      "publishedAt": "2026-10-15T16:11:36.000Z",
+      "hn": {
+        "id": 50105777,
+        "score": 228,
+        "comments": 114
+      }
+    },
     {
       "slug": "2026-10-15",
       "title": "Suicide rates highest ever among middle-aged men",
@@ -662,19 +675,6 @@
         "id": 49434291,
         "score": 121,
         "comments": 126
-      }
-    },
-    {
-      "slug": "2026-08-25",
-      "title": "The treasury bond mess: is this the demise of the US as a safe haven?",
-      "url": "https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt",
-      "source": "theguardian.com",
-      "selectedAt": "2026-08-25T09:42:45.382Z",
-      "publishedAt": "2026-08-24T10:52:24.000Z",
-      "hn": {
-        "id": 49417941,
-        "score": 129,
-        "comments": 169
       }
     }
   ]
