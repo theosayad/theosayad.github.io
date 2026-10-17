@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-16T13:53:02.427Z",
+  "updatedAt": "2026-10-17T12:53:00.043Z",
   "items": [
+    {
+      "slug": "2026-10-17",
+      "title": "I never authorized an integration that scans my secrets",
+      "url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+      "source": "github.com",
+      "selectedAt": "2026-10-17T12:52:58.347Z",
+      "publishedAt": "2026-10-16T20:33:41.000Z",
+      "hn": {
+        "id": 50124251,
+        "score": 227,
+        "comments": 197
+      }
+    },
     {
       "slug": "2026-10-16",
       "title": "BIPM decides to stop adding leap seconds to UTC",
@@ -662,19 +675,6 @@
         "id": 49464979,
         "score": 16,
         "comments": 14
-      }
-    },
-    {
-      "slug": "2026-08-26",
-      "title": "Anthropic tells staff to work from home due to possible security team strike",
-      "url": "https://www.businessinsider.com/anthropic-san-francisco-staff-work-remote-office-security-strike-2026-8",
-      "source": "businessinsider.com",
-      "selectedAt": "2026-08-26T09:50:21.530Z",
-      "publishedAt": "2026-08-25T14:00:27.000Z",
-      "hn": {
-        "id": 49434291,
-        "score": 121,
-        "comments": 126
       }
     }
   ]

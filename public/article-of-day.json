@@ -1,13 +1,13 @@
 {
-  "title": "BIPM decides to stop adding leap seconds to UTC",
-  "url": "https://www.bipm.org/en/cgpm-2026/resolution-5",
-  "source": "bipm.org",
-  "selectedAt": "2026-10-16T13:53:01.249Z",
-  "publishedAt": "2026-10-15T16:11:36.000Z",
+  "title": "I never authorized an integration that scans my secrets",
+  "url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+  "source": "github.com",
+  "selectedAt": "2026-10-17T12:52:58.347Z",
+  "publishedAt": "2026-10-16T20:33:41.000Z",
   "hn": {
-    "id": 50105777,
-    "score": 228,
-    "comments": 114
+    "id": 50124251,
+    "score": 227,
+    "comments": 197
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }

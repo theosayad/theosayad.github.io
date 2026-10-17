@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-17",
+  "generatedAt": "2026-10-17T12:53:00.042Z",
+  "article": {
+    "title": "I never authorized an integration that scans my secrets",
+    "url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+    "source": "github.com",
+    "selectedAt": "2026-10-17T12:52:58.347Z",
+    "publishedAt": "2026-10-16T20:33:41.000Z",
+    "hn": {
+      "id": 50124251,
+      "score": 227,
+      "comments": 197
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3938
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
