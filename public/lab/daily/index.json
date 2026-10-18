@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-17T12:53:00.043Z",
+  "updatedAt": "2026-10-18T13:09:02.265Z",
   "items": [
+    {
+      "slug": "2026-10-18",
+      "title": "Israeli settlers attack European diplomatic cars in West Bank beat French mayor",
+      "url": "https://www.lemonde.fr/en/international/article/2026/10/17/israeli-settlers-attack-european-diplomatic-cars-in-west-bank-beat-french-mayor-say-witnesses_6758711_4.html",
+      "source": "lemonde.fr",
+      "selectedAt": "2026-10-18T13:09:01.309Z",
+      "publishedAt": "2026-10-17T17:49:10.000Z",
+      "hn": {
+        "id": 50133274,
+        "score": 132,
+        "comments": 19
+      }
+    },
     {
       "slug": "2026-10-17",
       "title": "I never authorized an integration that scans my secrets",
@@ -662,19 +675,6 @@
         "id": 49474776,
         "score": 85,
         "comments": 84
-      }
-    },
-    {
-      "slug": "2026-08-27",
-      "title": "AC2 Protocol: The missing security layer for AI agents",
-      "url": "https://www.ac2protocol.org",
-      "source": "ac2protocol.org",
-      "selectedAt": "2026-08-27T19:47:31.902Z",
-      "publishedAt": "2026-08-27T13:55:42.000Z",
-      "hn": {
-        "id": 49464979,
-        "score": 16,
-        "comments": 14
       }
     }
   ]
