@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-19T16:23:42.835Z",
+  "updatedAt": "2026-10-20T14:14:04.265Z",
   "items": [
+    {
+      "slug": "2026-10-20",
+      "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+      "source": "reuters.com",
+      "selectedAt": "2026-10-20T14:14:03.684Z",
+      "publishedAt": "2026-10-19T16:16:46.000Z",
+      "hn": {
+        "id": 50154244,
+        "score": 423,
+        "comments": 349
+      }
+    },
     {
       "slug": "2026-10-19",
       "title": "CFPB Opens Debanking Investigation into Nine Large National Banks",
@@ -662,19 +675,6 @@
         "id": 49491512,
         "score": 20,
         "comments": 2
-      }
-    },
-    {
-      "slug": "2026-08-29",
-      "title": "Secrets of the Atomic City",
-      "url": "https://longreads.com/2026/08/06/radiation-paducah-atavist/",
-      "source": "longreads.com",
-      "selectedAt": "2026-08-29T14:22:29.281Z",
-      "publishedAt": "2026-08-28T17:16:58.000Z",
-      "hn": {
-        "id": 49481672,
-        "score": 24,
-        "comments": 6
       }
     }
   ]

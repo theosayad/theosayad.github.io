@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-20",
+  "generatedAt": "2026-10-20T14:14:04.263Z",
+  "article": {
+    "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+    "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+    "source": "reuters.com",
+    "selectedAt": "2026-10-20T14:14:03.684Z",
+    "publishedAt": "2026-10-19T16:16:46.000Z",
+    "hn": {
+      "id": 50154244,
+      "score": 423,
+      "comments": 349
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
