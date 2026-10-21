@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-21",
+  "generatedAt": "2026-10-21T14:26:05.135Z",
+  "article": {
+    "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+    "url": "https://news-web.php.net/php.announce/509",
+    "source": "news-web.php.net",
+    "selectedAt": "2026-10-21T14:26:04.476Z",
+    "publishedAt": "2026-10-20T20:15:50.000Z",
+    "hn": {
+      "id": 50172041,
+      "score": 1369,
+      "comments": 579
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
