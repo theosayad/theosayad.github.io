@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-21T14:26:05.137Z",
+  "updatedAt": "2026-10-22T14:27:36.859Z",
   "items": [
+    {
+      "slug": "2026-10-22",
+      "title": "Today's PHP security release, and how we're strengthening security",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "source": "thephp.foundation",
+      "selectedAt": "2026-10-22T14:27:36.037Z",
+      "publishedAt": "2026-10-21T15:48:56.000Z",
+      "hn": {
+        "id": 50182987,
+        "score": 768,
+        "comments": 383
+      }
+    },
     {
       "slug": "2026-10-21",
       "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
@@ -662,19 +675,6 @@
         "id": 49511856,
         "score": 548,
         "comments": 144
-      }
-    },
-    {
-      "slug": "2026-08-31",
-      "title": "Meta Security Researcher's AI Agent Accidentally Deleted Her Emails",
-      "url": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
-      "source": "au.pcmag.com",
-      "selectedAt": "2026-08-31T17:00:26.393Z",
-      "publishedAt": "2026-08-31T07:23:47.000Z",
-      "hn": {
-        "id": 49506655,
-        "score": 57,
-        "comments": 57
       }
     }
   ]

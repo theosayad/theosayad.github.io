@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-22",
+  "generatedAt": "2026-10-22T14:27:36.857Z",
+  "article": {
+    "title": "Today's PHP security release, and how we're strengthening security",
+    "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+    "source": "thephp.foundation",
+    "selectedAt": "2026-10-22T14:27:36.037Z",
+    "publishedAt": "2026-10-21T15:48:56.000Z",
+    "hn": {
+      "id": 50182987,
+      "score": 768,
+      "comments": 383
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 9351
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
