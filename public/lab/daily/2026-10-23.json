@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-23",
+  "generatedAt": "2026-10-23T14:10:35.653Z",
+  "article": {
+    "title": "Jared Kushner Hacked Phone Reveals Secret Negotiations, Millions in Transactions",
+    "url": "https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations",
+    "source": "vanityfair.com",
+    "selectedAt": "2026-10-23T14:10:34.806Z",
+    "publishedAt": "2026-10-22T21:24:41.000Z",
+    "hn": {
+      "id": 50201259,
+      "score": 457,
+      "comments": 183
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 13047
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}

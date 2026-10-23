@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-22T14:27:36.859Z",
+  "updatedAt": "2026-10-23T14:10:35.654Z",
   "items": [
+    {
+      "slug": "2026-10-23",
+      "title": "Jared Kushner Hacked Phone Reveals Secret Negotiations, Millions in Transactions",
+      "url": "https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations",
+      "source": "vanityfair.com",
+      "selectedAt": "2026-10-23T14:10:34.806Z",
+      "publishedAt": "2026-10-22T21:24:41.000Z",
+      "hn": {
+        "id": 50201259,
+        "score": 457,
+        "comments": 183
+      }
+    },
     {
       "slug": "2026-10-22",
       "title": "Today's PHP security release, and how we're strengthening security",
@@ -662,19 +675,6 @@
         "id": 49529621,
         "score": 301,
         "comments": 163
-      }
-    },
-    {
-      "slug": "2026-09-01",
-      "title": "I turned my security cameras into an automatic bird identification system",
-      "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
-      "source": "jasontucker.blog",
-      "selectedAt": "2026-09-01T14:05:18.157Z",
-      "publishedAt": "2026-08-31T16:47:11.000Z",
-      "hn": {
-        "id": 49511856,
-        "score": 548,
-        "comments": 144
       }
     }
   ]
