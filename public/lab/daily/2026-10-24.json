@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-24",
+  "generatedAt": "2026-10-24T13:13:34.563Z",
+  "article": {
+    "title": "Around a dozen banking apps began specifically permitting GrapheneOS",
+    "url": "https://grapheneos.social/@GrapheneOS/117492375462459244",
+    "source": "grapheneos.social",
+    "selectedAt": "2026-10-24T13:13:33.980Z",
+    "publishedAt": "2026-10-24T01:15:14.000Z",
+    "hn": {
+      "id": 50217495,
+      "score": 245,
+      "comments": 65
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 86
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
