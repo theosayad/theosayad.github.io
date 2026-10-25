@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-25",
+  "generatedAt": "2026-10-25T13:39:11.960Z",
+  "article": {
+    "title": "No signs of AI payoff outside the tech sector",
+    "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+    "source": "apollo.com",
+    "selectedAt": "2026-10-25T13:39:10.476Z",
+    "publishedAt": "2026-10-24T19:47:19.000Z",
+    "hn": {
+      "id": 50224463,
+      "score": 574,
+      "comments": 604
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5768
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
