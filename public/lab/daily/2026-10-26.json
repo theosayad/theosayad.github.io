@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-26",
+  "generatedAt": "2026-10-26T16:02:57.076Z",
+  "article": {
+    "title": "Anthropic S-1",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "source": "sec.gov",
+    "selectedAt": "2026-10-26T16:02:56.230Z",
+    "publishedAt": "2026-10-26T13:04:50.000Z",
+    "hn": {
+      "id": 50242939,
+      "score": 758,
+      "comments": 690
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
