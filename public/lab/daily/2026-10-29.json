@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-29",
+  "generatedAt": "2026-10-29T15:59:19.108Z",
+  "article": {
+    "title": "Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents",
+    "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+    "source": "wired.com",
+    "selectedAt": "2026-10-29T15:59:18.086Z",
+    "publishedAt": "2026-10-28T21:03:24.000Z",
+    "hn": {
+      "id": 50280864,
+      "score": 354,
+      "comments": 212
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 8365
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
