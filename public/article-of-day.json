@@ -1,13 +1,13 @@
 {
-  "title": "Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents",
-  "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
-  "source": "wired.com",
-  "selectedAt": "2026-10-29T15:59:18.086Z",
-  "publishedAt": "2026-10-28T21:03:24.000Z",
+  "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+  "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+  "source": "phorion.io",
+  "selectedAt": "2026-10-30T15:46:16.221Z",
+  "publishedAt": "2026-10-30T07:09:12.000Z",
   "hn": {
-    "id": 50280864,
-    "score": 354,
-    "comments": 212
+    "id": 50300683,
+    "score": 230,
+    "comments": 328
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }

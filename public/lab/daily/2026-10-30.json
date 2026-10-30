@@ -1,0 +1,30 @@
+{
+  "slug": "2026-10-30",
+  "generatedAt": "2026-10-30T15:46:17.327Z",
+  "article": {
+    "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+    "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+    "source": "phorion.io",
+    "selectedAt": "2026-10-30T15:46:16.221Z",
+    "publishedAt": "2026-10-30T07:09:12.000Z",
+    "hn": {
+      "id": 50300683,
+      "score": 230,
+      "comments": 328
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 6225
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
