@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-30T15:46:17.329Z",
+  "updatedAt": "2026-10-31T15:14:27.552Z",
   "items": [
+    {
+      "slug": "2026-10-31",
+      "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+      "source": "ft.com",
+      "selectedAt": "2026-10-31T15:14:27.122Z",
+      "publishedAt": "2026-10-30T17:27:25.000Z",
+      "hn": {
+        "id": 50307219,
+        "score": 312,
+        "comments": 266
+      }
+    },
     {
       "slug": "2026-10-30",
       "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
@@ -662,19 +675,6 @@
         "id": 49634849,
         "score": 5,
         "comments": 0
-      }
-    },
-    {
-      "slug": "2026-09-09",
-      "title": "US police fear Meta smart glasses could be used to secretly record them",
-      "url": "https://www.theguardian.com/technology/2026/sep/08/us-law-enforcement-meta-smart-glasses",
-      "source": "theguardian.com",
-      "selectedAt": "2026-09-09T13:38:38.443Z",
-      "publishedAt": "2026-09-08T15:39:49.000Z",
-      "hn": {
-        "id": 49611946,
-        "score": 110,
-        "comments": 83
       }
     }
   ]
