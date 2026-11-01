@@ -1,0 +1,30 @@
+{
+  "slug": "2026-11-01",
+  "generatedAt": "2026-11-01T15:56:05.496Z",
+  "article": {
+    "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+    "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+    "source": "jetstream.security",
+    "selectedAt": "2026-11-01T15:56:04.516Z",
+    "publishedAt": "2026-11-01T02:19:53.000Z",
+    "hn": {
+      "id": 50322173,
+      "score": 218,
+      "comments": 110
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3563
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}

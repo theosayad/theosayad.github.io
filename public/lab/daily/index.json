@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-10-31T15:14:27.552Z",
+  "updatedAt": "2026-11-01T15:56:05.498Z",
   "items": [
+    {
+      "slug": "2026-11-01",
+      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+      "source": "jetstream.security",
+      "selectedAt": "2026-11-01T15:56:04.516Z",
+      "publishedAt": "2026-11-01T02:19:53.000Z",
+      "hn": {
+        "id": 50322173,
+        "score": 218,
+        "comments": 110
+      }
+    },
     {
       "slug": "2026-10-31",
       "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
@@ -662,19 +675,6 @@
         "id": 49652237,
         "score": 280,
         "comments": 92
-      }
-    },
-    {
-      "slug": "2026-09-10",
-      "title": "EU and Canada Plan Deal to Boost Trade, Security as US Ties Fray",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-08/eu-and-canada-plan-far-reaching-alliance-to-strengthen-partnership",
-      "source": "bloomberg.com",
-      "selectedAt": "2026-09-10T13:29:45.954Z",
-      "publishedAt": "2026-09-09T21:44:58.000Z",
-      "hn": {
-        "id": 49634849,
-        "score": 5,
-        "comments": 0
       }
     }
   ]
