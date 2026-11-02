@@ -1,0 +1,30 @@
+{
+  "slug": "2026-11-02",
+  "generatedAt": "2026-11-02T19:23:55.459Z",
+  "article": {
+    "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
+    "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+    "source": "theguardian.com",
+    "selectedAt": "2026-11-02T19:23:54.844Z",
+    "publishedAt": "2026-11-02T11:50:13.000Z",
+    "hn": {
+      "id": 50335615,
+      "score": 269,
+      "comments": 342
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4487
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}

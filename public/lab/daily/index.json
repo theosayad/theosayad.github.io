@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-01T15:56:05.498Z",
+  "updatedAt": "2026-11-02T19:23:55.461Z",
   "items": [
+    {
+      "slug": "2026-11-02",
+      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
+      "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "source": "theguardian.com",
+      "selectedAt": "2026-11-02T19:23:54.844Z",
+      "publishedAt": "2026-11-02T11:50:13.000Z",
+      "hn": {
+        "id": 50335615,
+        "score": 269,
+        "comments": 342
+      }
+    },
     {
       "slug": "2026-11-01",
       "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
@@ -662,19 +675,6 @@
         "id": 49659245,
         "score": 265,
         "comments": 68
-      }
-    },
-    {
-      "slug": "2026-09-11",
-      "title": "Mexican student creates an acoustic fire extinguisher to put out fire in seconds",
-      "url": "https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/",
-      "source": "upsocl.com",
-      "selectedAt": "2026-09-11T13:28:04.006Z",
-      "publishedAt": "2026-09-11T01:00:56.000Z",
-      "hn": {
-        "id": 49652237,
-        "score": 280,
-        "comments": 92
       }
     }
   ]
