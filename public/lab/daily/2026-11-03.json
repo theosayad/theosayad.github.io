@@ -1,0 +1,30 @@
+{
+  "slug": "2026-11-03",
+  "generatedAt": "2026-11-03T16:57:07.929Z",
+  "article": {
+    "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+    "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+    "source": "techpolicy.press",
+    "selectedAt": "2026-11-03T16:57:06.946Z",
+    "publishedAt": "2026-11-02T22:30:47.000Z",
+    "hn": {
+      "id": 50344919,
+      "score": 384,
+      "comments": 301
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 8450
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}

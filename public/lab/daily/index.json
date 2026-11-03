@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-02T19:23:55.461Z",
+  "updatedAt": "2026-11-03T16:57:07.931Z",
   "items": [
+    {
+      "slug": "2026-11-03",
+      "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+      "source": "techpolicy.press",
+      "selectedAt": "2026-11-03T16:57:06.946Z",
+      "publishedAt": "2026-11-02T22:30:47.000Z",
+      "hn": {
+        "id": 50344919,
+        "score": 384,
+        "comments": 301
+      }
+    },
     {
       "slug": "2026-11-02",
       "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
@@ -662,19 +675,6 @@
         "id": 49672474,
         "score": 28,
         "comments": 66
-      }
-    },
-    {
-      "slug": "2026-09-12",
-      "title": "HuggingFace: Security.txt",
-      "url": "https://huggingface.co/security.txt",
-      "source": "huggingface.co",
-      "selectedAt": "2026-09-12T12:47:37.462Z",
-      "publishedAt": "2026-09-11T14:38:13.000Z",
-      "hn": {
-        "id": 49659245,
-        "score": 265,
-        "comments": 68
       }
     }
   ]
