@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-03T16:57:07.931Z",
+  "updatedAt": "2026-11-04T17:01:11.537Z",
   "items": [
+    {
+      "slug": "2026-11-04",
+      "title": "Debian apt security update: man-in-the-middle arbitrary code execution",
+      "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
+      "source": "lists.debian.org",
+      "selectedAt": "2026-11-04T17:01:07.281Z",
+      "publishedAt": "2026-11-04T12:46:58.000Z",
+      "hn": {
+        "id": 50364814,
+        "score": 84,
+        "comments": 64
+      }
+    },
     {
       "slug": "2026-11-03",
       "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
@@ -662,19 +675,6 @@
         "id": 49691343,
         "score": 262,
         "comments": 359
-      }
-    },
-    {
-      "slug": "2026-09-13",
-      "title": "Compiler Can Undo Your Security Checks",
-      "url": "https://davidbombal.com/your-compiler-can-undo-your-security-checks/",
-      "source": "davidbombal.com",
-      "selectedAt": "2026-09-13T13:45:26.168Z",
-      "publishedAt": "2026-09-12T14:07:58.000Z",
-      "hn": {
-        "id": 49672474,
-        "score": 28,
-        "comments": 66
       }
     }
   ]

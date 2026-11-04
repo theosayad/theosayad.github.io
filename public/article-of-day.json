@@ -1,13 +1,13 @@
 {
-  "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
-  "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
-  "source": "techpolicy.press",
-  "selectedAt": "2026-11-03T16:57:06.946Z",
-  "publishedAt": "2026-11-02T22:30:47.000Z",
+  "title": "Debian apt security update: man-in-the-middle arbitrary code execution",
+  "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
+  "source": "lists.debian.org",
+  "selectedAt": "2026-11-04T17:01:07.281Z",
+  "publishedAt": "2026-11-04T12:46:58.000Z",
   "hn": {
-    "id": 50344919,
-    "score": 384,
-    "comments": 301
+    "id": 50364814,
+    "score": 84,
+    "comments": 64
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }

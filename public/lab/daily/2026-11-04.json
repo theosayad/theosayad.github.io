@@ -1,0 +1,30 @@
+{
+  "slug": "2026-11-04",
+  "generatedAt": "2026-11-04T17:01:11.535Z",
+  "article": {
+    "title": "Debian apt security update: man-in-the-middle arbitrary code execution",
+    "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
+    "source": "lists.debian.org",
+    "selectedAt": "2026-11-04T17:01:07.281Z",
+    "publishedAt": "2026-11-04T12:46:58.000Z",
+    "hn": {
+      "id": 50364814,
+      "score": 84,
+      "comments": 64
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 16
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
