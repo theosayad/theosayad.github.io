@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-04T17:01:11.537Z",
+  "updatedAt": "2026-11-05T17:16:39.061Z",
   "items": [
+    {
+      "slug": "2026-11-05",
+      "title": "BYD doubles its Brazil market share to 9.7% a year after opening its local plant",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-03/china-s-byd-doubles-market-share-in-brazil-with-new-plant-eyed",
+      "source": "bloomberg.com",
+      "selectedAt": "2026-11-05T17:16:38.320Z",
+      "publishedAt": "2026-11-04T17:55:29.000Z",
+      "hn": {
+        "id": 50369146,
+        "score": 130,
+        "comments": 135
+      }
+    },
     {
       "slug": "2026-11-04",
       "title": "Debian apt security update: man-in-the-middle arbitrary code execution",
@@ -662,19 +675,6 @@
         "id": 49698936,
         "score": 51,
         "comments": 95
-      }
-    },
-    {
-      "slug": "2026-09-14",
-      "title": "Nike exits the S&P 100 after 18 years and a $200B market-cap wipeout",
-      "url": "https://fortune.com/2026/09/08/nike-stock-plummets-sp500-market-cap-index/",
-      "source": "fortune.com",
-      "selectedAt": "2026-09-14T15:50:48.627Z",
-      "publishedAt": "2026-09-14T02:50:40.000Z",
-      "hn": {
-        "id": 49691343,
-        "score": 262,
-        "comments": 359
       }
     }
   ]

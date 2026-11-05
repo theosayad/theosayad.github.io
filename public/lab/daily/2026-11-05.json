@@ -1,0 +1,30 @@
+{
+  "slug": "2026-11-05",
+  "generatedAt": "2026-11-05T17:16:39.059Z",
+  "article": {
+    "title": "BYD doubles its Brazil market share to 9.7% a year after opening its local plant",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-03/china-s-byd-doubles-market-share-in-brazil-with-new-plant-eyed",
+    "source": "bloomberg.com",
+    "selectedAt": "2026-11-05T17:16:38.320Z",
+    "publishedAt": "2026-11-04T17:55:29.000Z",
+    "hn": {
+      "id": 50369146,
+      "score": 130,
+      "comments": 135
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
