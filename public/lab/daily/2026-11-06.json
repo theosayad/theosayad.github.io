@@ -1,0 +1,30 @@
+{
+  "slug": "2026-11-06",
+  "generatedAt": "2026-11-06T16:41:12.013Z",
+  "article": {
+    "title": "Tesla winds down Cybertruck production after years of poor sales in few markets",
+    "url": "https://www.msn.com/en-us/technology/tech-companies/tesla-to-wind-down-cybertruck-production-after-years-of-poor-sales-in-few-markets/ar-AA2gSZGv",
+    "source": "msn.com",
+    "selectedAt": "2026-11-06T16:41:11.075Z",
+    "publishedAt": "2026-11-06T12:13:51.000Z",
+    "hn": {
+      "id": 50391456,
+      "score": 262,
+      "comments": 426
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}

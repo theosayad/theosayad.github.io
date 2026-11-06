@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-05T17:16:39.061Z",
+  "updatedAt": "2026-11-06T16:41:12.015Z",
   "items": [
+    {
+      "slug": "2026-11-06",
+      "title": "Tesla winds down Cybertruck production after years of poor sales in few markets",
+      "url": "https://www.msn.com/en-us/technology/tech-companies/tesla-to-wind-down-cybertruck-production-after-years-of-poor-sales-in-few-markets/ar-AA2gSZGv",
+      "source": "msn.com",
+      "selectedAt": "2026-11-06T16:41:11.075Z",
+      "publishedAt": "2026-11-06T12:13:51.000Z",
+      "hn": {
+        "id": 50391456,
+        "score": 262,
+        "comments": 426
+      }
+    },
     {
       "slug": "2026-11-05",
       "title": "BYD doubles its Brazil market share to 9.7% a year after opening its local plant",
@@ -662,19 +675,6 @@
         "id": 49721322,
         "score": 358,
         "comments": 239
-      }
-    },
-    {
-      "slug": "2026-09-15",
-      "title": "Anthropic tells investors it will be profitable for second straight quarter",
-      "url": "https://www.reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13/",
-      "source": "reuters.com",
-      "selectedAt": "2026-09-15T14:16:52.450Z",
-      "publishedAt": "2026-09-14T15:47:29.000Z",
-      "hn": {
-        "id": 49698936,
-        "score": 51,
-        "comments": 95
       }
     }
   ]
