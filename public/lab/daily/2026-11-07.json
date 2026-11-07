@@ -1,0 +1,30 @@
+{
+  "slug": "2026-11-07",
+  "generatedAt": "2026-11-07T15:35:55.033Z",
+  "article": {
+    "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+    "source": "bloomberg.com",
+    "selectedAt": "2026-11-07T15:35:54.102Z",
+    "publishedAt": "2026-11-06T16:54:36.000Z",
+    "hn": {
+      "id": 50394906,
+      "score": 293,
+      "comments": 588
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
