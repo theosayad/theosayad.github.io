@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-07T15:35:55.034Z",
+  "updatedAt": "2026-11-08T15:53:44.263Z",
   "items": [
+    {
+      "slug": "2026-11-08",
+      "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "url": "https://github.com/hedgerow-dev/coldframe",
+      "source": "github.com",
+      "selectedAt": "2026-11-08T15:53:43.524Z",
+      "publishedAt": "2026-11-07T17:27:30.000Z",
+      "hn": {
+        "id": 50406292,
+        "score": 264,
+        "comments": 62
+      }
+    },
     {
       "slug": "2026-11-07",
       "title": "Anthropic IPO buyers see valuation as low as $1.1T",
@@ -662,19 +675,6 @@
         "id": 49744634,
         "score": 1,
         "comments": 0
-      }
-    },
-    {
-      "slug": "2026-09-17",
-      "title": "Fed hikes rates as inflation worries push up bond yields",
-      "url": "https://www.reuters.com/live/live-fed-rate-hike-expected-inflation-worries-push-up-bond-yields-2026-09-16/",
-      "source": "reuters.com",
-      "selectedAt": "2026-09-17T14:14:37.663Z",
-      "publishedAt": "2026-09-16T18:55:21.000Z",
-      "hn": {
-        "id": 49731356,
-        "score": 177,
-        "comments": 233
       }
     }
   ]

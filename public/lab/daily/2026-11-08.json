@@ -1,0 +1,30 @@
+{
+  "slug": "2026-11-08",
+  "generatedAt": "2026-11-08T15:53:44.262Z",
+  "article": {
+    "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+    "url": "https://github.com/hedgerow-dev/coldframe",
+    "source": "github.com",
+    "selectedAt": "2026-11-08T15:53:43.524Z",
+    "publishedAt": "2026-11-07T17:27:30.000Z",
+    "hn": {
+      "id": 50406292,
+      "score": 264,
+      "comments": 62
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4056
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
