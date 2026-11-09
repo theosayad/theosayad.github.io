@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-08T15:53:44.263Z",
+  "updatedAt": "2026-11-09T19:42:37.989Z",
   "items": [
+    {
+      "slug": "2026-11-09",
+      "title": "Cryptocurrency lawsuit: Ethereum Foundation required \"suicide pledge\"",
+      "url": "https://www.denverpost.com/2026/11/06/ethereum-suicide-pledge-lawsuit-mandate-boulder-crypto/",
+      "source": "denverpost.com",
+      "selectedAt": "2026-11-09T19:42:37.171Z",
+      "publishedAt": "2026-11-09T15:23:57.000Z",
+      "hn": {
+        "id": 50426899,
+        "score": 118,
+        "comments": 126
+      }
+    },
     {
       "slug": "2026-11-08",
       "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
@@ -662,19 +675,6 @@
         "id": 49756171,
         "score": 147,
         "comments": 130
-      }
-    },
-    {
-      "slug": "2026-09-18",
-      "title": "Rising Rates Will Make Private Equity's Bad Year Worse",
-      "url": "https://www.wsj.com/finance/investing/rising-rates-will-make-private-equitys-bad-year-a-lot-worse-255daf59",
-      "source": "wsj.com",
-      "selectedAt": "2026-09-18T13:32:38.961Z",
-      "publishedAt": "2026-09-17T18:26:08.000Z",
-      "hn": {
-        "id": 49744634,
-        "score": 1,
-        "comments": 0
       }
     }
   ]

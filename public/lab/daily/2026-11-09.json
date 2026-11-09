@@ -1,0 +1,30 @@
+{
+  "slug": "2026-11-09",
+  "generatedAt": "2026-11-09T19:42:37.987Z",
+  "article": {
+    "title": "Cryptocurrency lawsuit: Ethereum Foundation required \"suicide pledge\"",
+    "url": "https://www.denverpost.com/2026/11/06/ethereum-suicide-pledge-lawsuit-mandate-boulder-crypto/",
+    "source": "denverpost.com",
+    "selectedAt": "2026-11-09T19:42:37.171Z",
+    "publishedAt": "2026-11-09T15:23:57.000Z",
+    "hn": {
+      "id": 50426899,
+      "score": 118,
+      "comments": 126
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 6249
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
