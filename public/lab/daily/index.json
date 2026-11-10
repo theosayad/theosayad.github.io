@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-09T19:42:37.989Z",
+  "updatedAt": "2026-11-10T16:57:05.270Z",
   "items": [
+    {
+      "slug": "2026-11-10",
+      "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "source": "cnbc.com",
+      "selectedAt": "2026-11-10T16:57:04.102Z",
+      "publishedAt": "2026-11-10T03:20:06.000Z",
+      "hn": {
+        "id": 50435660,
+        "score": 188,
+        "comments": 174
+      }
+    },
     {
       "slug": "2026-11-09",
       "title": "Cryptocurrency lawsuit: Ethereum Foundation required \"suicide pledge\"",
@@ -662,19 +675,6 @@
         "id": 49772541,
         "score": 27,
         "comments": 23
-      }
-    },
-    {
-      "slug": "2026-09-19",
-      "title": "US Treasuries Have Become Unappetizing for Foreign Central Banks and Governments",
-      "url": "https://wolfstreet.com/2026/09/17/treasuries-have-become-badly-unappetizing-for-foreign-central-banks-governments/",
-      "source": "wolfstreet.com",
-      "selectedAt": "2026-09-19T13:02:04.383Z",
-      "publishedAt": "2026-09-18T15:50:29.000Z",
-      "hn": {
-        "id": 49756171,
-        "score": 147,
-        "comments": 130
       }
     }
   ]

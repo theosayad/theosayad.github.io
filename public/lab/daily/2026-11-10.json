@@ -1,0 +1,30 @@
+{
+  "slug": "2026-11-10",
+  "generatedAt": "2026-11-10T16:57:05.269Z",
+  "article": {
+    "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+    "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+    "source": "cnbc.com",
+    "selectedAt": "2026-11-10T16:57:04.102Z",
+    "publishedAt": "2026-11-10T03:20:06.000Z",
+    "hn": {
+      "id": 50435660,
+      "score": 188,
+      "comments": 174
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4359
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
