@@ -1,0 +1,30 @@
+{
+  "slug": "2026-11-11",
+  "generatedAt": "2026-11-11T17:01:06.034Z",
+  "article": {
+    "title": "Protecting SSH Keys with macOS Secure Enclave",
+    "url": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+    "source": "gatezh.com",
+    "selectedAt": "2026-11-11T17:01:02.505Z",
+    "publishedAt": "2026-11-11T04:28:57.000Z",
+    "hn": {
+      "id": 50449748,
+      "score": 346,
+      "comments": 123
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4440
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
