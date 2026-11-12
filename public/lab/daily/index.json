@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-11T17:01:06.035Z",
+  "updatedAt": "2026-11-12T17:29:56.414Z",
   "items": [
+    {
+      "slug": "2026-11-12",
+      "title": "Anthropic IPO",
+      "url": "https://ipo.anthropic.com/us/",
+      "source": "ipo.anthropic.com",
+      "selectedAt": "2026-11-12T17:29:55.373Z",
+      "publishedAt": "2026-11-12T11:46:41.000Z",
+      "hn": {
+        "id": 50465829,
+        "score": 560,
+        "comments": 585
+      }
+    },
     {
       "slug": "2026-11-11",
       "title": "Protecting SSH Keys with macOS Secure Enclave",
@@ -662,19 +675,6 @@
         "id": 49791378,
         "score": 133,
         "comments": 39
-      }
-    },
-    {
-      "slug": "2026-09-21",
-      "title": "Bill to Ban Private Equity from Owning Medical Practices",
-      "url": "https://truthout.org/articles/warren-introduces-bill-to-ban-private-equity-from-owning-medical-practices/",
-      "source": "truthout.org",
-      "selectedAt": "2026-09-21T15:50:43.806Z",
-      "publishedAt": "2026-09-20T22:13:46.000Z",
-      "hn": {
-        "id": 49780630,
-        "score": 466,
-        "comments": 332
       }
     }
   ]
