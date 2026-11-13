@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-12T17:29:56.414Z",
+  "updatedAt": "2026-11-13T08:40:47.556Z",
   "items": [
+    {
+      "slug": "2026-11-13",
+      "title": "Anthropic IPO",
+      "url": "https://ipo.anthropic.com/us/",
+      "source": "ipo.anthropic.com",
+      "selectedAt": "2026-11-13T08:40:46.595Z",
+      "publishedAt": "2026-11-12T11:46:41.000Z",
+      "hn": {
+        "id": 50465829,
+        "score": 916,
+        "comments": 858
+      }
+    },
     {
       "slug": "2026-11-12",
       "title": "Anthropic IPO",
@@ -662,19 +675,6 @@
         "id": 49807430,
         "score": 3,
         "comments": 0
-      }
-    },
-    {
-      "slug": "2026-09-22",
-      "title": "Why does mathmain need an encrypted loader?",
-      "url": "https://safedep.io/mathmain-encrypted-loader/",
-      "source": "safedep.io",
-      "selectedAt": "2026-09-22T13:59:29.771Z",
-      "publishedAt": "2026-09-21T18:33:44.000Z",
-      "hn": {
-        "id": 49791378,
-        "score": 133,
-        "comments": 39
       }
     }
   ]

@@ -1,0 +1,30 @@
+{
+  "slug": "2026-11-13",
+  "generatedAt": "2026-11-13T08:40:47.555Z",
+  "article": {
+    "title": "Anthropic IPO",
+    "url": "https://ipo.anthropic.com/us/",
+    "source": "ipo.anthropic.com",
+    "selectedAt": "2026-11-13T08:40:46.595Z",
+    "publishedAt": "2026-11-12T11:46:41.000Z",
+    "hn": {
+      "id": 50465829,
+      "score": 916,
+      "comments": 858
+    }
+  },
+  "takeaways": [],
+  "rewrite": null,
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3985
+    },
+    "ai": {
+      "enabled": true,
+      "generated": false,
+      "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
+    }
+  }
+}
