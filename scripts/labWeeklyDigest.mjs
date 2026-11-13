@@ -253,8 +253,8 @@ const maybeGenerateRewrite = async ({ articleTitle, articleUrl, highlights, extr
 
   const tryBodies = (m) => [
     // Keep retries intentionally low to avoid blowing through free-tier limits.
-    { model: m, messages, temperature: 0.35, max_tokens: 900 },
-    { model: m, messages, temperature: 0.35, max_completion_tokens: 900 },
+    { model: m, messages, temperature: 0.35, max_tokens: 2000 },
+    { model: m, messages, temperature: 0.35, max_completion_tokens: 2000 },
   ];
 
   const postOnce = async (body, retryCount = 0) => {
