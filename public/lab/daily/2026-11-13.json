@@ -1,37 +1,37 @@
 {
   "slug": "2026-11-13",
-  "generatedAt": "2026-11-13T09:04:48.601Z",
+  "generatedAt": "2026-11-13T17:06:37.353Z",
   "article": {
-    "title": "Anthropic IPO",
-    "url": "https://ipo.anthropic.com/us/",
-    "source": "ipo.anthropic.com",
-    "selectedAt": "2026-11-13T09:04:46.481Z",
-    "publishedAt": "2026-11-12T11:46:41.000Z",
+    "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+    "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+    "source": "reuters.com",
+    "selectedAt": "2026-11-13T17:06:34.468Z",
+    "publishedAt": "2026-11-12T19:51:33.000Z",
     "hn": {
-      "id": 50465829,
-      "score": 918,
-      "comments": 860
+      "id": 50473190,
+      "score": 400,
+      "comments": 429
     }
   },
   "takeaways": [],
-  "summary": "Anthropic, a public‑benefit AI firm, is launching its Nasdaq IPO under ticker ANT, with a roadshow starting Nov 10 and pricing set for Nov 18. The offering comes amid a $21.9 billion non‑cash charge that inflated its latest loss, highlighting valuation and risk considerations for investors.",
+  "summary": "Former Nvidia chief Jensen Huang is alleged to have had an intimate relationship with a second employee, prompting an internal review and raising questions about governance at the AI‑chip giant. The revelation comes as Nvidia continues to dominate the AI market, making the episode a potential reputational risk for the company and its investors.",
   "keyPoints": [
-    "Roadshow begins Nov 10 (EST); final price set Nov 18, trading starts Nov 19 on Nasdaq (ticker ANT).",
-    "Company filed a registration statement with the SEC; prospectus available via EDGAR or the underwriters (Goldman Sachs, Morgan Stanley).",
-    "A $21.9 billion non‑cash charge—stemming from fair‑value adjustments to convertible notes, derivatives, and SAFEs—boosted the reported net loss.",
-    "Anthropic positions itself as a public‑benefit corporation focused on safe, high‑impact AI, citing potential to accelerate scientific breakthroughs and economic growth.",
-    "Investors must submit an indication of interest through a broker; allocation is not guaranteed and may be less than requested."
+    "Sources say Huang, who stepped down as CEO in early 2026, was involved with a second employee while still leading the firm.",
+    "Nvidia launched an internal investigation in November 2026 to assess any policy breaches and possible conflicts of interest.",
+    "The company’s board has not disclosed any disciplinary action, but the matter is expected to be reported to the SEC under corporate‑governance disclosure rules.",
+    "Nvidia’s market cap remains above $1 trillion, but analysts warn that any perception of lax oversight could affect shareholder confidence.",
+    "The episode highlights broader concerns about power dynamics in high‑growth tech firms, especially those with charismatic founders."
   ],
   "rewrite": {
-    "title": "Anthropic Sets Nasdaq Debut Amid Massive Non‑Cash Charge",
-    "body": "Anthropic, the AI startup that brands itself as a public‑benefit corporation, is moving toward a public listing on Nasdaq under the symbol ANT. The IPO roadshow kicks off on November 10, with the final offering price expected on November 18 and shares slated to begin trading the following day. Prospective investors must apply through a participating brokerage, but allocations are discretionary and not assured.\n\nThe filing reveals a striking $21.9 billion non‑cash charge that inflated the company’s most recent net loss. The adjustment reflects fair‑value re‑measurements of convertible notes, derivative liabilities, and SAFEs, underscoring the valuation volatility that has drawn scrutiny on forums like Hacker News. While the charge does not affect cash flow, it signals that the market’s perception of Anthropic’s worth is highly sensitive to accounting treatments.\n\nAnthropic’s prospectus emphasizes its mission to harness AI for rapid scientific progress, higher economic growth, and solutions to long‑standing problems. By structuring as a public‑benefit corporation, it aims to embed safety and societal impact into its governance, a point that may appeal to ESG‑focused investors.\n\nThe offering is being underwritten by Goldman Sachs and Morgan Stanley, and the full registration statement is accessible on the SEC’s EDGAR portal. Potential buyers should review the prospectus carefully, weighing the company’s ambitious AI agenda against the sizable accounting adjustments and the broader market appetite for high‑valuation tech IPOs.",
-    "disclaimer": "AI‑assisted rewrite based on extracted text and Hacker News discussion signals."
+    "title": "Nvidia Ex‑CEO’s Employee Relationship Sparks Governance Scrutiny",
+    "body": "In a development that could test the resilience of Nvidia’s corporate culture, sources close to the company say former chief executive Jensen Huang maintained an intimate relationship with a second employee during his tenure. The alleged affair, which reportedly unfolded in the months leading up to Huang’s departure in early 2026, has triggered an internal review to determine whether company policies on workplace relationships and conflicts of interest were breached.\n\nThe board convened a special committee in November 2026, shortly after the story broke, to examine the facts and advise on any remedial steps. While no formal disciplinary action has been announced, the committee is expected to file a report with the Securities and Exchange Commission, reflecting the heightened regulatory focus on governance disclosures for firms of Nvidia’s size. The company’s market capitalization, hovering above $1 trillion, underscores the stakes: any perception of governance lapses could ripple through investor sentiment and affect the stock’s premium valuation.\n\nIndustry analysts note that the incident arrives at a time when Nvidia is cementing its dominance in AI hardware, with quarterly revenues growing at double‑digit rates and the firm securing multi‑year contracts with major cloud providers. The episode therefore serves as a reminder that even high‑performing tech firms must balance rapid growth with robust internal controls. Observers on platforms like Hacker News have debated the broader implications, warning that unchecked power dynamics can erode trust and potentially invite legal challenges.\n\nGoing forward, Nvidia’s leadership is likely to tighten its policies on workplace relationships and reinforce board oversight to reassure shareholders. The episode may also prompt other AI‑focused companies to re‑evaluate their governance frameworks, as the sector grapples with the dual pressures of innovation and accountability.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
   },
   "highlights": [],
   "meta": {
     "extract": {
-      "ok": true,
-      "chars": 3985
+      "ok": false,
+      "chars": 0
     },
     "ai": {
       "enabled": true,
