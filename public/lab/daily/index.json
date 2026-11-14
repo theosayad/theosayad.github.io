@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-13T17:06:37.355Z",
+  "updatedAt": "2026-11-14T15:42:35.069Z",
   "items": [
+    {
+      "slug": "2026-11-14",
+      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+      "source": "finance.yahoo.com",
+      "selectedAt": "2026-11-14T15:42:31.723Z",
+      "publishedAt": "2026-11-14T02:21:36.000Z",
+      "hn": {
+        "id": 50492993,
+        "score": 206,
+        "comments": 50
+      }
+    },
     {
       "slug": "2026-11-13",
       "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
@@ -662,19 +675,6 @@
         "id": 49824686,
         "score": 323,
         "comments": 338
-      }
-    },
-    {
-      "slug": "2026-09-23",
-      "title": "Meta's Muse Drags Down Stocks That Depend on 'Consumer Inertia'",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-22/meta-s-muse-drags-down-stocks-that-depend-on-consumer-inertia",
-      "source": "bloomberg.com",
-      "selectedAt": "2026-09-23T14:11:18.551Z",
-      "publishedAt": "2026-09-22T20:13:32.000Z",
-      "hn": {
-        "id": 49807430,
-        "score": 3,
-        "comments": 0
       }
     }
   ]

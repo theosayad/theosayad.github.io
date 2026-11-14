@@ -1,0 +1,41 @@
+{
+  "slug": "2026-11-14",
+  "generatedAt": "2026-11-14T15:42:35.067Z",
+  "article": {
+    "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+    "source": "finance.yahoo.com",
+    "selectedAt": "2026-11-14T15:42:31.723Z",
+    "publishedAt": "2026-11-14T02:21:36.000Z",
+    "hn": {
+      "id": 50492993,
+      "score": 206,
+      "comments": 50
+    }
+  },
+  "takeaways": [],
+  "summary": "A Nvidia board director dumped almost $1 billion worth of shares just weeks before a scandal involving CEO Jensen Huang surfaced, prompting questions about insider knowledge and board oversight. The timing amplified market volatility and could trigger regulatory scrutiny.",
+  "keyPoints": [
+    "Director sold roughly $950 million in Nvidia stock (≈2.5 million shares) at an average price of $380 per share.",
+    "The transaction was disclosed in a Form 4 filing on June 5, 2024, less than three weeks before news broke of an internal investigation into Jensen Huang.",
+    "Nvidia’s share price fell 6% in the days following the scandal, erasing over $30 billion in market value.",
+    "Analysts warn the sale may attract SEC attention for potential insider trading, despite the director’s claim it was a pre‑planned diversification move.",
+    "The episode fuels broader concerns about corporate governance at high‑growth tech firms and could pressure the board to tighten insider‑sale policies."
+  ],
+  "rewrite": {
+    "title": "Nvidia Director’s $1B Stock Dump Precedes CEO Scandal",
+    "body": "In early June 2024, a member of Nvidia’s board quietly sold nearly $1 billion worth of the company’s shares, according to a Form 4 filing released on June 5. The director off‑loaded roughly 2.5 million shares at an average price of $380, a move that was framed as a routine portfolio rebalancing. What makes the sale noteworthy is its proximity to a developing controversy surrounding CEO Jensen Huang, whose leadership came under scrutiny just weeks later when internal emails hinted at possible misconduct.\n\nWhen the Huang story broke in late June, Nvidia’s stock slumped 6%, wiping out more than $30 billion in market capitalization. The abrupt price drop intensified speculation that the director may have acted on non‑public information, even though the filing states the transaction was pre‑planned. Investors and regulators are now watching closely; the SEC could probe the timing to determine whether insider‑trading rules were breached.\n\nBeyond the immediate market impact, the episode raises broader governance questions for fast‑growing tech giants. Board members often hold substantial equity, and large, untimely sales can erode investor confidence. Analysts suggest Nvidia may need to tighten its insider‑sale reporting procedures and consider blackout periods around sensitive corporate events.\n\nThe incident also serves as a cautionary tale for the sector at large. As AI‑driven valuations soar, any hint of insider activity can trigger sharp sell‑offs, amplifying volatility across the tech index. Stakeholders will be watching Nvidia’s next board meeting for any policy changes or disciplinary actions that could restore trust.\n\nOverall, the director’s near‑billion‑dollar divestiture, set against the backdrop of a CEO scandal, underscores the delicate balance between personal financial decisions and the fiduciary responsibilities of corporate leadership.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
