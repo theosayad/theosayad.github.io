@@ -1,13 +1,13 @@
 {
-  "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
-  "source": "finance.yahoo.com",
-  "selectedAt": "2026-11-14T15:42:31.723Z",
-  "publishedAt": "2026-11-14T02:21:36.000Z",
+  "title": "Disk encryption on NetBSD – achieving secrecy",
+  "url": "https://netbsd.org/~nia/disk-encrypt/",
+  "source": "netbsd.org",
+  "selectedAt": "2026-11-15T16:13:08.192Z",
+  "publishedAt": "2026-11-15T05:29:54.000Z",
   "hn": {
-    "id": 50492993,
-    "score": 206,
-    "comments": 50
+    "id": 50504277,
+    "score": 75,
+    "comments": 15
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }

@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-14T15:42:35.069Z",
+  "updatedAt": "2026-11-15T16:13:10.797Z",
   "items": [
+    {
+      "slug": "2026-11-15",
+      "title": "Disk encryption on NetBSD – achieving secrecy",
+      "url": "https://netbsd.org/~nia/disk-encrypt/",
+      "source": "netbsd.org",
+      "selectedAt": "2026-11-15T16:13:08.192Z",
+      "publishedAt": "2026-11-15T05:29:54.000Z",
+      "hn": {
+        "id": 50504277,
+        "score": 75,
+        "comments": 15
+      }
+    },
     {
       "slug": "2026-11-14",
       "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
@@ -662,19 +675,6 @@
         "id": 49836494,
         "score": 18,
         "comments": 15
-      }
-    },
-    {
-      "slug": "2026-09-24",
-      "title": "Feds Target AI Critics as \"Foreign Agents\"",
-      "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
-      "source": "kenklippenstein.com",
-      "selectedAt": "2026-09-24T14:09:33.673Z",
-      "publishedAt": "2026-09-24T00:41:31.000Z",
-      "hn": {
-        "id": 49824686,
-        "score": 323,
-        "comments": 338
       }
     }
   ]

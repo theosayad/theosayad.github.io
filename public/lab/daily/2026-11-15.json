@@ -1,0 +1,42 @@
+{
+  "slug": "2026-11-15",
+  "generatedAt": "2026-11-15T16:13:10.796Z",
+  "article": {
+    "title": "Disk encryption on NetBSD – achieving secrecy",
+    "url": "https://netbsd.org/~nia/disk-encrypt/",
+    "source": "netbsd.org",
+    "selectedAt": "2026-11-15T16:13:08.192Z",
+    "publishedAt": "2026-11-15T05:29:54.000Z",
+    "hn": {
+      "id": 50504277,
+      "score": 75,
+      "comments": 15
+    }
+  },
+  "takeaways": [],
+  "summary": "The article outlines a pragmatic NetBSD full‑disk encryption strategy that keeps the boot loader unencrypted while moving most data to a cgd‑encrypted partition, balancing security with maintainability.",
+  "keyPoints": [
+    "NetBSD separates base system and packages, so most root‑level binaries stay unchanged after upgrades, reducing attack surface.",
+    "A small (≈4 GB) unencrypted root filesystem hosts the boot loader; a larger (≈11 GB) encrypted partition holds /usr, /var and /home via the cgd driver.",
+    "The encrypted partition contains its own disklabel/GPT, allowing password verification by checking for a valid label before mounting.",
+    "Using Log File System (lfs) for testing; production setups typically prefer the mature FFS.",
+    "Online upgrades are required because the installer cannot see the hidden cgd partition during offline installs.",
+    "Hardware‑accelerated AES or alternatives like Adiantum mitigate the performance hit of software‑only crypto."
+  ],
+  "rewrite": {
+    "title": "NetBSD Disk Encryption Made Practical",
+    "body": "NetBSD’s modular design—base system separate from user packages—means that, after a clean install, most root‑level files remain static. Leveraging this, the author proposes a hybrid encryption layout: a minimal 4 GB unencrypted root partition that contains only the boot loader and essential startup scripts, and a larger 11 GB encrypted slice managed by NetBSD’s cgd driver. The encrypted slice is further partitioned with its own disklabel (or GPT), enabling the system to confirm a correct passphrase simply by locating a valid label before exposing any data.\n\nThe approach sidesteps the classic “full‑disk encryption” problem of needing software to decrypt the boot sector. By keeping the boot loader on an unencrypted ramdisk, the system can prompt for a password early in the boot process without relying on specialized hardware. Once the password is verified, the cgd device is presented as /dev/cgd0a, and a Log File System (lfs) is created for testing; production environments would normally use the battle‑tested Fast File System (ffs).\n\nSecurity‑wise, this configuration protects user data, logs, and crash dumps—areas that often contain sensitive information—while leaving /etc largely untouched. Most configuration files in /etc are either hashed passwords or can be redirected via symbolic links to the encrypted filesystem, reducing the risk of exposing credentials. The trade‑off is that offline upgrades become cumbersome; the NetBSD installer cannot see the hidden partition, so administrators must rely on online tools like sysupgrade.\n\nPerformance considerations are addressed by recommending CPUs with built‑in AES instructions; where unavailable, the lightweight Adiantum cipher offers a viable alternative. Overall, the method delivers strong confidentiality with modest complexity, making NetBSD a compelling choice for security‑conscious deployments.",
+    "disclaimer": "AI‑assisted rewrite based on extracted text and Hacker News commentary."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 5967
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
