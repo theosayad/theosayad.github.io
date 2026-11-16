@@ -1,0 +1,41 @@
+{
+  "slug": "2026-11-16",
+  "generatedAt": "2026-11-16T19:29:03.104Z",
+  "article": {
+    "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+    "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+    "source": "masnick.com",
+    "selectedAt": "2026-11-16T19:28:59.452Z",
+    "publishedAt": "2026-11-16T11:39:31.000Z",
+    "hn": {
+      "id": 50516473,
+      "score": 253,
+      "comments": 99
+    }
+  },
+  "takeaways": [],
+  "summary": "A Lenovo ThinkPad that appeared completely dead was revived using a little‑known power‑button reset sequence disclosed by IBM support. The trick—multiple short presses, a 30‑second hold, then re‑installing the battery—drains residual charge and forces a BIOS reset, saving users time and money while cutting e‑waste.",
+  "keyPoints": [
+    "The procedure: unplug AC, remove battery, press power button 10 times at one‑second intervals, hold for 30 seconds, re‑insert battery and power on.",
+    "First reported in 2007 on Masnick.com after the author’s z61t failed at a conference; the fix restored full functionality.",
+    "Numerous Hacker News commenters (e.g., users of T43, T60, T420S, X200) confirmed success, often after spills, static buildup, or prolonged power loss.",
+    "Variations include using a dock’s LED to bleed charge, heating the chassis, or swapping the 3 V CMOS battery for stubborn cases.",
+    "Implications: inexpensive DIY rescue reduces warranty calls, lowers repair costs, and mitigates electronic waste for a line of business‑class laptops."
+  ],
+  "rewrite": {
+    "title": "ThinkPad Power‑Button Reset Revives Dead Laptops",
+    "body": "In 2007 a writer discovered that a brand‑new Lenovo ThinkPad z61t, which refused to power up at a conference, could be resurrected with a simple, undocumented reset routine. After contacting IBM support, he was instructed to disconnect the AC adapter, remove the internal battery, tap the power button ten times at one‑second intervals, then press and hold the button for thirty seconds before re‑installing the battery. The laptop powered on as if nothing had happened.\n\nThe hack quickly spread through online forums and Hacker News, where users reported similar recoveries across a range of ThinkPad models—from the aging T43 to the newer X200. Common triggers included spilled liquids, static discharge, or a sudden loss of power while the battery was removed. Some commenters added refinements: attaching the machine to an unplugged dock to let an LED drain residual charge, applying gentle heat, or swapping the 3 V CMOS battery to force a BIOS reset. Even cases where fans spun but no display appeared were resolved by the same discharge technique.\n\nBeyond the immediate convenience, the method underscores a broader economic and environmental impact. By enabling owners to revive laptops that would otherwise be sent for repair or discarded, the procedure cuts down on service expenses and reduces e‑waste—a notable benefit for enterprises that deploy large fleets of ThinkPads. It also highlights the value of manufacturer‑level troubleshooting knowledge that, when shared publicly, can empower end‑users and extend product lifespans.\n\nWhile not a universal cure—some hardware failures still require professional service—the power‑button reset remains a low‑cost first‑line remedy. Its persistence in user anecdotes over a decade later suggests that static‑related lock‑ups are a recurring design quirk rather than an isolated defect, and that simple discharge steps can often restore functionality without data loss.",
+    "disclaimer": "AI‑assisted rewrite based on extracted article text and Hacker News discussion highlights."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 10267
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
