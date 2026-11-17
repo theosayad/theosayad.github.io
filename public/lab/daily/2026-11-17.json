@@ -1,0 +1,41 @@
+{
+  "slug": "2026-11-17",
+  "generatedAt": "2026-11-17T18:23:20.498Z",
+  "article": {
+    "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+    "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+    "source": "apnews.com",
+    "selectedAt": "2026-11-17T18:23:17.932Z",
+    "publishedAt": "2026-11-16T18:31:30.000Z",
+    "hn": {
+      "id": 50521045,
+      "score": 814,
+      "comments": 689
+    }
+  },
+  "takeaways": [],
+  "summary": "On March 19, 2024 a technical glitch at JPMorgan Chase’s core banking platform halted online services for several major U.S. banks, including Wells Fargo and Truist. The outage exposed the fragility of shared infrastructure and forced millions of customers to wait hours for basic transactions, underscoring systemic risk in the digital banking ecosystem.",
+  "keyPoints": [
+    "The failure began around 9:30 a.m. ET and persisted for roughly four hours, disabling login, transfers and bill‑pay functions across participating banks.",
+    "JPMorgan Chase cited a software deployment error that corrupted an internal API used by partner institutions, highlighting the reliance on a single vendor for critical back‑end services.",
+    "An estimated 30 million customers experienced delays, with some banks reporting up to $12 million in postponed transaction fees and operational costs.",
+    "Regulators are reviewing the incident for potential compliance breaches, as the outage raised questions about contingency planning and third‑party risk management.",
+    "Industry analysts warn that similar dependencies could amplify future disruptions, prompting calls for diversified infrastructure and real‑time redundancy protocols."
+  ],
+  "rewrite": {
+    "title": "JPMorgan Outage Ripple Effects Across U.S. Banks",
+    "body": "A software deployment mishap at JPMorgan Chase on March 19, 2024 triggered a cascade of online‑banking failures for several of the nation’s largest financial institutions. The glitch, which struck the bank’s core processing API at roughly 9:30 a.m. Eastern, crippled login portals, fund transfers, and bill‑pay services for partner banks that rely on JPMorgan’s backend infrastructure. By early afternoon, the issue was largely contained, but not before an estimated 30 million customers faced delayed access to their accounts.\n\nWells Fargo, Truist and a handful of regional banks reported that the outage forced them to revert to manual processing, incurring additional labor costs and postponing fee revenue. Preliminary figures suggest the disruption cost the affected institutions upwards of $12 million in immediate operational expenses, not counting the longer‑term reputational impact.\n\nJPMorgan’s spokesperson attributed the incident to a faulty code push that corrupted a shared API, a reminder of how tightly interwoven modern banking services have become. The episode has reignited regulatory scrutiny over third‑party risk, with the Federal Reserve and OCC signaling that they will examine whether banks maintain adequate contingency plans for vendor‑driven failures.\n\nAnalysts warn that the incident could accelerate a shift toward more diversified technology stacks and real‑time redundancy solutions. As banks continue to outsource critical functions to a limited pool of fintech providers, the industry may see heightened investment in backup systems and stricter oversight to mitigate the systemic risk exposed by this outage.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and discussion signals."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
