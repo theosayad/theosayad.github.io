@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-17T18:23:20.500Z",
+  "updatedAt": "2026-11-18T17:55:44.149Z",
   "items": [
+    {
+      "slug": "2026-11-18",
+      "title": "CVE-2026-99312: KVM Guest-to-Host Escape",
+      "url": "https://www.terra.security/blog/kvm-guest-to-host-escape",
+      "source": "terra.security",
+      "selectedAt": "2026-11-18T17:55:40.911Z",
+      "publishedAt": "2026-11-18T16:06:21.000Z",
+      "hn": {
+        "id": 50548004,
+        "score": 87,
+        "comments": 41
+      }
+    },
     {
       "slug": "2026-11-17",
       "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
@@ -662,19 +675,6 @@
         "id": 49872723,
         "score": 989,
         "comments": 420
-      }
-    },
-    {
-      "slug": "2026-09-27",
-      "title": "Banks and Credit Unions to Team Up Against Apple Pay Fees",
-      "url": "https://www.macrumors.com/2026/09/25/apple-pay-antitrust-lawsuit-advances/",
-      "source": "macrumors.com",
-      "selectedAt": "2026-09-27T14:39:08.816Z",
-      "publishedAt": "2026-09-26T15:48:18.000Z",
-      "hn": {
-        "id": 49857651,
-        "score": 119,
-        "comments": 121
       }
     }
   ]

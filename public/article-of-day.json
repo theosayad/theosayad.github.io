@@ -1,13 +1,13 @@
 {
-  "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
-  "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
-  "source": "apnews.com",
-  "selectedAt": "2026-11-17T18:23:17.932Z",
-  "publishedAt": "2026-11-16T18:31:30.000Z",
+  "title": "CVE-2026-99312: KVM Guest-to-Host Escape",
+  "url": "https://www.terra.security/blog/kvm-guest-to-host-escape",
+  "source": "terra.security",
+  "selectedAt": "2026-11-18T17:55:40.911Z",
+  "publishedAt": "2026-11-18T16:06:21.000Z",
   "hn": {
-    "id": 50521045,
-    "score": 814,
-    "comments": 689
+    "id": 50548004,
+    "score": 87,
+    "comments": 41
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }
