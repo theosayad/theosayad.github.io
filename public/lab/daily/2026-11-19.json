@@ -1,0 +1,41 @@
+{
+  "slug": "2026-11-19",
+  "generatedAt": "2026-11-19T18:08:20.613Z",
+  "article": {
+    "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+    "url": "https://verialabs.com/ruby2shell/",
+    "source": "verialabs.com",
+    "selectedAt": "2026-11-19T18:08:18.218Z",
+    "publishedAt": "2026-11-19T05:09:11.000Z",
+    "hn": {
+      "id": 50556287,
+      "score": 315,
+      "comments": 129
+    }
+  },
+  "takeaways": [],
+  "summary": "A one‑byte heap overflow in Ruby’s string case‑conversion functions enables remote code execution without authentication. The flaw affects default configurations of popular Rails‑based frameworks and can be mitigated by upgrading to Ruby 3.3.14, 3.4.13, or 4.0.10.",
+  "keyPoints": [
+    "Overflow triggered by upcasing the German ß character, which expands to two bytes (SS) but is only checked for a single byte.",
+    "An input of 21 ß characters overruns the output buffer by one byte, writing either 0x53 (\"S\") or 0x73 (\"s\") depending on the operation.",
+    "Vulnerable functions include upcase, swapcase, downcase(:fold) and casecmp? across ISO‑8859 and Windows‑125x encodings; UTF‑8 strings are safe.",
+    "The bug has existed since Ruby 2.4.0 and is reachable in default deployments of common Ruby on Rails applications and several self‑hosted products.",
+    "Patch released in Ruby 3.3.14, 3.4.13, and 4.0.10; vendors have also back‑ported fixes to affected software bundles."
+  ],
+  "rewrite": {
+    "title": "Ruby Heap Overflow Enables Unauthenticated RCE",
+    "body": "Security researchers have uncovered a critical heap overflow in Ruby’s handling of single‑byte encodings, specifically when the language upcases the German sharp‑s (ß). In those encodings, converting ß to uppercase yields the two‑character sequence \"SS\", but the internal loop only validates a single byte, allowing an attacker to overflow the allocated output buffer by one byte. Supplying a string with just 21 ß characters triggers the overflow, writing a controllable byte (0x53 for upcase, 0x73 for case‑folding) directly after the buffer. By later reading beyond the buffer, an adversary can achieve remote code execution without any authentication step.\n\nThe vulnerability is present in the core case‑conversion routines—upcase, swapcase, downcase(:fold) and casecmp?—across ISO‑8859 and Windows‑125x code pages, and has been part of Ruby since version 2.4.0. UTF‑8 strings follow a separate code path and remain unaffected. Because many Ruby on Rails applications and self‑hosted services ship with the default configuration, the flaw is exploitable in the wild, exposing a broad attack surface.\n\nMitigation is straightforward: upgrade to Ruby 3.3.14, 3.4.13, or 4.0.10, where the bounds check has been corrected. Vendors of bundled products have also released patched versions. Users are urged to apply these updates promptly, as the researchers plan to release a proof‑of‑concept exploit within a week, giving attackers a concrete tool to leverage the flaw.\n\nBeyond the immediate risk of unauthenticated remote code execution, the issue highlights the dangers of legacy single‑byte encodings in modern web stacks and underscores the importance of regular language‑level security audits, especially for widely deployed frameworks like Rails.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 1600
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

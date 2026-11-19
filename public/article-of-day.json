@@ -1,13 +1,13 @@
 {
-  "title": "CVE-2026-99312: KVM Guest-to-Host Escape",
-  "url": "https://www.terra.security/blog/kvm-guest-to-host-escape",
-  "source": "terra.security",
-  "selectedAt": "2026-11-18T17:55:40.911Z",
-  "publishedAt": "2026-11-18T16:06:21.000Z",
+  "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+  "url": "https://verialabs.com/ruby2shell/",
+  "source": "verialabs.com",
+  "selectedAt": "2026-11-19T18:08:18.218Z",
+  "publishedAt": "2026-11-19T05:09:11.000Z",
   "hn": {
-    "id": 50548004,
-    "score": 87,
-    "comments": 41
+    "id": 50556287,
+    "score": 315,
+    "comments": 129
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }

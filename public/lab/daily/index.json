@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-18T17:55:44.149Z",
+  "updatedAt": "2026-11-19T18:08:20.615Z",
   "items": [
+    {
+      "slug": "2026-11-19",
+      "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+      "url": "https://verialabs.com/ruby2shell/",
+      "source": "verialabs.com",
+      "selectedAt": "2026-11-19T18:08:18.218Z",
+      "publishedAt": "2026-11-19T05:09:11.000Z",
+      "hn": {
+        "id": 50556287,
+        "score": 315,
+        "comments": 129
+      }
+    },
     {
       "slug": "2026-11-18",
       "title": "CVE-2026-99312: KVM Guest-to-Host Escape",
@@ -662,19 +675,6 @@
         "id": 49891480,
         "score": 295,
         "comments": 199
-      }
-    },
-    {
-      "slug": "2026-09-28",
-      "title": "Owed a billion dollars in Nvidia stock",
-      "url": "https://colo.to/nvidia-stock-narrative.html",
-      "source": "colo.to",
-      "selectedAt": "2026-09-28T17:34:56.405Z",
-      "publishedAt": "2026-09-28T02:05:13.000Z",
-      "hn": {
-        "id": 49872723,
-        "score": 989,
-        "comments": 420
       }
     }
   ]
