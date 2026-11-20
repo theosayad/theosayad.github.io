@@ -1,0 +1,42 @@
+{
+  "slug": "2026-11-20",
+  "generatedAt": "2026-11-20T17:41:25.553Z",
+  "article": {
+    "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+    "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+    "source": "theguardian.com",
+    "selectedAt": "2026-11-20T17:41:22.343Z",
+    "publishedAt": "2026-11-20T13:29:59.000Z",
+    "hn": {
+      "id": 50574383,
+      "score": 152,
+      "comments": 164
+    }
+  },
+  "takeaways": [],
+  "summary": "Anthropic’s record‑breaking IPO failed to halt a broad AI‑related sell‑off, pulling down the Nasdaq and triggering corrections across global markets as investors reassess lofty AI valuations and liquidity constraints.",
+  "keyPoints": [
+    "Anthropic’s shares fell 12% on day two to $85.12, erasing a 17% jump and an intra‑day 40% surge from its Thursday debut.",
+    "The Nasdaq lost all 2026 gains; the Dow and S&P 500 briefly entered correction territory, with the S&P down 1.66% in morning trade.",
+    "US chipmakers felt the shock: SanDisk slid 14%, Micron 12%; Nvidia fell 7% after a subpoena over China shipments.",
+    "Asian markets logged their worst week since 2020 – Taiwan down 6.7% (TSMC -6%), Japan’s Nikkei -5%, South Korea’s Kospi -5.5%, SoftBank -14.5% in Tokyo.",
+    "Europe’s Stoxx 600 dropped 1.9% on Friday, delivering the region’s biggest weekly loss since March 2025; London’s FTSE hit a five‑month low.",
+    "Analysts warn that the IPO is draining liquidity, forcing investors to sell other tech stocks to fund AI exposure, while heightened valuation and profitability concerns deepen the correction."
+  ],
+  "rewrite": {
+    "title": "Anthropic IPO Triggers Global AI Market Pullback",
+    "body": "Anthropic’s debut on the New York Stock Exchange set a record for AI‑focused listings, yet its shares tumbled 12% on Friday to $85.12, wiping out a 17% first‑day gain and an earlier near‑40% intra‑day surge. The drop rippled through the Nasdaq, which erased all of its 2026 gains, while the Dow Jones and S&P 500 briefly slipped into correction territory, with the broader index down 1.66% in early trading.\n\nThe fallout was not confined to the United States. In Asia, equity markets recorded their worst week since 2020 as chip‑heavy indices slumped: Taiwan fell 6.7%—driven by a 6% slide in TSMC—while Japan’s Nikkei and South Korea’s Kospi each lost around 5%, and SoftBank posted its steepest one‑day decline in over two years at 14.5%. Europe mirrored the trend, with the pan‑European Stoxx 600 down 1.9% and London’s FTSE hitting a five‑month low, marking the region’s biggest weekly loss since March 2025.\n\nSector‑specific pressure intensified as memory‑chip makers SanDisk and Micron fell 14% and 12% respectively, and Nvidia dropped 7% after a California subpoena probed the export of advanced semiconductors to China. Analysts such as Saxo’s Neil Wilson and IG’s Chris Beauchamp warned that the IPO is siphoning market liquidity, forcing investors to liquidate other tech holdings to fund AI exposure. The broader sentiment is shifting from “buy the dip” to questioning how far the correction can run, especially as elevated AI valuations clash with doubts over profitability and sustainable spending.\n\nThe episode underscores a growing wariness among investors: despite robust demand for AI exposure, the market is now pricing in the risk that the sector’s rapid capital inflows may not translate into commensurate returns, a dynamic that could keep pressure on tech stocks worldwide.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and Hacker News discussion highlights."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4062
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

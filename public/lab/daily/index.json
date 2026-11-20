@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-19T18:08:20.615Z",
+  "updatedAt": "2026-11-20T17:41:25.554Z",
   "items": [
+    {
+      "slug": "2026-11-20",
+      "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "source": "theguardian.com",
+      "selectedAt": "2026-11-20T17:41:22.343Z",
+      "publishedAt": "2026-11-20T13:29:59.000Z",
+      "hn": {
+        "id": 50574383,
+        "score": 152,
+        "comments": 164
+      }
+    },
     {
       "slug": "2026-11-19",
       "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
@@ -662,19 +675,6 @@
         "id": 49899051,
         "score": 115,
         "comments": 97
-      }
-    },
-    {
-      "slug": "2026-09-29",
-      "title": "500k facial scans at UK stations yield no arrests, 1 false positive",
-      "url": "https://www.theguardian.com/technology/2026/sep/29/trial-live-facial-recognition-cameras-london-stations-false-positive",
-      "source": "theguardian.com",
-      "selectedAt": "2026-09-29T15:38:09.888Z",
-      "publishedAt": "2026-09-29T11:35:18.000Z",
-      "hn": {
-        "id": 49891480,
-        "score": 295,
-        "comments": 199
       }
     }
   ]
