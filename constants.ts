@@ -112,11 +112,11 @@ export const VENTURES_DATA: VentureItem[] = [
 export const EDUCATION_DATA: EducationItem[] = [
   {
     school: "ESCP Business School",
-    degree: "BSc in Management (Specialisation in Finance & Data)",
+    degree: "BSc in Management (Specialisation in Finance & AI)",
     location: "Paris, Turin, and Berlin",
     period: "2023 - 2026",
     details: [
-      "Academics: GPA 3.9/4.0 (Dean's List).",
+      "Academics: GPA 3.9/4.0 (Top 10 Students).",
       "Relevant Modules: Corporate Finance, Statistics, Python for Business."
     ]
   },
