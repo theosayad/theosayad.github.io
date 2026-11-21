@@ -37,10 +37,6 @@ const Contact: React.FC = () => {
                         {SOCIAL_LINKS.email}
                     </a>
                 </div>
-                <div className="flex items-center gap-4 text-stone-600 dark:text-stone-300">
-                    <Phone className="text-brand-700 dark:text-brand-300" />
-                    <span>{SOCIAL_LINKS.phone}</span>
-                </div>
                 <div className="pt-8 border-t border-stone-200/70 dark:border-stone-900/60">
                     <p className="text-stone-500 dark:text-stone-400 text-sm">
                         &copy; {new Date().getFullYear()} Theo Sayad. All rights reserved.
