@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
             </div>
 
             <div className="space-y-6">
-                <div className="pt-8 border-t border-stone-200/70 dark:border-stone-900/60">
+                <div>
                     <p className="text-stone-500 dark:text-stone-400 text-sm">
                         &copy; {new Date().getFullYear()} Theo Sayad. All rights reserved.
                     </p>
