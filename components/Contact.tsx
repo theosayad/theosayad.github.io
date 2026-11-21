@@ -24,19 +24,10 @@ const Contact: React.FC = () => {
                      <a href={SOCIAL_LINKS.instagram} className="p-3 bg-white/70 dark:bg-stone-900/40 backdrop-blur-sm border border-stone-200/70 dark:border-stone-800/60 rounded-full text-stone-600 dark:text-stone-400 hover:text-white hover:bg-pink-600 dark:hover:bg-pink-600 shadow-sm shadow-stone-900/5 dark:shadow-none transition-all active:scale-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60">
                         <Instagram size={20} />
                      </a>
-                     <a href={`mailto:${SOCIAL_LINKS.email}`} className="p-3 bg-white/70 dark:bg-stone-900/40 backdrop-blur-sm border border-stone-200/70 dark:border-stone-800/60 rounded-full text-stone-600 dark:text-stone-400 hover:text-white hover:bg-brand-600 dark:hover:bg-brand-600 shadow-sm shadow-stone-900/5 dark:shadow-none transition-all active:scale-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-400/60">
-                        <Mail size={20} />
-                     </a>
                 </div>
             </div>
 
             <div className="space-y-6">
-                <div className="flex items-center gap-4 text-stone-600 dark:text-stone-300">
-                    <Mail className="text-brand-700 dark:text-brand-300" />
-                    <a href={`mailto:${SOCIAL_LINKS.email}`} className="hover:text-stone-900 dark:hover:text-stone-50 transition-colors">
-                        {SOCIAL_LINKS.email}
-                    </a>
-                </div>
                 <div className="pt-8 border-t border-stone-200/70 dark:border-stone-900/60">
                     <p className="text-stone-500 dark:text-stone-400 text-sm">
                         &copy; {new Date().getFullYear()} Theo Sayad. All rights reserved.
