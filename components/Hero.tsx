@@ -101,7 +101,7 @@ const Hero: React.FC = () => {
           </div>
           
           <p className="text-lg md:text-xl text-stone-600 dark:text-stone-400 mb-8 max-w-lg mx-auto md:mx-0 leading-relaxed px-4 md:px-0">
-             Based in Berlin. Merging business acumen with technical expertise to{' '}
+             Merging business acumen with technical expertise to{' '}
             <span
               className="relative inline-block"
             >
