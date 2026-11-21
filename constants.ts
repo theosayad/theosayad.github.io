@@ -9,7 +9,7 @@ export const SOCIAL_LINKS = {
 };
 
 export const BIO_TEXT = [
-  "From scaling a Middle Eastern streetwear resale business to launching my own label from supply chain to growth, I’ve always been drawn to how value moves across markets and catching the big waves early on. At the dawn of crypto’s altcoin season, I taught myself Solidity to build and manage blockchain projects end-to-end. After graduating from ESCP Business School (3.9/4.0 GPA) across France, Italy, and Germany, I joined AlphaSights in Dubai as an Associate where I work alongside leading investors and decision-makers, bridging them with frontline industry expertise.",
+  "From scaling a Middle Eastern streetwear resale business to launching my own label from supply chain to growth, I’ve always been drawn to how value moves across markets and catching the big waves early on. At the dawn of crypto’s altcoin season, I taught myself Solidity to build and manage blockchain projects end-to-end. After graduating from ESCP Business School (3.9/4.0 GPA) across France, Italy, and Germany, I joined AlphaSights in Dubai as an Associate, where I work alongside leading investors and decision-makers, bridging them with frontline industry expertise. I build independently on the technical side with Python, C, and machine learning.",
 ];
 
 export const EXPERIENCE_DATA: ExperienceItem[] = [
