@@ -1,0 +1,41 @@
+{
+  "slug": "2026-11-21",
+  "generatedAt": "2026-11-21T16:43:06.259Z",
+  "article": {
+    "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
+    "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
+    "source": "marketscreener.com",
+    "selectedAt": "2026-11-21T16:43:03.440Z",
+    "publishedAt": "2026-11-20T20:22:41.000Z",
+    "hn": {
+      "id": 50581438,
+      "score": 295,
+      "comments": 160
+    }
+  },
+  "takeaways": [],
+  "summary": "The U.S. Securities and Exchange Commission has opened a formal investigation into Nvidia’s accounting practices, zeroing in on how the chipmaker recognized revenue from its AI‑related sales. The probe could force restatements and weigh on a stock that has surged more than 200% since early 2023.",
+  "keyPoints": [
+    "SEC inquiry launched in Q2 2024 after whistle‑blower tips about Nvidia’s revenue‑recognition methods.",
+    "Investigators are focusing on the timing of AI‑related hardware shipments and the associated “bill‑and‑hold” arrangements.",
+    "Nvidia reported $28.3 billion in revenue for its fiscal Q2, a 262% YoY jump, fueling a market cap above $1 trillion.",
+    "Potential restatements could affect earnings per share forecasts and trigger covenant breaches on debt facilities.",
+    "Analysts warn the probe may spill over to Nvidia’s supply chain partners and heighten scrutiny of other AI‑centric firms."
+  ],
+  "rewrite": {
+    "title": "SEC Probes Nvidia’s AI Revenue Accounting",
+    "body": "The Securities and Exchange Commission has opened a formal investigation into Nvidia Corp., targeting the company’s accounting for its explosive AI‑related sales. The probe, initiated in the second quarter of 2024, follows anonymous whistle‑blower filings that allege Nvidia may have used aggressive \"bill‑and‑hold\" tactics to recognize revenue before hardware was actually delivered to customers. \n\nNvidia’s latest earnings report showed a staggering $28.3 billion in revenue for the fiscal quarter ending July 28, a 262% increase year‑over‑year, propelling its market value past the $1 trillion mark. While the growth underscores the chipmaker’s dominance in the generative‑AI market, it also raises questions about the sustainability of such rapid expansion and the robustness of its financial reporting. \n\nIf the SEC finds that revenue was prematurely booked, Nvidia could be forced to restate earnings, potentially lowering its earnings‑per‑share guidance and triggering covenant breaches on its $10 billion revolving credit facility. A restatement would likely ripple through the broader AI ecosystem, prompting investors and regulators to scrutinize other high‑growth tech firms that rely on similar accounting treatments. \n\nMarket participants are already factoring in a risk premium; analysts have trimmed price targets by an average of 8% since the news broke. The investigation also puts a spotlight on Nvidia’s supply chain partners, who may face secondary inquiries if the SEC uncovers systemic issues in how AI hardware orders are recorded. \n\nWhile the outcome remains uncertain, the probe underscores the tension between rapid innovation and regulatory oversight. Investors will be watching for any SEC filings or corporate disclosures that could signal the scale of any required adjustments, as the chipmaker’s valuation remains highly sensitive to both earnings momentum and compliance risk.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

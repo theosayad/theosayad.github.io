@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-20T17:41:25.554Z",
+  "updatedAt": "2026-11-21T16:43:06.260Z",
   "items": [
+    {
+      "slug": "2026-11-21",
+      "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
+      "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
+      "source": "marketscreener.com",
+      "selectedAt": "2026-11-21T16:43:03.440Z",
+      "publishedAt": "2026-11-20T20:22:41.000Z",
+      "hn": {
+        "id": 50581438,
+        "score": 295,
+        "comments": 160
+      }
+    },
     {
       "slug": "2026-11-20",
       "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
@@ -662,19 +675,6 @@
         "id": 49915082,
         "score": 279,
         "comments": 141
-      }
-    },
-    {
-      "slug": "2026-09-30",
-      "title": "Memory Companies Have Destroyed the Consumer Market",
-      "url": "https://gamersnexus.net/news-features/memory-companies-have-destroyed-consumer-market",
-      "source": "gamersnexus.net",
-      "selectedAt": "2026-09-30T15:49:23.339Z",
-      "publishedAt": "2026-09-29T19:27:41.000Z",
-      "hn": {
-        "id": 49899051,
-        "score": 115,
-        "comments": 97
       }
     }
   ]
