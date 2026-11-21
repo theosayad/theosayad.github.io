@@ -9,9 +9,8 @@ export const SOCIAL_LINKS = {
 };
 
 export const BIO_TEXT = [
-  "My interest in building things started early. At 12, a small experiment reselling fidget spinners turned into a deeper curiosity about how ideas grow into real ventures. That curiosity later led me to streetwear projects across the Middle East, launching my own label, and eventually managing several crypto projects end-to-end.",
-  "I’ve sought out experiences to widen my perspective. Internships at Tiffany & Co., MEVP, Marie Claire, Transmed, and others gave me a close look at luxury retail, venture capital, publishing, and FMCG operations.",
-  "I’m now finishing my final year at ESCP Business School, specialising in Finance (GPA 3.9/4.0), and have had the chance to study in France, Italy, and Germany. I speak English, French, and Arabic, and I’m conversational in Italian, Portuguese, and Spanish."];
+  "From scaling a Middle Eastern streetwear resale business to launching my own label from supply chain to growth, I’ve always been drawn to how value moves across markets and catching the big waves early on. At the dawn of crypto’s altcoin season, I taught myself Solidity to build and manage blockchain projects end-to-end. After graduating from ESCP Business School (3.9/4.0 GPA) across France, Italy, and Germany, I joined AlphaSights in Dubai as an Associate where I work alongside leading investors and decision-makers, bridging them with frontline industry expertise.",
+];
 
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
