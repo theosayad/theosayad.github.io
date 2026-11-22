@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-21T16:43:06.260Z",
+  "updatedAt": "2026-11-22T17:01:43.930Z",
   "items": [
+    {
+      "slug": "2026-11-22",
+      "title": "AI Supply Chain Security: What Canary Tokens Found",
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "source": "dragos.com",
+      "selectedAt": "2026-11-22T17:01:39.086Z",
+      "publishedAt": "2026-11-22T05:11:43.000Z",
+      "hn": {
+        "id": 50596511,
+        "score": 91,
+        "comments": 21
+      }
+    },
     {
       "slug": "2026-11-21",
       "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
@@ -662,19 +675,6 @@
         "id": 49930086,
         "score": 79,
         "comments": 110
-      }
-    },
-    {
-      "slug": "2026-10-01",
-      "title": "The top secret URSALA, RAQUEL, and FARRAH satellites (2025)",
-      "url": "https://www.thespacereview.com/article/4951/1",
-      "source": "thespacereview.com",
-      "selectedAt": "2026-10-01T16:16:19.569Z",
-      "publishedAt": "2026-09-30T22:03:04.000Z",
-      "hn": {
-        "id": 49915082,
-        "score": 279,
-        "comments": 141
       }
     }
   ]

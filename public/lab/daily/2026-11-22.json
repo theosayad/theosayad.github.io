@@ -1,0 +1,42 @@
+{
+  "slug": "2026-11-22",
+  "generatedAt": "2026-11-22T17:01:43.929Z",
+  "article": {
+    "title": "AI Supply Chain Security: What Canary Tokens Found",
+    "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+    "source": "dragos.com",
+    "selectedAt": "2026-11-22T17:01:39.086Z",
+    "publishedAt": "2026-11-22T05:11:43.000Z",
+    "hn": {
+      "id": 50596511,
+      "score": 91,
+      "comments": 21
+    }
+  },
+  "takeaways": [],
+  "summary": "Researchers using canary tokens discovered that AI inference routers and low‑cost marketplace sellers are leaking prompts and stealing credentials, even when Zero Data Retention flags are set. The breaches, first seen in mid‑July and escalating through October, expose a systemic risk in the AI supply chain.",
+  "keyPoints": [
+    "Mid‑July 2023: first canary token triggered, showing data exfiltration from three hosting providers.",
+    "Late October 2023: a breach involving a few hundred AWS keys sent in single requests; every request during the attack windows was stolen.",
+    "Attacker used stolen keys for tens of thousands of AWS API calls, probing S3, Secrets Manager, Parameter Store, and creating Bedrock API keys.",
+    "Nov 1, 2023: attacker deployed the ARTEX LLM‑driven pentesting framework, adding two previously unknown user‑agents to detection lists.",
+    "Two‑thousand AI inference routes traced; hundreds contain unidentified hops, and some sellers silently inject ~1,000 hidden tokens per prompt.",
+    "Low‑price marketplace sellers were observed manually logging into canary servers from home broadband connections, confirming that the leak follows the seller, not the broader marketplace."
+  ],
+  "rewrite": {
+    "title": "Canary Tokens Reveal AI Inference Supply‑Chain Breaches",
+    "body": "AI inference routers promise a single API endpoint that aggregates multiple model providers, reducing cost and simplifying credential management. In practice, each hop in the routing chain can see the full prompt and response, creating a large attack surface. Dragos researchers seeded thousands of prompts with unique canary tokens—AWS keys, DNS names, URLs, and other credentials—starting in July. Within days, the tokens began firing, indicating that the data was being copied at various points in the supply chain.\n\nThe most severe incident surfaced in late October when a batch of a few hundred AWS keys, each used in a single request, were intercepted. Every request sent during the narrow attack windows was exfiltrated, even those rejected before model execution, proving that the attacker was operating at the provider’s front door. Using the harvested keys, the adversary performed tens of thousands of AWS API calls, enumerating S3 buckets, Secrets Manager entries, and even provisioning Bedrock models. On November 1, the attacker added the ARTEX penetration‑testing framework, introducing two novel user‑agents (artex‑agent, artex‑judge‑r121) that are not yet listed in public threat intel feeds.\n\nA second, less technical breach involved low‑price marketplace sellers who listed popular models at the lowest price, enabled request logging, and then manually scraped the canary URLs from home broadband connections. The leak followed the seller, not the marketplace, highlighting how individual actors can weaponize the pricing model.\n\nTo map the opaque routing paths, the team built a “traceroute for AI inference,” embedding image URLs and malformed requests to reveal each hop’s IP, software, and network. Out of roughly 2,000 routes, several hundred contained unidentified systems, and a handful diverted traffic to unadvertised endpoints. The findings underscore that privacy flags like Zero Data Retention are ineffective when the underlying infrastructure is compromised, and they call for stricter verification of router behavior, comprehensive logging, and proactive detection of anomalous user‑agents.\n\nThe broader implication is clear: as AI services become more commoditized, the supply‑chain risk expands, demanding both technical safeguards and industry‑wide standards to protect sensitive prompt data.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and discussion signals."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 9004
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
