@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-22T17:01:43.930Z",
+  "updatedAt": "2026-11-23T21:09:06.446Z",
   "items": [
+    {
+      "slug": "2026-11-23",
+      "title": "GL.iNet Security Notice 2026-11-20",
+      "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
+      "source": "gl-inet.com",
+      "selectedAt": "2026-11-23T21:09:03.256Z",
+      "publishedAt": "2026-11-22T23:06:37.000Z",
+      "hn": {
+        "id": 50604988,
+        "score": 265,
+        "comments": 124
+      }
+    },
     {
       "slug": "2026-11-22",
       "title": "AI Supply Chain Security: What Canary Tokens Found",
@@ -662,19 +675,6 @@
         "id": 49936725,
         "score": 96,
         "comments": 35
-      }
-    },
-    {
-      "slug": "2026-10-02",
-      "title": "US tells France and Germany to release diesel stocks or face US export ban",
-      "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/",
-      "source": "reuters.com",
-      "selectedAt": "2026-10-02T15:40:34.935Z",
-      "publishedAt": "2026-10-02T05:22:20.000Z",
-      "hn": {
-        "id": 49930086,
-        "score": 79,
-        "comments": 110
       }
     }
   ]

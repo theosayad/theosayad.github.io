@@ -1,0 +1,41 @@
+{
+  "slug": "2026-11-23",
+  "generatedAt": "2026-11-23T21:09:06.444Z",
+  "article": {
+    "title": "GL.iNet Security Notice 2026-11-20",
+    "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
+    "source": "gl-inet.com",
+    "selectedAt": "2026-11-23T21:09:03.256Z",
+    "publishedAt": "2026-11-22T23:06:37.000Z",
+    "hn": {
+      "id": 50604988,
+      "score": 265,
+      "comments": 124
+    }
+  },
+  "takeaways": [],
+  "summary": "GL.iNet issued a security notice on November 20, 2026, reminding customers of its commitment to secure networking hardware. The notice underscores the company’s 2010‑origin focus on performance‑oriented routers and its ongoing effort to give users direct control over their connections.",
+  "keyPoints": [
+    "Founded in 2010, GL.iNet supplies travel routers, remote KVMs and other networking gear marketed for both performance and security.",
+    "The November 20, 2026 notice urges existing account holders to activate their profiles on the new store platform to stay current with firmware updates.",
+    "Headquarters are split between Hong Kong (GL Tech HK Ltd) and Fairfax, VA (GL Intelligence Inc), reflecting a dual‑region operational model.",
+    "Customers must accept the updated Privacy Policy and Terms of Use to receive security patches and insider offers.",
+    "The notice includes UI prompts about shipping eligibility, indicating a focus on compliance with regional delivery restrictions."
+  ],
+  "rewrite": {
+    "title": "GL.iNet Issues 2026 Security Update",
+    "body": "On November 20, 2026 GL.iNet released a security notice aimed at reinforcing its reputation as a provider of secure, high‑performance networking solutions. The company, which launched in 2010, has built a portfolio that spans compact travel routers to advanced remote KVM devices, all marketed under an \"award‑winning\" banner that emphasizes both speed and protection. The notice serves as a reminder for existing customers to reactivate their accounts on the newly migrated store, a step required to receive the latest firmware patches and stay compliant with the updated privacy framework.\n\nThe communication also clarifies the company’s dual‑headquarter structure: GL Tech (HK) Ltd operates out of Hong Kong Science Park, while GL Intelligence Inc is based in Fairfax, Virginia. This geographic split supports a broader regulatory reach and helps the firm address region‑specific security standards. By mandating acceptance of the refreshed Privacy Policy and Terms of Use, GL.iNet ensures that users are explicitly opting into the latest data‑handling practices, a move that aligns with global privacy trends.\n\nBeyond the administrative details, the notice hints at logistical constraints, prompting shoppers to select a shipping country before completing orders and noting that unlisted regions are non‑deliverable. This reflects an ongoing effort to manage supply‑chain risk and avoid inadvertent exposure of devices in jurisdictions lacking adequate security oversight. For users, the practical implication is clear: activate the new account, apply pending updates, and verify that their devices are operating under the most recent security parameters to safeguard both personal and organizational data.\n\nOverall, the update reinforces GL.iNet’s strategic focus on user‑controlled security, positioning the firm to maintain trust amid an increasingly threat‑laden networking landscape.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 1050
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
