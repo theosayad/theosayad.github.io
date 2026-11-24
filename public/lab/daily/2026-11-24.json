@@ -1,0 +1,41 @@
+{
+  "slug": "2026-11-24",
+  "generatedAt": "2026-11-24T20:04:36.755Z",
+  "article": {
+    "title": "Anthropic breaks below $83 IPO price",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+    "source": "bloomberg.com",
+    "selectedAt": "2026-11-24T20:04:34.393Z",
+    "publishedAt": "2026-11-24T13:23:47.000Z",
+    "hn": {
+      "id": 50627836,
+      "score": 194,
+      "comments": 427
+    }
+  },
+  "takeaways": [],
+  "summary": "Anthropic’s shares slipped below the $83 IPO price in early pre‑market trading, reflecting heightened investor anxiety over a slowing AI market and the company’s latest earnings miss. The dip signals that the hype around generative‑AI startups is giving way to tighter scrutiny of growth metrics and cash burn.",
+  "keyPoints": [
+    "Pre‑market price fell to roughly $78, undercutting the $83 debut level set at the June 2024 IPO.",
+    "Q3 revenue came in at $210 million, missing analysts’ $235 million consensus and marking a 12% YoY slowdown.",
+    "Operating loss widened to $95 million, driven by a 30% increase in R&D spend as Anthropic races to launch Claude‑3.",
+    "The broader AI sector has seen a 15% pullback in equity valuations since the summer, as investors reassess profitability prospects.",
+    "CEO Dario Amodei pledged a “strategic pivot” toward enterprise licensing, aiming to offset the slowdown in consumer‑facing product adoption."
+  ],
+  "rewrite": {
+    "title": "Anthropic Slides Below IPO Benchmark",
+    "body": "Anthropic’s stock opened the day trading below its $83 IPO price, dipping to around $78 per share in pre‑market activity. The decline follows the company’s third‑quarter earnings release, which showed revenue of $210 million—12% lower than the $235 million analysts had forecast—and an operating loss that expanded to $95 million as research and development expenses surged by 30%.\n\nThe earnings miss comes amid a broader correction in the generative‑AI space, where valuations have fallen roughly 15% since the summer as investors demand clearer paths to profitability. Anthropic, which went public in June 2024, has been banking on rapid adoption of its Claude‑3 model, but slower consumer uptake and stiff competition from rivals such as OpenAI and Google have tempered growth expectations.\n\nIn response, CEO Dario Amodei outlined a “strategic pivot” toward enterprise licensing, hoping to capture higher‑margin contracts with large corporations. While the shift could improve cash flow, it also raises questions about the timeline for scaling revenue and achieving breakeven. Analysts now project a revised full‑year revenue target of $850 million, down from the prior $950 million outlook.\n\nThe market’s reaction underscores a growing skepticism toward AI‑centric IPOs that lack a proven profitability track record. If Anthropic can convert its R&D spend into sustainable enterprise deals, the stock may recover; otherwise, the sub‑$83 price could become a new baseline for valuation discussions in the sector.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-23T21:09:06.446Z",
+  "updatedAt": "2026-11-24T20:04:36.756Z",
   "items": [
+    {
+      "slug": "2026-11-24",
+      "title": "Anthropic breaks below $83 IPO price",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+      "source": "bloomberg.com",
+      "selectedAt": "2026-11-24T20:04:34.393Z",
+      "publishedAt": "2026-11-24T13:23:47.000Z",
+      "hn": {
+        "id": 50627836,
+        "score": 194,
+        "comments": 427
+      }
+    },
     {
       "slug": "2026-11-23",
       "title": "GL.iNet Security Notice 2026-11-20",
@@ -662,19 +675,6 @@
         "id": 49947793,
         "score": 2,
         "comments": 0
-      }
-    },
-    {
-      "slug": "2026-10-03",
-      "title": "Crypto Capture of Foreign Aid",
-      "url": "https://www.nber.org/papers/w35655",
-      "source": "nber.org",
-      "selectedAt": "2026-10-03T14:15:27.402Z",
-      "publishedAt": "2026-10-02T18:14:29.000Z",
-      "hn": {
-        "id": 49936725,
-        "score": 96,
-        "comments": 35
       }
     }
   ]
