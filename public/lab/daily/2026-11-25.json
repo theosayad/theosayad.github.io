@@ -1,0 +1,42 @@
+{
+  "slug": "2026-11-25",
+  "generatedAt": "2026-11-25T19:05:37.693Z",
+  "article": {
+    "title": "1Password Security Incident",
+    "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+    "source": "1password.com",
+    "selectedAt": "2026-11-25T19:05:35.168Z",
+    "publishedAt": "2026-11-25T17:18:26.000Z",
+    "hn": {
+      "id": 50644817,
+      "score": 342,
+      "comments": 152
+    }
+  },
+  "takeaways": [],
+  "summary": "In November 2026 1Password disclosed that a threat actor compromised an employee’s GitHub account, injected malicious code into backend services and extracted a limited set of customer identifiers and internal metadata. Vault contents remained encrypted and untouched, but the breach prompted credential rotations, token hardening and heightened phishing warnings.",
+  "keyPoints": [
+    "Nov 19 2026: 1Password began probing signs that an attacker had accessed a corporate GitHub account.",
+    "The intruder used the compromised repo to push malicious code that harvested customer names, email addresses and non‑secret internal tokens.",
+    "No password vault data or Secret Keys were accessed; encryption keys are held only by users.",
+    "All exposed credentials were revoked and a full rotation of internal tokens was performed.",
+    "Invitation and recovery tokens were strengthened from six‑digit numeric codes to ten‑character alphanumeric strings to thwart brute‑force attacks.",
+    "1Password urged users to ignore unsolicited emails, texts or calls referencing invitations or account recovery."
+  ],
+  "rewrite": {
+    "title": "1Password Breach Exposes Names, Not Vault Secrets",
+    "body": "On November 19, 2026, 1Password detected that an attacker had compromised an employee’s corporate GitHub account. Leveraging that foothold, the threat actor injected malicious code into backend services, which then downloaded administrative data tied to a subset of customers. The stolen information comprised only customer names, email addresses used for sign‑in, and a handful of non‑secret internal identifiers such as version numbers and file IDs. Crucially, the encryption model that protects vault items—keys that reside solely with the user—remained intact, meaning no passwords, secret keys, or other sensitive vault contents were exposed.\n\nIn response, 1Password disabled the compromised GitHub account, revoked the stolen token, and restored clean versions of the affected services. All internal credentials that might have been exposed were rotated, and the company tightened controls across its GitHub, CI/CD pipeline and endpoint security. As an additional safeguard, the company expanded the one‑time codes used in provisioning invites and account‑recovery emails from six numeric digits to ten alphanumeric characters, rendering brute‑force guessing practically impossible.\n\nThe breach underscores the importance of a zero‑knowledge architecture: even when backend systems are infiltrated, encrypted user data stays out of reach. However, the exposure of personal identifiers raises phishing risks, prompting 1Password to warn users against unexpected emails, texts, or calls that reference invitations or recovery requests. The firm also engaged independent cybersecurity experts to validate its containment and remediation steps, reaffirming its commitment to transparency and industry‑wide security best practices.\n\nWhile the incident did not affect service availability or product security, it illustrates how supply‑chain attacks on development environments can leak metadata and highlight the need for robust credential hygiene and user vigilance.",
+    "disclaimer": "AI-assisted rewrite based on extracted text and discussion signals."
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4296
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
