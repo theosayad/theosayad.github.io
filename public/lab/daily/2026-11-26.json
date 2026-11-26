@@ -1,0 +1,42 @@
+{
+  "slug": "2026-11-26",
+  "generatedAt": "2026-11-26T18:56:26.879Z",
+  "article": {
+    "title": "Slow Ubuntu security response times",
+    "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+    "source": "openwall.com",
+    "selectedAt": "2026-11-26T18:56:23.468Z",
+    "publishedAt": "2026-11-25T20:38:00.000Z",
+    "hn": {
+      "id": 50647181,
+      "score": 398,
+      "comments": 239
+    }
+  },
+  "takeaways": [],
+  "summary": "Ubuntu’s patch cadence for critical Linux kernel flaws in November 2026 lagged behind peer distributions, leaving systems exposed for days to weeks. The delay raises concerns about Ubuntu’s back‑porting strategy versus using upstream long‑term kernels.",
+  "keyPoints": [
+    "CVE‑2026‑99288 (NoisyTCP memory corruption) disclosed 16 Nov 2026; Ubuntu had no public fix after nine days, while other distros released patches immediately.",
+    "CVE‑2026‑99312 (AMD KVM host‑escape) announced 18 Nov 2026; Ubuntu still without a fix at the time of reporting.",
+    "Earlier remote TCP bug CVE‑2026‑98432 required multiple weeks before Ubuntu issued a patch.",
+    "Ubuntu LTS kernels run 7.0.0‑44, a back‑ported series, whereas Debian stable ships 6.12.118+deb13, directly tracking the upstream long‑term kernel.",
+    "GreyNoise reported active exploitation of similar kernel bugs, indicating real‑world risk from the lag.",
+    "Security researcher Hanno Böck recommends basing distributions on upstream long‑term kernels to reduce exposure windows."
+  ],
+  "rewrite": {
+    "title": "Ubuntu’s Kernel Patch Delays Spark Security Concerns",
+    "body": "In mid‑November 2026, two high‑severity Linux kernel vulnerabilities surfaced: the NoisyTCP remote memory‑corruption flaw (CVE‑2026‑99288) disclosed on 16 Nov and an AMD KVM host‑escape (CVE‑2026‑99312) revealed two days later. While most Linux distributions published patches within hours, Ubuntu’s security portal still listed no fix nine days after the first disclosure, and the second vulnerability remained unaddressed at the time of the report. A similar pattern emerged with an earlier remote TCP corruption (CVE‑2026‑98432), where Ubuntu took several weeks to release an update, contrasting sharply with the rapid response of peers.\n\nThe root of the slowdown appears tied to Ubuntu’s kernel strategy. The LTS release examined runs kernel version 7.0.0‑44, a back‑ported branch that cherry‑picks fixes onto an older base rather than tracking the upstream long‑term series. By comparison, Debian stable ships kernel 6.12.118+deb13, directly derived from the current long‑term kernel maintained by the Linux kernel community. Back‑porting can introduce additional testing overhead and may delay the integration of critical security patches.\n\nThe practical impact is heightened exposure. GreyNoise’s recent blog highlighted active exploitation campaigns targeting remote kernel corruptions, suggesting that the window between disclosure and patch availability is not merely academic. Organizations relying on Ubuntu LTS for server workloads could face increased risk of compromise, especially in cloud or virtualization environments where the KVM bug applies.\n\nSecurity experts, including independent researcher Hanno Böck, argue that distributions should prioritize upstream long‑term kernels to ensure that critical fixes reach users within hours rather than days or weeks. Until Ubuntu adjusts its patching workflow, its reputation for timely security updates may continue to lag behind more agile Linux ecosystems.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 3377
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}

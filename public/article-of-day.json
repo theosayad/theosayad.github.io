@@ -1,13 +1,13 @@
 {
-  "title": "1Password Security Incident",
-  "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-  "source": "1password.com",
-  "selectedAt": "2026-11-25T19:05:35.168Z",
-  "publishedAt": "2026-11-25T17:18:26.000Z",
+  "title": "Slow Ubuntu security response times",
+  "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+  "source": "openwall.com",
+  "selectedAt": "2026-11-26T18:56:23.468Z",
+  "publishedAt": "2026-11-25T20:38:00.000Z",
   "hn": {
-    "id": 50644817,
-    "score": 342,
-    "comments": 152
+    "id": 50647181,
+    "score": 398,
+    "comments": 239
   },
   "rationale": "Auto-picked via HN search across finance keywords."
 }

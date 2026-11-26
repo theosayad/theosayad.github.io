@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-25T19:05:37.695Z",
+  "updatedAt": "2026-11-26T18:56:26.881Z",
   "items": [
+    {
+      "slug": "2026-11-26",
+      "title": "Slow Ubuntu security response times",
+      "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+      "source": "openwall.com",
+      "selectedAt": "2026-11-26T18:56:23.468Z",
+      "publishedAt": "2026-11-25T20:38:00.000Z",
+      "hn": {
+        "id": 50647181,
+        "score": 398,
+        "comments": 239
+      }
+    },
     {
       "slug": "2026-11-25",
       "title": "1Password Security Incident",
@@ -662,19 +675,6 @@
         "id": 49977588,
         "score": 193,
         "comments": 92
-      }
-    },
-    {
-      "slug": "2026-10-05",
-      "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
-      "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
-      "source": "discuss.grapheneos.org",
-      "selectedAt": "2026-10-05T18:17:02.589Z",
-      "publishedAt": "2026-10-05T13:02:25.000Z",
-      "hn": {
-        "id": 49964303,
-        "score": 320,
-        "comments": 177
       }
     }
   ]
