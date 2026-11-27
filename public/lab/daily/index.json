@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-11-26T18:56:26.881Z",
+  "updatedAt": "2026-11-27T18:48:54.436Z",
   "items": [
+    {
+      "slug": "2026-11-27",
+      "title": "European Commission Declares Browser Competition a Digital Markets Act Priority",
+      "url": "https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority/",
+      "source": "open-web-advocacy.org",
+      "selectedAt": "2026-11-27T18:48:51.542Z",
+      "publishedAt": "2026-11-27T08:11:46.000Z",
+      "hn": {
+        "id": 50664191,
+        "score": 163,
+        "comments": 157
+      }
+    },
     {
       "slug": "2026-11-26",
       "title": "Slow Ubuntu security response times",
@@ -662,19 +675,6 @@
         "id": 49987858,
         "score": 91,
         "comments": 72
-      }
-    },
-    {
-      "slug": "2026-10-06",
-      "title": "Meta's Muse Is an Adorable Privacy and Security Dumpster Fire",
-      "url": "https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/",
-      "source": "techdirt.com",
-      "selectedAt": "2026-10-06T15:49:30.625Z",
-      "publishedAt": "2026-10-06T12:45:49.000Z",
-      "hn": {
-        "id": 49977588,
-        "score": 193,
-        "comments": 92
       }
     }
   ]

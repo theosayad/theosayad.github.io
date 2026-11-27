@@ -1,0 +1,41 @@
+{
+  "slug": "2026-11-27",
+  "generatedAt": "2026-11-27T18:48:54.434Z",
+  "article": {
+    "title": "European Commission Declares Browser Competition a Digital Markets Act Priority",
+    "url": "https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority/",
+    "source": "open-web-advocacy.org",
+    "selectedAt": "2026-11-27T18:48:51.542Z",
+    "publishedAt": "2026-11-27T08:11:46.000Z",
+    "hn": {
+      "id": 50664191,
+      "score": 163,
+      "comments": 157
+    }
+  },
+  "takeaways": [],
+  "summary": "The European Commission has officially flagged browser competition as a priority under the Digital Markets Act, citing an open‑letter coalition that stresses the web’s role as the main entry point for publishers. The move pressures Apple to remove iOS restrictions that have blocked rival browsers from using their own engines for over two and a half years.",
+  "keyPoints": [
+    "Commission says browser competition is a DMA priority and is in talks to let rivals challenge Safari on iPhone/iPad.",
+    "Open letter backed by 50+ groups – from digital‑rights NGOs to major publishing associations – underscores sector‑wide stakes.",
+    "Since Apple’s DMA obligations took effect, no alternative browser has been able to upgrade EU users to its own engine.",
+    "Coalition includes 296,000 journalists, 15,000 publishers, 200+ global media NGOs, and leading tech/start‑up accelerators.",
+    "Advocates urge the Commission to move from dialogue to formal enforcement to compel Apple to lift remaining barriers."
+  ],
+  "rewrite": {
+    "title": "EU Prioritises Browser Competition Under DMA",
+    "body": "The European Commission has publicly acknowledged an open letter from a broad coalition of digital‑rights groups, publishers, and tech firms, declaring browser competition a top priority of the Digital Markets Act (DMA). In remarks to Politico, the Commission highlighted that browsers are the primary gateway to the web and a critical channel for publishers, and it is now negotiating ways to ensure that rival browsers can compete effectively with Apple’s Safari on iPhones and iPads.\n\nThe coalition supporting the letter is unusually diverse, encompassing over 50 organisations ranging from the Free Software Foundation Europe and major European publishing associations to a global network of more than 200 media NGOs. Collectively they represent 296,000 journalists, 15,000 publishing houses, and a host of startup accelerators that have launched companies such as Stripe and Airbnb. Their unified stance signals that browser and web‑app competition is not a niche issue but a cornerstone of the digital economy and consumer choice.\n\nDespite Apple’s formal DMA obligations coming into force more than two and a half years ago, no alternative browser has been permitted to upgrade EU users to its own rendering engine. Advocates argue this de‑facto stalling undermines the DMA’s intent and calls for the Commission to shift from dialogue to formal enforcement, compelling Apple to dismantle the technical barriers that preserve Safari’s dominance.\n\nIf enforced, the move could unlock a more competitive landscape for web‑based services, lower entry costs for new browsers, and broaden the range of web‑apps available to European consumers. It would also reinforce the EU’s broader agenda of digital sovereignty and market fairness, potentially prompting similar regulatory scrutiny beyond Europe.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": true,
+      "chars": 4270
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
