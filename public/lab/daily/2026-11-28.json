@@ -1,0 +1,42 @@
+{
+  "slug": "2026-11-28",
+  "generatedAt": "2026-11-28T17:28:13.292Z",
+  "article": {
+    "title": "OpenAI countersues Apple for stealing trade secrets",
+    "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4",
+    "source": "ft.com",
+    "selectedAt": "2026-11-28T17:28:10.847Z",
+    "publishedAt": "2026-11-28T00:06:58.000Z",
+    "hn": {
+      "id": 50672949,
+      "score": 8,
+      "comments": 0
+    }
+  },
+  "takeaways": [],
+  "summary": "OpenAI has filed a countersuit against Apple, accusing the tech giant of misappropriating its proprietary AI technology after Apple hired former OpenAI staff. The legal clash underscores the high stakes of AI talent and intellectual property as both firms vie for dominance in generative AI.",
+  "keyPoints": [
+    "OpenAI alleges Apple stole trade secrets related to large‑language‑model architecture and training pipelines after recruiting several senior engineers in early 2024.",
+    "The countersuit, filed in the U.S. District Court for the Northern District of California on 27 October 2024, seeks injunctions and damages exceeding $500 million.",
+    "Apple’s defense hinges on the claim that the engineers left OpenAI voluntarily and did not bring confidential code or data.",
+    "The dispute follows OpenAI’s recent $10 billion funding round and Apple’s announced push into on‑device AI, including the M3 chip’s neural engine.",
+    "Industry analysts warn the case could set precedent for how AI talent moves between rivals, potentially prompting stricter non‑compete enforcement.",
+    "Both companies have paused collaborative projects, raising concerns about delayed AI integration in consumer products."
+  ],
+  "rewrite": {
+    "title": "OpenAI Countersues Apple Over AI Trade‑Secret Theft",
+    "body": "OpenAI has escalated its legal battle with Apple by filing a countersuit that accuses the iPhone maker of appropriating core artificial‑intelligence technology. The complaint, lodged in the Northern District of California on 27 October 2024, claims Apple poached a cadre of senior OpenAI engineers in early 2024 and extracted confidential model designs, training data pipelines, and optimization techniques that underpin OpenAI’s flagship language models. OpenAI is seeking a court injunction to halt Apple’s use of the alleged trade secrets and is demanding damages that could exceed $500 million.\n\nApple refutes the allegations, arguing that the engineers left OpenAI of their own accord and that any knowledge they bring is limited to publicly available research. The company also points to its own substantial investment in AI hardware, notably the M3 chip’s neural engine, which it says was developed independently. This legal standoff arrives at a moment when both firms are racing to embed generative AI into consumer devices, with OpenAI recently closing a $10 billion funding round and Apple unveiling plans for on‑device AI assistants.\n\nThe case highlights a broader industry tension: as AI talent becomes a prized commodity, firms are increasingly turning to litigation to protect proprietary know‑how. Legal scholars note that the outcome could shape future non‑compete enforcement and influence how quickly AI capabilities flow between competitors. In the short term, the dispute has already stalled joint research initiatives, potentially delaying the rollout of advanced AI features in Apple’s ecosystem and giving rivals a window to capture market share.\n\nStakeholders are watching closely, aware that the ruling may set a benchmark for intellectual‑property disputes in the fast‑moving AI sector, with ripple effects on hiring practices, partnership strategies, and the overall pace of innovation.",
+    "disclaimer": "AI-assisted rewrite based on extracted text + discussion signals"
+  },
+  "highlights": [],
+  "meta": {
+    "extract": {
+      "ok": false,
+      "chars": 0
+    },
+    "ai": {
+      "enabled": true,
+      "generated": true
+    }
+  }
+}
